@@ -1,0 +1,127 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "comment",
+          "id": 212,
+          "story_id": 2162,
+          "text": "first we have to do this",
+          "person_id": 203,
+          "created_at": 1421745378000,
+          "updated_at": 1421745378000,
+          "file_attachment_ids": [],
+          "google_attachment_ids": [],
+          "file_attachments": [],
+          "google_attachments": []
+        },
+        {
+          "type": "following",
+          "id": 18,
+          "person_id": 203,
+          "story_id": 2162
+        },
+        {
+          "type": "story",
+          "id": 2162,
+          "follower_ids": [
+            203
+          ],
+          "updated_at": 1421745378000
+        }
+      ],
+      "activity": {
+        "kind": "comment_create_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Andy Goode added comment: \"first we have to do this\"",
+        "highlight": "added comment:",
+        "changes": [
+          {
+            "kind": "comment",
+            "change_type": "create",
+            "id": 212,
+            "new_values": {
+              "id": 212,
+              "story_id": 2162,
+              "text": "first we have to do this",
+              "person_id": 203,
+              "created_at": 1421745378000,
+              "updated_at": 1421745378000,
+              "file_attachment_ids": [],
+              "google_attachment_ids": [],
+              "file_attachments": [],
+              "google_attachments": []
+            }
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2162,
+            "original_values": {
+              "follower_ids": [],
+              "updated_at": 1420563780000
+            },
+            "new_values": {
+              "follower_ids": [
+                203
+              ],
+              "updated_at": 1421745378000
+            },
+            "name": "p5",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2162,
+            "name": "p5",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2162"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 203,
+          "name": "Andy Goode",
+          "initials": "AG"
+        },
+        "occurred_at": 1421745378000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2162,
+          "follower_ids": [],
+          "updated_at": 1420563780000
+        }
+      ],
+      "parameters": {
+        "story_id": 2162,
+        "person_id": 203,
+        "text": "first we have to do this",
+        "file_attachments": [],
+        "google_attachments": [],
+        "commit_identifier": "",
+        "commit_type": ""
+      },
+      "person_id": 203,
+      "type": "comment_create",
+      "command_uuid": "8e69dcc7-ef3d-40d4-b1a5-12f7ee28be79",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421759777000,
+  "result": "stale"
+}

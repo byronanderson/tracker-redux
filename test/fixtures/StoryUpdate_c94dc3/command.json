@@ -1,0 +1,87 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2120,
+          "current_state": "started",
+          "accepted_at": null,
+          "updated_at": 1421745046000
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_249",
+        "project_version": 249,
+        "message": "Robert Brewster started this feature",
+        "highlight": "started",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2120,
+            "original_values": {
+              "current_state": "accepted",
+              "accepted_at": 1421745043000,
+              "updated_at": 1421745044000
+            },
+            "new_values": {
+              "current_state": "started",
+              "accepted_at": null,
+              "updated_at": 1421745046000
+            },
+            "name": "Accept input data stream from NSA voice recognition systems",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2120,
+            "name": "Accept input data stream from NSA voice recognition systems",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2120"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745046000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2120,
+          "current_state": "accepted",
+          "accepted_at": 1421745043000,
+          "updated_at": 1421745044000
+        }
+      ],
+      "parameters": {
+        "current_state": "started",
+        "accepted_at": null,
+        "id": 2120
+      },
+      "person_id": 202,
+      "type": "story_update",
+      "command_uuid": "edab571f-23a4-4bcb-ae6d-b3eb5dc94dc3",
+      "project": {
+        "id": 101,
+        "version": 249
+      }
+    }
+  ],
+  "session_expires_at": 1421759445000,
+  "result": "stale"
+}

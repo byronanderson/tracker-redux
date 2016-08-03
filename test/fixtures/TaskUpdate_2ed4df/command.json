@@ -1,0 +1,104 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2162,
+          "updated_at": 1421745315000
+        },
+        {
+          "type": "task",
+          "id": 5041,
+          "description": "but now we have to do this",
+          "updated_at": 1421745315000
+        }
+      ],
+      "activity": {
+        "kind": "task_update_activity",
+        "guid": "101_247",
+        "project_version": 247,
+        "message": "Robert Brewster rewrote task: \"but now we have to do this\"",
+        "highlight": "rewrote task:",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2162,
+            "original_values": {
+              "updated_at": 1421745313000
+            },
+            "new_values": {
+              "updated_at": 1421745315000
+            },
+            "name": "p5",
+            "story_type": "feature"
+          },
+          {
+            "kind": "task",
+            "change_type": "update",
+            "id": 5041,
+            "original_values": {
+              "description": "first we have to do this",
+              "updated_at": 1421745313000
+            },
+            "new_values": {
+              "description": "but now we have to do this",
+              "updated_at": 1421745315000
+            }
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2162,
+            "name": "p5",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2162"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745315000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2162,
+          "updated_at": 1421745313000
+        },
+        {
+          "type": "task",
+          "id": 5041,
+          "description": "first we have to do this",
+          "updated_at": 1421745313000
+        }
+      ],
+      "parameters": {
+        "description": "but now we have to do this",
+        "story_id": 2162,
+        "id": 5041
+      },
+      "person_id": 202,
+      "type": "task_update",
+      "command_uuid": "da397917-55e3-4473-895d-589fa62ed4df",
+      "project": {
+        "id": 101,
+        "version": 247
+      }
+    }
+  ],
+  "session_expires_at": 1421759715000,
+  "result": "stale"
+}

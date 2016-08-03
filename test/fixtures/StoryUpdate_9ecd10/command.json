@@ -1,0 +1,106 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2167,
+          "current_state": "started",
+          "owned_by_id": 203,
+          "owner_ids": [
+            203
+          ],
+          "updated_at": 1421746093000,
+          "before_id": 2175,
+          "after_id": 2177
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Andy Goode started this feature",
+        "highlight": "started",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2167,
+            "original_values": {
+              "current_state": "unstarted",
+              "owned_by_id": null,
+              "owner_ids": [],
+              "updated_at": 1420563660000,
+              "before_id": 2162,
+              "after_id": 2170
+            },
+            "new_values": {
+              "current_state": "started",
+              "owned_by_id": 203,
+              "owner_ids": [
+                203
+              ],
+              "updated_at": 1421746093000,
+              "before_id": 2175,
+              "after_id": 2177
+            },
+            "name": "command-1",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2167,
+            "name": "command-1",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2167"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 203,
+          "name": "Andy Goode",
+          "initials": "AG"
+        },
+        "occurred_at": 1421746093000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2167,
+          "current_state": "unstarted",
+          "owned_by_id": -1,
+          "owner_ids": [],
+          "updated_at": 1420563660000,
+          "before_id": 2162,
+          "after_id": 2170
+        }
+      ],
+      "parameters": {
+        "current_state": "started",
+        "owner_ids": [
+          203
+        ],
+        "id": 2167,
+        "owned_by_id": 203
+      },
+      "person_id": 203,
+      "type": "story_update",
+      "command_uuid": "131ff02b-70ce-4c56-a998-49473e9ecd10",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421760493000,
+  "result": "stale"
+}

@@ -1,0 +1,90 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2170,
+          "updated_at": 1421745121000,
+          "before_id": 2175,
+          "after_id": 2177
+        }
+      ],
+      "activity": {
+        "kind": "story_move_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "William Candy moved this story before 'pelican-exclusion algorithm shouldn't match carrier-launched drones'",
+        "highlight": "moved",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2170,
+            "original_values": {
+              "updated_at": 1420563720000,
+              "before_id": 2167,
+              "after_id": 2178
+            },
+            "new_values": {
+              "updated_at": 1421745121000,
+              "before_id": 2175,
+              "after_id": 2177
+            },
+            "name": "command-4",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2170,
+            "name": "command-4",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2170"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 204,
+          "name": "William Candy",
+          "initials": "wc"
+        },
+        "occurred_at": 1421745121000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2170,
+          "updated_at": 1420563720000,
+          "before_id": 2167,
+          "after_id": 2178
+        }
+      ],
+      "parameters": {
+        "group": "current",
+        "ids": [
+          2170
+        ],
+        "after_id": 2177,
+        "before_id": 2175
+      },
+      "person_id": 204,
+      "type": "multi_story_move",
+      "command_uuid": "9872e6d9-be0d-441a-ad96-0888d75c3f7a",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421759521000,
+  "result": "stale"
+}

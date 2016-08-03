@@ -1,0 +1,106 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2183,
+          "current_state": "started",
+          "owned_by_id": 204,
+          "owner_ids": [
+            204
+          ],
+          "updated_at": 1421745093000,
+          "before_id": 2175,
+          "after_id": 2177
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "William Candy started this bug",
+        "highlight": "started",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2183,
+            "original_values": {
+              "current_state": "unscheduled",
+              "owned_by_id": null,
+              "owner_ids": [],
+              "updated_at": 1420909320000,
+              "before_id": 2182,
+              "after_id": 2184
+            },
+            "new_values": {
+              "current_state": "started",
+              "owned_by_id": 204,
+              "owner_ids": [
+                204
+              ],
+              "updated_at": 1421745093000,
+              "before_id": 2175,
+              "after_id": 2177
+            },
+            "name": "iter7-2",
+            "story_type": "bug"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2183,
+            "name": "iter7-2",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2183"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 204,
+          "name": "William Candy",
+          "initials": "wc"
+        },
+        "occurred_at": 1421745094000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2183,
+          "current_state": "unscheduled",
+          "owned_by_id": -1,
+          "owner_ids": [],
+          "updated_at": 1420909320000,
+          "before_id": 2182,
+          "after_id": 2184
+        }
+      ],
+      "parameters": {
+        "current_state": "started",
+        "owner_ids": [
+          204
+        ],
+        "id": 2183,
+        "owned_by_id": 204
+      },
+      "person_id": 204,
+      "type": "story_update",
+      "command_uuid": "5b20d584-b9e1-48aa-b884-8b376a9244ca",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421759493000,
+  "result": "stale"
+}

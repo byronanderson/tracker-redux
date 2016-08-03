@@ -1,0 +1,87 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2198,
+          "before_id": 2195,
+          "after_id": 2194
+        }
+      ],
+      "activity": {
+        "kind": "story_move_activity",
+        "guid": "102_19",
+        "project_version": 19,
+        "message": "Robert Brewster moved this story before 'Unit go back in time'",
+        "highlight": "moved",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2198,
+            "original_values": {
+              "before_id": 2191,
+              "after_id": 2190
+            },
+            "new_values": {
+              "before_id": 2195,
+              "after_id": 2194
+            },
+            "name": "Acquire noxious gases",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2198,
+            "name": "Acquire noxious gases",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2198"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 102,
+          "name": "T-1000 mimetic poly-alloy assassin"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421746149000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2198,
+          "before_id": 2191,
+          "after_id": 2190
+        }
+      ],
+      "parameters": {
+        "group": "scheduled",
+        "ids": [
+          2198
+        ],
+        "label_id": 5031,
+        "after_id": 2194,
+        "before_id": 2195
+      },
+      "person_id": 202,
+      "type": "multi_story_move",
+      "command_uuid": "276b78c5-b136-465e-bd4b-011a6b992faf",
+      "project": {
+        "id": 102,
+        "version": 19
+      }
+    }
+  ],
+  "session_expires_at": 1421760549000,
+  "result": "stale"
+}

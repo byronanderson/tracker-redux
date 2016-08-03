@@ -1,0 +1,82 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2120,
+          "current_state": "finished",
+          "updated_at": 1421745051000
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster finished this feature",
+        "highlight": "finished",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2120,
+            "original_values": {
+              "current_state": "started",
+              "updated_at": 1419961020000
+            },
+            "new_values": {
+              "current_state": "finished",
+              "updated_at": 1421745051000
+            },
+            "name": "Accept input data stream from NSA voice recognition systems",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2120,
+            "name": "Accept input data stream from NSA voice recognition systems",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2120"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745051000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2120,
+          "current_state": "started",
+          "updated_at": 1419961020000
+        }
+      ],
+      "parameters": {
+        "current_state": "finished",
+        "id": 2120
+      },
+      "person_id": 202,
+      "type": "story_update",
+      "command_uuid": "98423eeb-cd5c-4363-a2af-fd25e560e0e9",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421759451000,
+  "result": "stale"
+}

@@ -1,0 +1,89 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "epic",
+          "id": 2010,
+          "project_id": 101,
+          "name": "eyes-only",
+          "label_id": 5029,
+          "follower_ids": [],
+          "created_at": 1421745146000,
+          "updated_at": 1421745146000,
+          "before_id": 2000,
+          "past_done_story_estimates": 0,
+          "past_done_stories_count": 1,
+          "past_done_stories_no_point_count": 1,
+          "label": "eyes-only"
+        }
+      ],
+      "activity": {
+        "kind": "epic_create_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster added this epic",
+        "highlight": "added",
+        "changes": [
+          {
+            "kind": "epic",
+            "change_type": "create",
+            "id": 2010,
+            "new_values": {
+              "id": 2010,
+              "project_id": 101,
+              "name": "eyes-only",
+              "label_id": 5029,
+              "follower_ids": [],
+              "created_at": 1421745146000,
+              "updated_at": 1421745146000,
+              "before_id": 2000,
+              "past_done_story_estimates": 0,
+              "past_done_stories_count": 1,
+              "past_done_stories_no_point_count": 1,
+              "label": "eyes-only"
+            },
+            "name": "eyes-only"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "epic",
+            "id": 2010,
+            "name": "eyes-only",
+            "url": "http://localhost/epic/show/2010"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745146000
+      },
+      "mutandum": [],
+      "parameters": {
+        "name": "eyes-only",
+        "label_id": 5029,
+        "description": ""
+      },
+      "person_id": 202,
+      "type": "epic_create",
+      "command_uuid": "655b1a15-45d5-4cbe-ac4e-40b8abcf8938",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421759546000,
+  "result": "stale"
+}

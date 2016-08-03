@@ -1,0 +1,82 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2185,
+          "current_state": "started",
+          "updated_at": 1421720630000
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_261",
+        "project_version": 261,
+        "message": "Robert Brewster started this bug",
+        "highlight": "started",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2185,
+            "original_values": {
+              "current_state": "unscheduled",
+              "updated_at": 1420909200000
+            },
+            "new_values": {
+              "current_state": "started",
+              "updated_at": 1421720630000
+            },
+            "name": "iter7-4",
+            "story_type": "bug"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2185,
+            "name": "iter7-4",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2185"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421720630000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2185,
+          "current_state": "unscheduled",
+          "updated_at": 1420909200000
+        }
+      ],
+      "parameters": {
+        "current_state": "started",
+        "id": 2185
+      },
+      "person_id": 202,
+      "type": "story_update",
+      "command_uuid": "3ea3329a-4338-4e20-bb1f-a2227c4dadcf",
+      "project": {
+        "id": 101,
+        "version": 261
+      }
+    }
+  ],
+  "session_expires_at": 1421735030000,
+  "result": "stale"
+}

@@ -1,0 +1,91 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2184,
+          "current_state": "accepted",
+          "accepted_at": 1421720543000,
+          "before_id": 2171,
+          "after_id": 2157
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_250",
+        "project_version": 250,
+        "message": "Robert Brewster accepted this feature",
+        "highlight": "accepted",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2184,
+            "original_values": {
+              "current_state": "delivered",
+              "accepted_at": null,
+              "before_id": 2175,
+              "after_id": 2177
+            },
+            "new_values": {
+              "current_state": "accepted",
+              "accepted_at": 1421720543000,
+              "before_id": 2171,
+              "after_id": 2157
+            },
+            "name": "iter7-3",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2184,
+            "name": "iter7-3",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2184"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421720543000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2184,
+          "current_state": "delivered",
+          "accepted_at": null,
+          "before_id": 2175,
+          "after_id": 2177
+        }
+      ],
+      "parameters": {
+        "current_state": "accepted",
+        "accepted_at": 1421720543000,
+        "id": 2184
+      },
+      "person_id": 202,
+      "type": "story_update",
+      "command_uuid": "95509608-b373-42a0-874f-b511cb456722",
+      "project": {
+        "id": 101,
+        "version": 250
+      }
+    }
+  ],
+  "session_expires_at": 1421734943000,
+  "result": "stale"
+}

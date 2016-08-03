@@ -1,0 +1,136 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2162,
+          "label_ids": [
+            5049,
+            5050,
+            5047,
+            5024,
+            5048
+          ],
+          "updated_at": 1421745642000,
+          "labels": [
+            "apple",
+            "my-labelz",
+            "mylabelz",
+            "patterns",
+            "zebra"
+          ]
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_253",
+        "project_version": 253,
+        "message": "Andy Goode edited this feature",
+        "highlight": "edited",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2162,
+            "original_values": {
+              "label_ids": [
+                5049,
+                5047,
+                5024,
+                5048
+              ],
+              "updated_at": 1421745636000,
+              "labels": [
+                "apple",
+                "mylabelz",
+                "patterns",
+                "zebra"
+              ]
+            },
+            "new_values": {
+              "label_ids": [
+                5049,
+                5050,
+                5047,
+                5024,
+                5048
+              ],
+              "updated_at": 1421745642000,
+              "labels": [
+                "apple",
+                "my-labelz",
+                "mylabelz",
+                "patterns",
+                "zebra"
+              ]
+            },
+            "name": "p5",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2162,
+            "name": "p5",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2162"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 203,
+          "name": "Andy Goode",
+          "initials": "AG"
+        },
+        "occurred_at": 1421745642000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2162,
+          "label_ids": [
+            5049,
+            5047,
+            5024,
+            5048
+          ],
+          "updated_at": 1421745636000,
+          "labels": [
+            "apple",
+            "mylabelz",
+            "patterns",
+            "zebra"
+          ]
+        }
+      ],
+      "parameters": {
+        "label_ids": [
+          5049,
+          5047,
+          5024,
+          5048,
+          5050
+        ],
+        "id": 2162
+      },
+      "person_id": 203,
+      "type": "story_update",
+      "command_uuid": "ecf60cc5-4f37-4514-9b6e-d53ff8224808",
+      "project": {
+        "id": 101,
+        "version": 253
+      }
+    }
+  ],
+  "session_expires_at": 1421760041000,
+  "result": "stale"
+}

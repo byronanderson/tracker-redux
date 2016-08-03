@@ -1,0 +1,97 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "following",
+          "id": 16,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2162,
+          "follower_ids": [],
+          "updated_at": 1421745288000
+        }
+      ],
+      "activity": {
+        "kind": "follower_delete_activity",
+        "guid": "101_249",
+        "project_version": 249,
+        "message": "Robert Brewster stopped following this story",
+        "highlight": "stopped following",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2162,
+            "original_values": {
+              "follower_ids": [
+                202
+              ],
+              "updated_at": 1421745287000
+            },
+            "new_values": {
+              "follower_ids": [],
+              "updated_at": 1421745288000
+            },
+            "name": "p5",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2162,
+            "name": "p5",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2162"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745288000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2162,
+          "follower_ids": [
+            202
+          ],
+          "updated_at": 1421745287000
+        },
+        {
+          "type": "following",
+          "id": 16,
+          "person_id": 202,
+          "story_id": 2162
+        }
+      ],
+      "parameters": {
+        "person_id": 202,
+        "story_id": 2162
+      },
+      "person_id": 202,
+      "type": "follower_delete",
+      "command_uuid": "f237fda6-8d18-403c-af85-d3a2f9ff5ba9",
+      "project": {
+        "id": 101,
+        "version": 249
+      }
+    }
+  ],
+  "session_expires_at": 1421759688000,
+  "result": "stale"
+}

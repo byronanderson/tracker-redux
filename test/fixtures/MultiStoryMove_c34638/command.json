@@ -1,0 +1,90 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2214,
+          "current_state": "planned",
+          "before_id": 2189,
+          "after_id": 2188
+        }
+      ],
+      "activity": {
+        "kind": "story_move_activity",
+        "guid": "102_19",
+        "project_version": 19,
+        "message": "Robert Brewster moved and scheduled this story before 'Develop voice synthesizer'",
+        "highlight": "moved and scheduled",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2214,
+            "original_values": {
+              "current_state": "unscheduled",
+              "before_id": 2199,
+              "after_id": 2197
+            },
+            "new_values": {
+              "current_state": "planned",
+              "before_id": 2189,
+              "after_id": 2188
+            },
+            "name": "Release the hounds!",
+            "story_type": "release"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2214,
+            "name": "Release the hounds!",
+            "story_type": "release",
+            "url": "http://localhost/story/show/2214"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 102,
+          "name": "T-1000 mimetic poly-alloy assassin"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421746176000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2214,
+          "current_state": "unscheduled",
+          "before_id": 2199,
+          "after_id": 2197
+        }
+      ],
+      "parameters": {
+        "group": "current",
+        "ids": [
+          2214
+        ],
+        "after_id": 2188,
+        "before_id": 2189
+      },
+      "person_id": 202,
+      "type": "multi_story_move",
+      "command_uuid": "2f2ffc7a-ccab-4133-a672-8917f6c34638",
+      "project": {
+        "id": 102,
+        "version": 19
+      }
+    }
+  ],
+  "session_expires_at": 1421760576000,
+  "result": "stale"
+}

@@ -1,0 +1,98 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2162,
+          "updated_at": 1421745316000
+        },
+        {
+          "type": "task",
+          "id": 5041,
+          "deleted": true
+        }
+      ],
+      "activity": {
+        "kind": "task_delete_activity",
+        "guid": "101_248",
+        "project_version": 248,
+        "message": "Robert Brewster deleted a task on this story",
+        "highlight": "deleted a task",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2162,
+            "original_values": {
+              "updated_at": 1421745315000
+            },
+            "new_values": {
+              "updated_at": 1421745316000
+            },
+            "name": "p5",
+            "story_type": "feature"
+          },
+          {
+            "kind": "task",
+            "change_type": "delete",
+            "id": 5041
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2162,
+            "name": "p5",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2162"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745317000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2162,
+          "updated_at": 1421745315000
+        },
+        {
+          "type": "task",
+          "id": 5041,
+          "story_id": 2162,
+          "description": "but now we have to do this",
+          "complete": false,
+          "position": 1,
+          "created_at": 1421745313000,
+          "updated_at": 1421745315000
+        }
+      ],
+      "parameters": {
+        "story_id": 2162,
+        "id": 5041
+      },
+      "person_id": 202,
+      "type": "task_delete",
+      "command_uuid": "50782759-9cac-4bef-8f06-408b724c7582",
+      "project": {
+        "id": 101,
+        "version": 248
+      }
+    }
+  ],
+  "session_expires_at": 1421759716000,
+  "result": "stale"
+}

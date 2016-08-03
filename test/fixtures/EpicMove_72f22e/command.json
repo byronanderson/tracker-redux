@@ -1,0 +1,85 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "epic",
+          "id": 2003,
+          "updated_at": 1421744989000,
+          "after_id": 2000,
+          "before_id": 2001
+        }
+      ],
+      "activity": {
+        "kind": "epic_move_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster moved this epic before \"Information monitoring and forward\"",
+        "highlight": "moved",
+        "changes": [
+          {
+            "kind": "epic",
+            "change_type": "update",
+            "id": 2003,
+            "original_values": {
+              "updated_at": 1420909260000,
+              "after_id": 2001,
+              "before_id": 2002
+            },
+            "new_values": {
+              "updated_at": 1421744989000,
+              "after_id": 2000,
+              "before_id": 2001
+            },
+            "name": "Command decomposition and planning"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "epic",
+            "id": 2003,
+            "name": "Command decomposition and planning",
+            "url": "http://localhost/epic/show/2003"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421744989000
+      },
+      "mutandum": [
+        {
+          "type": "epic",
+          "id": 2003,
+          "updated_at": 1420909260000,
+          "after_id": 2001,
+          "before_id": 2002
+        }
+      ],
+      "parameters": {
+        "before_id": 2001,
+        "after_id": 2000,
+        "id": 2003
+      },
+      "person_id": 202,
+      "type": "epic_move",
+      "command_uuid": "d64a9475-61c6-414e-80b6-c6fc4b72f22e",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421759389000,
+  "result": "stale"
+}

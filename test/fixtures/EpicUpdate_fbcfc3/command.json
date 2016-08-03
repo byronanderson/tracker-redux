@@ -1,0 +1,80 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "epic",
+          "id": 2000,
+          "name": "new epic name dude",
+          "updated_at": 1421744916000
+        }
+      ],
+      "activity": {
+        "kind": "epic_update_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster edited this epic",
+        "highlight": "edited",
+        "changes": [
+          {
+            "kind": "epic",
+            "change_type": "update",
+            "id": 2000,
+            "original_values": {
+              "name": "Pattern discrimination in activity",
+              "updated_at": 1415128200000
+            },
+            "new_values": {
+              "name": "new epic name dude",
+              "updated_at": 1421744916000
+            },
+            "name": "new epic name dude"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "epic",
+            "id": 2000,
+            "name": "new epic name dude",
+            "url": "http://localhost/epic/show/2000"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421744916000
+      },
+      "mutandum": [
+        {
+          "type": "epic",
+          "id": 2000,
+          "name": "Pattern discrimination in activity",
+          "updated_at": 1415128200000
+        }
+      ],
+      "parameters": {
+        "name": "new epic name dude",
+        "id": 2000
+      },
+      "person_id": 202,
+      "type": "epic_update",
+      "command_uuid": "89e05f04-a42f-4201-bfe6-febed9fbcfc3",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421759316000,
+  "result": "stale"
+}

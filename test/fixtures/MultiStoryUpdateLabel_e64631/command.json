@@ -1,0 +1,185 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2182,
+          "label_ids": [
+            5029,
+            5025,
+            5024
+          ],
+          "updated_at": 1421745913000,
+          "labels": [
+            "eyes-only",
+            "monitoring",
+            "patterns"
+          ]
+        },
+        {
+          "type": "story",
+          "id": 2183,
+          "label_ids": [
+            5029,
+            5025,
+            5024
+          ],
+          "updated_at": 1421745913000,
+          "labels": [
+            "eyes-only",
+            "monitoring",
+            "patterns"
+          ]
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster added label \"monitoring\" to 2 stories",
+        "highlight": "added label",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2182,
+            "original_values": {
+              "label_ids": [
+                5029,
+                5024
+              ],
+              "updated_at": 1420909320000,
+              "labels": [
+                "eyes-only",
+                "patterns"
+              ]
+            },
+            "new_values": {
+              "label_ids": [
+                5029,
+                5025,
+                5024
+              ],
+              "updated_at": 1421745913000,
+              "labels": [
+                "eyes-only",
+                "monitoring",
+                "patterns"
+              ]
+            },
+            "name": "iter7-1",
+            "story_type": "bug"
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2183,
+            "original_values": {
+              "label_ids": [
+                5029,
+                5024
+              ],
+              "updated_at": 1420909320000,
+              "labels": [
+                "eyes-only",
+                "patterns"
+              ]
+            },
+            "new_values": {
+              "label_ids": [
+                5029,
+                5025,
+                5024
+              ],
+              "updated_at": 1421745913000,
+              "labels": [
+                "eyes-only",
+                "monitoring",
+                "patterns"
+              ]
+            },
+            "name": "iter7-2",
+            "story_type": "bug"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2182,
+            "name": "iter7-1",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2182"
+          },
+          {
+            "kind": "story",
+            "id": 2183,
+            "name": "iter7-2",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2183"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745913000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2183,
+          "label_ids": [
+            5029,
+            5024
+          ],
+          "updated_at": 1420909320000,
+          "labels": [
+            "eyes-only",
+            "patterns"
+          ]
+        },
+        {
+          "type": "story",
+          "id": 2182,
+          "label_ids": [
+            5029,
+            5024
+          ],
+          "updated_at": 1420909320000,
+          "labels": [
+            "eyes-only",
+            "patterns"
+          ]
+        }
+      ],
+      "parameters": {
+        "label_ids_to_add": [
+          5025
+        ],
+        "ids": [
+          2183,
+          2182
+        ]
+      },
+      "person_id": 202,
+      "type": "multi_story_update_label",
+      "command_uuid": "2e9579cb-5546-4508-8f74-be40a2e64631",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421760313000,
+  "result": "stale"
+}

@@ -1,0 +1,94 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2205,
+          "current_state": "unstarted",
+          "updated_at": 1421720600000,
+          "before_id": 2204,
+          "after_id": 2177
+        }
+      ],
+      "activity": {
+        "kind": "story_move_activity",
+        "guid": "101_249",
+        "project_version": 249,
+        "message": "Robert Brewster moved and scheduled this story before 'my new release'",
+        "highlight": "moved and scheduled",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2205,
+            "original_values": {
+              "current_state": "unscheduled",
+              "updated_at": 1421720599000,
+              "before_id": 2185,
+              "after_id": 2161
+            },
+            "new_values": {
+              "current_state": "unstarted",
+              "updated_at": 1421720600000,
+              "before_id": 2204,
+              "after_id": 2177
+            },
+            "name": "stacked release",
+            "story_type": "release"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2205,
+            "name": "stacked release",
+            "story_type": "release",
+            "url": "http://localhost/story/show/2205"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421720600000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2205,
+          "current_state": "unscheduled",
+          "updated_at": 1421720599000,
+          "before_id": 2185,
+          "after_id": 2161
+        }
+      ],
+      "parameters": {
+        "group": "current",
+        "ids": [
+          2205
+        ],
+        "after_id": 2177,
+        "before_id": 2204
+      },
+      "person_id": 202,
+      "type": "multi_story_move",
+      "command_uuid": "7394eb4c-ce27-4fa2-8da3-7c052904b922",
+      "project": {
+        "id": 101,
+        "version": 249
+      }
+    }
+  ],
+  "session_expires_at": 1421735000000,
+  "result": "stale"
+}

@@ -1,0 +1,90 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2155,
+          "label_ids": [],
+          "labels": []
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_247",
+        "project_version": 247,
+        "message": "Robert Brewster edited this feature",
+        "highlight": "edited",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2155,
+            "original_values": {
+              "label_ids": [
+                5024
+              ],
+              "labels": [
+                "patterns"
+              ]
+            },
+            "new_values": {
+              "label_ids": [],
+              "labels": []
+            },
+            "name": "iter4-3",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2155,
+            "name": "iter4-3",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2155"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421744975000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2155,
+          "label_ids": [
+            5024
+          ],
+          "labels": [
+            "patterns"
+          ]
+        }
+      ],
+      "parameters": {
+        "label_ids": [],
+        "id": 2155
+      },
+      "person_id": 202,
+      "type": "story_update",
+      "command_uuid": "1559d8cb-b36c-4ede-b074-461102f895e0",
+      "project": {
+        "id": 101,
+        "version": 247
+      }
+    }
+  ],
+  "session_expires_at": 1421759375000,
+  "result": "stale"
+}

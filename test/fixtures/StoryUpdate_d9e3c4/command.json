@@ -1,0 +1,87 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2191,
+          "story_type": "release",
+          "estimate": -1,
+          "updated_at": 1421745842000
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "102_19",
+        "project_version": 19,
+        "message": "Robert Brewster edited this release",
+        "highlight": "edited",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2191,
+            "original_values": {
+              "story_type": "bug",
+              "estimate": 1,
+              "updated_at": 1415466075000
+            },
+            "new_values": {
+              "story_type": "release",
+              "estimate": null,
+              "updated_at": 1421745842000
+            },
+            "name": "Glen identified as hostile",
+            "story_type": "release"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2191,
+            "name": "Glen identified as hostile",
+            "story_type": "release",
+            "url": "http://localhost/story/show/2191"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 102,
+          "name": "T-1000 mimetic poly-alloy assassin"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745842000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2191,
+          "story_type": "bug",
+          "estimate": 1,
+          "updated_at": 1415466075000
+        }
+      ],
+      "parameters": {
+        "estimate": -1,
+        "story_type": "release",
+        "id": 2191
+      },
+      "person_id": 202,
+      "type": "story_update",
+      "command_uuid": "ae7c7f26-869d-4564-9abb-1f898ed9e3c4",
+      "project": {
+        "id": 102,
+        "version": 19
+      }
+    }
+  ],
+  "session_expires_at": 1421760242000,
+  "result": "stale"
+}

@@ -1,0 +1,111 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2209,
+          "current_state": "unstarted",
+          "label_ids": [
+            5030
+          ],
+          "updated_at": 1421746027000,
+          "before_id": 2185,
+          "after_id": 2161,
+          "labels": [
+            "automation"
+          ]
+        }
+      ],
+      "activity": {
+        "kind": "story_move_activity",
+        "guid": "101_248",
+        "project_version": 248,
+        "message": "Robert Brewster moved and scheduled this story before 'iter7-4'",
+        "highlight": "moved and scheduled",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2209,
+            "original_values": {
+              "current_state": "unscheduled",
+              "label_ids": [],
+              "updated_at": 1421746026000,
+              "before_id": 2153,
+              "after_id": 2154,
+              "labels": []
+            },
+            "new_values": {
+              "current_state": "unstarted",
+              "label_ids": [
+                5030
+              ],
+              "updated_at": 1421746027000,
+              "before_id": 2185,
+              "after_id": 2161,
+              "labels": [
+                "automation"
+              ]
+            },
+            "name": "icebox release",
+            "story_type": "release"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2209,
+            "name": "icebox release",
+            "story_type": "release",
+            "url": "http://localhost/story/show/2209"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421746027000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2209,
+          "current_state": "unscheduled",
+          "label_ids": [],
+          "updated_at": 1421746026000,
+          "before_id": 2153,
+          "after_id": 2154,
+          "labels": []
+        }
+      ],
+      "parameters": {
+        "group": "scheduled",
+        "ids": [
+          2209
+        ],
+        "label_id": 5030,
+        "after_id": 2161,
+        "before_id": 2185
+      },
+      "person_id": 202,
+      "type": "multi_story_move",
+      "command_uuid": "a81b9793-0f41-4111-bdb1-d04b9fcd8e65",
+      "project": {
+        "id": 101,
+        "version": 248
+      }
+    }
+  ],
+  "session_expires_at": 1421760427000,
+  "result": "stale"
+}

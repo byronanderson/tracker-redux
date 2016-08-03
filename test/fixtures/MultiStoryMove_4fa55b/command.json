@@ -1,0 +1,94 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2212,
+          "current_state": "unstarted",
+          "updated_at": 1421746163000,
+          "before_id": 2195,
+          "after_id": 2194
+        }
+      ],
+      "activity": {
+        "kind": "story_move_activity",
+        "guid": "102_19",
+        "project_version": 19,
+        "message": "Robert Brewster moved and scheduled this story before 'Unit go back in time'",
+        "highlight": "moved and scheduled",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2212,
+            "original_values": {
+              "current_state": "unscheduled",
+              "updated_at": 1421746162000,
+              "before_id": 2199,
+              "after_id": 2197
+            },
+            "new_values": {
+              "current_state": "unstarted",
+              "updated_at": 1421746163000,
+              "before_id": 2195,
+              "after_id": 2194
+            },
+            "name": "Release the hounds!",
+            "story_type": "release"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2212,
+            "name": "Release the hounds!",
+            "story_type": "release",
+            "url": "http://localhost/story/show/2212"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 102,
+          "name": "T-1000 mimetic poly-alloy assassin"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421746163000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2212,
+          "current_state": "unscheduled",
+          "updated_at": 1421746162000,
+          "before_id": 2199,
+          "after_id": 2197
+        }
+      ],
+      "parameters": {
+        "group": "scheduled",
+        "ids": [
+          2212
+        ],
+        "after_id": 2194,
+        "before_id": 2195
+      },
+      "person_id": 202,
+      "type": "multi_story_move",
+      "command_uuid": "8d14b5a1-450e-486a-b11d-21c9a64fa55b",
+      "project": {
+        "id": 102,
+        "version": 19
+      }
+    }
+  ],
+  "session_expires_at": 1421760562000,
+  "result": "stale"
+}

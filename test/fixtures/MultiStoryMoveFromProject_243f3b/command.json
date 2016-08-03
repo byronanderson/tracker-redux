@@ -1,0 +1,174 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "moved": true,
+          "id": 2141,
+          "type": "story"
+        },
+        {
+          "moved": true,
+          "id": 2120,
+          "type": "story"
+        },
+        {
+          "moved": true,
+          "id": 2162,
+          "type": "story"
+        },
+        {
+          "moved": true,
+          "id": 2185,
+          "type": "story"
+        },
+        {
+          "moved": true,
+          "id": 2182,
+          "type": "story"
+        }
+      ],
+      "activity": {
+        "kind": "story_move_from_project_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster moved 5 stories from this project to T-1000 mimetic poly-alloy assassin",
+        "highlight": "moved",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2141,
+            "name": "Build connection to StarCraft game engine",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2120,
+            "name": "Accept input data stream from NSA voice recognition systems",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2162,
+            "name": "p5",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2185,
+            "name": "iter7-4",
+            "story_type": "bug"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2182,
+            "name": "iter7-1",
+            "story_type": "bug"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2141,
+            "name": "Build connection to StarCraft game engine",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2141"
+          },
+          {
+            "kind": "story",
+            "id": 2120,
+            "name": "Accept input data stream from NSA voice recognition systems",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2120"
+          },
+          {
+            "kind": "story",
+            "id": 2162,
+            "name": "p5",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2162"
+          },
+          {
+            "kind": "story",
+            "id": 2185,
+            "name": "iter7-4",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2185"
+          },
+          {
+            "kind": "story",
+            "id": 2182,
+            "name": "iter7-1",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2182"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421746214000
+      },
+      "mutandum": [
+        {
+          "moved": true,
+          "id": 2141,
+          "type": "story"
+        },
+        {
+          "moved": true,
+          "id": 2120,
+          "type": "story"
+        },
+        {
+          "moved": true,
+          "id": 2162,
+          "type": "story"
+        },
+        {
+          "moved": true,
+          "id": 2185,
+          "type": "story"
+        },
+        {
+          "moved": true,
+          "id": 2182,
+          "type": "story"
+        }
+      ],
+      "parameters": {
+        "destination_project_id": 102,
+        "ids": [
+          2141,
+          2120,
+          2162,
+          2185,
+          2182
+        ]
+      },
+      "person_id": 202,
+      "type": "multi_story_move_from_project",
+      "command_uuid": "8edc91b8-f44f-4691-8fa5-6dd07a243f3b",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421760613000,
+  "result": "stale"
+}

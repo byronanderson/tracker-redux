@@ -1,0 +1,98 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2175,
+          "current_state": "started",
+          "owned_by_id": 203,
+          "owner_ids": [
+            203
+          ],
+          "updated_at": 1421745427000
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Andy Goode started this bug",
+        "highlight": "started",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2175,
+            "original_values": {
+              "current_state": "unstarted",
+              "owned_by_id": null,
+              "owner_ids": [],
+              "updated_at": 1420304400000
+            },
+            "new_values": {
+              "current_state": "started",
+              "owned_by_id": 203,
+              "owner_ids": [
+                203
+              ],
+              "updated_at": 1421745427000
+            },
+            "name": "pelican-exclusion algorithm shouldn't match carrier-launched drones",
+            "story_type": "bug"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2175,
+            "name": "pelican-exclusion algorithm shouldn't match carrier-launched drones",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2175"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 203,
+          "name": "Andy Goode",
+          "initials": "AG"
+        },
+        "occurred_at": 1421745427000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2175,
+          "current_state": "unstarted",
+          "owned_by_id": -1,
+          "owner_ids": [],
+          "updated_at": 1420304400000
+        }
+      ],
+      "parameters": {
+        "current_state": "started",
+        "owner_ids": [
+          203
+        ],
+        "id": 2175,
+        "owned_by_id": 203
+      },
+      "person_id": 203,
+      "type": "story_update",
+      "command_uuid": "73f0ea5a-afd8-4f20-80e1-b2fefc0ffa45",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421759827000,
+  "result": "stale"
+}

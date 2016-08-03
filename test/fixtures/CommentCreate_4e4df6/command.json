@@ -1,0 +1,125 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "comment",
+          "id": 209,
+          "epic_id": 2000,
+          "text": "first we have to do this",
+          "person_id": 203,
+          "created_at": 1421744943000,
+          "updated_at": 1421744943000,
+          "file_attachment_ids": [],
+          "google_attachment_ids": [],
+          "file_attachments": [],
+          "google_attachments": []
+        },
+        {
+          "type": "epic",
+          "id": 2000,
+          "follower_ids": [
+            203
+          ],
+          "updated_at": 1421744943000
+        },
+        {
+          "type": "following",
+          "id": 13,
+          "person_id": 203,
+          "epic_id": 2000
+        }
+      ],
+      "activity": {
+        "kind": "comment_create_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Andy Goode added comment: \"first we have to do this\"",
+        "highlight": "added comment:",
+        "changes": [
+          {
+            "kind": "comment",
+            "change_type": "create",
+            "id": 209,
+            "new_values": {
+              "id": 209,
+              "epic_id": 2000,
+              "text": "first we have to do this",
+              "person_id": 203,
+              "created_at": 1421744943000,
+              "updated_at": 1421744943000,
+              "file_attachment_ids": [],
+              "google_attachment_ids": [],
+              "file_attachments": [],
+              "google_attachments": []
+            }
+          },
+          {
+            "kind": "epic",
+            "change_type": "update",
+            "id": 2000,
+            "original_values": {
+              "follower_ids": [],
+              "updated_at": 1415128200000
+            },
+            "new_values": {
+              "follower_ids": [
+                203
+              ],
+              "updated_at": 1421744943000
+            },
+            "name": "Pattern discrimination in activity"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "epic",
+            "id": 2000,
+            "name": "Pattern discrimination in activity",
+            "url": "http://localhost/epic/show/2000"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 203,
+          "name": "Andy Goode",
+          "initials": "AG"
+        },
+        "occurred_at": 1421744943000
+      },
+      "mutandum": [
+        {
+          "type": "epic",
+          "id": 2000,
+          "follower_ids": [],
+          "updated_at": 1415128200000
+        }
+      ],
+      "parameters": {
+        "epic_id": 2000,
+        "person_id": 203,
+        "text": "first we have to do this",
+        "file_attachments": [],
+        "google_attachments": [],
+        "commit_identifier": "",
+        "commit_type": ""
+      },
+      "person_id": 203,
+      "type": "comment_create",
+      "command_uuid": "22b79ea9-5d6a-469d-9bc5-ca21814e4df6",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421759343000,
+  "result": "stale"
+}

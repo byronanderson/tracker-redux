@@ -1,0 +1,94 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2120,
+          "deleted": true
+        }
+      ],
+      "activity": {
+        "kind": "story_delete_activity",
+        "guid": "101_249",
+        "project_version": 249,
+        "message": "Robert Brewster deleted this feature",
+        "highlight": "deleted",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2120,
+            "name": "Accept input data stream from NSA voice recognition systems",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2120,
+            "name": "Accept input data stream from NSA voice recognition systems",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2120"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421746390000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2120,
+          "project_id": 101,
+          "name": "Accept input data stream from NSA voice recognition systems",
+          "description": "new description 425",
+          "story_type": "feature",
+          "current_state": "started",
+          "estimate": 8,
+          "requested_by_id": 201,
+          "owned_by_id": 206,
+          "owner_ids": [
+            206
+          ],
+          "label_ids": [
+            5025
+          ],
+          "follower_ids": [],
+          "created_at": 1415128669000,
+          "updated_at": 1419961020000,
+          "before_id": 2177,
+          "after_id": 2171,
+          "labels": [
+            "monitoring"
+          ]
+        }
+      ],
+      "parameters": {
+        "ids": [
+          2120
+        ]
+      },
+      "person_id": 202,
+      "type": "multi_story_delete",
+      "command_uuid": "ba5e797c-a9a7-4032-8201-1b052f84a63b",
+      "project": {
+        "id": 101,
+        "version": 249
+      }
+    }
+  ],
+  "session_expires_at": 1421760790000,
+  "result": "stale"
+}

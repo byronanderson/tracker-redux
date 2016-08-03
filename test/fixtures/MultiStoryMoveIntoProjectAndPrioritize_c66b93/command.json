@@ -1,0 +1,177 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2174,
+          "project_id": 102,
+          "name": "sperm whales are not attack submarines",
+          "story_type": "bug",
+          "current_state": "unstarted",
+          "requested_by_id": 202,
+          "owner_ids": [],
+          "label_ids": [],
+          "follower_ids": [],
+          "created_at": 1420304400000,
+          "updated_at": 1421746649000,
+          "before_id": 2172,
+          "after_id": 2190,
+          "labels": []
+        },
+        {
+          "type": "story",
+          "id": 2172,
+          "project_id": 102,
+          "name": "don't mistake passenger jets for bombers",
+          "story_type": "bug",
+          "current_state": "unstarted",
+          "requested_by_id": 202,
+          "owner_ids": [],
+          "label_ids": [],
+          "follower_ids": [],
+          "created_at": 1420304400000,
+          "updated_at": 1421746649000,
+          "before_id": 2191,
+          "after_id": 2174,
+          "labels": []
+        }
+      ],
+      "activity": {
+        "kind": "story_move_into_project_and_prioritize_activity",
+        "guid": "102_18",
+        "project_version": 18,
+        "message": "Robert Brewster moved 2 stories into this project from Skynet Defense Coordination System",
+        "highlight": "moved",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "create",
+            "id": 2174,
+            "new_values": {
+              "id": 2174,
+              "project_id": 102,
+              "name": "sperm whales are not attack submarines",
+              "story_type": "bug",
+              "current_state": "unstarted",
+              "requested_by_id": 202,
+              "owner_ids": [],
+              "label_ids": [],
+              "follower_ids": [],
+              "created_at": 1420304400000,
+              "updated_at": 1421746649000,
+              "before_id": 2172,
+              "after_id": 2190,
+              "labels": []
+            },
+            "name": "sperm whales are not attack submarines",
+            "story_type": "bug"
+          },
+          {
+            "kind": "story",
+            "change_type": "create",
+            "id": 2172,
+            "new_values": {
+              "id": 2172,
+              "project_id": 102,
+              "name": "don't mistake passenger jets for bombers",
+              "story_type": "bug",
+              "current_state": "unstarted",
+              "requested_by_id": 202,
+              "owner_ids": [],
+              "label_ids": [],
+              "follower_ids": [],
+              "created_at": 1420304400000,
+              "updated_at": 1421746649000,
+              "before_id": 2191,
+              "after_id": 2174,
+              "labels": []
+            },
+            "name": "don't mistake passenger jets for bombers",
+            "story_type": "bug"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2174,
+            "name": "sperm whales are not attack submarines",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2174"
+          },
+          {
+            "kind": "story",
+            "id": 2172,
+            "name": "don't mistake passenger jets for bombers",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2172"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 102,
+          "name": "T-1000 mimetic poly-alloy assassin"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421746650000
+      },
+      "mutandum": [],
+      "parameters": {
+        "group": "scheduled",
+        "source_project_id": 101,
+        "before_id": 2191,
+        "after_id": 2190,
+        "stories": [
+          {
+            "id": 2174,
+            "name": "sperm whales are not attack submarines",
+            "story_type": "bug",
+            "current_state": "unstarted",
+            "requested_by_id": 202,
+            "owner_ids": [],
+            "label_ids": [],
+            "follower_ids": [],
+            "created_at": 1420304400000,
+            "updated_at": 1421746649000,
+            "before_id": 2172,
+            "after_id": 2190,
+            "tasks": [],
+            "comments": []
+          },
+          {
+            "id": 2172,
+            "name": "don't mistake passenger jets for bombers",
+            "story_type": "bug",
+            "current_state": "unstarted",
+            "requested_by_id": 202,
+            "owner_ids": [],
+            "label_ids": [],
+            "follower_ids": [],
+            "created_at": 1420304400000,
+            "updated_at": 1421746649000,
+            "before_id": 2191,
+            "after_id": 2174,
+            "tasks": [],
+            "comments": []
+          }
+        ]
+      },
+      "person_id": 202,
+      "type": "multi_story_move_into_project_and_prioritize",
+      "command_uuid": "ee8ee608-4035-4b21-a359-e7a3a4c66b93",
+      "project": {
+        "id": 102,
+        "version": 18
+      }
+    }
+  ],
+  "session_expires_at": 1421761049000,
+  "result": "stale"
+}

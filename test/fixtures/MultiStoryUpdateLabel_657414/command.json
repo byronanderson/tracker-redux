@@ -1,0 +1,110 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2166,
+          "label_ids": [
+            5030,
+            5027
+          ],
+          "updated_at": 1421745997000,
+          "labels": [
+            "automation",
+            "command"
+          ]
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster added label \"automation\" to \"don't send airforce orders to the army\"",
+        "highlight": "added label",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2166,
+            "original_values": {
+              "label_ids": [
+                5027
+              ],
+              "updated_at": 1418490000000,
+              "labels": [
+                "command"
+              ]
+            },
+            "new_values": {
+              "label_ids": [
+                5030,
+                5027
+              ],
+              "updated_at": 1421745997000,
+              "labels": [
+                "automation",
+                "command"
+              ]
+            },
+            "name": "don't send airforce orders to the army",
+            "story_type": "bug"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2166,
+            "name": "don't send airforce orders to the army",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2166"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745997000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2166,
+          "label_ids": [
+            5027
+          ],
+          "updated_at": 1418490000000,
+          "labels": [
+            "command"
+          ]
+        }
+      ],
+      "parameters": {
+        "label_ids_to_add": [
+          5030
+        ],
+        "ids": [
+          2166
+        ]
+      },
+      "person_id": 202,
+      "type": "multi_story_update_label",
+      "command_uuid": "d47204bb-5b38-4275-87f3-a825a7657414",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421760397000,
+  "result": "stale"
+}

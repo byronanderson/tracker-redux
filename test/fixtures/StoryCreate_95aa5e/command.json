@@ -1,0 +1,110 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2208,
+          "project_id": 101,
+          "name": "blah",
+          "story_type": "feature",
+          "current_state": "unscheduled",
+          "requested_by_id": 202,
+          "owner_ids": [],
+          "label_ids": [],
+          "follower_ids": [],
+          "created_at": 1421745971000,
+          "updated_at": 1421745971000,
+          "before_id": 2185,
+          "after_id": 2161,
+          "labels": []
+        }
+      ],
+      "activity": {
+        "kind": "story_create_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster added this feature",
+        "highlight": "added",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "create",
+            "id": 2208,
+            "new_values": {
+              "id": 2208,
+              "project_id": 101,
+              "name": "blah",
+              "story_type": "feature",
+              "current_state": "unscheduled",
+              "requested_by_id": 202,
+              "owner_ids": [],
+              "label_ids": [],
+              "follower_ids": [],
+              "created_at": 1421745971000,
+              "updated_at": 1421745971000,
+              "before_id": 2185,
+              "after_id": 2161,
+              "labels": []
+            },
+            "name": "blah",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2208,
+            "name": "blah",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2208"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745971000
+      },
+      "mutandum": [],
+      "parameters": {
+        "requested_by_id": 202,
+        "current_state": "unscheduled",
+        "name": "blah",
+        "description": "",
+        "estimate": -1,
+        "accepted_at": null,
+        "deadline": null,
+        "owner_ids": [],
+        "story_type": "feature",
+        "integration_id": null,
+        "external_id": "",
+        "comments": [],
+        "follower_ids": [],
+        "tasks": [],
+        "group": "unscheduled",
+        "label_ids": [],
+        "before_id": 2185,
+        "cl_numbers": ""
+      },
+      "person_id": 202,
+      "type": "story_create",
+      "command_uuid": "408da260-7774-44e4-ba1d-83ff3495aa5e",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421760371000,
+  "result": "stale"
+}

@@ -1,0 +1,86 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2221,
+          "current_state": "unstarted",
+          "updated_at": 1421746270000
+        }
+      ],
+      "activity": {
+        "kind": "story_move_activity",
+        "guid": "101_247",
+        "project_version": 247,
+        "message": "Robert Brewster moved and scheduled this story after 'p4'",
+        "highlight": "moved and scheduled",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2221,
+            "original_values": {
+              "current_state": "unscheduled",
+              "updated_at": 1421746269000
+            },
+            "new_values": {
+              "current_state": "unstarted",
+              "updated_at": 1421746270000
+            },
+            "name": "Story Newness",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2221,
+            "name": "Story Newness",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2221"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421746270000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2221,
+          "current_state": "unscheduled",
+          "updated_at": 1421746269000
+        }
+      ],
+      "parameters": {
+        "group": "scheduled",
+        "ids": [
+          2221
+        ],
+        "after_id": 2161,
+        "before_id": 2221
+      },
+      "person_id": 202,
+      "type": "multi_story_move",
+      "command_uuid": "8b4797f6-290b-48ba-9f87-cf15e8e54042",
+      "project": {
+        "id": 101,
+        "version": 247
+      }
+    }
+  ],
+  "session_expires_at": 1421760670000,
+  "result": "stale"
+}

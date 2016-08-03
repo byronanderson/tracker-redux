@@ -1,0 +1,104 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2165,
+          "updated_at": 1421745069000
+        },
+        {
+          "type": "task",
+          "id": 5038,
+          "story_id": 2165,
+          "description": "hello2",
+          "complete": false,
+          "position": 2,
+          "created_at": 1421745069000,
+          "updated_at": 1421745069000
+        }
+      ],
+      "activity": {
+        "kind": "task_create_activity",
+        "guid": "101_247",
+        "project_version": 247,
+        "message": "Robert Brewster added task: \"hello2\"",
+        "highlight": "added task:",
+        "changes": [
+          {
+            "kind": "task",
+            "change_type": "create",
+            "id": 5038,
+            "new_values": {
+              "id": 5038,
+              "story_id": 2165,
+              "description": "hello2",
+              "complete": false,
+              "position": 2,
+              "created_at": 1421745069000,
+              "updated_at": 1421745069000
+            }
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2165,
+            "original_values": {
+              "updated_at": 1421745068000
+            },
+            "new_values": {
+              "updated_at": 1421745069000
+            },
+            "name": "iter5-3",
+            "story_type": "bug"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2165,
+            "name": "iter5-3",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2165"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745069000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2165,
+          "updated_at": 1421745068000
+        }
+      ],
+      "parameters": {
+        "description": "hello2",
+        "story_id": 2165,
+        "complete": false,
+        "position": 2
+      },
+      "person_id": 202,
+      "type": "task_create",
+      "command_uuid": "3f5ba8a6-84dc-4fbd-90b3-f5b65dafc240",
+      "project": {
+        "id": 101,
+        "version": 247
+      }
+    }
+  ],
+  "session_expires_at": 1421759469000,
+  "result": "stale"
+}

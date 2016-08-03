@@ -1,0 +1,76 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "label",
+          "id": 5045,
+          "project_id": 101,
+          "name": "apple",
+          "created_at": 1421745624000,
+          "updated_at": 1421745624000
+        }
+      ],
+      "activity": {
+        "kind": "label_create_activity",
+        "guid": "101_250",
+        "project_version": 250,
+        "message": "Robert Brewster created labels: \"apple\"",
+        "highlight": "created",
+        "changes": [
+          {
+            "kind": "label",
+            "change_type": "create",
+            "id": 5045,
+            "new_values": {
+              "id": 5045,
+              "project_id": 101,
+              "name": "apple",
+              "created_at": 1421745624000,
+              "updated_at": 1421745624000
+            },
+            "name": "apple"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "label",
+            "id": 5045,
+            "name": "apple"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745624000
+      },
+      "mutandum": [],
+      "parameters": {
+        "labels": [
+          {
+            "name": "apple"
+          }
+        ]
+      },
+      "person_id": 202,
+      "type": "multi_label_create",
+      "command_uuid": "2a88613b-886b-4a97-9aa6-4616219af0a8",
+      "project": {
+        "id": 101,
+        "version": 250
+      }
+    }
+  ],
+  "session_expires_at": 1421760023000,
+  "result": "stale"
+}

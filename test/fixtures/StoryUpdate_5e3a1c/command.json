@@ -1,0 +1,82 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2184,
+          "estimate": 8,
+          "updated_at": 1421720541000
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster estimated this feature as 8 points",
+        "highlight": "estimated",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2184,
+            "original_values": {
+              "estimate": null,
+              "updated_at": 1420909200000
+            },
+            "new_values": {
+              "estimate": 8,
+              "updated_at": 1421720541000
+            },
+            "name": "iter7-3",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2184,
+            "name": "iter7-3",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2184"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421720541000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2184,
+          "estimate": -1,
+          "updated_at": 1420909200000
+        }
+      ],
+      "parameters": {
+        "estimate": 8,
+        "id": 2184
+      },
+      "person_id": 202,
+      "type": "story_update",
+      "command_uuid": "168d1273-6846-4114-865f-45595e5e3a1c",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421734941000,
+  "result": "stale"
+}

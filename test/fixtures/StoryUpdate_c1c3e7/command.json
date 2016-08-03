@@ -1,0 +1,78 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2120,
+          "current_state": "delivered"
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_247",
+        "project_version": 247,
+        "message": "William Candy delivered this feature",
+        "highlight": "delivered",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2120,
+            "original_values": {
+              "current_state": "finished"
+            },
+            "new_values": {
+              "current_state": "delivered"
+            },
+            "name": "Accept input data stream from NSA voice recognition systems",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2120,
+            "name": "Accept input data stream from NSA voice recognition systems",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2120"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 204,
+          "name": "William Candy",
+          "initials": "wc"
+        },
+        "occurred_at": 1421745106000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2120,
+          "current_state": "finished"
+        }
+      ],
+      "parameters": {
+        "current_state": "delivered",
+        "id": 2120
+      },
+      "person_id": 204,
+      "type": "story_update",
+      "command_uuid": "762a68d4-bddf-4b2f-9fb3-ba5672c1c3e7",
+      "project": {
+        "id": 101,
+        "version": 247
+      }
+    }
+  ],
+  "session_expires_at": 1421759506000,
+  "result": "stale"
+}

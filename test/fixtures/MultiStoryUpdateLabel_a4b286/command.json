@@ -1,0 +1,98 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2210,
+          "label_ids": [
+            5030
+          ],
+          "updated_at": 1421746061000,
+          "labels": [
+            "automation"
+          ]
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_248",
+        "project_version": 248,
+        "message": "Robert Brewster added label \"automation\" to \"icebox release\"",
+        "highlight": "added label",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2210,
+            "original_values": {
+              "label_ids": [],
+              "updated_at": 1421746060000,
+              "labels": []
+            },
+            "new_values": {
+              "label_ids": [
+                5030
+              ],
+              "updated_at": 1421746061000,
+              "labels": [
+                "automation"
+              ]
+            },
+            "name": "icebox release",
+            "story_type": "release"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2210,
+            "name": "icebox release",
+            "story_type": "release",
+            "url": "http://localhost/story/show/2210"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421746061000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2210,
+          "label_ids": [],
+          "updated_at": 1421746060000,
+          "labels": []
+        }
+      ],
+      "parameters": {
+        "label_ids_to_add": [
+          5030
+        ],
+        "ids": [
+          2210
+        ]
+      },
+      "person_id": 202,
+      "type": "multi_story_update_label",
+      "command_uuid": "7a5c05b2-8b4a-4183-87a2-3b8866a4b286",
+      "project": {
+        "id": 101,
+        "version": 248
+      }
+    }
+  ],
+  "session_expires_at": 1421760461000,
+  "result": "stale"
+}

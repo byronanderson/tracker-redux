@@ -1,0 +1,125 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2161,
+          "updated_at": 1421746083000,
+          "before_id": 2167,
+          "after_id": 2170
+        },
+        {
+          "type": "story",
+          "id": 2170,
+          "updated_at": 1421746083000,
+          "before_id": 2161
+        }
+      ],
+      "activity": {
+        "kind": "story_move_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster moved 2 stories",
+        "highlight": "moved",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2161,
+            "original_values": {
+              "updated_at": 1420563840000,
+              "before_id": 2185,
+              "after_id": 2162
+            },
+            "new_values": {
+              "updated_at": 1421746083000,
+              "before_id": 2167,
+              "after_id": 2170
+            },
+            "name": "p4",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2170,
+            "original_values": {
+              "updated_at": 1420563720000,
+              "before_id": 2167
+            },
+            "new_values": {
+              "updated_at": 1421746083000,
+              "before_id": 2161
+            },
+            "name": "command-4",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2170,
+            "name": "command-4",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2170"
+          },
+          {
+            "kind": "story",
+            "id": 2161,
+            "name": "p4",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2161"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421746083000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2170,
+          "updated_at": 1420563720000,
+          "before_id": 2167
+        },
+        {
+          "type": "story",
+          "id": 2161,
+          "updated_at": 1420563840000,
+          "before_id": 2185,
+          "after_id": 2162
+        }
+      ],
+      "parameters": {
+        "group": "scheduled",
+        "ids": [
+          2170,
+          2161
+        ],
+        "after_id": 2170,
+        "before_id": 2167
+      },
+      "person_id": 202,
+      "type": "multi_story_move",
+      "command_uuid": "2d3b356e-3200-4e62-85aa-049efb033c09",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421760483000,
+  "result": "stale"
+}

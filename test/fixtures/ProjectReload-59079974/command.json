@@ -1,0 +1,1 @@
+{"kind":"command_create_response","stale_commands":[{"kind":"command","results":[],"mutandum":[],"parameters":{"message":"Configuration Change","changed_fields":["account_id","project_type"]},"type":"project_reload","project":{"id":1801,"version":8}}],"result":"stale"}

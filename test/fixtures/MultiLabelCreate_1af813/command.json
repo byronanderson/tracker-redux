@@ -1,0 +1,76 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "label",
+          "id": 5044,
+          "project_id": 101,
+          "name": "zebra",
+          "created_at": 1421745623000,
+          "updated_at": 1421745623000
+        }
+      ],
+      "activity": {
+        "kind": "label_create_activity",
+        "guid": "101_248",
+        "project_version": 248,
+        "message": "Robert Brewster created labels: \"zebra\"",
+        "highlight": "created",
+        "changes": [
+          {
+            "kind": "label",
+            "change_type": "create",
+            "id": 5044,
+            "new_values": {
+              "id": 5044,
+              "project_id": 101,
+              "name": "zebra",
+              "created_at": 1421745623000,
+              "updated_at": 1421745623000
+            },
+            "name": "zebra"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "label",
+            "id": 5044,
+            "name": "zebra"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745623000
+      },
+      "mutandum": [],
+      "parameters": {
+        "labels": [
+          {
+            "name": "zebra"
+          }
+        ]
+      },
+      "person_id": 202,
+      "type": "multi_label_create",
+      "command_uuid": "4dd86106-ba6b-4286-b1e4-e66a721af813",
+      "project": {
+        "id": 101,
+        "version": 248
+      }
+    }
+  ],
+  "session_expires_at": 1421760023000,
+  "result": "stale"
+}

@@ -1,0 +1,86 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2209,
+          "before_id": 2153,
+          "after_id": 2154
+        }
+      ],
+      "activity": {
+        "kind": "story_move_activity",
+        "guid": "101_247",
+        "project_version": 247,
+        "message": "Robert Brewster moved this story before 'iter4-1'",
+        "highlight": "moved",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2209,
+            "original_values": {
+              "before_id": 2185,
+              "after_id": 2161
+            },
+            "new_values": {
+              "before_id": 2153,
+              "after_id": 2154
+            },
+            "name": "icebox release",
+            "story_type": "release"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2209,
+            "name": "icebox release",
+            "story_type": "release",
+            "url": "http://localhost/story/show/2209"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421746027000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2209,
+          "before_id": 2185,
+          "after_id": 2161
+        }
+      ],
+      "parameters": {
+        "group": "unscheduled",
+        "ids": [
+          2209
+        ],
+        "after_id": 2154,
+        "before_id": 2153
+      },
+      "person_id": 202,
+      "type": "multi_story_move",
+      "command_uuid": "4b5df9d8-5fcb-494f-b06d-c6187a859262",
+      "project": {
+        "id": 101,
+        "version": 247
+      }
+    }
+  ],
+  "session_expires_at": 1421760426000,
+  "result": "stale"
+}

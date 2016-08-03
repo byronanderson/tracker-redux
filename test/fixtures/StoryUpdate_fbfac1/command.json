@@ -1,0 +1,106 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2174,
+          "current_state": "started",
+          "owned_by_id": 202,
+          "owner_ids": [
+            202
+          ],
+          "updated_at": 1421746391000,
+          "before_id": 2175,
+          "after_id": 2228
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_251",
+        "project_version": 251,
+        "message": "Robert Brewster started this bug",
+        "highlight": "started",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2174,
+            "original_values": {
+              "current_state": "unstarted",
+              "owned_by_id": null,
+              "owner_ids": [],
+              "updated_at": 1420304400000,
+              "before_id": 2173,
+              "after_id": 2175
+            },
+            "new_values": {
+              "current_state": "started",
+              "owned_by_id": 202,
+              "owner_ids": [
+                202
+              ],
+              "updated_at": 1421746391000,
+              "before_id": 2175,
+              "after_id": 2228
+            },
+            "name": "sperm whales are not attack submarines",
+            "story_type": "bug"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2174,
+            "name": "sperm whales are not attack submarines",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2174"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421746391000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2174,
+          "current_state": "unstarted",
+          "owned_by_id": -1,
+          "owner_ids": [],
+          "updated_at": 1420304400000,
+          "before_id": 2173,
+          "after_id": 2175
+        }
+      ],
+      "parameters": {
+        "current_state": "started",
+        "owner_ids": [
+          202
+        ],
+        "id": 2174,
+        "owned_by_id": 202
+      },
+      "person_id": 202,
+      "type": "story_update",
+      "command_uuid": "915f0c67-f6c7-44fb-9bd8-5858a4fbfac1",
+      "project": {
+        "id": 101,
+        "version": 251
+      }
+    }
+  ],
+  "session_expires_at": 1421760791000,
+  "result": "stale"
+}

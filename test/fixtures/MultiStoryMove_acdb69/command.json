@@ -1,0 +1,86 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2191,
+          "current_state": "planned",
+          "updated_at": 1421745805000
+        }
+      ],
+      "activity": {
+        "kind": "story_move_activity",
+        "guid": "102_18",
+        "project_version": 18,
+        "message": "Robert Brewster moved and scheduled this story after 'Develop voice recognition'",
+        "highlight": "moved and scheduled",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2191,
+            "original_values": {
+              "current_state": "unstarted",
+              "updated_at": 1415466075000
+            },
+            "new_values": {
+              "current_state": "planned",
+              "updated_at": 1421745805000
+            },
+            "name": "Glen identified as hostile",
+            "story_type": "bug"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2191,
+            "name": "Glen identified as hostile",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2191"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 102,
+          "name": "T-1000 mimetic poly-alloy assassin"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745805000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2191,
+          "current_state": "unstarted",
+          "updated_at": 1415466075000
+        }
+      ],
+      "parameters": {
+        "group": "current",
+        "ids": [
+          2191
+        ],
+        "after_id": 2190,
+        "before_id": 2191
+      },
+      "person_id": 202,
+      "type": "multi_story_move",
+      "command_uuid": "93f866f7-0877-4383-93f6-7d56c3acdb69",
+      "project": {
+        "id": 102,
+        "version": 18
+      }
+    }
+  ],
+  "session_expires_at": 1421760205000,
+  "result": "stale"
+}

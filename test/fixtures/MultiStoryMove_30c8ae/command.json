@@ -1,0 +1,94 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2150,
+          "current_state": "unstarted",
+          "updated_at": 1421745964000,
+          "before_id": 2162,
+          "after_id": 2167
+        }
+      ],
+      "activity": {
+        "kind": "story_move_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Andy Goode moved and scheduled this story before 'p5'",
+        "highlight": "moved and scheduled",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2150,
+            "original_values": {
+              "current_state": "unscheduled",
+              "updated_at": 1416675600000,
+              "before_id": 2149,
+              "after_id": 2153
+            },
+            "new_values": {
+              "current_state": "unstarted",
+              "updated_at": 1421745964000,
+              "before_id": 2162,
+              "after_id": 2167
+            },
+            "name": "iter3-5",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2150,
+            "name": "iter3-5",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2150"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 203,
+          "name": "Andy Goode",
+          "initials": "AG"
+        },
+        "occurred_at": 1421745964000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2150,
+          "current_state": "unscheduled",
+          "updated_at": 1416675600000,
+          "before_id": 2149,
+          "after_id": 2153
+        }
+      ],
+      "parameters": {
+        "group": "scheduled",
+        "ids": [
+          2150
+        ],
+        "after_id": 2167,
+        "before_id": 2162
+      },
+      "person_id": 203,
+      "type": "multi_story_move",
+      "command_uuid": "9649b14f-d450-440e-81db-095dbd30c8ae",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421760364000,
+  "result": "stale"
+}

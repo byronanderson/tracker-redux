@@ -1,0 +1,104 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2188,
+          "updated_at": 1421746483000
+        },
+        {
+          "type": "task",
+          "id": 5052,
+          "story_id": 2188,
+          "description": "what a place well go",
+          "complete": false,
+          "position": 3,
+          "created_at": 1421746483000,
+          "updated_at": 1421746483000
+        }
+      ],
+      "activity": {
+        "kind": "task_create_activity",
+        "guid": "102_18",
+        "project_version": 18,
+        "message": "Andy Goode added task: \"what a place well go\"",
+        "highlight": "added task:",
+        "changes": [
+          {
+            "kind": "task",
+            "change_type": "create",
+            "id": 5052,
+            "new_values": {
+              "id": 5052,
+              "story_id": 2188,
+              "description": "what a place well go",
+              "complete": false,
+              "position": 3,
+              "created_at": 1421746483000,
+              "updated_at": 1421746483000
+            }
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2188,
+            "original_values": {
+              "updated_at": 1415466030000
+            },
+            "new_values": {
+              "updated_at": 1421746483000
+            },
+            "name": "Machine chainsaw arms",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2188,
+            "name": "Machine chainsaw arms",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2188"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 102,
+          "name": "T-1000 mimetic poly-alloy assassin"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 203,
+          "name": "Andy Goode",
+          "initials": "AG"
+        },
+        "occurred_at": 1421746483000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2188,
+          "updated_at": 1415466030000
+        }
+      ],
+      "parameters": {
+        "description": "what a place well go",
+        "story_id": 2188,
+        "complete": false,
+        "position": 3
+      },
+      "person_id": 203,
+      "type": "task_create",
+      "command_uuid": "d2308bb9-02a0-4659-9447-975177a32bab",
+      "project": {
+        "id": 102,
+        "version": 18
+      }
+    }
+  ],
+  "session_expires_at": 1421760883000,
+  "result": "stale"
+}

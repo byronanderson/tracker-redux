@@ -1,0 +1,82 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2175,
+          "story_type": "feature",
+          "updated_at": 1421745359000
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster edited this feature",
+        "highlight": "edited",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2175,
+            "original_values": {
+              "story_type": "bug",
+              "updated_at": 1420304400000
+            },
+            "new_values": {
+              "story_type": "feature",
+              "updated_at": 1421745359000
+            },
+            "name": "pelican-exclusion algorithm shouldn't match carrier-launched drones",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2175,
+            "name": "pelican-exclusion algorithm shouldn't match carrier-launched drones",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2175"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745359000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2175,
+          "story_type": "bug",
+          "updated_at": 1420304400000
+        }
+      ],
+      "parameters": {
+        "story_type": "feature",
+        "id": 2175
+      },
+      "person_id": 202,
+      "type": "story_update",
+      "command_uuid": "9bd0ff83-6210-41a1-825b-6d92821f7b74",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421759758000,
+  "result": "stale"
+}

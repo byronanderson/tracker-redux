@@ -1,0 +1,80 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "task",
+          "id": 5043,
+          "story_id": 2162,
+          "description": "Something Else",
+          "complete": false,
+          "position": 2,
+          "created_at": 1421745318000,
+          "updated_at": 1421745318000
+        }
+      ],
+      "activity": {
+        "kind": "task_create_activity",
+        "guid": "101_250",
+        "project_version": 250,
+        "message": "Robert Brewster added task: \"Something Else\"",
+        "highlight": "added task:",
+        "changes": [
+          {
+            "kind": "task",
+            "change_type": "create",
+            "id": 5043,
+            "new_values": {
+              "id": 5043,
+              "story_id": 2162,
+              "description": "Something Else",
+              "complete": false,
+              "position": 2,
+              "created_at": 1421745318000,
+              "updated_at": 1421745318000
+            }
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2162,
+            "name": "p5",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2162"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745319000
+      },
+      "mutandum": [],
+      "parameters": {
+        "description": "Something Else",
+        "story_id": 2162,
+        "complete": false,
+        "position": 2
+      },
+      "person_id": 202,
+      "type": "task_create",
+      "command_uuid": "86480280-da6c-4e0d-ad64-4a538c8755c5",
+      "project": {
+        "id": 101,
+        "version": 250
+      }
+    }
+  ],
+  "session_expires_at": 1421759718000,
+  "result": "stale"
+}

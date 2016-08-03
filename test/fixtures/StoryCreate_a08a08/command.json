@@ -1,0 +1,111 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2211,
+          "project_id": 101,
+          "name": "More power to shields",
+          "story_type": "feature",
+          "current_state": "unstarted",
+          "estimate": 1,
+          "requested_by_id": 202,
+          "owner_ids": [],
+          "label_ids": [],
+          "follower_ids": [],
+          "created_at": 1421746112000,
+          "updated_at": 1421746112000,
+          "before_id": 2175,
+          "after_id": 2177,
+          "integration_id": 58,
+          "external_id": "foo",
+          "labels": []
+        }
+      ],
+      "activity": {
+        "kind": "story_create_activity",
+        "guid": "101_247",
+        "project_version": 247,
+        "message": "Robert Brewster added this feature",
+        "highlight": "added",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "create",
+            "id": 2211,
+            "new_values": {
+              "id": 2211,
+              "project_id": 101,
+              "name": "More power to shields",
+              "story_type": "feature",
+              "current_state": "unstarted",
+              "estimate": 1,
+              "requested_by_id": 202,
+              "owner_ids": [],
+              "label_ids": [],
+              "follower_ids": [],
+              "created_at": 1421746112000,
+              "updated_at": 1421746112000,
+              "before_id": 2175,
+              "after_id": 2177,
+              "integration_id": 58,
+              "external_id": "foo",
+              "labels": []
+            },
+            "name": "More power to shields",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2211,
+            "name": "More power to shields",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2211"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421746112000
+      },
+      "mutandum": [],
+      "parameters": {
+        "name": "More power to shields",
+        "integration_id": 58,
+        "external_id": "foo",
+        "estimate": 1,
+        "owner_ids": [],
+        "story_type": "feature",
+        "requested_by_id": 202,
+        "group": "scheduled",
+        "current_state": "unstarted",
+        "before_id": 2175,
+        "after_id": 2177,
+        "description": "",
+        "cl_numbers": ""
+      },
+      "person_id": 202,
+      "type": "story_create",
+      "command_uuid": "2aa76210-7a95-45fb-9a2a-2f9f9ea08a08",
+      "project": {
+        "id": 101,
+        "version": 247
+      }
+    }
+  ],
+  "session_expires_at": 1421760511000,
+  "result": "stale"
+}

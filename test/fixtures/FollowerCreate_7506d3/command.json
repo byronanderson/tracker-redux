@@ -1,0 +1,92 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "following",
+          "id": 16,
+          "person_id": 202,
+          "story_id": 2162
+        },
+        {
+          "type": "story",
+          "id": 2162,
+          "follower_ids": [
+            202
+          ],
+          "updated_at": 1421745286000
+        }
+      ],
+      "activity": {
+        "kind": "follower_create_activity",
+        "guid": "101_247",
+        "project_version": 247,
+        "message": "Robert Brewster started following this story",
+        "highlight": "started following",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2162,
+            "original_values": {
+              "follower_ids": [],
+              "updated_at": 1421745285000
+            },
+            "new_values": {
+              "follower_ids": [
+                202
+              ],
+              "updated_at": 1421745286000
+            },
+            "name": "p5",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2162,
+            "name": "p5",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2162"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745286000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2162,
+          "follower_ids": [],
+          "updated_at": 1421745285000
+        }
+      ],
+      "parameters": {
+        "person_id": 202,
+        "story_id": 2162
+      },
+      "person_id": 202,
+      "type": "follower_create",
+      "command_uuid": "3ecfe867-44bc-4b50-9067-c7fd587506d3",
+      "project": {
+        "id": 101,
+        "version": 247
+      }
+    }
+  ],
+  "session_expires_at": 1421759686000,
+  "result": "stale"
+}

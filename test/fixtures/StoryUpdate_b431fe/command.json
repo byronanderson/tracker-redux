@@ -1,0 +1,106 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2193,
+          "current_state": "started",
+          "owned_by_id": 202,
+          "owner_ids": [
+            202
+          ],
+          "updated_at": 1421745843000,
+          "before_id": 2191,
+          "after_id": 2190
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "102_20",
+        "project_version": 20,
+        "message": "Robert Brewster started this feature",
+        "highlight": "started",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2193,
+            "original_values": {
+              "current_state": "unstarted",
+              "owned_by_id": null,
+              "owner_ids": [],
+              "updated_at": 1415466105000,
+              "before_id": 2194,
+              "after_id": 2192
+            },
+            "new_values": {
+              "current_state": "started",
+              "owned_by_id": 202,
+              "owner_ids": [
+                202
+              ],
+              "updated_at": 1421745843000,
+              "before_id": 2191,
+              "after_id": 2190
+            },
+            "name": "Unit can disguise itself as human",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2193,
+            "name": "Unit can disguise itself as human",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2193"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 102,
+          "name": "T-1000 mimetic poly-alloy assassin"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745843000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2193,
+          "current_state": "unstarted",
+          "owned_by_id": -1,
+          "owner_ids": [],
+          "updated_at": 1415466105000,
+          "before_id": 2194,
+          "after_id": 2192
+        }
+      ],
+      "parameters": {
+        "current_state": "started",
+        "owner_ids": [
+          202
+        ],
+        "id": 2193,
+        "owned_by_id": 202
+      },
+      "person_id": 202,
+      "type": "story_update",
+      "command_uuid": "c085f614-e4d1-4e18-b36c-800cf8b431fe",
+      "project": {
+        "id": 102,
+        "version": 20
+      }
+    }
+  ],
+  "session_expires_at": 1421760243000,
+  "result": "stale"
+}

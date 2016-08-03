@@ -1,0 +1,82 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2177,
+          "current_state": "unstarted",
+          "updated_at": 1421720601000
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_250",
+        "project_version": 250,
+        "message": "Robert Brewster unstarted this bug",
+        "highlight": "unstarted",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2177,
+            "original_values": {
+              "current_state": "started",
+              "updated_at": 1420304430000
+            },
+            "new_values": {
+              "current_state": "unstarted",
+              "updated_at": 1421720601000
+            },
+            "name": "<script>alert('story content xss')</script>",
+            "story_type": "bug"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2177,
+            "name": "<script>alert('story content xss')</script>",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2177"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421720601000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2177,
+          "current_state": "started",
+          "updated_at": 1420304430000
+        }
+      ],
+      "parameters": {
+        "current_state": "unstarted",
+        "id": 2177
+      },
+      "person_id": 202,
+      "type": "story_update",
+      "command_uuid": "ae87b118-dbbd-4c28-8273-9939dffe97f0",
+      "project": {
+        "id": 101,
+        "version": 250
+      }
+    }
+  ],
+  "session_expires_at": 1421735000000,
+  "result": "stale"
+}

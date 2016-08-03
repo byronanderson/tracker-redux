@@ -1,0 +1,259 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2188,
+          "project_id": 101,
+          "name": "Machine chainsaw arms",
+          "story_type": "feature",
+          "current_state": "delivered",
+          "estimate": 1,
+          "requested_by_id": 205,
+          "owner_ids": [],
+          "label_ids": [
+            5063
+          ],
+          "follower_ids": [],
+          "created_at": 1415466030000,
+          "updated_at": 1421746685000,
+          "before_id": 2190,
+          "after_id": 2157,
+          "labels": [
+            "kill_humans"
+          ]
+        },
+        {
+          "type": "task",
+          "id": 5029,
+          "story_id": 2188,
+          "description": "Buy chainsaw oil in bulk",
+          "complete": true,
+          "position": 1,
+          "created_at": 1415466030000,
+          "updated_at": 1415466030000
+        },
+        {
+          "type": "task",
+          "id": 5030,
+          "story_id": 2188,
+          "description": "Find new interns",
+          "complete": false,
+          "position": 2,
+          "created_at": 1415466030000,
+          "updated_at": 1415466030000
+        },
+        {
+          "type": "story",
+          "id": 2190,
+          "project_id": 101,
+          "name": "Develop voice recognition",
+          "description": "All the better to listen to you with my dear",
+          "story_type": "feature",
+          "current_state": "unstarted",
+          "estimate": 1,
+          "requested_by_id": 205,
+          "owner_ids": [],
+          "label_ids": [],
+          "follower_ids": [],
+          "created_at": 1415466060000,
+          "updated_at": 1421746685000,
+          "before_id": 2185,
+          "after_id": 2188,
+          "labels": []
+        }
+      ],
+      "activity": {
+        "kind": "story_move_into_project_and_prioritize_activity",
+        "guid": "101_249",
+        "project_version": 249,
+        "message": "Robert Brewster moved 2 stories into this project from T-1000 mimetic poly-alloy assassin",
+        "highlight": "moved",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "create",
+            "id": 2188,
+            "new_values": {
+              "id": 2188,
+              "project_id": 101,
+              "name": "Machine chainsaw arms",
+              "story_type": "feature",
+              "current_state": "delivered",
+              "estimate": 1,
+              "requested_by_id": 205,
+              "owner_ids": [],
+              "label_ids": [
+                5063
+              ],
+              "follower_ids": [],
+              "created_at": 1415466030000,
+              "updated_at": 1421746685000,
+              "before_id": 2190,
+              "after_id": 2157,
+              "labels": [
+                "kill_humans"
+              ]
+            },
+            "name": "Machine chainsaw arms",
+            "story_type": "feature"
+          },
+          {
+            "kind": "task",
+            "change_type": "create",
+            "id": 5029,
+            "new_values": {
+              "id": 5029,
+              "story_id": 2188,
+              "description": "Buy chainsaw oil in bulk",
+              "complete": true,
+              "position": 1,
+              "created_at": 1415466030000,
+              "updated_at": 1415466030000
+            }
+          },
+          {
+            "kind": "task",
+            "change_type": "create",
+            "id": 5030,
+            "new_values": {
+              "id": 5030,
+              "story_id": 2188,
+              "description": "Find new interns",
+              "complete": false,
+              "position": 2,
+              "created_at": 1415466030000,
+              "updated_at": 1415466030000
+            }
+          },
+          {
+            "kind": "story",
+            "change_type": "create",
+            "id": 2190,
+            "new_values": {
+              "id": 2190,
+              "project_id": 101,
+              "name": "Develop voice recognition",
+              "description": "All the better to listen to you with my dear",
+              "story_type": "feature",
+              "current_state": "unstarted",
+              "estimate": 1,
+              "requested_by_id": 205,
+              "owner_ids": [],
+              "label_ids": [],
+              "follower_ids": [],
+              "created_at": 1415466060000,
+              "updated_at": 1421746685000,
+              "before_id": 2185,
+              "after_id": 2188,
+              "labels": []
+            },
+            "name": "Develop voice recognition",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2188,
+            "name": "Machine chainsaw arms",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2188"
+          },
+          {
+            "kind": "story",
+            "id": 2190,
+            "name": "Develop voice recognition",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2190"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421746685000
+      },
+      "mutandum": [],
+      "parameters": {
+        "group": "current",
+        "source_project_id": 102,
+        "stories": [
+          {
+            "id": 2188,
+            "name": "Machine chainsaw arms",
+            "story_type": "feature",
+            "current_state": "delivered",
+            "estimate": 1,
+            "requested_by_id": 205,
+            "owner_ids": [],
+            "label_ids": [
+              5063
+            ],
+            "follower_ids": [],
+            "created_at": 1415466030000,
+            "updated_at": 1421746685000,
+            "before_id": 2190,
+            "after_id": 2157,
+            "tasks": [
+              {
+                "id": 5029,
+                "description": "Buy chainsaw oil in bulk",
+                "complete": true,
+                "position": 1,
+                "created_at": 1415466030000,
+                "updated_at": 1415466030000
+              },
+              {
+                "id": 5030,
+                "description": "Find new interns",
+                "complete": false,
+                "position": 2,
+                "created_at": 1415466030000,
+                "updated_at": 1415466030000
+              }
+            ],
+            "comments": []
+          },
+          {
+            "id": 2190,
+            "name": "Develop voice recognition",
+            "description": "All the better to listen to you with my dear",
+            "story_type": "feature",
+            "current_state": "unstarted",
+            "estimate": 1,
+            "requested_by_id": 205,
+            "owner_ids": [],
+            "label_ids": [],
+            "follower_ids": [],
+            "created_at": 1415466060000,
+            "updated_at": 1421746685000,
+            "before_id": 2185,
+            "after_id": 2188,
+            "tasks": [],
+            "comments": []
+          }
+        ]
+      },
+      "person_id": 202,
+      "type": "multi_story_move_into_project_and_prioritize",
+      "command_uuid": "ff21b559-f640-42d1-86b0-2450e5245b6d",
+      "project": {
+        "id": 101,
+        "version": 249
+      }
+    }
+  ],
+  "session_expires_at": 1421761085000,
+  "result": "stale"
+}

@@ -1,0 +1,101 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "comment",
+          "id": 215,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2218,
+          "updated_at": 1421746249000
+        }
+      ],
+      "activity": {
+        "kind": "comment_delete_activity",
+        "guid": "101_248",
+        "project_version": 248,
+        "message": "Robert Brewster removed comment: \"comment1234\"",
+        "highlight": "removed comment:",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2218,
+            "original_values": {
+              "updated_at": 1421746247000
+            },
+            "new_values": {
+              "updated_at": 1421746249000
+            },
+            "name": "Hello!",
+            "story_type": "feature"
+          },
+          {
+            "kind": "comment",
+            "change_type": "delete",
+            "id": 215
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2218,
+            "name": "Hello!",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2218"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421746249000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2218,
+          "updated_at": 1421746247000
+        },
+        {
+          "type": "comment",
+          "id": 215,
+          "story_id": 2218,
+          "text": "comment1234",
+          "person_id": 202,
+          "created_at": 1421746247000,
+          "updated_at": 1421746247000,
+          "file_attachment_ids": [],
+          "google_attachment_ids": [],
+          "file_attachments": [],
+          "google_attachments": []
+        }
+      ],
+      "parameters": {
+        "story_id": 2218,
+        "id": 215
+      },
+      "person_id": 202,
+      "type": "comment_delete",
+      "command_uuid": "f674a840-6e3b-4b7c-a765-39b4854143b4",
+      "project": {
+        "id": 101,
+        "version": 248
+      }
+    }
+  ],
+  "session_expires_at": 1421760649000,
+  "result": "stale"
+}

@@ -1,0 +1,128 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "comment",
+          "id": 205,
+          "deleted": true
+        },
+        {
+          "type": "following",
+          "id": 9,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2177,
+          "deleted": true
+        }
+      ],
+      "activity": {
+        "kind": "story_delete_activity",
+        "guid": "101_250",
+        "project_version": 250,
+        "message": "Robert Brewster deleted this bug",
+        "highlight": "deleted",
+        "changes": [
+          {
+            "kind": "comment",
+            "change_type": "delete",
+            "id": 205
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2177,
+            "name": "<script>alert('story content xss')</script>",
+            "story_type": "bug"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2177,
+            "name": "<script>alert('story content xss')</script>",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2177"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421746391000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2177,
+          "project_id": 101,
+          "name": "<script>alert('story content xss')</script>",
+          "description": "new description 449",
+          "story_type": "bug",
+          "current_state": "started",
+          "estimate": -1,
+          "requested_by_id": 205,
+          "owned_by_id": 204,
+          "owner_ids": [
+            204
+          ],
+          "label_ids": [],
+          "follower_ids": [
+            205
+          ],
+          "created_at": 1420304400000,
+          "updated_at": 1420304430000,
+          "before_id": 2228,
+          "after_id": 2171,
+          "labels": []
+        },
+        {
+          "type": "following",
+          "id": 9,
+          "person_id": 205,
+          "story_id": 2177
+        },
+        {
+          "type": "comment",
+          "id": 205,
+          "story_id": 2177,
+          "text": "<script>alert('story content xss')</script>\n<script>alert('story content xss')</script>\n<script>alert('story content xss')</script>",
+          "person_id": 205,
+          "created_at": 1420304415000,
+          "updated_at": 1420304415000,
+          "file_attachment_ids": [],
+          "google_attachment_ids": [],
+          "commit_identifier": "e33914f666be819029aec3e30204d4b585d86962",
+          "commit_type": "github",
+          "file_attachments": [],
+          "google_attachments": []
+        }
+      ],
+      "parameters": {
+        "ids": [
+          2177
+        ]
+      },
+      "person_id": 202,
+      "type": "multi_story_delete",
+      "command_uuid": "47f9453b-074f-400c-901c-14b9bcd31f28",
+      "project": {
+        "id": 101,
+        "version": 250
+      }
+    }
+  ],
+  "session_expires_at": 1421760790000,
+  "result": "stale"
+}

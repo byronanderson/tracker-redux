@@ -1,0 +1,82 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2189,
+          "current_state": "planned",
+          "updated_at": 1421745817000
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "102_18",
+        "project_version": 18,
+        "message": "Robert Brewster unstarted this feature",
+        "highlight": "unstarted",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2189,
+            "original_values": {
+              "current_state": "started",
+              "updated_at": 1415466045000
+            },
+            "new_values": {
+              "current_state": "planned",
+              "updated_at": 1421745817000
+            },
+            "name": "Develop voice synthesizer",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2189,
+            "name": "Develop voice synthesizer",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2189"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 102,
+          "name": "T-1000 mimetic poly-alloy assassin"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745817000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2189,
+          "current_state": "started",
+          "updated_at": 1415466045000
+        }
+      ],
+      "parameters": {
+        "current_state": "planned",
+        "id": 2189
+      },
+      "person_id": 202,
+      "type": "story_update",
+      "command_uuid": "621ea648-f7f6-4903-8b97-d1cd34886543",
+      "project": {
+        "id": 102,
+        "version": 18
+      }
+    }
+  ],
+  "session_expires_at": 1421760217000,
+  "result": "stale"
+}

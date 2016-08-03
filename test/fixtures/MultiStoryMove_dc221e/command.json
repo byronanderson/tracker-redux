@@ -1,0 +1,129 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2120,
+          "updated_at": 1421746088000,
+          "before_id": 2174,
+          "after_id": 2177
+        },
+        {
+          "type": "story",
+          "id": 2174,
+          "updated_at": 1421746088000,
+          "before_id": 2175,
+          "after_id": 2120
+        }
+      ],
+      "activity": {
+        "kind": "story_move_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster moved 2 stories",
+        "highlight": "moved",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2120,
+            "original_values": {
+              "updated_at": 1419961020000,
+              "before_id": 2177,
+              "after_id": 2166
+            },
+            "new_values": {
+              "updated_at": 1421746088000,
+              "before_id": 2174,
+              "after_id": 2177
+            },
+            "name": "Accept input data stream from NSA voice recognition systems",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2174,
+            "original_values": {
+              "updated_at": 1420304400000,
+              "before_id": 2173,
+              "after_id": 2175
+            },
+            "new_values": {
+              "updated_at": 1421746088000,
+              "before_id": 2175,
+              "after_id": 2120
+            },
+            "name": "sperm whales are not attack submarines",
+            "story_type": "bug"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2120,
+            "name": "Accept input data stream from NSA voice recognition systems",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2120"
+          },
+          {
+            "kind": "story",
+            "id": 2174,
+            "name": "sperm whales are not attack submarines",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2174"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421746088000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2120,
+          "updated_at": 1419961020000,
+          "before_id": 2177,
+          "after_id": 2166
+        },
+        {
+          "type": "story",
+          "id": 2174,
+          "updated_at": 1420304400000,
+          "before_id": 2173,
+          "after_id": 2175
+        }
+      ],
+      "parameters": {
+        "group": "current",
+        "ids": [
+          2120,
+          2174
+        ],
+        "after_id": 2177,
+        "before_id": 2175
+      },
+      "person_id": 202,
+      "type": "multi_story_move",
+      "command_uuid": "fd7d4ed3-19ce-420a-a700-b5fd99dc221e",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421760488000,
+  "result": "stale"
+}

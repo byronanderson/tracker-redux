@@ -1,0 +1,95 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2162,
+          "current_state": "accepted",
+          "accepted_at": 1421745434000,
+          "updated_at": 1421745434000,
+          "before_id": 2171,
+          "after_id": 2175
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_253",
+        "project_version": 253,
+        "message": "Andy Goode accepted this feature",
+        "highlight": "accepted",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2162,
+            "original_values": {
+              "current_state": "delivered",
+              "accepted_at": null,
+              "updated_at": 1421745433000,
+              "before_id": 2174,
+              "after_id": 2177
+            },
+            "new_values": {
+              "current_state": "accepted",
+              "accepted_at": 1421745434000,
+              "updated_at": 1421745434000,
+              "before_id": 2171,
+              "after_id": 2175
+            },
+            "name": "p5",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2162,
+            "name": "p5",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2162"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 203,
+          "name": "Andy Goode",
+          "initials": "AG"
+        },
+        "occurred_at": 1421745434000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2162,
+          "current_state": "delivered",
+          "accepted_at": null,
+          "updated_at": 1421745433000,
+          "before_id": 2174,
+          "after_id": 2177
+        }
+      ],
+      "parameters": {
+        "current_state": "accepted",
+        "accepted_at": 1421745434000,
+        "id": 2162
+      },
+      "person_id": 203,
+      "type": "story_update",
+      "command_uuid": "f70c3937-ea64-4e09-a83c-54a432f18730",
+      "project": {
+        "id": 101,
+        "version": 253
+      }
+    }
+  ],
+  "session_expires_at": 1421759834000,
+  "result": "stale"
+}

@@ -1,0 +1,87 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2172,
+          "deleted": true
+        }
+      ],
+      "activity": {
+        "kind": "story_delete_activity",
+        "guid": "101_253",
+        "project_version": 253,
+        "message": "Robert Brewster deleted this bug",
+        "highlight": "deleted",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2172,
+            "name": "don't mistake passenger jets for bombers",
+            "story_type": "bug"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2172,
+            "name": "don't mistake passenger jets for bombers",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2172"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421746420000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2172,
+          "project_id": 101,
+          "name": "don't mistake passenger jets for bombers",
+          "story_type": "bug",
+          "current_state": "unstarted",
+          "estimate": -1,
+          "requested_by_id": 202,
+          "owned_by_id": -1,
+          "owner_ids": [],
+          "label_ids": [],
+          "follower_ids": [],
+          "created_at": 1420304400000,
+          "updated_at": 1420304400000,
+          "before_id": 2185,
+          "after_id": 2173,
+          "labels": []
+        }
+      ],
+      "parameters": {
+        "ids": [
+          2172
+        ]
+      },
+      "person_id": 202,
+      "type": "multi_story_delete",
+      "command_uuid": "04c17b7b-0bf4-4add-8963-28b948b1eab1",
+      "project": {
+        "id": 101,
+        "version": 253
+      }
+    }
+  ],
+  "session_expires_at": 1421760819000,
+  "result": "stale"
+}

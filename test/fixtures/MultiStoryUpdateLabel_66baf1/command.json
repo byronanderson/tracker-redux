@@ -1,0 +1,98 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2171,
+          "label_ids": [
+            5030
+          ],
+          "updated_at": 1421746014000,
+          "labels": [
+            "automation"
+          ]
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster added label \"automation\" to \"have comprehensive input processing\"",
+        "highlight": "added label",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2171,
+            "original_values": {
+              "label_ids": [],
+              "updated_at": 1419094800000,
+              "labels": []
+            },
+            "new_values": {
+              "label_ids": [
+                5030
+              ],
+              "updated_at": 1421746014000,
+              "labels": [
+                "automation"
+              ]
+            },
+            "name": "have comprehensive input processing",
+            "story_type": "release"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2171,
+            "name": "have comprehensive input processing",
+            "story_type": "release",
+            "url": "http://localhost/story/show/2171"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421746014000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2171,
+          "label_ids": [],
+          "updated_at": 1419094800000,
+          "labels": []
+        }
+      ],
+      "parameters": {
+        "label_ids_to_add": [
+          5030
+        ],
+        "ids": [
+          2171
+        ]
+      },
+      "person_id": 202,
+      "type": "multi_story_update_label",
+      "command_uuid": "55c42906-a671-4c9a-9324-1bfb2366baf1",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421760414000,
+  "result": "stale"
+}

@@ -1,0 +1,75 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "iteration",
+          "number": 8,
+          "team_strength": 0.2
+        }
+      ],
+      "activity": {
+        "kind": "iteration_update_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster changed iteration 8's team strength from 1.0 to 0.2",
+        "highlight": "changed",
+        "changes": [
+          {
+            "kind": "iteration_override",
+            "change_type": "update",
+            "number": 8,
+            "original_values": {
+              "number": 8,
+              "team_strength": 1
+            },
+            "new_values": {
+              "number": 8,
+              "team_strength": 0.2
+            }
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "iteration_override",
+            "number": 8
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745021000
+      },
+      "mutandum": [
+        {
+          "type": "iteration",
+          "number": 8,
+          "team_strength": 1
+        }
+      ],
+      "parameters": {
+        "team_strength": 0.2,
+        "number": 8
+      },
+      "person_id": 202,
+      "type": "iteration_update",
+      "command_uuid": "76aa5ded-7361-469b-8a1b-8a704005405f",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421759420000,
+  "result": "stale"
+}

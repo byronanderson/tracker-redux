@@ -1,0 +1,237 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2156,
+          "label_ids": [
+            5027,
+            5025
+          ],
+          "updated_at": 1421746193000,
+          "labels": [
+            "command",
+            "monitoring"
+          ]
+        },
+        {
+          "type": "story",
+          "id": 2162,
+          "label_ids": [
+            5027,
+            5024
+          ],
+          "updated_at": 1421746193000,
+          "labels": [
+            "command",
+            "patterns"
+          ]
+        },
+        {
+          "type": "story",
+          "id": 2182,
+          "label_ids": [
+            5027,
+            5029,
+            5024
+          ],
+          "updated_at": 1421746193000,
+          "labels": [
+            "command",
+            "eyes-only",
+            "patterns"
+          ]
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster added label \"command\" to 3 stories",
+        "highlight": "added label",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2156,
+            "original_values": {
+              "label_ids": [
+                5025
+              ],
+              "updated_at": 1420077600000,
+              "labels": [
+                "monitoring"
+              ]
+            },
+            "new_values": {
+              "label_ids": [
+                5027,
+                5025
+              ],
+              "updated_at": 1421746193000,
+              "labels": [
+                "command",
+                "monitoring"
+              ]
+            },
+            "name": "Accept input data stream from NOAA",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2162,
+            "original_values": {
+              "label_ids": [
+                5024
+              ],
+              "updated_at": 1420563780000,
+              "labels": [
+                "patterns"
+              ]
+            },
+            "new_values": {
+              "label_ids": [
+                5027,
+                5024
+              ],
+              "updated_at": 1421746193000,
+              "labels": [
+                "command",
+                "patterns"
+              ]
+            },
+            "name": "p5",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2182,
+            "original_values": {
+              "label_ids": [
+                5029,
+                5024
+              ],
+              "updated_at": 1420909320000,
+              "labels": [
+                "eyes-only",
+                "patterns"
+              ]
+            },
+            "new_values": {
+              "label_ids": [
+                5027,
+                5029,
+                5024
+              ],
+              "updated_at": 1421746193000,
+              "labels": [
+                "command",
+                "eyes-only",
+                "patterns"
+              ]
+            },
+            "name": "iter7-1",
+            "story_type": "bug"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2156,
+            "name": "Accept input data stream from NOAA",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2156"
+          },
+          {
+            "kind": "story",
+            "id": 2162,
+            "name": "p5",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2162"
+          },
+          {
+            "kind": "story",
+            "id": 2182,
+            "name": "iter7-1",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2182"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421746193000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2156,
+          "label_ids": [
+            5025
+          ],
+          "updated_at": 1420077600000,
+          "labels": [
+            "monitoring"
+          ]
+        },
+        {
+          "type": "story",
+          "id": 2162,
+          "label_ids": [
+            5024
+          ],
+          "updated_at": 1420563780000,
+          "labels": [
+            "patterns"
+          ]
+        },
+        {
+          "type": "story",
+          "id": 2182,
+          "label_ids": [
+            5029,
+            5024
+          ],
+          "updated_at": 1420909320000,
+          "labels": [
+            "eyes-only",
+            "patterns"
+          ]
+        }
+      ],
+      "parameters": {
+        "label_ids_to_add": [
+          5027
+        ],
+        "label_ids_to_remove": [],
+        "ids": [
+          2156,
+          2162,
+          2182
+        ]
+      },
+      "person_id": 202,
+      "type": "multi_story_update_label",
+      "command_uuid": "d42179b1-4ed0-4740-a60c-17cb732c10f0",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421760592000,
+  "result": "stale"
+}

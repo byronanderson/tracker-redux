@@ -1,0 +1,98 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2190,
+          "current_state": "started",
+          "owned_by_id": 202,
+          "owner_ids": [
+            202
+          ],
+          "updated_at": 1421745841000
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "102_18",
+        "project_version": 18,
+        "message": "Robert Brewster started this feature",
+        "highlight": "started",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2190,
+            "original_values": {
+              "current_state": "planned",
+              "owned_by_id": null,
+              "owner_ids": [],
+              "updated_at": 1415466060000
+            },
+            "new_values": {
+              "current_state": "started",
+              "owned_by_id": 202,
+              "owner_ids": [
+                202
+              ],
+              "updated_at": 1421745841000
+            },
+            "name": "Develop voice recognition",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2190,
+            "name": "Develop voice recognition",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2190"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 102,
+          "name": "T-1000 mimetic poly-alloy assassin"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745841000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2190,
+          "current_state": "planned",
+          "owned_by_id": -1,
+          "owner_ids": [],
+          "updated_at": 1415466060000
+        }
+      ],
+      "parameters": {
+        "current_state": "started",
+        "owner_ids": [
+          202
+        ],
+        "id": 2190,
+        "owned_by_id": 202
+      },
+      "person_id": 202,
+      "type": "story_update",
+      "command_uuid": "82d1facc-1f7d-4140-ae31-982c4910286e",
+      "project": {
+        "id": 102,
+        "version": 18
+      }
+    }
+  ],
+  "session_expires_at": 1421760241000,
+  "result": "stale"
+}

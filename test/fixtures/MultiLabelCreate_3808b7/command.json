@@ -1,0 +1,76 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "label",
+          "id": 5035,
+          "project_id": 101,
+          "name": "sir paul",
+          "created_at": 1421745576000,
+          "updated_at": 1421745576000
+        }
+      ],
+      "activity": {
+        "kind": "label_create_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster created labels: \"sir paul\"",
+        "highlight": "created",
+        "changes": [
+          {
+            "kind": "label",
+            "change_type": "create",
+            "id": 5035,
+            "new_values": {
+              "id": 5035,
+              "project_id": 101,
+              "name": "sir paul",
+              "created_at": 1421745576000,
+              "updated_at": 1421745576000
+            },
+            "name": "sir paul"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "label",
+            "id": 5035,
+            "name": "sir paul"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745576000
+      },
+      "mutandum": [],
+      "parameters": {
+        "labels": [
+          {
+            "name": "sir paul"
+          }
+        ]
+      },
+      "person_id": 202,
+      "type": "multi_label_create",
+      "command_uuid": "c01c847a-0a8b-4ca4-a813-74fafe3808b7",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421759975000,
+  "result": "stale"
+}

@@ -1,0 +1,90 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2166,
+          "current_state": "unstarted",
+          "updated_at": 1421746373000,
+          "before_id": 2226,
+          "after_id": 2177
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_248",
+        "project_version": 248,
+        "message": "Robert Brewster unstarted this bug",
+        "highlight": "unstarted",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2166,
+            "original_values": {
+              "current_state": "started",
+              "updated_at": 1418490000000,
+              "before_id": 2120,
+              "after_id": 2171
+            },
+            "new_values": {
+              "current_state": "unstarted",
+              "updated_at": 1421746373000,
+              "before_id": 2226,
+              "after_id": 2177
+            },
+            "name": "don't send airforce orders to the army",
+            "story_type": "bug"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2166,
+            "name": "don't send airforce orders to the army",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2166"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421746373000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2166,
+          "current_state": "started",
+          "updated_at": 1418490000000,
+          "before_id": 2120,
+          "after_id": 2171
+        }
+      ],
+      "parameters": {
+        "current_state": "unstarted",
+        "id": 2166
+      },
+      "person_id": 202,
+      "type": "story_update",
+      "command_uuid": "e2af3ff5-62ee-414e-81e3-547ed4ec2228",
+      "project": {
+        "id": 101,
+        "version": 248
+      }
+    }
+  ],
+  "session_expires_at": 1421760772000,
+  "result": "stale"
+}

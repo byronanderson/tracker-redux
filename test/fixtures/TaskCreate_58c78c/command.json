@@ -1,0 +1,104 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2162,
+          "updated_at": 1421745337000
+        },
+        {
+          "type": "task",
+          "id": 5046,
+          "story_id": 2162,
+          "description": "bruce",
+          "complete": false,
+          "position": 2,
+          "created_at": 1421745337000,
+          "updated_at": 1421745337000
+        }
+      ],
+      "activity": {
+        "kind": "task_create_activity",
+        "guid": "101_247",
+        "project_version": 247,
+        "message": "Robert Brewster added task: \"bruce\"",
+        "highlight": "added task:",
+        "changes": [
+          {
+            "kind": "task",
+            "change_type": "create",
+            "id": 5046,
+            "new_values": {
+              "id": 5046,
+              "story_id": 2162,
+              "description": "bruce",
+              "complete": false,
+              "position": 2,
+              "created_at": 1421745337000,
+              "updated_at": 1421745337000
+            }
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2162,
+            "original_values": {
+              "updated_at": 1421745336000
+            },
+            "new_values": {
+              "updated_at": 1421745337000
+            },
+            "name": "p5",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2162,
+            "name": "p5",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2162"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745337000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2162,
+          "updated_at": 1421745336000
+        }
+      ],
+      "parameters": {
+        "description": "bruce",
+        "story_id": 2162,
+        "complete": false,
+        "position": 2
+      },
+      "person_id": 202,
+      "type": "task_create",
+      "command_uuid": "52329fb3-1381-4055-b843-f29c0458c78c",
+      "project": {
+        "id": 101,
+        "version": 247
+      }
+    }
+  ],
+  "session_expires_at": 1421759737000,
+  "result": "stale"
+}

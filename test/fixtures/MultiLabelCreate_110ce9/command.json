@@ -1,0 +1,76 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "label",
+          "id": 5063,
+          "project_id": 101,
+          "name": "kill_humans",
+          "created_at": 1421746684000,
+          "updated_at": 1421746684000
+        }
+      ],
+      "activity": {
+        "kind": "label_create_activity",
+        "guid": "101_248",
+        "project_version": 248,
+        "message": "Robert Brewster created labels: \"kill_humans\"",
+        "highlight": "created",
+        "changes": [
+          {
+            "kind": "label",
+            "change_type": "create",
+            "id": 5063,
+            "new_values": {
+              "id": 5063,
+              "project_id": 101,
+              "name": "kill_humans",
+              "created_at": 1421746684000,
+              "updated_at": 1421746684000
+            },
+            "name": "kill_humans"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "label",
+            "id": 5063,
+            "name": "kill_humans"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421746684000
+      },
+      "mutandum": [],
+      "parameters": {
+        "labels": [
+          {
+            "name": "kill_humans"
+          }
+        ]
+      },
+      "person_id": 202,
+      "type": "multi_label_create",
+      "command_uuid": "36381c0f-3041-43b6-a823-b70845110ce9",
+      "project": {
+        "id": 101,
+        "version": 248
+      }
+    }
+  ],
+  "session_expires_at": 1421761084000,
+  "result": "stale"
+}

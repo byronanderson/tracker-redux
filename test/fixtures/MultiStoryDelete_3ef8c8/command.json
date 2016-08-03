@@ -1,0 +1,94 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2166,
+          "deleted": true
+        }
+      ],
+      "activity": {
+        "kind": "story_delete_activity",
+        "guid": "101_248",
+        "project_version": 248,
+        "message": "Robert Brewster deleted this bug",
+        "highlight": "deleted",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2166,
+            "name": "don't send airforce orders to the army",
+            "story_type": "bug"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2166,
+            "name": "don't send airforce orders to the army",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2166"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421746389000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2166,
+          "project_id": 101,
+          "name": "don't send airforce orders to the army",
+          "description": "new description 396",
+          "story_type": "bug",
+          "current_state": "started",
+          "estimate": -1,
+          "requested_by_id": 202,
+          "owned_by_id": 202,
+          "owner_ids": [
+            202
+          ],
+          "label_ids": [
+            5027
+          ],
+          "follower_ids": [],
+          "created_at": 1418490000000,
+          "updated_at": 1418490000000,
+          "before_id": 2120,
+          "after_id": 2171,
+          "labels": [
+            "command"
+          ]
+        }
+      ],
+      "parameters": {
+        "ids": [
+          2166
+        ]
+      },
+      "person_id": 202,
+      "type": "multi_story_delete",
+      "command_uuid": "64378dd4-5756-4b24-8ddf-2c9aad3ef8c8",
+      "project": {
+        "id": 101,
+        "version": 248
+      }
+    }
+  ],
+  "session_expires_at": 1421760789000,
+  "result": "stale"
+}

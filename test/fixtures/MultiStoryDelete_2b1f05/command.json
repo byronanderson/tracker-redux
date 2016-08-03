@@ -1,0 +1,93 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2182,
+          "deleted": true
+        }
+      ],
+      "activity": {
+        "kind": "story_delete_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster deleted this bug",
+        "highlight": "deleted",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2182,
+            "name": "iter7-1",
+            "story_type": "bug"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2182,
+            "name": "iter7-1",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2182"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745192000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2182,
+          "project_id": 101,
+          "name": "iter7-1",
+          "story_type": "bug",
+          "current_state": "unscheduled",
+          "estimate": -1,
+          "requested_by_id": 205,
+          "owned_by_id": -1,
+          "owner_ids": [],
+          "label_ids": [
+            5029,
+            5024
+          ],
+          "follower_ids": [],
+          "created_at": 1420909200000,
+          "updated_at": 1420909320000,
+          "before_id": 2169,
+          "after_id": 2183,
+          "labels": [
+            "eyes-only",
+            "patterns"
+          ]
+        }
+      ],
+      "parameters": {
+        "ids": [
+          2182
+        ]
+      },
+      "person_id": 202,
+      "type": "multi_story_delete",
+      "command_uuid": "69406a0f-eb35-41a0-b43a-d688a32b1f05",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421759592000,
+  "result": "stale"
+}

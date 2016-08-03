@@ -1,0 +1,90 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2175,
+          "updated_at": 1421745930000,
+          "before_id": 2176,
+          "after_id": 2167
+        }
+      ],
+      "activity": {
+        "kind": "story_move_activity",
+        "guid": "101_247",
+        "project_version": 247,
+        "message": "Robert Brewster moved this story before 'fix bugs identified by field trials'",
+        "highlight": "moved",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2175,
+            "original_values": {
+              "updated_at": 1420304400000,
+              "before_id": 2174,
+              "after_id": 2177
+            },
+            "new_values": {
+              "updated_at": 1421745930000,
+              "before_id": 2176,
+              "after_id": 2167
+            },
+            "name": "pelican-exclusion algorithm shouldn't match carrier-launched drones",
+            "story_type": "bug"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2175,
+            "name": "pelican-exclusion algorithm shouldn't match carrier-launched drones",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2175"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745930000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2175,
+          "updated_at": 1420304400000,
+          "before_id": 2174,
+          "after_id": 2177
+        }
+      ],
+      "parameters": {
+        "group": "scheduled",
+        "ids": [
+          2175
+        ],
+        "after_id": 2167,
+        "before_id": 2176
+      },
+      "person_id": 202,
+      "type": "multi_story_move",
+      "command_uuid": "c51d315c-aa25-4c54-9cd9-cf31e1e1e911",
+      "project": {
+        "id": 101,
+        "version": 247
+      }
+    }
+  ],
+  "session_expires_at": 1421760330000,
+  "result": "stale"
+}

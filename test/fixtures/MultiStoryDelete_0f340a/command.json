@@ -1,0 +1,89 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2175,
+          "deleted": true
+        }
+      ],
+      "activity": {
+        "kind": "story_delete_activity",
+        "guid": "101_256",
+        "project_version": 256,
+        "message": "Robert Brewster deleted this bug",
+        "highlight": "deleted",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2175,
+            "name": "pelican-exclusion algorithm shouldn't match carrier-launched drones",
+            "story_type": "bug"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2175,
+            "name": "pelican-exclusion algorithm shouldn't match carrier-launched drones",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2175"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421720625000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2175,
+          "project_id": 101,
+          "name": "pelican-exclusion algorithm shouldn't match carrier-launched drones",
+          "story_type": "bug",
+          "current_state": "unstarted",
+          "estimate": -1,
+          "requested_by_id": 202,
+          "owned_by_id": -1,
+          "owner_ids": [],
+          "label_ids": [],
+          "follower_ids": [],
+          "created_at": 1420304400000,
+          "updated_at": 1420304400000,
+          "before_id": 2185,
+          "after_id": 2177,
+          "integration_id": 54,
+          "external_id": "mYm15LEDPBU",
+          "labels": []
+        }
+      ],
+      "parameters": {
+        "ids": [
+          2175
+        ]
+      },
+      "person_id": 202,
+      "type": "multi_story_delete",
+      "command_uuid": "cd8b4d5b-62df-4eec-88ed-93bcd50f340a",
+      "project": {
+        "id": 101,
+        "version": 256
+      }
+    }
+  ],
+  "session_expires_at": 1421735025000,
+  "result": "stale"
+}

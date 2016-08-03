@@ -1,0 +1,86 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2192,
+          "before_id": 2191,
+          "after_id": 2190
+        }
+      ],
+      "activity": {
+        "kind": "story_move_activity",
+        "guid": "102_19",
+        "project_version": 19,
+        "message": "Robert Brewster moved this story before 'Glen identified as hostile'",
+        "highlight": "moved",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2192,
+            "original_values": {
+              "before_id": 2193,
+              "after_id": 2191
+            },
+            "new_values": {
+              "before_id": 2191,
+              "after_id": 2190
+            },
+            "name": "Learn to love as humans do",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2192,
+            "name": "Learn to love as humans do",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2192"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 102,
+          "name": "T-1000 mimetic poly-alloy assassin"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745757000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2192,
+          "before_id": 2193,
+          "after_id": 2191
+        }
+      ],
+      "parameters": {
+        "group": "scheduled",
+        "ids": [
+          2192
+        ],
+        "after_id": 2190,
+        "before_id": 2191
+      },
+      "person_id": 202,
+      "type": "multi_story_move",
+      "command_uuid": "7280119a-5ed0-456e-88a9-57632bf602a0",
+      "project": {
+        "id": 102,
+        "version": 19
+      }
+    }
+  ],
+  "session_expires_at": 1421760157000,
+  "result": "stale"
+}

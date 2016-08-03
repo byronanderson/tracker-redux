@@ -1,0 +1,86 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2225,
+          "story_type": "feature",
+          "deadline": null,
+          "updated_at": 1421746340000
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_247",
+        "project_version": 247,
+        "message": "Robert Brewster edited this feature",
+        "highlight": "edited",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2225,
+            "original_values": {
+              "story_type": "release",
+              "deadline": 1421746338000,
+              "updated_at": 1421746339000
+            },
+            "new_values": {
+              "story_type": "feature",
+              "deadline": null,
+              "updated_at": 1421746340000
+            },
+            "name": "my new release",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2225,
+            "name": "my new release",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2225"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421746340000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2225,
+          "story_type": "release",
+          "deadline": 1421746338000,
+          "updated_at": 1421746339000
+        }
+      ],
+      "parameters": {
+        "story_type": "feature",
+        "id": 2225
+      },
+      "person_id": 202,
+      "type": "story_update",
+      "command_uuid": "c8665272-0be8-46dd-ac1d-ccb4905d1b17",
+      "project": {
+        "id": 101,
+        "version": 247
+      }
+    }
+  ],
+  "session_expires_at": 1421760740000,
+  "result": "stale"
+}

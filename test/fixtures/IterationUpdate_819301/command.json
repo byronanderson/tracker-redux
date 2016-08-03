@@ -1,0 +1,79 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "iteration",
+          "number": 8,
+          "length": "default",
+          "finish": 1422086400000
+        }
+      ],
+      "activity": {
+        "kind": "iteration_update_activity",
+        "guid": "101_247",
+        "project_version": 247,
+        "message": "Robert Brewster reverted iteration 8's length override",
+        "highlight": "reverted",
+        "changes": [
+          {
+            "kind": "iteration_override",
+            "change_type": "update",
+            "number": 8,
+            "original_values": {
+              "number": 8,
+              "finish": 1425715200000,
+              "length": 7
+            },
+            "new_values": {
+              "number": 8,
+              "length": "default",
+              "finish": 1422086400000
+            }
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "iteration_override",
+            "number": 8
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745016000
+      },
+      "mutandum": [
+        {
+          "type": "iteration",
+          "number": 8,
+          "finish": 1425715200000,
+          "length": 7
+        }
+      ],
+      "parameters": {
+        "length": "default",
+        "number": 8
+      },
+      "person_id": 202,
+      "type": "iteration_update",
+      "command_uuid": "326527a9-d2ad-4f46-92cf-e35cbd819301",
+      "project": {
+        "id": 101,
+        "version": 247
+      }
+    }
+  ],
+  "session_expires_at": 1421759416000,
+  "result": "stale"
+}

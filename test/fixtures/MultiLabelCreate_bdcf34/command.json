@@ -1,0 +1,76 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "label",
+          "id": 5050,
+          "project_id": 101,
+          "name": "my-labelz",
+          "created_at": 1421745641000,
+          "updated_at": 1421745641000
+        }
+      ],
+      "activity": {
+        "kind": "label_create_activity",
+        "guid": "101_252",
+        "project_version": 252,
+        "message": "Andy Goode created labels: \"my-labelz\"",
+        "highlight": "created",
+        "changes": [
+          {
+            "kind": "label",
+            "change_type": "create",
+            "id": 5050,
+            "new_values": {
+              "id": 5050,
+              "project_id": 101,
+              "name": "my-labelz",
+              "created_at": 1421745641000,
+              "updated_at": 1421745641000
+            },
+            "name": "my-labelz"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "label",
+            "id": 5050,
+            "name": "my-labelz"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 203,
+          "name": "Andy Goode",
+          "initials": "AG"
+        },
+        "occurred_at": 1421745641000
+      },
+      "mutandum": [],
+      "parameters": {
+        "labels": [
+          {
+            "name": "my-labelz"
+          }
+        ]
+      },
+      "person_id": 203,
+      "type": "multi_label_create",
+      "command_uuid": "e7e40ca9-7a3d-4c2a-8a64-f7b10bbdcf34",
+      "project": {
+        "id": 101,
+        "version": 252
+      }
+    }
+  ],
+  "session_expires_at": 1421760041000,
+  "result": "stale"
+}

@@ -1,0 +1,82 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2188,
+          "description": "i hear theres some chickens there",
+          "updated_at": 1421746487000
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "102_19",
+        "project_version": 19,
+        "message": "Andy Goode edited this feature",
+        "highlight": "edited",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2188,
+            "original_values": {
+              "description": null,
+              "updated_at": 1421746483000
+            },
+            "new_values": {
+              "description": "i hear theres some chickens there",
+              "updated_at": 1421746487000
+            },
+            "name": "Machine chainsaw arms",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2188,
+            "name": "Machine chainsaw arms",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2188"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 102,
+          "name": "T-1000 mimetic poly-alloy assassin"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 203,
+          "name": "Andy Goode",
+          "initials": "AG"
+        },
+        "occurred_at": 1421746488000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2188,
+          "description": "",
+          "updated_at": 1421746483000
+        }
+      ],
+      "parameters": {
+        "description": "i hear theres some chickens there",
+        "id": 2188
+      },
+      "person_id": 203,
+      "type": "story_update",
+      "command_uuid": "1972746c-da57-42cd-84f2-874ed6ac3bf8",
+      "project": {
+        "id": 102,
+        "version": 19
+      }
+    }
+  ],
+  "session_expires_at": 1421760887000,
+  "result": "stale"
+}

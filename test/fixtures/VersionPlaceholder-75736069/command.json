@@ -1,0 +1,1 @@
+{"kind":"command_create_response","stale_commands":[{"kind":"command","results":[],"mutandum":[],"person_id":103,"type":"version_placeholder","command_uuid":"f886cd153550fe5103ab714556ac4fb9","project":{"id":97,"version":2}}],"result":"stale"}

@@ -1,0 +1,82 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2162,
+          "name": "a new story",
+          "updated_at": 1421745599000
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster edited this feature",
+        "highlight": "edited",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2162,
+            "original_values": {
+              "name": "p5",
+              "updated_at": 1420563780000
+            },
+            "new_values": {
+              "name": "a new story",
+              "updated_at": 1421745599000
+            },
+            "name": "a new story",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2162,
+            "name": "a new story",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2162"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745599000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2162,
+          "name": "p5",
+          "updated_at": 1420563780000
+        }
+      ],
+      "parameters": {
+        "name": "a new story",
+        "id": 2162
+      },
+      "person_id": 202,
+      "type": "story_update",
+      "command_uuid": "74794f0d-c417-4326-9097-66c07923a338",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421759998000,
+  "result": "stale"
+}

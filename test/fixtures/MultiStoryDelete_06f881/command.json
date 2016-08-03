@@ -1,0 +1,129 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2156,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2162,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2182,
+          "deleted": true
+        }
+      ],
+      "activity": {
+        "kind": "story_delete_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster deleted 3 stories",
+        "highlight": "deleted",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2156,
+            "name": "Accept input data stream from NOAA",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2162,
+            "name": "p5",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2182,
+            "name": "iter7-1",
+            "story_type": "bug"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2156,
+            "name": "Accept input data stream from NOAA",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2156"
+          },
+          {
+            "kind": "story",
+            "id": 2162,
+            "name": "p5",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2162"
+          },
+          {
+            "kind": "story",
+            "id": 2182,
+            "name": "iter7-1",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2182"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421746205000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2156,
+          "name": "Accept input data stream from NOAA",
+          "story_type": "feature",
+          "current_state": "accepted"
+        },
+        {
+          "type": "story",
+          "id": 2162,
+          "name": "p5",
+          "story_type": "feature",
+          "current_state": "unstarted"
+        },
+        {
+          "type": "story",
+          "id": 2182,
+          "name": "iter7-1",
+          "story_type": "bug",
+          "current_state": "unscheduled"
+        }
+      ],
+      "parameters": {
+        "ids": [
+          2156,
+          2162,
+          2182
+        ]
+      },
+      "person_id": 202,
+      "type": "multi_story_delete",
+      "command_uuid": "0df2196c-59a6-4156-99ca-4d42e306f881",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421760605000,
+  "result": "stale"
+}

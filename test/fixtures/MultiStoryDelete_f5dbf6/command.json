@@ -1,0 +1,468 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "comment",
+          "id": 205,
+          "deleted": true
+        },
+        {
+          "type": "following",
+          "id": 9,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2120,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2121,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2161,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2162,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2166,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2167,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2170,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2171,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2172,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2173,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2174,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2175,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2176,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2177,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2178,
+          "deleted": true
+        }
+      ],
+      "activity": {
+        "kind": "story_delete_activity",
+        "guid": "101_247",
+        "project_version": 247,
+        "message": "Robert Brewster deleted 15 stories",
+        "highlight": "deleted",
+        "changes": [
+          {
+            "kind": "comment",
+            "change_type": "delete",
+            "id": 205
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2120,
+            "name": "Accept input data stream from NSA voice recognition systems",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2121,
+            "name": "Accept input data stream from NSA internet scanning",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2161,
+            "name": "p4",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2162,
+            "name": "p5",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2166,
+            "name": "don't send airforce orders to the army",
+            "story_type": "bug"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2167,
+            "name": "command-1",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2170,
+            "name": "command-4",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2171,
+            "name": "have comprehensive input processing",
+            "story_type": "release"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2172,
+            "name": "don't mistake passenger jets for bombers",
+            "story_type": "bug"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2173,
+            "name": "don't confuse volcanoes with missle launches",
+            "story_type": "bug"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2174,
+            "name": "sperm whales are not attack submarines",
+            "story_type": "bug"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2175,
+            "name": "pelican-exclusion algorithm shouldn't match carrier-launched drones",
+            "story_type": "bug"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2176,
+            "name": "fix bugs identified by field trials",
+            "story_type": "release"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2177,
+            "name": "<script>alert('story content xss')</script>",
+            "story_type": "bug"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2178,
+            "name": "control char->\u000b<-> Андрей Шео <-control char",
+            "story_type": "bug"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2171,
+            "name": "have comprehensive input processing",
+            "story_type": "release",
+            "url": "http://localhost/story/show/2171"
+          },
+          {
+            "kind": "story",
+            "id": 2166,
+            "name": "don't send airforce orders to the army",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2166"
+          },
+          {
+            "kind": "story",
+            "id": 2120,
+            "name": "Accept input data stream from NSA voice recognition systems",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2120"
+          },
+          {
+            "kind": "story",
+            "id": 2177,
+            "name": "<script>alert('story content xss')</script>",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2177"
+          },
+          {
+            "kind": "story",
+            "id": 2175,
+            "name": "pelican-exclusion algorithm shouldn't match carrier-launched drones",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2175"
+          },
+          {
+            "kind": "story",
+            "id": 2174,
+            "name": "sperm whales are not attack submarines",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2174"
+          },
+          {
+            "kind": "story",
+            "id": 2173,
+            "name": "don't confuse volcanoes with missle launches",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2173"
+          },
+          {
+            "kind": "story",
+            "id": 2172,
+            "name": "don't mistake passenger jets for bombers",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2172"
+          },
+          {
+            "kind": "story",
+            "id": 2176,
+            "name": "fix bugs identified by field trials",
+            "story_type": "release",
+            "url": "http://localhost/story/show/2176"
+          },
+          {
+            "kind": "story",
+            "id": 2121,
+            "name": "Accept input data stream from NSA internet scanning",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2121"
+          },
+          {
+            "kind": "story",
+            "id": 2178,
+            "name": "control char->\u000b<-> Андрей Шео <-control char",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2178"
+          },
+          {
+            "kind": "story",
+            "id": 2170,
+            "name": "command-4",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2170"
+          },
+          {
+            "kind": "story",
+            "id": 2167,
+            "name": "command-1",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2167"
+          },
+          {
+            "kind": "story",
+            "id": 2162,
+            "name": "p5",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2162"
+          },
+          {
+            "kind": "story",
+            "id": 2161,
+            "name": "p4",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2161"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421746671000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2171,
+          "name": "have comprehensive input processing",
+          "story_type": "release",
+          "current_state": "unstarted"
+        },
+        {
+          "type": "story",
+          "id": 2166,
+          "name": "don't send airforce orders to the army",
+          "story_type": "bug",
+          "current_state": "started"
+        },
+        {
+          "type": "story",
+          "id": 2120,
+          "name": "Accept input data stream from NSA voice recognition systems",
+          "story_type": "feature",
+          "current_state": "started"
+        },
+        {
+          "type": "story",
+          "id": 2177,
+          "name": "<script>alert('story content xss')</script>",
+          "story_type": "bug",
+          "current_state": "started"
+        },
+        {
+          "type": "story",
+          "id": 2175,
+          "name": "pelican-exclusion algorithm shouldn't match carrier-launched drones",
+          "story_type": "bug",
+          "current_state": "unstarted"
+        },
+        {
+          "type": "story",
+          "id": 2174,
+          "name": "sperm whales are not attack submarines",
+          "story_type": "bug",
+          "current_state": "unstarted"
+        },
+        {
+          "type": "story",
+          "id": 2173,
+          "name": "don't confuse volcanoes with missle launches",
+          "story_type": "bug",
+          "current_state": "unstarted"
+        },
+        {
+          "type": "story",
+          "id": 2172,
+          "name": "don't mistake passenger jets for bombers",
+          "story_type": "bug",
+          "current_state": "unstarted"
+        },
+        {
+          "type": "story",
+          "id": 2176,
+          "name": "fix bugs identified by field trials",
+          "story_type": "release",
+          "current_state": "unstarted"
+        },
+        {
+          "type": "story",
+          "id": 2121,
+          "name": "Accept input data stream from NSA internet scanning",
+          "story_type": "feature",
+          "current_state": "unstarted"
+        },
+        {
+          "type": "story",
+          "id": 2178,
+          "name": "control char->\u000b<-> Андрей Шео <-control char",
+          "story_type": "bug",
+          "current_state": "unstarted"
+        },
+        {
+          "type": "story",
+          "id": 2170,
+          "name": "command-4",
+          "story_type": "feature",
+          "current_state": "unstarted"
+        },
+        {
+          "type": "story",
+          "id": 2167,
+          "name": "command-1",
+          "story_type": "feature",
+          "current_state": "unstarted"
+        },
+        {
+          "type": "story",
+          "id": 2162,
+          "name": "p5",
+          "story_type": "feature",
+          "current_state": "unstarted"
+        },
+        {
+          "type": "story",
+          "id": 2161,
+          "name": "p4",
+          "story_type": "feature",
+          "current_state": "unstarted"
+        }
+      ],
+      "parameters": {
+        "ids": [
+          2171,
+          2166,
+          2120,
+          2177,
+          2175,
+          2174,
+          2173,
+          2172,
+          2176,
+          2121,
+          2178,
+          2170,
+          2167,
+          2162,
+          2161
+        ]
+      },
+      "person_id": 202,
+      "type": "multi_story_delete",
+      "command_uuid": "30d68de1-6719-49a7-bb75-b13373f5dbf6",
+      "project": {
+        "id": 101,
+        "version": 247
+      }
+    }
+  ],
+  "session_expires_at": 1421761069000,
+  "result": "stale"
+}

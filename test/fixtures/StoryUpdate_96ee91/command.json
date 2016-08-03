@@ -1,0 +1,82 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2122,
+          "name": "xyzzy",
+          "updated_at": 1421745160000
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster edited this feature",
+        "highlight": "edited",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2122,
+            "original_values": {
+              "name": "iter0-7",
+              "updated_at": 1415129089000
+            },
+            "new_values": {
+              "name": "xyzzy",
+              "updated_at": 1421745160000
+            },
+            "name": "xyzzy",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2122,
+            "name": "xyzzy",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2122"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745160000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2122,
+          "name": "iter0-7",
+          "updated_at": 1415129089000
+        }
+      ],
+      "parameters": {
+        "name": "xyzzy",
+        "id": 2122
+      },
+      "person_id": 202,
+      "type": "story_update",
+      "command_uuid": "e60a76dc-0d88-4d8d-b53f-42444696ee91",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421759560000,
+  "result": "stale"
+}

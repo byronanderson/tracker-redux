@@ -1,0 +1,498 @@
+{
+  "id": 102,
+  "name": "T-1000 mimetic poly-alloy assassin",
+  "version": 18,
+  "iteration_length": 1,
+  "week_start_day": "Saturday",
+  "point_scale": "0,1,10,20,50,100",
+  "point_scale_is_custom": true,
+  "bugs_and_chores_are_estimatable": true,
+  "automatic_planning": false,
+  "enable_tasks": true,
+  "time_zone": {
+    "kind": "time_zone",
+    "olson_name": "America/Los_Angeles",
+    "offset": "-08:00"
+  },
+  "velocity_averaged_over": 3,
+  "number_of_done_iterations_to_show": 12,
+  "has_google_domain": true,
+  "initial_velocity": 10,
+  "public": false,
+  "start_time": 1415404800000,
+  "shown_iterations_start_time": 1415404800000,
+  "created_at": 1420909320000,
+  "updated_at": 1420909320000,
+  "stories": [
+    {
+      "id": 2186,
+      "created_at": 1415466000000,
+      "updated_at": 1415466000000,
+      "accepted_at": 1415466000000,
+      "estimate": 20,
+      "story_type": "feature",
+      "name": "Research metalic fluid dynamics",
+      "description": "Metal and water - same or different?",
+      "current_state": "accepted",
+      "requested_by_id": 205,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [
+        {
+          "id": 5027,
+          "description": "Determine what \"fluid\" means",
+          "complete": true,
+          "created_at": 1415466000000,
+          "updated_at": 1415466000000
+        },
+        {
+          "id": 5028,
+          "description": "Find a blowtorch",
+          "complete": true,
+          "created_at": 1415466000000,
+          "updated_at": 1415466000000
+        }
+      ],
+      "follower_ids": [],
+      "comments": []
+    },
+    {
+      "id": 2187,
+      "created_at": 1415466015000,
+      "updated_at": 1415466015000,
+      "accepted_at": 1415466015000,
+      "estimate": 0,
+      "story_type": "chore",
+      "name": "Develop facial recognition",
+      "current_state": "accepted",
+      "requested_by_id": 205,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "follower_ids": [],
+      "comments": []
+    },
+    {
+      "id": 2188,
+      "created_at": 1415466030000,
+      "updated_at": 1415466030000,
+      "estimate": 1,
+      "story_type": "feature",
+      "name": "Machine chainsaw arms",
+      "current_state": "delivered",
+      "requested_by_id": 205,
+      "owner_ids": [],
+      "label_ids": [
+        5031
+      ],
+      "tasks": [
+        {
+          "id": 5029,
+          "description": "Buy chainsaw oil in bulk",
+          "complete": true,
+          "created_at": 1415466030000,
+          "updated_at": 1415466030000
+        },
+        {
+          "id": 5030,
+          "description": "Find new interns",
+          "complete": false,
+          "created_at": 1415466030000,
+          "updated_at": 1415466030000
+        }
+      ],
+      "follower_ids": [],
+      "comments": []
+    },
+    {
+      "id": 2189,
+      "created_at": 1415466045000,
+      "updated_at": 1415466045000,
+      "estimate": 1,
+      "story_type": "feature",
+      "name": "Develop voice synthesizer",
+      "description": "BEEP boop",
+      "current_state": "started",
+      "requested_by_id": 205,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "follower_ids": [],
+      "comments": []
+    },
+    {
+      "id": 2190,
+      "created_at": 1415466060000,
+      "updated_at": 1415466060000,
+      "estimate": 1,
+      "story_type": "feature",
+      "name": "Develop voice recognition",
+      "description": "All the better to listen to you with my dear",
+      "current_state": "planned",
+      "requested_by_id": 205,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "follower_ids": [],
+      "comments": []
+    },
+    {
+      "id": 2206,
+      "created_at": 1421745823000,
+      "updated_at": 1421745823000,
+      "story_type": "release",
+      "name": "Newly created release",
+      "current_state": "unstarted",
+      "requested_by_id": 202,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "follower_ids": [],
+      "comments": []
+    },
+    {
+      "id": 2191,
+      "created_at": 1415466075000,
+      "updated_at": 1415466075000,
+      "estimate": 1,
+      "story_type": "bug",
+      "name": "Glen identified as hostile",
+      "description": "We should prevent killing of Glen, when possible",
+      "current_state": "unstarted",
+      "requested_by_id": 205,
+      "owner_ids": [],
+      "label_ids": [
+        5031
+      ],
+      "tasks": [],
+      "follower_ids": [],
+      "comments": []
+    },
+    {
+      "id": 2192,
+      "created_at": 1415466090000,
+      "updated_at": 1415466090000,
+      "story_type": "feature",
+      "name": "Learn to love as humans do",
+      "description": "BEEP boop",
+      "current_state": "unstarted",
+      "requested_by_id": 205,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [
+        {
+          "id": 5031,
+          "description": "Buy Barry White albums",
+          "complete": false,
+          "created_at": 1415466090000,
+          "updated_at": 1415466090000
+        },
+        {
+          "id": 5032,
+          "description": "Start growing roses",
+          "complete": false,
+          "created_at": 1415466090000,
+          "updated_at": 1415466090000
+        },
+        {
+          "id": 5033,
+          "description": "Create OkCupid profile",
+          "complete": false,
+          "created_at": 1415466090000,
+          "updated_at": 1415466090000
+        }
+      ],
+      "follower_ids": [],
+      "comments": []
+    },
+    {
+      "id": 2193,
+      "created_at": 1415466105000,
+      "updated_at": 1415466105000,
+      "estimate": 10,
+      "story_type": "feature",
+      "name": "Unit can disguise itself as human",
+      "description": "Get thread for meatbag clothing, learn how to sew",
+      "current_state": "unstarted",
+      "requested_by_id": 205,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "follower_ids": [],
+      "comments": []
+    },
+    {
+      "id": 2194,
+      "created_at": 1415466120000,
+      "updated_at": 1415466120000,
+      "story_type": "bug",
+      "name": "Unit can liquify self",
+      "current_state": "unstarted",
+      "requested_by_id": 205,
+      "owner_ids": [],
+      "label_ids": [
+        5031
+      ],
+      "tasks": [],
+      "follower_ids": [],
+      "comments": []
+    },
+    {
+      "id": 2195,
+      "created_at": 1415466135000,
+      "updated_at": 1415466135000,
+      "story_type": "chore",
+      "name": "Unit go back in time",
+      "current_state": "unstarted",
+      "requested_by_id": 205,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "follower_ids": [],
+      "comments": []
+    },
+    {
+      "id": 2196,
+      "created_at": 1415466150000,
+      "updated_at": 1415466150000,
+      "estimate": 100,
+      "story_type": "feature",
+      "name": "Travel back in time",
+      "description": "Kill John Connor",
+      "current_state": "unstarted",
+      "requested_by_id": 205,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "follower_ids": [],
+      "comments": []
+    },
+    {
+      "id": 2197,
+      "created_at": 1415466165000,
+      "updated_at": 1415466165000,
+      "story_type": "feature",
+      "name": "????",
+      "description": "Step 4: Profit!",
+      "current_state": "unstarted",
+      "requested_by_id": 205,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "follower_ids": [],
+      "comments": []
+    },
+    {
+      "id": 2199,
+      "created_at": 1415466195000,
+      "updated_at": 1415466195000,
+      "story_type": "feature",
+      "name": "Fix liquid nitrogen vulnerability",
+      "description": "BEEP boop",
+      "current_state": "unscheduled",
+      "requested_by_id": 205,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "follower_ids": [],
+      "comments": []
+    },
+    {
+      "id": 2198,
+      "created_at": 1415466180000,
+      "updated_at": 1415466180000,
+      "estimate": 10,
+      "story_type": "feature",
+      "name": "Acquire noxious gases",
+      "current_state": "unscheduled",
+      "requested_by_id": 205,
+      "owner_ids": [],
+      "label_ids": [
+        5031
+      ],
+      "tasks": [],
+      "follower_ids": [],
+      "comments": []
+    }
+  ],
+  "epics": [
+    {
+      "id": 2006,
+      "created_at": 1415466195000,
+      "updated_at": 1415466195000,
+      "name": "Kill all those destructive humans",
+      "label_id": 5031,
+      "comments": [],
+      "follower_ids": [],
+      "past_done_stories_count": 0,
+      "past_done_stories_no_point_count": 0,
+      "past_done_story_estimates": 0
+    }
+  ],
+  "memberships": [
+    {
+      "id": 16049,
+      "role": "owner",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 13,
+        "name": "Rob Mee",
+        "initials": "rm",
+        "username": "rob"
+      }
+    },
+    {
+      "id": 16035,
+      "role": "owner",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 201,
+        "name": "Miles Dyson",
+        "initials": "MD",
+        "username": "miles"
+      }
+    },
+    {
+      "id": 16036,
+      "last_viewed_at": 1421745819000,
+      "role": "owner",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 202,
+        "name": "Robert Brewster",
+        "initials": "rb",
+        "username": "Brewster"
+      }
+    },
+    {
+      "id": 16037,
+      "last_viewed_at": 1421745819000,
+      "role": "member",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 203,
+        "name": "Andy Goode",
+        "initials": "AG",
+        "username": "ag"
+      }
+    },
+    {
+      "id": 16038,
+      "role": "member",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 204,
+        "name": "William Candy",
+        "initials": "wc",
+        "username": "candy"
+      }
+    },
+    {
+      "id": 16039,
+      "role": "owner",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 205,
+        "name": "Catherine Weaver",
+        "initials": "CW",
+        "username": "cat"
+      }
+    },
+    {
+      "id": 16040,
+      "role": "member",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 206,
+        "name": "Serena Kogan",
+        "initials": "sk",
+        "username": "kogan"
+      }
+    },
+    {
+      "id": 16041,
+      "role": "member",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 207,
+        "name": "Boyd Sherman",
+        "initials": "bs",
+        "username": "boyd"
+      }
+    },
+    {
+      "id": 16042,
+      "role": "viewer",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 208,
+        "name": "Billy Wisher",
+        "initials": "BW",
+        "username": "billy"
+      }
+    },
+    {
+      "id": 16043,
+      "role": "member",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 209,
+        "name": "James Ellison",
+        "initials": "JE",
+        "username": "ellison"
+      }
+    },
+    {
+      "id": 16044,
+      "role": "owner",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 210,
+        "name": "XSS<script>alert('Terminator name XSS attack')</script>",
+        "initials": "termxss",
+        "username": "ssinator"
+      }
+    },
+    {
+      "id": 16045,
+      "role": "member",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 211,
+        "name": "John cc>\u000b<cc Анд",
+        "initials": "J\u000bАнд",
+        "username": "john"
+      }
+    }
+  ],
+  "labels": [
+    {
+      "id": 5031,
+      "name": "kill_humans",
+      "created_at": 1420909320000,
+      "updated_at": 1420909320000
+    }
+  ],
+  "integrations": [],
+  "iteration_overrides": [],
+  "account": {
+    "kind": "account_summary",
+    "id": 1026,
+    "name": "Cyber Research Systems",
+    "status": "active"
+  },
+  "current_iteration_number": 11,
+  "enable_following": true
+}

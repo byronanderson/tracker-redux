@@ -1,0 +1,95 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2120,
+          "current_state": "accepted",
+          "accepted_at": 1421745043000,
+          "updated_at": 1421745044000,
+          "before_id": 2171,
+          "after_id": 2157
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_248",
+        "project_version": 248,
+        "message": "Robert Brewster accepted this feature",
+        "highlight": "accepted",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2120,
+            "original_values": {
+              "current_state": "delivered",
+              "accepted_at": null,
+              "updated_at": 1421745043000,
+              "before_id": 2177,
+              "after_id": 2166
+            },
+            "new_values": {
+              "current_state": "accepted",
+              "accepted_at": 1421745043000,
+              "updated_at": 1421745044000,
+              "before_id": 2171,
+              "after_id": 2157
+            },
+            "name": "Accept input data stream from NSA voice recognition systems",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2120,
+            "name": "Accept input data stream from NSA voice recognition systems",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2120"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745044000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2120,
+          "current_state": "delivered",
+          "accepted_at": null,
+          "updated_at": 1421745043000,
+          "before_id": 2177,
+          "after_id": 2166
+        }
+      ],
+      "parameters": {
+        "current_state": "accepted",
+        "accepted_at": 1421745043000,
+        "id": 2120
+      },
+      "person_id": 202,
+      "type": "story_update",
+      "command_uuid": "3c06b4d4-3c1c-49a5-ba8d-7507df95f2ae",
+      "project": {
+        "id": 101,
+        "version": 248
+      }
+    }
+  ],
+  "session_expires_at": 1421759443000,
+  "result": "stale"
+}

@@ -1,0 +1,80 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "epic",
+          "id": 2002,
+          "description": "ohai!",
+          "updated_at": 1421745035000
+        }
+      ],
+      "activity": {
+        "kind": "epic_update_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster edited this epic",
+        "highlight": "edited",
+        "changes": [
+          {
+            "kind": "epic",
+            "change_type": "update",
+            "id": 2002,
+            "original_values": {
+              "description": null,
+              "updated_at": 1415128206000
+            },
+            "new_values": {
+              "description": "ohai!",
+              "updated_at": 1421745035000
+            },
+            "name": "Strategic recommendation generation"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "epic",
+            "id": 2002,
+            "name": "Strategic recommendation generation",
+            "url": "http://localhost/epic/show/2002"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745036000
+      },
+      "mutandum": [
+        {
+          "type": "epic",
+          "id": 2002,
+          "description": "",
+          "updated_at": 1415128206000
+        }
+      ],
+      "parameters": {
+        "description": "ohai!",
+        "id": 2002
+      },
+      "person_id": 202,
+      "type": "epic_update",
+      "command_uuid": "9ae3ea1d-0901-4b17-a241-1771846cf3e6",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421759435000,
+  "result": "stale"
+}

@@ -1,0 +1,90 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2176,
+          "updated_at": 1421745929000,
+          "before_id": 2162,
+          "after_id": 2167
+        }
+      ],
+      "activity": {
+        "kind": "story_move_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster moved this story before 'p5'",
+        "highlight": "moved",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2176,
+            "original_values": {
+              "updated_at": 1420304400000,
+              "before_id": 2121,
+              "after_id": 2172
+            },
+            "new_values": {
+              "updated_at": 1421745929000,
+              "before_id": 2162,
+              "after_id": 2167
+            },
+            "name": "fix bugs identified by field trials",
+            "story_type": "release"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2176,
+            "name": "fix bugs identified by field trials",
+            "story_type": "release",
+            "url": "http://localhost/story/show/2176"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745929000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2176,
+          "updated_at": 1420304400000,
+          "before_id": 2121,
+          "after_id": 2172
+        }
+      ],
+      "parameters": {
+        "group": "scheduled",
+        "ids": [
+          2176
+        ],
+        "after_id": 2167,
+        "before_id": 2162
+      },
+      "person_id": 202,
+      "type": "multi_story_move",
+      "command_uuid": "d74b17a0-e788-45fb-a720-fd5274332ee0",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421760329000,
+  "result": "stale"
+}

@@ -1,0 +1,82 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2175,
+          "current_state": "delivered",
+          "updated_at": 1421745429000
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_248",
+        "project_version": 248,
+        "message": "Andy Goode delivered this bug",
+        "highlight": "delivered",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2175,
+            "original_values": {
+              "current_state": "finished",
+              "updated_at": 1421745428000
+            },
+            "new_values": {
+              "current_state": "delivered",
+              "updated_at": 1421745429000
+            },
+            "name": "pelican-exclusion algorithm shouldn't match carrier-launched drones",
+            "story_type": "bug"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2175,
+            "name": "pelican-exclusion algorithm shouldn't match carrier-launched drones",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2175"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 203,
+          "name": "Andy Goode",
+          "initials": "AG"
+        },
+        "occurred_at": 1421745429000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2175,
+          "current_state": "finished",
+          "updated_at": 1421745428000
+        }
+      ],
+      "parameters": {
+        "current_state": "delivered",
+        "id": 2175
+      },
+      "person_id": 203,
+      "type": "story_update",
+      "command_uuid": "8a97135e-2a21-4e50-a337-59b069528dce",
+      "project": {
+        "id": 101,
+        "version": 248
+      }
+    }
+  ],
+  "session_expires_at": 1421759829000,
+  "result": "stale"
+}

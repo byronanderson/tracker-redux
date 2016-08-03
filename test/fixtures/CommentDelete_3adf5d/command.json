@@ -1,0 +1,99 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "comment",
+          "id": 208,
+          "deleted": true
+        },
+        {
+          "type": "epic",
+          "id": 2000,
+          "updated_at": 1421744936000
+        }
+      ],
+      "activity": {
+        "kind": "comment_delete_activity",
+        "guid": "101_247",
+        "project_version": 247,
+        "message": "Robert Brewster removed comment: \"I don't think you chose your comment text well'\"",
+        "highlight": "removed comment:",
+        "changes": [
+          {
+            "kind": "epic",
+            "change_type": "update",
+            "id": 2000,
+            "original_values": {
+              "updated_at": 1421744935000
+            },
+            "new_values": {
+              "updated_at": 1421744936000
+            },
+            "name": "Pattern discrimination in activity"
+          },
+          {
+            "kind": "comment",
+            "change_type": "delete",
+            "id": 208
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "epic",
+            "id": 2000,
+            "name": "Pattern discrimination in activity",
+            "url": "http://localhost/epic/show/2000"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421744936000
+      },
+      "mutandum": [
+        {
+          "type": "epic",
+          "id": 2000,
+          "updated_at": 1421744935000
+        },
+        {
+          "type": "comment",
+          "id": 208,
+          "epic_id": 2000,
+          "text": "I don't think you chose your comment text well'",
+          "person_id": 202,
+          "created_at": 1421744934000,
+          "updated_at": 1421744934000,
+          "file_attachment_ids": [],
+          "google_attachment_ids": [],
+          "file_attachments": [],
+          "google_attachments": []
+        }
+      ],
+      "parameters": {
+        "epic_id": 2000,
+        "id": 208
+      },
+      "person_id": 202,
+      "type": "comment_delete",
+      "command_uuid": "e7e02199-1788-4a64-8c05-3ad03f3adf5d",
+      "project": {
+        "id": 101,
+        "version": 247
+      }
+    }
+  ],
+  "session_expires_at": 1421759336000,
+  "result": "stale"
+}

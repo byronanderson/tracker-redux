@@ -1,0 +1,129 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "comment",
+          "id": 207,
+          "story_id": 2162,
+          "text": "You so stupid!",
+          "person_id": 202,
+          "created_at": 1421720532000,
+          "updated_at": 1421720532000,
+          "file_attachment_ids": [],
+          "google_attachment_ids": [],
+          "file_attachments": [],
+          "google_attachments": []
+        },
+        {
+          "type": "following",
+          "id": 11,
+          "person_id": 202,
+          "story_id": 2162
+        },
+        {
+          "type": "story",
+          "id": 2162,
+          "current_state": "rejected",
+          "follower_ids": [
+            202
+          ],
+          "updated_at": 1421720532000
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_251",
+        "project_version": 251,
+        "message": "Robert Brewster rejected this feature with comments: \"You so stupid!\"",
+        "highlight": "rejected",
+        "changes": [
+          {
+            "kind": "comment",
+            "change_type": "create",
+            "id": 207,
+            "new_values": {
+              "id": 207,
+              "story_id": 2162,
+              "text": "You so stupid!",
+              "person_id": 202,
+              "created_at": 1421720532000,
+              "updated_at": 1421720532000,
+              "file_attachment_ids": [],
+              "google_attachment_ids": [],
+              "file_attachments": [],
+              "google_attachments": []
+            }
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2162,
+            "original_values": {
+              "current_state": "delivered",
+              "follower_ids": [],
+              "updated_at": 1421720530000
+            },
+            "new_values": {
+              "current_state": "rejected",
+              "follower_ids": [
+                202
+              ],
+              "updated_at": 1421720532000
+            },
+            "name": "p5",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2162,
+            "name": "p5",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2162"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421720532000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2162,
+          "current_state": "delivered",
+          "follower_ids": [],
+          "updated_at": 1421720530000
+        }
+      ],
+      "parameters": {
+        "current_state": "rejected",
+        "comment": {
+          "text": "You so stupid!"
+        },
+        "id": 2162
+      },
+      "person_id": 202,
+      "type": "story_update",
+      "command_uuid": "8f7ca42e-4294-427f-8411-f778ef710d16",
+      "project": {
+        "id": 101,
+        "version": 251
+      }
+    }
+  ],
+  "session_expires_at": 1421734932000,
+  "result": "stale"
+}

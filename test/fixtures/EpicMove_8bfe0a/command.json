@@ -1,0 +1,85 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "epic",
+          "id": 2001,
+          "updated_at": 1421744993000,
+          "after_id": 2003,
+          "before_id": 2002
+        }
+      ],
+      "activity": {
+        "kind": "epic_move_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster moved this epic before \"Weapon system automation/remote control\"",
+        "highlight": "moved",
+        "changes": [
+          {
+            "kind": "epic",
+            "change_type": "update",
+            "id": 2001,
+            "original_values": {
+              "updated_at": 1415127960000,
+              "after_id": 2000,
+              "before_id": 2003
+            },
+            "new_values": {
+              "updated_at": 1421744993000,
+              "after_id": 2003,
+              "before_id": 2002
+            },
+            "name": "Information monitoring and forward"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "epic",
+            "id": 2001,
+            "name": "Information monitoring and forward",
+            "url": "http://localhost/epic/show/2001"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421744993000
+      },
+      "mutandum": [
+        {
+          "type": "epic",
+          "id": 2001,
+          "updated_at": 1415127960000,
+          "after_id": 2000,
+          "before_id": 2003
+        }
+      ],
+      "parameters": {
+        "before_id": 2005,
+        "after_id": 2003,
+        "id": 2001
+      },
+      "person_id": 202,
+      "type": "epic_move",
+      "command_uuid": "ce24ba7e-a219-4b98-9b2f-35757a8bfe0a",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421759393000,
+  "result": "stale"
+}

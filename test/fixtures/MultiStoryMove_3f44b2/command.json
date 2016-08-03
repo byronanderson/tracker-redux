@@ -1,0 +1,131 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2183,
+          "current_state": "unstarted",
+          "label_ids": [
+            5029,
+            5025,
+            5024
+          ],
+          "updated_at": 1421745991000,
+          "before_id": 2121,
+          "after_id": 2176,
+          "labels": [
+            "eyes-only",
+            "monitoring",
+            "patterns"
+          ]
+        }
+      ],
+      "activity": {
+        "kind": "story_move_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster moved and scheduled this story before 'Accept input data stream from NSA internet scanning'",
+        "highlight": "moved and scheduled",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2183,
+            "original_values": {
+              "current_state": "unscheduled",
+              "label_ids": [
+                5029,
+                5024
+              ],
+              "updated_at": 1420909320000,
+              "before_id": 2182,
+              "after_id": 2184,
+              "labels": [
+                "eyes-only",
+                "patterns"
+              ]
+            },
+            "new_values": {
+              "current_state": "unstarted",
+              "label_ids": [
+                5029,
+                5025,
+                5024
+              ],
+              "updated_at": 1421745991000,
+              "before_id": 2121,
+              "after_id": 2176,
+              "labels": [
+                "eyes-only",
+                "monitoring",
+                "patterns"
+              ]
+            },
+            "name": "iter7-2",
+            "story_type": "bug"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2183,
+            "name": "iter7-2",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2183"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745991000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2183,
+          "current_state": "unscheduled",
+          "label_ids": [
+            5029,
+            5024
+          ],
+          "updated_at": 1420909320000,
+          "before_id": 2182,
+          "after_id": 2184,
+          "labels": [
+            "eyes-only",
+            "patterns"
+          ]
+        }
+      ],
+      "parameters": {
+        "group": "scheduled",
+        "ids": [
+          2183
+        ],
+        "label_id": 5025,
+        "before_id": 2121,
+        "after_id": 2176
+      },
+      "person_id": 202,
+      "type": "multi_story_move",
+      "command_uuid": "d9ed6921-7e1a-41e9-8c18-ddbc843f44b2",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421760391000,
+  "result": "stale"
+}

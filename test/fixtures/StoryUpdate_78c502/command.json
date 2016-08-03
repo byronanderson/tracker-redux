@@ -1,0 +1,78 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2162,
+          "current_state": "finished"
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_251",
+        "project_version": 251,
+        "message": "Andy Goode finished this feature",
+        "highlight": "finished",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2162,
+            "original_values": {
+              "current_state": "started"
+            },
+            "new_values": {
+              "current_state": "finished"
+            },
+            "name": "p5",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2162,
+            "name": "p5",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2162"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 203,
+          "name": "Andy Goode",
+          "initials": "AG"
+        },
+        "occurred_at": 1421745433000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2162,
+          "current_state": "started"
+        }
+      ],
+      "parameters": {
+        "current_state": "finished",
+        "id": 2162
+      },
+      "person_id": 203,
+      "type": "story_update",
+      "command_uuid": "d78449df-0892-4a52-a629-caef1278c502",
+      "project": {
+        "id": 101,
+        "version": 251
+      }
+    }
+  ],
+  "session_expires_at": 1421759832000,
+  "result": "stale"
+}

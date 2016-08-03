@@ -1,0 +1,87 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2153,
+          "deleted": true
+        }
+      ],
+      "activity": {
+        "kind": "story_delete_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Andy Goode deleted this chore",
+        "highlight": "deleted",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2153,
+            "name": "iter4-1",
+            "story_type": "chore"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2153,
+            "name": "iter4-1",
+            "story_type": "chore",
+            "url": "http://localhost/story/show/2153"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 203,
+          "name": "Andy Goode",
+          "initials": "AG"
+        },
+        "occurred_at": 1421745952000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2153,
+          "project_id": 101,
+          "name": "iter4-1",
+          "story_type": "chore",
+          "current_state": "unscheduled",
+          "estimate": -1,
+          "requested_by_id": 202,
+          "owned_by_id": -1,
+          "owner_ids": [],
+          "label_ids": [],
+          "follower_ids": [],
+          "created_at": 1417891500000,
+          "updated_at": 1417891500000,
+          "before_id": 2150,
+          "after_id": 2154,
+          "labels": []
+        }
+      ],
+      "parameters": {
+        "ids": [
+          2153
+        ]
+      },
+      "person_id": 203,
+      "type": "multi_story_delete",
+      "command_uuid": "633bba59-7b26-49c4-b887-3caf473bfa32",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421760351000,
+  "result": "stale"
+}

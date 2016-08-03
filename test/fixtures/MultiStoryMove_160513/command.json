@@ -1,0 +1,90 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2177,
+          "updated_at": 1421746442000,
+          "before_id": 2120,
+          "after_id": 2166
+        }
+      ],
+      "activity": {
+        "kind": "story_move_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Andy Goode moved this story before 'Accept input data stream from NSA voice recognition systems'",
+        "highlight": "moved",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2177,
+            "original_values": {
+              "updated_at": 1420304430000,
+              "before_id": 2175,
+              "after_id": 2120
+            },
+            "new_values": {
+              "updated_at": 1421746442000,
+              "before_id": 2120,
+              "after_id": 2166
+            },
+            "name": "<script>alert('story content xss')</script>",
+            "story_type": "bug"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2177,
+            "name": "<script>alert('story content xss')</script>",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2177"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 203,
+          "name": "Andy Goode",
+          "initials": "AG"
+        },
+        "occurred_at": 1421746442000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2177,
+          "updated_at": 1420304430000,
+          "before_id": 2175,
+          "after_id": 2120
+        }
+      ],
+      "parameters": {
+        "group": "current",
+        "ids": [
+          2177
+        ],
+        "after_id": 2166,
+        "before_id": 2120
+      },
+      "person_id": 203,
+      "type": "multi_story_move",
+      "command_uuid": "1fd9dee9-ee44-4f60-87ae-cb4a0e160513",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421760842000,
+  "result": "stale"
+}

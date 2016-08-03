@@ -1,0 +1,94 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2174,
+          "current_state": "unscheduled",
+          "updated_at": 1421745983000,
+          "before_id": 2184,
+          "after_id": 2185
+        }
+      ],
+      "activity": {
+        "kind": "story_move_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Andy Goode moved this story before 'iter7-3'",
+        "highlight": "moved",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2174,
+            "original_values": {
+              "current_state": "unstarted",
+              "updated_at": 1420304400000,
+              "before_id": 2173,
+              "after_id": 2175
+            },
+            "new_values": {
+              "current_state": "unscheduled",
+              "updated_at": 1421745983000,
+              "before_id": 2184,
+              "after_id": 2185
+            },
+            "name": "sperm whales are not attack submarines",
+            "story_type": "bug"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2174,
+            "name": "sperm whales are not attack submarines",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2174"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 203,
+          "name": "Andy Goode",
+          "initials": "AG"
+        },
+        "occurred_at": 1421745983000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2174,
+          "current_state": "unstarted",
+          "updated_at": 1420304400000,
+          "before_id": 2173,
+          "after_id": 2175
+        }
+      ],
+      "parameters": {
+        "group": "unscheduled",
+        "ids": [
+          2174
+        ],
+        "after_id": 2185,
+        "before_id": 2184
+      },
+      "person_id": 203,
+      "type": "multi_story_move",
+      "command_uuid": "85367c10-8686-41df-980f-3c8e129e98a5",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421760383000,
+  "result": "stale"
+}

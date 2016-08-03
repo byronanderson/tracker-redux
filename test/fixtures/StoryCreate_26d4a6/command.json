@@ -1,0 +1,110 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2204,
+          "project_id": 101,
+          "name": "my new release",
+          "story_type": "release",
+          "current_state": "unscheduled",
+          "requested_by_id": 202,
+          "owner_ids": [],
+          "label_ids": [],
+          "follower_ids": [],
+          "created_at": 1421720597000,
+          "updated_at": 1421720597000,
+          "before_id": 2185,
+          "after_id": 2161,
+          "labels": []
+        }
+      ],
+      "activity": {
+        "kind": "story_create_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster added this release",
+        "highlight": "added",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "create",
+            "id": 2204,
+            "new_values": {
+              "id": 2204,
+              "project_id": 101,
+              "name": "my new release",
+              "story_type": "release",
+              "current_state": "unscheduled",
+              "requested_by_id": 202,
+              "owner_ids": [],
+              "label_ids": [],
+              "follower_ids": [],
+              "created_at": 1421720597000,
+              "updated_at": 1421720597000,
+              "before_id": 2185,
+              "after_id": 2161,
+              "labels": []
+            },
+            "name": "my new release",
+            "story_type": "release"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2204,
+            "name": "my new release",
+            "story_type": "release",
+            "url": "http://localhost/story/show/2204"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421720597000
+      },
+      "mutandum": [],
+      "parameters": {
+        "requested_by_id": 202,
+        "current_state": "unscheduled",
+        "name": "my new release",
+        "description": "",
+        "estimate": -1,
+        "accepted_at": null,
+        "deadline": null,
+        "owner_ids": [],
+        "story_type": "release",
+        "integration_id": null,
+        "external_id": "",
+        "comments": [],
+        "follower_ids": [],
+        "tasks": [],
+        "group": null,
+        "label_ids": [],
+        "before_id": 2185,
+        "cl_numbers": ""
+      },
+      "person_id": 202,
+      "type": "story_create",
+      "command_uuid": "04dd88cb-a206-47b5-8f4b-84aaed26d4a6",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421734997000,
+  "result": "stale"
+}

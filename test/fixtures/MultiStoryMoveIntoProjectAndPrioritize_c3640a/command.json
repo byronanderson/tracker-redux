@@ -1,0 +1,214 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2192,
+          "project_id": 101,
+          "name": "Learn to love as humans do",
+          "description": "BEEP boop",
+          "story_type": "feature",
+          "current_state": "unstarted",
+          "requested_by_id": 205,
+          "owner_ids": [],
+          "label_ids": [],
+          "follower_ids": [],
+          "created_at": 1415466090000,
+          "updated_at": 1421745876000,
+          "before_id": 2174,
+          "after_id": 2175,
+          "labels": []
+        },
+        {
+          "type": "task",
+          "id": 5031,
+          "story_id": 2192,
+          "description": "Buy Barry White albums",
+          "complete": false,
+          "position": 1,
+          "created_at": 1415466090000,
+          "updated_at": 1415466090000
+        },
+        {
+          "type": "task",
+          "id": 5032,
+          "story_id": 2192,
+          "description": "Start growing roses",
+          "complete": false,
+          "position": 2,
+          "created_at": 1415466090000,
+          "updated_at": 1415466090000
+        },
+        {
+          "type": "task",
+          "id": 5033,
+          "story_id": 2192,
+          "description": "Create OkCupid profile",
+          "complete": false,
+          "position": 3,
+          "created_at": 1415466090000,
+          "updated_at": 1415466090000
+        }
+      ],
+      "activity": {
+        "kind": "story_move_into_project_and_prioritize_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster moved \"Learn to love as humans do\" into this project from T-1000 mimetic poly-alloy assassin",
+        "highlight": "moved",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "create",
+            "id": 2192,
+            "new_values": {
+              "id": 2192,
+              "project_id": 101,
+              "name": "Learn to love as humans do",
+              "description": "BEEP boop",
+              "story_type": "feature",
+              "current_state": "unstarted",
+              "requested_by_id": 205,
+              "owner_ids": [],
+              "label_ids": [],
+              "follower_ids": [],
+              "created_at": 1415466090000,
+              "updated_at": 1421745876000,
+              "before_id": 2174,
+              "after_id": 2175,
+              "labels": []
+            },
+            "name": "Learn to love as humans do",
+            "story_type": "feature"
+          },
+          {
+            "kind": "task",
+            "change_type": "create",
+            "id": 5031,
+            "new_values": {
+              "id": 5031,
+              "story_id": 2192,
+              "description": "Buy Barry White albums",
+              "complete": false,
+              "position": 1,
+              "created_at": 1415466090000,
+              "updated_at": 1415466090000
+            }
+          },
+          {
+            "kind": "task",
+            "change_type": "create",
+            "id": 5032,
+            "new_values": {
+              "id": 5032,
+              "story_id": 2192,
+              "description": "Start growing roses",
+              "complete": false,
+              "position": 2,
+              "created_at": 1415466090000,
+              "updated_at": 1415466090000
+            }
+          },
+          {
+            "kind": "task",
+            "change_type": "create",
+            "id": 5033,
+            "new_values": {
+              "id": 5033,
+              "story_id": 2192,
+              "description": "Create OkCupid profile",
+              "complete": false,
+              "position": 3,
+              "created_at": 1415466090000,
+              "updated_at": 1415466090000
+            }
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2192,
+            "name": "Learn to love as humans do",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2192"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745876000
+      },
+      "mutandum": [],
+      "parameters": {
+        "group": "current",
+        "source_project_id": 102,
+        "before_id": 2174,
+        "after_id": 2175,
+        "stories": [
+          {
+            "id": 2192,
+            "name": "Learn to love as humans do",
+            "description": "BEEP boop",
+            "story_type": "feature",
+            "current_state": "unstarted",
+            "requested_by_id": 205,
+            "owner_ids": [],
+            "label_ids": [],
+            "follower_ids": [],
+            "created_at": 1415466090000,
+            "updated_at": 1421745876000,
+            "before_id": 2174,
+            "after_id": 2175,
+            "tasks": [
+              {
+                "id": 5031,
+                "description": "Buy Barry White albums",
+                "complete": false,
+                "position": 1,
+                "created_at": 1415466090000,
+                "updated_at": 1415466090000
+              },
+              {
+                "id": 5032,
+                "description": "Start growing roses",
+                "complete": false,
+                "position": 2,
+                "created_at": 1415466090000,
+                "updated_at": 1415466090000
+              },
+              {
+                "id": 5033,
+                "description": "Create OkCupid profile",
+                "complete": false,
+                "position": 3,
+                "created_at": 1415466090000,
+                "updated_at": 1415466090000
+              }
+            ],
+            "comments": []
+          }
+        ]
+      },
+      "person_id": 202,
+      "type": "multi_story_move_into_project_and_prioritize",
+      "command_uuid": "831c88bc-2ca9-4f31-8bd1-a2f52bc3640a",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421760275000,
+  "result": "stale"
+}

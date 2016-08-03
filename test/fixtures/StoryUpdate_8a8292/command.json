@@ -1,0 +1,82 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2225,
+          "story_type": "release",
+          "updated_at": 1421746341000
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_248",
+        "project_version": 248,
+        "message": "Robert Brewster edited this release",
+        "highlight": "edited",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2225,
+            "original_values": {
+              "story_type": "feature",
+              "updated_at": 1421746340000
+            },
+            "new_values": {
+              "story_type": "release",
+              "updated_at": 1421746341000
+            },
+            "name": "my new release",
+            "story_type": "release"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2225,
+            "name": "my new release",
+            "story_type": "release",
+            "url": "http://localhost/story/show/2225"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421746341000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2225,
+          "story_type": "feature",
+          "updated_at": 1421746340000
+        }
+      ],
+      "parameters": {
+        "story_type": "release",
+        "id": 2225
+      },
+      "person_id": 202,
+      "type": "story_update",
+      "command_uuid": "6e1cde21-93b1-4ade-aabf-7828518a8292",
+      "project": {
+        "id": 101,
+        "version": 248
+      }
+    }
+  ],
+  "session_expires_at": 1421760741000,
+  "result": "stale"
+}

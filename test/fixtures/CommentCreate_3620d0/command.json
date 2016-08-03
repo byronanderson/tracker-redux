@@ -1,0 +1,125 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "comment",
+          "id": 218,
+          "epic_id": 2006,
+          "text": "what a place well go",
+          "person_id": 203,
+          "created_at": 1421746502000,
+          "updated_at": 1421746502000,
+          "file_attachment_ids": [],
+          "google_attachment_ids": [],
+          "file_attachments": [],
+          "google_attachments": []
+        },
+        {
+          "type": "epic",
+          "id": 2006,
+          "follower_ids": [
+            203
+          ],
+          "updated_at": 1421746502000
+        },
+        {
+          "type": "following",
+          "id": 23,
+          "person_id": 203,
+          "epic_id": 2006
+        }
+      ],
+      "activity": {
+        "kind": "comment_create_activity",
+        "guid": "102_18",
+        "project_version": 18,
+        "message": "Andy Goode added comment: \"what a place well go\"",
+        "highlight": "added comment:",
+        "changes": [
+          {
+            "kind": "comment",
+            "change_type": "create",
+            "id": 218,
+            "new_values": {
+              "id": 218,
+              "epic_id": 2006,
+              "text": "what a place well go",
+              "person_id": 203,
+              "created_at": 1421746502000,
+              "updated_at": 1421746502000,
+              "file_attachment_ids": [],
+              "google_attachment_ids": [],
+              "file_attachments": [],
+              "google_attachments": []
+            }
+          },
+          {
+            "kind": "epic",
+            "change_type": "update",
+            "id": 2006,
+            "original_values": {
+              "follower_ids": [],
+              "updated_at": 1415466195000
+            },
+            "new_values": {
+              "follower_ids": [
+                203
+              ],
+              "updated_at": 1421746502000
+            },
+            "name": "Kill all those destructive humans"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "epic",
+            "id": 2006,
+            "name": "Kill all those destructive humans",
+            "url": "http://localhost/epic/show/2006"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 102,
+          "name": "T-1000 mimetic poly-alloy assassin"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 203,
+          "name": "Andy Goode",
+          "initials": "AG"
+        },
+        "occurred_at": 1421746502000
+      },
+      "mutandum": [
+        {
+          "type": "epic",
+          "id": 2006,
+          "follower_ids": [],
+          "updated_at": 1415466195000
+        }
+      ],
+      "parameters": {
+        "epic_id": 2006,
+        "person_id": 203,
+        "text": "what a place well go",
+        "file_attachments": [],
+        "google_attachments": [],
+        "commit_identifier": "",
+        "commit_type": ""
+      },
+      "person_id": 203,
+      "type": "comment_create",
+      "command_uuid": "35898ec7-ef48-456d-93e9-1a5a973620d0",
+      "project": {
+        "id": 102,
+        "version": 18
+      }
+    }
+  ],
+  "session_expires_at": 1421760902000,
+  "result": "stale"
+}

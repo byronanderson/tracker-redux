@@ -1,0 +1,108 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2184,
+          "current_state": "started",
+          "owner_ids": [
+            209,
+            202
+          ],
+          "updated_at": 1421720542000,
+          "before_id": 2175,
+          "after_id": 2177
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_247",
+        "project_version": 247,
+        "message": "Robert Brewster started this feature",
+        "highlight": "started",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2184,
+            "original_values": {
+              "current_state": "unscheduled",
+              "owner_ids": [
+                209
+              ],
+              "updated_at": 1421720541000,
+              "before_id": 2183,
+              "after_id": 2185
+            },
+            "new_values": {
+              "current_state": "started",
+              "owner_ids": [
+                209,
+                202
+              ],
+              "updated_at": 1421720542000,
+              "before_id": 2175,
+              "after_id": 2177
+            },
+            "name": "iter7-3",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2184,
+            "name": "iter7-3",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2184"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421720542000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2184,
+          "current_state": "unscheduled",
+          "owner_ids": [
+            209
+          ],
+          "updated_at": 1421720541000,
+          "before_id": 2183,
+          "after_id": 2185
+        }
+      ],
+      "parameters": {
+        "current_state": "started",
+        "owner_ids": [
+          209,
+          202
+        ],
+        "id": 2184
+      },
+      "person_id": 202,
+      "type": "story_update",
+      "command_uuid": "ea4c7e6d-b0e4-44b8-9de8-c4268ec69549",
+      "project": {
+        "id": 101,
+        "version": 247
+      }
+    }
+  ],
+  "session_expires_at": 1421734941000,
+  "result": "stale"
+}

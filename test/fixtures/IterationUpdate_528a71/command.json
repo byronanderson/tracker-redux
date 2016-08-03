@@ -1,0 +1,79 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "iteration",
+          "number": 8,
+          "length": 7,
+          "finish": 1425715200000
+        }
+      ],
+      "activity": {
+        "kind": "iteration_update_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster changed iteration 8's length from default to 7 weeks",
+        "highlight": "changed",
+        "changes": [
+          {
+            "kind": "iteration_override",
+            "change_type": "update",
+            "number": 8,
+            "original_values": {
+              "number": 8,
+              "finish": 1422086400000,
+              "length": "default"
+            },
+            "new_values": {
+              "number": 8,
+              "length": 7,
+              "finish": 1425715200000
+            }
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "iteration_override",
+            "number": 8
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745015000
+      },
+      "mutandum": [
+        {
+          "type": "iteration",
+          "number": 8,
+          "finish": 1422086400000,
+          "length": "default"
+        }
+      ],
+      "parameters": {
+        "length": 7,
+        "number": 8
+      },
+      "person_id": 202,
+      "type": "iteration_update",
+      "command_uuid": "cbfc0889-6f09-4909-9772-da9b37528a71",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421759414000,
+  "result": "stale"
+}

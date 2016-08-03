@@ -1,0 +1,172 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2192,
+          "current_state": "planned",
+          "updated_at": 1421745835000,
+          "after_id": 2189
+        },
+        {
+          "type": "story",
+          "id": 2193,
+          "current_state": "planned",
+          "updated_at": 1421745835000,
+          "before_id": 2199
+        },
+        {
+          "type": "story",
+          "id": 2199,
+          "current_state": "planned",
+          "updated_at": 1421745835000,
+          "before_id": 2190,
+          "after_id": 2193
+        }
+      ],
+      "activity": {
+        "kind": "story_move_activity",
+        "guid": "102_18",
+        "project_version": 18,
+        "message": "Robert Brewster moved and scheduled 3 stories",
+        "highlight": "moved and scheduled",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2192,
+            "original_values": {
+              "current_state": "unstarted",
+              "updated_at": 1415466090000,
+              "after_id": 2191
+            },
+            "new_values": {
+              "current_state": "planned",
+              "updated_at": 1421745835000,
+              "after_id": 2189
+            },
+            "name": "Learn to love as humans do",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2193,
+            "original_values": {
+              "current_state": "unstarted",
+              "updated_at": 1415466105000,
+              "before_id": 2194
+            },
+            "new_values": {
+              "current_state": "planned",
+              "updated_at": 1421745835000,
+              "before_id": 2199
+            },
+            "name": "Unit can disguise itself as human",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2199,
+            "original_values": {
+              "current_state": "unscheduled",
+              "updated_at": 1415466195000,
+              "before_id": 2198,
+              "after_id": 2197
+            },
+            "new_values": {
+              "current_state": "planned",
+              "updated_at": 1421745835000,
+              "before_id": 2190,
+              "after_id": 2193
+            },
+            "name": "Fix liquid nitrogen vulnerability",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2199,
+            "name": "Fix liquid nitrogen vulnerability",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2199"
+          },
+          {
+            "kind": "story",
+            "id": 2192,
+            "name": "Learn to love as humans do",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2192"
+          },
+          {
+            "kind": "story",
+            "id": 2193,
+            "name": "Unit can disguise itself as human",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2193"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 102,
+          "name": "T-1000 mimetic poly-alloy assassin"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745835000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2192,
+          "current_state": "unstarted",
+          "updated_at": 1415466090000,
+          "after_id": 2191
+        },
+        {
+          "type": "story",
+          "id": 2193,
+          "current_state": "unstarted",
+          "updated_at": 1415466105000,
+          "before_id": 2194
+        },
+        {
+          "type": "story",
+          "id": 2199,
+          "current_state": "unscheduled",
+          "updated_at": 1415466195000,
+          "before_id": 2198,
+          "after_id": 2197
+        }
+      ],
+      "parameters": {
+        "group": "current",
+        "ids": [
+          2199,
+          2192,
+          2193
+        ],
+        "after_id": 2189,
+        "before_id": 2190
+      },
+      "person_id": 202,
+      "type": "multi_story_move",
+      "command_uuid": "b3df2949-9743-49fc-9266-cb242f4ab25f",
+      "project": {
+        "id": 102,
+        "version": 18
+      }
+    }
+  ],
+  "session_expires_at": 1421760235000,
+  "result": "stale"
+}

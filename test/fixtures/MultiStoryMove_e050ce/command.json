@@ -1,0 +1,94 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2227,
+          "current_state": "unstarted",
+          "updated_at": 1421746379000,
+          "before_id": 2175,
+          "after_id": 2177
+        }
+      ],
+      "activity": {
+        "kind": "story_move_activity",
+        "guid": "101_247",
+        "project_version": 247,
+        "message": "Robert Brewster moved and scheduled this story before 'pelican-exclusion algorithm shouldn't match carrier-launched drones'",
+        "highlight": "moved and scheduled",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2227,
+            "original_values": {
+              "current_state": "unscheduled",
+              "updated_at": 1421746378000,
+              "before_id": 2185,
+              "after_id": 2161
+            },
+            "new_values": {
+              "current_state": "unstarted",
+              "updated_at": 1421746379000,
+              "before_id": 2175,
+              "after_id": 2177
+            },
+            "name": "my new release",
+            "story_type": "release"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2227,
+            "name": "my new release",
+            "story_type": "release",
+            "url": "http://localhost/story/show/2227"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421746379000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2227,
+          "current_state": "unscheduled",
+          "updated_at": 1421746378000,
+          "before_id": 2185,
+          "after_id": 2161
+        }
+      ],
+      "parameters": {
+        "group": "current",
+        "ids": [
+          2227
+        ],
+        "after_id": 2177,
+        "before_id": 2175
+      },
+      "person_id": 202,
+      "type": "multi_story_move",
+      "command_uuid": "f73b5e03-59d8-41a1-a28a-019285e050ce",
+      "project": {
+        "id": 101,
+        "version": 247
+      }
+    }
+  ],
+  "session_expires_at": 1421760779000,
+  "result": "stale"
+}

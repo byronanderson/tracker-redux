@@ -1,0 +1,106 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2162,
+          "current_state": "started",
+          "owned_by_id": 203,
+          "owner_ids": [
+            203
+          ],
+          "updated_at": 1421745432000,
+          "before_id": 2174,
+          "after_id": 2177
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_250",
+        "project_version": 250,
+        "message": "Andy Goode started this feature",
+        "highlight": "started",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2162,
+            "original_values": {
+              "current_state": "unstarted",
+              "owned_by_id": null,
+              "owner_ids": [],
+              "updated_at": 1420563780000,
+              "before_id": 2161,
+              "after_id": 2167
+            },
+            "new_values": {
+              "current_state": "started",
+              "owned_by_id": 203,
+              "owner_ids": [
+                203
+              ],
+              "updated_at": 1421745432000,
+              "before_id": 2174,
+              "after_id": 2177
+            },
+            "name": "p5",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2162,
+            "name": "p5",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2162"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 203,
+          "name": "Andy Goode",
+          "initials": "AG"
+        },
+        "occurred_at": 1421745432000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2162,
+          "current_state": "unstarted",
+          "owned_by_id": -1,
+          "owner_ids": [],
+          "updated_at": 1420563780000,
+          "before_id": 2161,
+          "after_id": 2167
+        }
+      ],
+      "parameters": {
+        "current_state": "started",
+        "owner_ids": [
+          203
+        ],
+        "id": 2162,
+        "owned_by_id": 203
+      },
+      "person_id": 203,
+      "type": "story_update",
+      "command_uuid": "36efde24-07c2-46f5-909a-7ce21efe0ca7",
+      "project": {
+        "id": 101,
+        "version": 250
+      }
+    }
+  ],
+  "session_expires_at": 1421759831000,
+  "result": "stale"
+}

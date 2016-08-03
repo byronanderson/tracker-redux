@@ -1,0 +1,82 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2175,
+          "current_state": "started",
+          "updated_at": 1421720568000
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_248",
+        "project_version": 248,
+        "message": "Robert Brewster started this bug",
+        "highlight": "started",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2175,
+            "original_values": {
+              "current_state": "unstarted",
+              "updated_at": 1420304400000
+            },
+            "new_values": {
+              "current_state": "started",
+              "updated_at": 1421720568000
+            },
+            "name": "pelican-exclusion algorithm shouldn't match carrier-launched drones",
+            "story_type": "bug"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2175,
+            "name": "pelican-exclusion algorithm shouldn't match carrier-launched drones",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2175"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421720568000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2175,
+          "current_state": "unstarted",
+          "updated_at": 1420304400000
+        }
+      ],
+      "parameters": {
+        "current_state": "started",
+        "id": 2175
+      },
+      "person_id": 202,
+      "type": "story_update",
+      "command_uuid": "615f0677-d5d2-45c4-b40f-699115efbc0b",
+      "project": {
+        "id": 101,
+        "version": 248
+      }
+    }
+  ],
+  "session_expires_at": 1421734968000,
+  "result": "stale"
+}

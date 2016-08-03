@@ -1,0 +1,76 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "label",
+          "id": 5051,
+          "project_id": 101,
+          "name": "mylabelz",
+          "created_at": 1421745647000,
+          "updated_at": 1421745647000
+        }
+      ],
+      "activity": {
+        "kind": "label_create_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster created labels: \"mylabelz\"",
+        "highlight": "created",
+        "changes": [
+          {
+            "kind": "label",
+            "change_type": "create",
+            "id": 5051,
+            "new_values": {
+              "id": 5051,
+              "project_id": 101,
+              "name": "mylabelz",
+              "created_at": 1421745647000,
+              "updated_at": 1421745647000
+            },
+            "name": "mylabelz"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "label",
+            "id": 5051,
+            "name": "mylabelz"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745647000
+      },
+      "mutandum": [],
+      "parameters": {
+        "labels": [
+          {
+            "name": "mylabelz"
+          }
+        ]
+      },
+      "person_id": 202,
+      "type": "multi_label_create",
+      "command_uuid": "da099a0c-935c-4320-a9bf-eb030478e2ad",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421760047000,
+  "result": "stale"
+}

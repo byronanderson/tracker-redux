@@ -1,0 +1,80 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "epic",
+          "id": 2006,
+          "description": "i hear theres some chickens there",
+          "updated_at": 1421746506000
+        }
+      ],
+      "activity": {
+        "kind": "epic_update_activity",
+        "guid": "102_19",
+        "project_version": 19,
+        "message": "Andy Goode edited this epic",
+        "highlight": "edited",
+        "changes": [
+          {
+            "kind": "epic",
+            "change_type": "update",
+            "id": 2006,
+            "original_values": {
+              "description": null,
+              "updated_at": 1421746502000
+            },
+            "new_values": {
+              "description": "i hear theres some chickens there",
+              "updated_at": 1421746506000
+            },
+            "name": "Kill all those destructive humans"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "epic",
+            "id": 2006,
+            "name": "Kill all those destructive humans",
+            "url": "http://localhost/epic/show/2006"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 102,
+          "name": "T-1000 mimetic poly-alloy assassin"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 203,
+          "name": "Andy Goode",
+          "initials": "AG"
+        },
+        "occurred_at": 1421746506000
+      },
+      "mutandum": [
+        {
+          "type": "epic",
+          "id": 2006,
+          "description": "",
+          "updated_at": 1421746502000
+        }
+      ],
+      "parameters": {
+        "description": "i hear theres some chickens there",
+        "id": 2006
+      },
+      "person_id": 203,
+      "type": "epic_update",
+      "command_uuid": "0ef29b3a-56c4-4de1-a44c-c98ff39eced8",
+      "project": {
+        "id": 102,
+        "version": 19
+      }
+    }
+  ],
+  "session_expires_at": 1421760906000,
+  "result": "stale"
+}

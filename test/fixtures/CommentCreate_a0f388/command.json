@@ -1,0 +1,190 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "comment",
+          "id": 213,
+          "story_id": 2162,
+          "text": "picture",
+          "person_id": 202,
+          "created_at": 1421745386000,
+          "updated_at": 1421745386000,
+          "file_attachment_ids": [
+            202
+          ],
+          "google_attachment_ids": [],
+          "file_attachments": [
+            "pivotallabs.png"
+          ],
+          "google_attachments": []
+        },
+        {
+          "type": "file_attachment",
+          "id": 202,
+          "filename": "pivotallabs.png",
+          "created_at": 1421745384000,
+          "uploader_id": 202,
+          "thumbnailable": true,
+          "height": 400,
+          "width": 1104,
+          "size": 86083,
+          "download_url": "/file_attachments/202/download",
+          "content_type": "image/png",
+          "uploaded": true,
+          "big_url": "/attachments/0000/0202/pivotallabs_big.png",
+          "thumbnail_url": "/attachments/0000/0202/pivotallabs_thumb.png"
+        },
+        {
+          "type": "following",
+          "id": 19,
+          "person_id": 202,
+          "story_id": 2162
+        },
+        {
+          "type": "story",
+          "id": 2162,
+          "follower_ids": [
+            202
+          ],
+          "updated_at": 1421745387000
+        }
+      ],
+      "activity": {
+        "kind": "comment_create_activity",
+        "guid": "101_248",
+        "project_version": 248,
+        "message": "Robert Brewster added comment with attachment: \"picture\"",
+        "highlight": "added comment with attachment:",
+        "changes": [
+          {
+            "kind": "comment",
+            "change_type": "create",
+            "id": 213,
+            "new_values": {
+              "id": 213,
+              "story_id": 2162,
+              "text": "picture",
+              "person_id": 202,
+              "created_at": 1421745386000,
+              "updated_at": 1421745386000,
+              "file_attachment_ids": [
+                202
+              ],
+              "google_attachment_ids": [],
+              "file_attachments": [
+                "pivotallabs.png"
+              ],
+              "google_attachments": []
+            }
+          },
+          {
+            "kind": "file_attachment",
+            "change_type": "create",
+            "id": 202,
+            "new_values": {
+              "id": 202,
+              "filename": "pivotallabs.png",
+              "created_at": 1421745384000,
+              "uploader_id": 202,
+              "thumbnailable": true,
+              "height": 400,
+              "width": 1104,
+              "size": 86083,
+              "download_url": "/file_attachments/202/download",
+              "content_type": "image/png",
+              "uploaded": true,
+              "big_url": "/attachments/0000/0202/pivotallabs_big.png",
+              "thumbnail_url": "/attachments/0000/0202/pivotallabs_thumb.png"
+            }
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2162,
+            "original_values": {
+              "follower_ids": [],
+              "updated_at": 1420563780000
+            },
+            "new_values": {
+              "follower_ids": [
+                202
+              ],
+              "updated_at": 1421745387000
+            },
+            "name": "p5",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2162,
+            "name": "p5",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2162"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745387000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2162,
+          "follower_ids": [],
+          "updated_at": 1420563780000
+        }
+      ],
+      "parameters": {
+        "story_id": 2162,
+        "person_id": 202,
+        "text": "picture",
+        "file_attachments": [
+          {
+            "kind": "file_attachment",
+            "id": 202,
+            "filename": "pivotallabs.png",
+            "created_at": 1421745384000,
+            "uploader_id": 202,
+            "thumbnailable": true,
+            "size": 86083,
+            "download_url": "/file_attachments/202/download",
+            "content_type": "image/png",
+            "uploaded": true,
+            "big_url": "/attachments/0000/0202/pivotallabs_big.png",
+            "thumbnail_url": "/attachments/0000/0202/pivotallabs_thumb.png",
+            "width": 1104,
+            "height": 400,
+            "type": "file_attachment",
+            "title": "pivotallabs.png"
+          }
+        ],
+        "google_attachments": [],
+        "commit_identifier": "",
+        "commit_type": ""
+      },
+      "person_id": 202,
+      "type": "comment_create",
+      "command_uuid": "4b5162f5-6547-40be-8264-3a3338a0f388",
+      "project": {
+        "id": 101,
+        "version": 248
+      }
+    }
+  ],
+  "session_expires_at": 1421759786000,
+  "result": "stale"
+}

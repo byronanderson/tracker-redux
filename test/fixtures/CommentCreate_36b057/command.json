@@ -1,0 +1,127 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "comment",
+          "id": 211,
+          "story_id": 2162,
+          "text": "I don't think you chose your comment text well'",
+          "person_id": 202,
+          "created_at": 1421745371000,
+          "updated_at": 1421745371000,
+          "file_attachment_ids": [],
+          "google_attachment_ids": [],
+          "file_attachments": [],
+          "google_attachments": []
+        },
+        {
+          "type": "following",
+          "id": 17,
+          "person_id": 202,
+          "story_id": 2162
+        },
+        {
+          "type": "story",
+          "id": 2162,
+          "follower_ids": [
+            202
+          ],
+          "updated_at": 1421745371000
+        }
+      ],
+      "activity": {
+        "kind": "comment_create_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster added comment: \"I don't think you chose your comment text well'\"",
+        "highlight": "added comment:",
+        "changes": [
+          {
+            "kind": "comment",
+            "change_type": "create",
+            "id": 211,
+            "new_values": {
+              "id": 211,
+              "story_id": 2162,
+              "text": "I don't think you chose your comment text well'",
+              "person_id": 202,
+              "created_at": 1421745371000,
+              "updated_at": 1421745371000,
+              "file_attachment_ids": [],
+              "google_attachment_ids": [],
+              "file_attachments": [],
+              "google_attachments": []
+            }
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2162,
+            "original_values": {
+              "follower_ids": [],
+              "updated_at": 1420563780000
+            },
+            "new_values": {
+              "follower_ids": [
+                202
+              ],
+              "updated_at": 1421745371000
+            },
+            "name": "p5",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2162,
+            "name": "p5",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2162"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745371000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2162,
+          "follower_ids": [],
+          "updated_at": 1420563780000
+        }
+      ],
+      "parameters": {
+        "story_id": 2162,
+        "person_id": 202,
+        "text": "I don't think you chose your comment text well'",
+        "file_attachments": [],
+        "google_attachments": [],
+        "commit_identifier": "",
+        "commit_type": ""
+      },
+      "person_id": 202,
+      "type": "comment_create",
+      "command_uuid": "03e278c8-5850-4f5b-95e4-6a01f236b057",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421759771000,
+  "result": "stale"
+}

@@ -1,0 +1,203 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2217,
+          "project_id": 101,
+          "name": "Hello!",
+          "story_type": "feature",
+          "current_state": "unscheduled",
+          "requested_by_id": 202,
+          "owner_ids": [],
+          "label_ids": [
+            5028
+          ],
+          "follower_ids": [],
+          "created_at": 1421746235000,
+          "updated_at": 1421746235000,
+          "before_id": 2185,
+          "after_id": 2161,
+          "labels": [
+            "deployment"
+          ]
+        },
+        {
+          "type": "task",
+          "id": 5049,
+          "story_id": 2217,
+          "description": "task to be middle",
+          "complete": false,
+          "position": 1,
+          "created_at": 1421746235000,
+          "updated_at": 1421746235000
+        },
+        {
+          "type": "task",
+          "id": 5050,
+          "story_id": 2217,
+          "description": "task to be first",
+          "complete": false,
+          "position": 2,
+          "created_at": 1421746235000,
+          "updated_at": 1421746235000
+        },
+        {
+          "type": "task",
+          "id": 5051,
+          "story_id": 2217,
+          "description": "task to be last",
+          "complete": false,
+          "position": 3,
+          "created_at": 1421746235000,
+          "updated_at": 1421746235000
+        }
+      ],
+      "activity": {
+        "kind": "story_create_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster added this feature",
+        "highlight": "added",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "create",
+            "id": 2217,
+            "new_values": {
+              "id": 2217,
+              "project_id": 101,
+              "name": "Hello!",
+              "story_type": "feature",
+              "current_state": "unscheduled",
+              "requested_by_id": 202,
+              "owner_ids": [],
+              "label_ids": [
+                5028
+              ],
+              "follower_ids": [],
+              "created_at": 1421746235000,
+              "updated_at": 1421746235000,
+              "before_id": 2185,
+              "after_id": 2161,
+              "labels": [
+                "deployment"
+              ]
+            },
+            "name": "Hello!",
+            "story_type": "feature"
+          },
+          {
+            "kind": "task",
+            "change_type": "create",
+            "id": 5049,
+            "new_values": {
+              "id": 5049,
+              "story_id": 2217,
+              "description": "task to be middle",
+              "complete": false,
+              "position": 1,
+              "created_at": 1421746235000,
+              "updated_at": 1421746235000
+            }
+          },
+          {
+            "kind": "task",
+            "change_type": "create",
+            "id": 5050,
+            "new_values": {
+              "id": 5050,
+              "story_id": 2217,
+              "description": "task to be first",
+              "complete": false,
+              "position": 2,
+              "created_at": 1421746235000,
+              "updated_at": 1421746235000
+            }
+          },
+          {
+            "kind": "task",
+            "change_type": "create",
+            "id": 5051,
+            "new_values": {
+              "id": 5051,
+              "story_id": 2217,
+              "description": "task to be last",
+              "complete": false,
+              "position": 3,
+              "created_at": 1421746235000,
+              "updated_at": 1421746235000
+            }
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2217,
+            "name": "Hello!",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2217"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421746235000
+      },
+      "mutandum": [],
+      "parameters": {
+        "requested_by_id": 202,
+        "current_state": "unscheduled",
+        "name": "Hello!",
+        "description": "",
+        "estimate": -1,
+        "accepted_at": null,
+        "deadline": null,
+        "owner_ids": [],
+        "story_type": "feature",
+        "integration_id": null,
+        "external_id": "",
+        "comments": [],
+        "follower_ids": [],
+        "tasks": [
+          {
+            "description": "task to be middle"
+          },
+          {
+            "description": "task to be first",
+            "complete": false
+          },
+          {
+            "description": "task to be last"
+          }
+        ],
+        "group": "unscheduled",
+        "label_ids": [
+          5028
+        ],
+        "before_id": 2185,
+        "cl_numbers": ""
+      },
+      "person_id": 202,
+      "type": "story_create",
+      "command_uuid": "1e88ed21-88a2-4fc4-ae07-b67f752ca509",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421760635000,
+  "result": "stale"
+}

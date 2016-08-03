@@ -1,0 +1,104 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2162,
+          "updated_at": 1421745320000
+        },
+        {
+          "type": "task",
+          "id": 5042,
+          "description": "New Description",
+          "updated_at": 1421745320000
+        }
+      ],
+      "activity": {
+        "kind": "task_update_activity",
+        "guid": "101_251",
+        "project_version": 251,
+        "message": "Robert Brewster rewrote task: \"New Description\"",
+        "highlight": "rewrote task:",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2162,
+            "original_values": {
+              "updated_at": 1421745318000
+            },
+            "new_values": {
+              "updated_at": 1421745320000
+            },
+            "name": "p5",
+            "story_type": "feature"
+          },
+          {
+            "kind": "task",
+            "change_type": "update",
+            "id": 5042,
+            "original_values": {
+              "description": "Description",
+              "updated_at": 1421745318000
+            },
+            "new_values": {
+              "description": "New Description",
+              "updated_at": 1421745320000
+            }
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2162,
+            "name": "p5",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2162"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745320000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2162,
+          "updated_at": 1421745318000
+        },
+        {
+          "type": "task",
+          "id": 5042,
+          "description": "Description",
+          "updated_at": 1421745318000
+        }
+      ],
+      "parameters": {
+        "description": "New Description",
+        "story_id": 2162,
+        "id": 5042
+      },
+      "person_id": 202,
+      "type": "task_update",
+      "command_uuid": "bcd6497a-a105-4e6c-ba35-04d30de0843e",
+      "project": {
+        "id": 101,
+        "version": 251
+      }
+    }
+  ],
+  "session_expires_at": 1421759719000,
+  "result": "stale"
+}

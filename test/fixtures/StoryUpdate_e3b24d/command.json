@@ -1,0 +1,96 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2155,
+          "label_ids": [
+            5024
+          ],
+          "updated_at": 1421744974000,
+          "labels": [
+            "patterns"
+          ]
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster edited this feature",
+        "highlight": "edited",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2155,
+            "original_values": {
+              "label_ids": [],
+              "updated_at": 1417891500000,
+              "labels": []
+            },
+            "new_values": {
+              "label_ids": [
+                5024
+              ],
+              "updated_at": 1421744974000,
+              "labels": [
+                "patterns"
+              ]
+            },
+            "name": "iter4-3",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2155,
+            "name": "iter4-3",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2155"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421744974000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2155,
+          "label_ids": [],
+          "updated_at": 1417891500000,
+          "labels": []
+        }
+      ],
+      "parameters": {
+        "label_ids": [
+          5024
+        ],
+        "id": 2155
+      },
+      "person_id": 202,
+      "type": "story_update",
+      "command_uuid": "2bd101a4-8447-4728-b95b-0c2365e3b24d",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421759374000,
+  "result": "stale"
+}

@@ -1,0 +1,1 @@
+{"kind":"command_create_response","stale_commands":[{"kind":"command","results":[],"mutandum":[],"parameters":{"message":"Configuration Change","changed_fields":["number_of_done_iterations_to_show"]},"type":"project_reload","project":{"id":7,"version":17}}],"result":"stale"}

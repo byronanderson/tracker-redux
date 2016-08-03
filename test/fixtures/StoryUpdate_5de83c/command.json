@@ -1,0 +1,90 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2185,
+          "current_state": "started",
+          "updated_at": 1421745250000,
+          "before_id": 2175,
+          "after_id": 2177
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster started this bug",
+        "highlight": "started",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2185,
+            "original_values": {
+              "current_state": "unscheduled",
+              "updated_at": 1420909200000,
+              "before_id": 2184,
+              "after_id": 2161
+            },
+            "new_values": {
+              "current_state": "started",
+              "updated_at": 1421745250000,
+              "before_id": 2175,
+              "after_id": 2177
+            },
+            "name": "iter7-4",
+            "story_type": "bug"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2185,
+            "name": "iter7-4",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2185"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745250000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2185,
+          "current_state": "unscheduled",
+          "updated_at": 1420909200000,
+          "before_id": 2184,
+          "after_id": 2161
+        }
+      ],
+      "parameters": {
+        "current_state": "started",
+        "id": 2185
+      },
+      "person_id": 202,
+      "type": "story_update",
+      "command_uuid": "dfd39ebe-0843-4e35-86fd-acca0f5de83c",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421759650000,
+  "result": "stale"
+}

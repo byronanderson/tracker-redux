@@ -1,0 +1,38 @@
+{
+  "name": "tracker-redux",
+  "version": "0.1.0",
+  "description": "Pivotal Tracker project reducer - keep your Tracker project up to date when commands occur.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/jasmine/bin/jasmine.js test/command_processing_test.js"
+  },
+  "author": "Byron Anderson",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-2": "^6.11.0",
+    "brfs": "^1.4.3",
+    "chai": "^1.10.0",
+    "deep-diff": "^0.3.4",
+    "glob": "^4.3.5",
+    "jasmine": "^2.4.1",
+    "json-loader": "^0.5.4",
+    "karma": "^1.1.1",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "karma-webpack": "^1.7.0",
+    "lodash": "^2.4.1",
+    "mocha": "^2.1.0",
+    "raw-loader": "^0.5.1",
+    "redux": "^3.5.2",
+    "reselect": "^2.5.3",
+    "rfc6902-json-diff": "^0.1.2",
+    "timezone-js": "^0.4.13",
+    "webpack": "1.13.0",
+    "transform-loader": "^0.2.3"
+  }
+}

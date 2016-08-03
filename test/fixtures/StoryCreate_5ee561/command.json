@@ -1,0 +1,110 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2214,
+          "project_id": 102,
+          "name": "Release the hounds!",
+          "story_type": "release",
+          "current_state": "unscheduled",
+          "requested_by_id": 202,
+          "owner_ids": [],
+          "label_ids": [],
+          "follower_ids": [],
+          "created_at": 1421746176000,
+          "updated_at": 1421746176000,
+          "before_id": 2199,
+          "after_id": 2197,
+          "labels": []
+        }
+      ],
+      "activity": {
+        "kind": "story_create_activity",
+        "guid": "102_18",
+        "project_version": 18,
+        "message": "Robert Brewster added this release",
+        "highlight": "added",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "create",
+            "id": 2214,
+            "new_values": {
+              "id": 2214,
+              "project_id": 102,
+              "name": "Release the hounds!",
+              "story_type": "release",
+              "current_state": "unscheduled",
+              "requested_by_id": 202,
+              "owner_ids": [],
+              "label_ids": [],
+              "follower_ids": [],
+              "created_at": 1421746176000,
+              "updated_at": 1421746176000,
+              "before_id": 2199,
+              "after_id": 2197,
+              "labels": []
+            },
+            "name": "Release the hounds!",
+            "story_type": "release"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2214,
+            "name": "Release the hounds!",
+            "story_type": "release",
+            "url": "http://localhost/story/show/2214"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 102,
+          "name": "T-1000 mimetic poly-alloy assassin"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421746176000
+      },
+      "mutandum": [],
+      "parameters": {
+        "requested_by_id": 202,
+        "current_state": "unscheduled",
+        "name": "Release the hounds!",
+        "description": "",
+        "estimate": -1,
+        "accepted_at": null,
+        "deadline": null,
+        "owner_ids": [],
+        "story_type": "release",
+        "integration_id": null,
+        "external_id": "",
+        "comments": [],
+        "follower_ids": [],
+        "tasks": [],
+        "group": null,
+        "label_ids": [],
+        "before_id": 2199,
+        "cl_numbers": ""
+      },
+      "person_id": 202,
+      "type": "story_create",
+      "command_uuid": "a71e7131-887a-4dce-bdbc-fff8255ee561",
+      "project": {
+        "id": 102,
+        "version": 18
+      }
+    }
+  ],
+  "session_expires_at": 1421760576000,
+  "result": "stale"
+}

@@ -1,0 +1,90 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2162,
+          "label_ids": [],
+          "labels": []
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Andy Goode edited this feature",
+        "highlight": "edited",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2162,
+            "original_values": {
+              "label_ids": [
+                5024
+              ],
+              "labels": [
+                "patterns"
+              ]
+            },
+            "new_values": {
+              "label_ids": [],
+              "labels": []
+            },
+            "name": "p5",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2162,
+            "name": "p5",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2162"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 203,
+          "name": "Andy Goode",
+          "initials": "AG"
+        },
+        "occurred_at": 1421746406000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2162,
+          "label_ids": [
+            5024
+          ],
+          "labels": [
+            "patterns"
+          ]
+        }
+      ],
+      "parameters": {
+        "label_ids": [],
+        "id": 2162
+      },
+      "person_id": 203,
+      "type": "story_update",
+      "command_uuid": "13064bbe-bcf7-4b8a-90c9-d5248cd6011a",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421760805000,
+  "result": "stale"
+}

@@ -1,0 +1,76 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "label",
+          "id": 5034,
+          "project_id": 101,
+          "name": "hey hows it going",
+          "created_at": 1421745009000,
+          "updated_at": 1421745009000
+        }
+      ],
+      "activity": {
+        "kind": "label_create_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster created labels: \"hey hows it going\"",
+        "highlight": "created",
+        "changes": [
+          {
+            "kind": "label",
+            "change_type": "create",
+            "id": 5034,
+            "new_values": {
+              "id": 5034,
+              "project_id": 101,
+              "name": "hey hows it going",
+              "created_at": 1421745009000,
+              "updated_at": 1421745009000
+            },
+            "name": "hey hows it going"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "label",
+            "id": 5034,
+            "name": "hey hows it going"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745009000
+      },
+      "mutandum": [],
+      "parameters": {
+        "labels": [
+          {
+            "name": "hey hows it going"
+          }
+        ]
+      },
+      "person_id": 202,
+      "type": "multi_label_create",
+      "command_uuid": "a7d60aaa-8496-43c5-9c46-b263a172b4ee",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421759409000,
+  "result": "stale"
+}

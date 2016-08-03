@@ -1,0 +1,88 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2223,
+          "deleted": true
+        }
+      ],
+      "activity": {
+        "kind": "story_delete_activity",
+        "guid": "101_248",
+        "project_version": 248,
+        "message": "Robert Brewster deleted this release",
+        "highlight": "deleted",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2223,
+            "name": "my new release",
+            "story_type": "release"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2223,
+            "name": "my new release",
+            "story_type": "release",
+            "url": "http://localhost/story/show/2223"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421746325000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2223,
+          "project_id": 101,
+          "name": "my new release",
+          "story_type": "release",
+          "current_state": "unstarted",
+          "estimate": -1,
+          "deadline": 1421746322000,
+          "requested_by_id": 202,
+          "owned_by_id": -1,
+          "owner_ids": [],
+          "label_ids": [],
+          "follower_ids": [],
+          "created_at": 1421746323000,
+          "updated_at": 1421746324000,
+          "before_id": 2175,
+          "after_id": 2177,
+          "labels": []
+        }
+      ],
+      "parameters": {
+        "ids": [
+          2223
+        ]
+      },
+      "person_id": 202,
+      "type": "multi_story_delete",
+      "command_uuid": "1f0bed61-0409-45c5-a9ff-4d0c0872f39b",
+      "project": {
+        "id": 101,
+        "version": 248
+      }
+    }
+  ],
+  "session_expires_at": 1421760725000,
+  "result": "stale"
+}

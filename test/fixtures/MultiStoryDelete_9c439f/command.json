@@ -1,0 +1,1047 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2109,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2122,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2123,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2124,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2125,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2129,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2130,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2131,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2132,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2133,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2134,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2135,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2136,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2137,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2138,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2139,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2140,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2146,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2147,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2148,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2149,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2150,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2153,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2154,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2155,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2163,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2164,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2165,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2168,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2169,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2179,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2180,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2181,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2182,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2183,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2184,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2185,
+          "deleted": true
+        }
+      ],
+      "activity": {
+        "kind": "story_delete_activity",
+        "guid": "101_246",
+        "project_version": 246,
+        "message": "Robert Brewster deleted 37 stories",
+        "highlight": "deleted",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2109,
+            "name": "iter0-2",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2122,
+            "name": "iter0-7",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2123,
+            "name": "iter0-8",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2124,
+            "name": "iter0-9",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2125,
+            "name": "iter1-1",
+            "story_type": "chore"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2129,
+            "name": "iter1-3",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2130,
+            "name": "iter1-4",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2131,
+            "name": "iter1-5",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2132,
+            "name": "iter1-6",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2133,
+            "name": "iter1-7",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2134,
+            "name": "iter1-8",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2135,
+            "name": "iter1-9",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2136,
+            "name": "iter2-1",
+            "story_type": "chore"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2137,
+            "name": "iter2-2",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2138,
+            "name": "iter2-3",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2139,
+            "name": "iter2-4",
+            "story_type": "bug"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2140,
+            "name": "iter2-5",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2146,
+            "name": "iter3-1",
+            "story_type": "chore"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2147,
+            "name": "iter3-2",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2148,
+            "name": "iter3-3",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2149,
+            "name": "iter3-4",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2150,
+            "name": "iter3-5",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2153,
+            "name": "iter4-1",
+            "story_type": "chore"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2154,
+            "name": "iter4-2",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2155,
+            "name": "iter4-3",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2163,
+            "name": "iter5-1",
+            "story_type": "bug"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2164,
+            "name": "iter5-2",
+            "story_type": "bug"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2165,
+            "name": "iter5-3",
+            "story_type": "bug"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2168,
+            "name": "command-2",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2169,
+            "name": "command-3",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2179,
+            "name": "automated replacement of down server modules from spares",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2180,
+            "name": "demand-based datacenter repartitioning",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2181,
+            "name": "peer-to-peer dynamic topology data backup",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2182,
+            "name": "iter7-1",
+            "story_type": "bug"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2183,
+            "name": "iter7-2",
+            "story_type": "bug"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2184,
+            "name": "iter7-3",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2185,
+            "name": "iter7-4",
+            "story_type": "bug"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2185,
+            "name": "iter7-4",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2185"
+          },
+          {
+            "kind": "story",
+            "id": 2184,
+            "name": "iter7-3",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2184"
+          },
+          {
+            "kind": "story",
+            "id": 2183,
+            "name": "iter7-2",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2183"
+          },
+          {
+            "kind": "story",
+            "id": 2182,
+            "name": "iter7-1",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2182"
+          },
+          {
+            "kind": "story",
+            "id": 2169,
+            "name": "command-3",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2169"
+          },
+          {
+            "kind": "story",
+            "id": 2168,
+            "name": "command-2",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2168"
+          },
+          {
+            "kind": "story",
+            "id": 2165,
+            "name": "iter5-3",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2165"
+          },
+          {
+            "kind": "story",
+            "id": 2164,
+            "name": "iter5-2",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2164"
+          },
+          {
+            "kind": "story",
+            "id": 2163,
+            "name": "iter5-1",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2163"
+          },
+          {
+            "kind": "story",
+            "id": 2155,
+            "name": "iter4-3",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2155"
+          },
+          {
+            "kind": "story",
+            "id": 2154,
+            "name": "iter4-2",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2154"
+          },
+          {
+            "kind": "story",
+            "id": 2153,
+            "name": "iter4-1",
+            "story_type": "chore",
+            "url": "http://localhost/story/show/2153"
+          },
+          {
+            "kind": "story",
+            "id": 2150,
+            "name": "iter3-5",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2150"
+          },
+          {
+            "kind": "story",
+            "id": 2149,
+            "name": "iter3-4",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2149"
+          },
+          {
+            "kind": "story",
+            "id": 2148,
+            "name": "iter3-3",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2148"
+          },
+          {
+            "kind": "story",
+            "id": 2147,
+            "name": "iter3-2",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2147"
+          },
+          {
+            "kind": "story",
+            "id": 2146,
+            "name": "iter3-1",
+            "story_type": "chore",
+            "url": "http://localhost/story/show/2146"
+          },
+          {
+            "kind": "story",
+            "id": 2140,
+            "name": "iter2-5",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2140"
+          },
+          {
+            "kind": "story",
+            "id": 2139,
+            "name": "iter2-4",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2139"
+          },
+          {
+            "kind": "story",
+            "id": 2138,
+            "name": "iter2-3",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2138"
+          },
+          {
+            "kind": "story",
+            "id": 2137,
+            "name": "iter2-2",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2137"
+          },
+          {
+            "kind": "story",
+            "id": 2136,
+            "name": "iter2-1",
+            "story_type": "chore",
+            "url": "http://localhost/story/show/2136"
+          },
+          {
+            "kind": "story",
+            "id": 2135,
+            "name": "iter1-9",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2135"
+          },
+          {
+            "kind": "story",
+            "id": 2134,
+            "name": "iter1-8",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2134"
+          },
+          {
+            "kind": "story",
+            "id": 2133,
+            "name": "iter1-7",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2133"
+          },
+          {
+            "kind": "story",
+            "id": 2132,
+            "name": "iter1-6",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2132"
+          },
+          {
+            "kind": "story",
+            "id": 2131,
+            "name": "iter1-5",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2131"
+          },
+          {
+            "kind": "story",
+            "id": 2130,
+            "name": "iter1-4",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2130"
+          },
+          {
+            "kind": "story",
+            "id": 2129,
+            "name": "iter1-3",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2129"
+          },
+          {
+            "kind": "story",
+            "id": 2125,
+            "name": "iter1-1",
+            "story_type": "chore",
+            "url": "http://localhost/story/show/2125"
+          },
+          {
+            "kind": "story",
+            "id": 2124,
+            "name": "iter0-9",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2124"
+          },
+          {
+            "kind": "story",
+            "id": 2123,
+            "name": "iter0-8",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2123"
+          },
+          {
+            "kind": "story",
+            "id": 2122,
+            "name": "iter0-7",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2122"
+          },
+          {
+            "kind": "story",
+            "id": 2109,
+            "name": "iter0-2",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2109"
+          },
+          {
+            "kind": "story",
+            "id": 2179,
+            "name": "automated replacement of down server modules from spares",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2179"
+          },
+          {
+            "kind": "story",
+            "id": 2180,
+            "name": "demand-based datacenter repartitioning",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2180"
+          },
+          {
+            "kind": "story",
+            "id": 2181,
+            "name": "peer-to-peer dynamic topology data backup",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2181"
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": 1421745943000
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2185,
+          "name": "iter7-4",
+          "story_type": "bug",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2184,
+          "name": "iter7-3",
+          "story_type": "feature",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2183,
+          "name": "iter7-2",
+          "story_type": "bug",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2182,
+          "name": "iter7-1",
+          "story_type": "bug",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2169,
+          "name": "command-3",
+          "story_type": "feature",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2168,
+          "name": "command-2",
+          "story_type": "feature",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2165,
+          "name": "iter5-3",
+          "story_type": "bug",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2164,
+          "name": "iter5-2",
+          "story_type": "bug",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2163,
+          "name": "iter5-1",
+          "story_type": "bug",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2155,
+          "name": "iter4-3",
+          "story_type": "feature",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2154,
+          "name": "iter4-2",
+          "story_type": "feature",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2153,
+          "name": "iter4-1",
+          "story_type": "chore",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2150,
+          "name": "iter3-5",
+          "story_type": "feature",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2149,
+          "name": "iter3-4",
+          "story_type": "feature",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2148,
+          "name": "iter3-3",
+          "story_type": "feature",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2147,
+          "name": "iter3-2",
+          "story_type": "feature",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2146,
+          "name": "iter3-1",
+          "story_type": "chore",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2140,
+          "name": "iter2-5",
+          "story_type": "feature",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2139,
+          "name": "iter2-4",
+          "story_type": "bug",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2138,
+          "name": "iter2-3",
+          "story_type": "feature",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2137,
+          "name": "iter2-2",
+          "story_type": "feature",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2136,
+          "name": "iter2-1",
+          "story_type": "chore",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2135,
+          "name": "iter1-9",
+          "story_type": "feature",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2134,
+          "name": "iter1-8",
+          "story_type": "feature",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2133,
+          "name": "iter1-7",
+          "story_type": "feature",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2132,
+          "name": "iter1-6",
+          "story_type": "feature",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2131,
+          "name": "iter1-5",
+          "story_type": "feature",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2130,
+          "name": "iter1-4",
+          "story_type": "feature",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2129,
+          "name": "iter1-3",
+          "story_type": "feature",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2125,
+          "name": "iter1-1",
+          "story_type": "chore",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2124,
+          "name": "iter0-9",
+          "story_type": "feature",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2123,
+          "name": "iter0-8",
+          "story_type": "feature",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2122,
+          "name": "iter0-7",
+          "story_type": "feature",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2109,
+          "name": "iter0-2",
+          "story_type": "feature",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2179,
+          "name": "automated replacement of down server modules from spares",
+          "story_type": "feature",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2180,
+          "name": "demand-based datacenter repartitioning",
+          "story_type": "feature",
+          "current_state": "unscheduled"
+        },
+        {
+          "type": "story",
+          "id": 2181,
+          "name": "peer-to-peer dynamic topology data backup",
+          "story_type": "feature",
+          "current_state": "unscheduled"
+        }
+      ],
+      "parameters": {
+        "ids": [
+          2185,
+          2184,
+          2183,
+          2182,
+          2169,
+          2168,
+          2165,
+          2164,
+          2163,
+          2155,
+          2154,
+          2153,
+          2150,
+          2149,
+          2148,
+          2147,
+          2146,
+          2140,
+          2139,
+          2138,
+          2137,
+          2136,
+          2135,
+          2134,
+          2133,
+          2132,
+          2131,
+          2130,
+          2129,
+          2125,
+          2124,
+          2123,
+          2122,
+          2109,
+          2179,
+          2180,
+          2181
+        ]
+      },
+      "person_id": 202,
+      "type": "multi_story_delete",
+      "command_uuid": "43e4577c-bdee-46f4-a5b6-b3f6189c439f",
+      "project": {
+        "id": 101,
+        "version": 246
+      }
+    }
+  ],
+  "session_expires_at": 1421760341000,
+  "result": "stale"
+}
