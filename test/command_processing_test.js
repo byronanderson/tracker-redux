@@ -93,6 +93,8 @@ function activePeople(project) {
 }
 
 var reducer = require('../dist/bundle').reducer;
+var pointScale = require('../dist/bundle').pointScale;
+var estimateBugsAndChores = require('../dist/bundle').estimateBugsAndChores;
 var iterations = require('../dist/bundle').iterations;
 var storyIds = require('../dist/bundle').storyIds;
 var stories = require('../dist/bundle').stories;
@@ -130,7 +132,7 @@ function formattedReducedIterations(reduction) {
 }
 
 describe('Project Command Processing', function() {
-  fs.readdirSync(__dirname + '/fixtures').slice().forEach(function(key) {
+  fs.readdirSync(__dirname + '/fixtures').slice(0).forEach(function(key) {
     // if (!key.match(/MultiStoryMoveFromProject/)) { return }
     it('creates a patch for ' + key, function() {
       var before  = readFixture(key, 'before');
@@ -154,6 +156,8 @@ describe('Project Command Processing', function() {
       } else if (buggyPlatform[key]) {
         console.log('buggy platform, check out fixture in ' + key);
       } else {
+        expectNoDiff('pointScale', pointScale(reduction), pointScale(afterState));
+        expectNoDiff('estimateBugsAndChores', estimateBugsAndChores(reduction), estimateBugsAndChores(afterState));
         expectNoDiff('storyIds', storyIds(reduction), storyIds(afterState));
         expectNoDiff('stories', stories(reduction), stories(afterState));
         expectNoDiff('timezone', reduction.timezone, afterState.timezone);
