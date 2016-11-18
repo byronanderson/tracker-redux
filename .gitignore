@@ -11,3 +11,7 @@ pids
 
 dist
 node_modules
+
+#vim
+*.swo
+*.swp
