@@ -1,0 +1,139 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "blocker",
+          "id": 245,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 1,
+          "updated_at": 1499445391000,
+          "blocked_story_ids": []
+        },
+        {
+          "type": "story",
+          "id": 2723,
+          "deleted": true
+        }
+      ],
+      "activity": {
+        "kind": "story_delete_activity",
+        "guid": "1_9",
+        "project_version": 9,
+        "message": "Dana Deer deleted this feature",
+        "highlight": "deleted",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 1,
+            "original_values": {
+              "updated_at": "2017-06-27T12:00:00Z",
+              "blocked_story_ids": [
+                2723
+              ]
+            },
+            "new_values": {
+              "updated_at": "2017-07-07T16:36:31Z",
+              "blocked_story_ids": []
+            },
+            "name": "The Save Dialog",
+            "story_type": "feature"
+          },
+          {
+            "kind": "blocker",
+            "change_type": "delete",
+            "id": 245
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2723,
+            "name": "first accepted",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2723,
+            "name": "first accepted",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2723"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 1,
+          "name": "Microsoft Excel"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 3,
+          "name": "Dana Deer",
+          "initials": "DD"
+        },
+        "occurred_at": "2017-07-07T16:36:31Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2723,
+          "project_id": 1,
+          "name": "first accepted",
+          "story_type": "feature",
+          "current_state": "delivered",
+          "estimate": 2,
+          "requested_by_id": 1,
+          "owned_by_id": -1,
+          "owner_ids": [],
+          "label_ids": [],
+          "follower_ids": [],
+          "created_at": 1499445391000,
+          "updated_at": 1499445391000,
+          "before_id": null,
+          "after_id": 550,
+          "blocked_story_ids": [],
+          "labels": []
+        },
+        {
+          "type": "blocker",
+          "id": 245,
+          "story_id": 2723,
+          "person_id": 13,
+          "description": "blocked by #1",
+          "resolved": false,
+          "created_at": 1499445391000,
+          "updated_at": 1499445391000
+        },
+        {
+          "type": "story",
+          "id": 1,
+          "updated_at": 1498564800000,
+          "blocked_story_ids": [
+            2723
+          ]
+        }
+      ],
+      "parameters": {
+        "ids": [
+          2723
+        ]
+      },
+      "person_id": 3,
+      "type": "multi_story_delete",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 1,
+        "version": 9
+      }
+    }
+  ],
+  "result": "stale"
+}

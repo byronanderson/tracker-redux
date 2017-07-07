@@ -1,0 +1,677 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "moved": true,
+          "id": 2746,
+          "type": "story"
+        },
+        {
+          "counts": {
+            "kind": "story_counts",
+            "sum_of_story_estimates_by_state": {
+              "accepted": 0,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 2,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "number_of_zero_point_stories_by_state": {
+              "accepted": 0,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 0,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "number_of_stories_by_state": {
+              "accepted": 0,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 1,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            }
+          },
+          "type": "label",
+          "id": 5342
+        },
+        {
+          "counts": {
+            "kind": "story_counts",
+            "sum_of_story_estimates_by_state": {
+              "accepted": 0,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 2,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "number_of_zero_point_stories_by_state": {
+              "accepted": 0,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 0,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "number_of_stories_by_state": {
+              "accepted": 0,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 1,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            }
+          },
+          "type": "label",
+          "id": 5341
+        },
+        {
+          "counts": {
+            "kind": "story_counts",
+            "sum_of_story_estimates_by_state": {
+              "accepted": 0,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 2,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "number_of_zero_point_stories_by_state": {
+              "accepted": 0,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 0,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "number_of_stories_by_state": {
+              "accepted": 0,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 1,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            }
+          },
+          "type": "label",
+          "id": 5340
+        }
+      ],
+      "activity": {
+        "kind": "story_move_from_project_activity",
+        "guid": "99_70",
+        "project_version": 70,
+        "message": "Darth Vader moved \"The Story 1100\" from this project to Learn About the Force",
+        "highlight": "moved",
+        "changes": [
+          {
+            "kind": "label",
+            "change_type": "update",
+            "id": 5342,
+            "original_values": {
+              "counts": {
+                "number_of_zero_point_stories_by_state": {
+                  "accepted": 0,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 0,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "sum_of_story_estimates_by_state": {
+                  "accepted": 0,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 4,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "number_of_stories_by_state": {
+                  "accepted": 0,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 2,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "kind": "story_counts"
+              }
+            },
+            "new_values": {
+              "counts": {
+                "kind": "story_counts",
+                "sum_of_story_estimates_by_state": {
+                  "accepted": 0,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 2,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "number_of_zero_point_stories_by_state": {
+                  "accepted": 0,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 0,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "number_of_stories_by_state": {
+                  "accepted": 0,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 1,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                }
+              }
+            },
+            "name": "bar"
+          },
+          {
+            "kind": "label",
+            "change_type": "update",
+            "id": 5341,
+            "original_values": {
+              "counts": {
+                "number_of_zero_point_stories_by_state": {
+                  "accepted": 0,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 0,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "sum_of_story_estimates_by_state": {
+                  "accepted": 0,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 4,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "number_of_stories_by_state": {
+                  "accepted": 0,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 2,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "kind": "story_counts"
+              }
+            },
+            "new_values": {
+              "counts": {
+                "kind": "story_counts",
+                "sum_of_story_estimates_by_state": {
+                  "accepted": 0,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 2,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "number_of_zero_point_stories_by_state": {
+                  "accepted": 0,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 0,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "number_of_stories_by_state": {
+                  "accepted": 0,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 1,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                }
+              }
+            },
+            "name": "foo"
+          },
+          {
+            "kind": "label",
+            "change_type": "update",
+            "id": 5340,
+            "original_values": {
+              "counts": {
+                "number_of_zero_point_stories_by_state": {
+                  "accepted": 0,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 0,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "sum_of_story_estimates_by_state": {
+                  "accepted": 0,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 4,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "number_of_stories_by_state": {
+                  "accepted": 0,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 2,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "kind": "story_counts"
+              }
+            },
+            "new_values": {
+              "counts": {
+                "kind": "story_counts",
+                "sum_of_story_estimates_by_state": {
+                  "accepted": 0,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 2,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "number_of_zero_point_stories_by_state": {
+                  "accepted": 0,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 0,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "number_of_stories_by_state": {
+                  "accepted": 0,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 1,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                }
+              }
+            },
+            "name": "test"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2746,
+            "name": "The Story 1100",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2746,
+            "name": "The Story 1100",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2746"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 99,
+          "name": "Death Star"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 101,
+          "name": "Darth Vader",
+          "initials": "DV"
+        },
+        "occurred_at": "2017-07-05T12:00:00Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2746,
+          "project_id": 99,
+          "name": "The Story 1100",
+          "story_type": "feature",
+          "current_state": "unstarted",
+          "estimate": 2,
+          "requested_by_id": 100,
+          "owned_by_id": 101,
+          "owner_ids": [
+            101
+          ],
+          "label_ids": [
+            5342,
+            5341,
+            5340
+          ],
+          "follower_ids": [],
+          "created_at": 1499256000000,
+          "updated_at": 1499256000000,
+          "before_id": 567,
+          "after_id": 2745,
+          "blocked_story_ids": [],
+          "labels": [
+            "bar",
+            "foo",
+            "test"
+          ]
+        },
+        {
+          "type": "label",
+          "id": 5342,
+          "counts": {
+            "number_of_zero_point_stories_by_state": {
+              "accepted": 0,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 0,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "sum_of_story_estimates_by_state": {
+              "accepted": 0,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 4,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "number_of_stories_by_state": {
+              "accepted": 0,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 2,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "kind": "story_counts"
+          }
+        },
+        {
+          "type": "label",
+          "id": 5341,
+          "counts": {
+            "number_of_zero_point_stories_by_state": {
+              "accepted": 0,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 0,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "sum_of_story_estimates_by_state": {
+              "accepted": 0,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 4,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "number_of_stories_by_state": {
+              "accepted": 0,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 2,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "kind": "story_counts"
+          }
+        },
+        {
+          "type": "label",
+          "id": 5340,
+          "counts": {
+            "number_of_zero_point_stories_by_state": {
+              "accepted": 0,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 0,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "sum_of_story_estimates_by_state": {
+              "accepted": 0,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 4,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "number_of_stories_by_state": {
+              "accepted": 0,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 2,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "kind": "story_counts"
+          }
+        },
+        {
+          "type": "comment",
+          "id": 713,
+          "story_id": 2746,
+          "text": "comment number 1103",
+          "person_id": 100,
+          "created_at": 1499256000000,
+          "updated_at": 1499256000000,
+          "file_attachment_ids": [
+            1545
+          ],
+          "google_attachment_ids": [
+            625
+          ],
+          "attachment_ids": [
+            {
+              "id": 1545,
+              "kind": "file_attachment"
+            },
+            {
+              "id": 625,
+              "kind": "google_attachment"
+            }
+          ],
+          "file_attachments": [
+            "alex.jpg"
+          ],
+          "google_attachments": [
+            "TEST DOC DO NOT DELETE OR RENAME"
+          ]
+        },
+        {
+          "type": "file_attachment",
+          "id": 1545,
+          "filename": "alex.jpg",
+          "created_at": 1499256000000,
+          "uploader_id": 101,
+          "thumbnailable": true,
+          "height": 100,
+          "width": 100,
+          "size": 7683,
+          "download_url": "/file_attachments/1545/download",
+          "content_type": "image/gif",
+          "uploaded": true,
+          "big_url": "/resource/0000/1545/alex_big.jpg",
+          "thumbnail_url": "/resource/0000/1545/alex_thumb.jpg"
+        },
+        {
+          "type": "google_attachment",
+          "id": 625,
+          "comment_id": 713,
+          "person_id": 101,
+          "google_kind": "document",
+          "title": "TEST DOC DO NOT DELETE OR RENAME",
+          "google_id": "https://docs.google.com/feeds/id/document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+          "alternate_link": "https://docs.google.com/a/pivotaltrackertest.com/document/d/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc/edit?hl=en_US",
+          "resource_id": "document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc"
+        },
+        {
+          "type": "comment",
+          "id": 714,
+          "story_id": 2746,
+          "text": "comment number 1104",
+          "person_id": 100,
+          "created_at": 1499256000000,
+          "updated_at": 1499256000000,
+          "file_attachment_ids": [],
+          "google_attachment_ids": [],
+          "attachment_ids": [],
+          "file_attachments": [],
+          "google_attachments": []
+        },
+        {
+          "type": "task",
+          "id": 5115,
+          "story_id": 2746,
+          "description": "don't do this, and don't do that",
+          "complete": false,
+          "position": 1,
+          "created_at": 1499256000000,
+          "updated_at": 1499256000000
+        },
+        {
+          "type": "task",
+          "id": 5116,
+          "story_id": 2746,
+          "description": "don't do this, and don't do that",
+          "complete": false,
+          "position": 2,
+          "created_at": 1499256000000,
+          "updated_at": 1499256000000
+        }
+      ],
+      "parameters": {
+        "ids": [
+          2746
+        ],
+        "destination_project_id": 98
+      },
+      "person_id": 101,
+      "type": "multi_story_move_from_project",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A29a",
+      "project": {
+        "id": 99,
+        "version": 70
+      }
+    }
+  ],
+  "result": "stale"
+}

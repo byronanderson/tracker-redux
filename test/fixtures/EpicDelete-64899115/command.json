@@ -1,0 +1,81 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "epic",
+          "id": 2225,
+          "deleted": true
+        }
+      ],
+      "activity": {
+        "kind": "epic_delete_activity",
+        "guid": "7_17",
+        "project_version": 17,
+        "message": "John Doe deleted this epic",
+        "highlight": "deleted",
+        "changes": [
+          {
+            "kind": "epic",
+            "change_type": "delete",
+            "id": 2225,
+            "name": "win 1888"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "epic",
+            "id": 2225,
+            "name": "win 1888",
+            "url": "http://localhost/epic/show/2225"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 7,
+          "name": "Pet Shop"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 1,
+          "name": "John Doe",
+          "initials": "JD"
+        },
+        "occurred_at": "2017-07-07T16:39:32Z"
+      },
+      "mutandum": [
+        {
+          "type": "epic",
+          "id": 2225,
+          "project_id": 7,
+          "name": "win 1888",
+          "label_id": 5471,
+          "description": "Epic Win!",
+          "follower_ids": [],
+          "created_at": 1499445572000,
+          "updated_at": 1499445572000,
+          "after_id": null,
+          "before_id": null,
+          "past_done_story_estimates": 0,
+          "past_done_stories_count": 0,
+          "past_done_stories_no_point_count": 0,
+          "label": "win 1888"
+        }
+      ],
+      "parameters": {
+        "id": 2225
+      },
+      "person_id": 1,
+      "type": "epic_delete",
+      "command_uuid": "uuid_1889",
+      "project": {
+        "id": 7,
+        "version": 17
+      }
+    }
+  ],
+  "result": "stale"
+}

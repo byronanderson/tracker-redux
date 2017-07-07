@@ -1,0 +1,90 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2956,
+          "current_state": "planned",
+          "before_id": 2954,
+          "after_id": 2953
+        }
+      ],
+      "activity": {
+        "kind": "story_move_activity",
+        "guid": "1970_3",
+        "project_version": 3,
+        "message": "John Doe 1524 moved and scheduled this story before 'unscheduled 1'",
+        "highlight": "moved and scheduled",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2956,
+            "original_values": {
+              "current_state": "unscheduled",
+              "before_id": 2957,
+              "after_id": 2955
+            },
+            "new_values": {
+              "current_state": "planned",
+              "before_id": 2954,
+              "after_id": 2953
+            },
+            "name": "unscheduled 3",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2956,
+            "name": "unscheduled 3",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2956"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 1970,
+          "name": "The Project 1521"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 1967,
+          "name": "John Doe 1524",
+          "initials": "JD"
+        },
+        "occurred_at": "2017-07-05T12:00:00Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2956,
+          "current_state": "unscheduled",
+          "before_id": 2957,
+          "after_id": 2955
+        }
+      ],
+      "parameters": {
+        "ids": [
+          2956
+        ],
+        "group": "current",
+        "after_id": 2953,
+        "before_id": 2954
+      },
+      "person_id": 1967,
+      "type": "multi_story_move",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 1970,
+        "version": 3
+      }
+    }
+  ],
+  "result": "stale"
+}

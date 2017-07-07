@@ -1,0 +1,85 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2196,
+          "updated_at": 1499445171000,
+          "blocked_story_ids": [
+            2184
+          ]
+        }
+      ],
+      "activity": {
+        "kind": "blocking_create_activity",
+        "guid": "102_28",
+        "project_version": 28,
+        "message": "This story is blocking #2184: \"#2196 is blocking this story\"",
+        "highlight": "is blocking",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2196,
+            "original_values": {
+              "updated_at": "2017-06-24T16:01:00Z",
+              "blocked_story_ids": []
+            },
+            "new_values": {
+              "updated_at": "2017-07-07T16:32:51Z",
+              "blocked_story_ids": [
+                2184
+              ]
+            },
+            "name": "Develop voice recognition",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2196,
+            "name": "Develop voice recognition",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2196"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 102,
+          "name": "T-1000 mimetic poly-alloy assassin"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 205,
+          "name": "Catherine Weaver",
+          "initials": "CW"
+        },
+        "occurred_at": "2017-07-07T16:32:51Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2196,
+          "updated_at": 1498320060000,
+          "blocked_story_ids": []
+        }
+      ],
+      "parameters": {
+        "story_id": 2196,
+        "blocker_id": 131
+      },
+      "person_id": 205,
+      "type": "blocking_create",
+      "project": {
+        "id": 102,
+        "version": 28
+      }
+    }
+  ],
+  "result": "stale"
+}

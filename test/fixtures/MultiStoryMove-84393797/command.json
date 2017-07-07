@@ -1,0 +1,120 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2919,
+          "updated_at": 1499257800000,
+          "after_id": null
+        },
+        {
+          "type": "story",
+          "id": 2920,
+          "updated_at": 1499257800000,
+          "before_id": 2917
+        }
+      ],
+      "activity": {
+        "kind": "story_move_activity",
+        "guid": "1960_2",
+        "project_version": 2,
+        "message": "John Doe 1442 moved 2 stories",
+        "highlight": "moved",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2919,
+            "original_values": {
+              "updated_at": "2017-07-05T12:00:00Z",
+              "after_id": 2918
+            },
+            "new_values": {
+              "updated_at": "2017-07-05T12:30:00Z",
+              "after_id": null
+            },
+            "name": "started 3",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2920,
+            "original_values": {
+              "updated_at": "2017-07-05T12:00:00Z",
+              "before_id": null
+            },
+            "new_values": {
+              "updated_at": "2017-07-05T12:30:00Z",
+              "before_id": 2917
+            },
+            "name": "started 4",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2919,
+            "name": "started 3",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2919"
+          },
+          {
+            "kind": "story",
+            "id": 2920,
+            "name": "started 4",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2920"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 1960,
+          "name": "The Project 1439"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 1958,
+          "name": "John Doe 1442",
+          "initials": "JD"
+        },
+        "occurred_at": "2017-07-05T12:30:00Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2919,
+          "updated_at": 1499256000000,
+          "after_id": 2918
+        },
+        {
+          "type": "story",
+          "id": 2920,
+          "updated_at": 1499256000000,
+          "before_id": null
+        }
+      ],
+      "parameters": {
+        "ids": [
+          2919,
+          2920
+        ],
+        "group": "scheduled",
+        "before_id": 2917
+      },
+      "person_id": 1958,
+      "type": "multi_story_move",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 1960,
+        "version": 2
+      }
+    }
+  ],
+  "result": "stale"
+}

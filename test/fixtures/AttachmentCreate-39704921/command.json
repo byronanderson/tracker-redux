@@ -1,0 +1,50 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "file_attachment",
+          "id": 1551,
+          "filename": "alex.jpg",
+          "created_at": 1499445570000,
+          "uploader_id": 13,
+          "thumbnailable": true,
+          "height": 100,
+          "width": 100,
+          "size": 7683,
+          "download_url": "/file_attachments/1551/download",
+          "content_type": "image/gif",
+          "uploaded": true,
+          "big_url": "/resource/0000/1551/alex_big.jpg",
+          "thumbnail_url": "/resource/0000/1551/alex_thumb.jpg"
+        }
+      ],
+      "mutandum": [],
+      "parameters": {
+        "id": 1551,
+        "filename": "alex.jpg",
+        "created_at": 1499445570000,
+        "uploader_id": 13,
+        "thumbnailable": true,
+        "height": 100,
+        "width": 100,
+        "size": 7683,
+        "download_url": "/file_attachments/1551/download",
+        "content_type": "image/gif",
+        "uploaded": true,
+        "big_url": "/resource/0000/1551/alex_big.jpg",
+        "thumbnail_url": "/resource/0000/1551/alex_thumb.jpg"
+      },
+      "person_id": 1,
+      "type": "attachment_create",
+      "command_uuid": "uuid_1879",
+      "project": {
+        "id": 7,
+        "version": 17
+      }
+    }
+  ],
+  "result": "stale"
+}

@@ -1,0 +1,83 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2304,
+          "name": "boo",
+          "description": "new description 14"
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "1_10",
+        "project_version": 10,
+        "message": "John Doe edited this feature",
+        "highlight": "edited",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2304,
+            "original_values": {
+              "name": "story 12",
+              "description": null
+            },
+            "new_values": {
+              "name": "boo",
+              "description": "new description 14"
+            },
+            "name": "boo",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2304,
+            "name": "boo",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2304"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 1,
+          "name": "Microsoft Excel"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 1,
+          "name": "John Doe",
+          "initials": "JD"
+        },
+        "occurred_at": "2017-07-07T16:32:29Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2304,
+          "name": "story 12",
+          "description": ""
+        }
+      ],
+      "parameters": {
+        "description": "new description 14",
+        "name": "boo",
+        "id": 2304
+      },
+      "person_id": 1,
+      "type": "story_update",
+      "command_uuid": "uuid_15",
+      "project": {
+        "id": 1,
+        "version": 10
+      }
+    }
+  ],
+  "result": "stale"
+}

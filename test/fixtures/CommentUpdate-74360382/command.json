@@ -1,0 +1,212 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "comment",
+          "id": 496,
+          "text": "",
+          "google_attachment_ids": [
+            445,
+            446
+          ],
+          "attachment_ids": [
+            {
+              "id": 445,
+              "kind": "google_attachment"
+            },
+            {
+              "id": 446,
+              "kind": "google_attachment"
+            }
+          ],
+          "google_attachments": [
+            "google doc1",
+            "google doc2"
+          ]
+        },
+        {
+          "type": "google_attachment",
+          "id": 445,
+          "comment_id": 496,
+          "person_id": 3,
+          "google_kind": "document",
+          "title": "google doc1",
+          "google_id": "https://docs.google.com/feeds/id/document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+          "alternate_link": "https://docs.google.com/a/pivotaltrackertest.com/document/d/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc/edit?hl=en_US",
+          "resource_id": "document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc"
+        },
+        {
+          "type": "google_attachment",
+          "id": 446,
+          "comment_id": 496,
+          "person_id": 3,
+          "google_kind": "document",
+          "title": "google doc2",
+          "google_id": "https://docs.google.com/feeds/id/document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+          "alternate_link": "https://docs.google.com/a/pivotaltrackertest.com/document/d/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc/edit?hl=en_US",
+          "resource_id": "document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc"
+        },
+        {
+          "type": "story",
+          "id": 4,
+          "updated_at": 1499441662000
+        }
+      ],
+      "activity": {
+        "kind": "comment_update_activity",
+        "guid": "1_9",
+        "project_version": 9,
+        "message": "Dana Deer edited this comment",
+        "highlight": "edited",
+        "changes": [
+          {
+            "kind": "google_attachment",
+            "change_type": "create",
+            "id": 445,
+            "new_values": {
+              "id": 445,
+              "comment_id": 496,
+              "person_id": 3,
+              "google_kind": "document",
+              "title": "google doc1",
+              "google_id": "https://docs.google.com/feeds/id/document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+              "alternate_link": "https://docs.google.com/a/pivotaltrackertest.com/document/d/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc/edit?hl=en_US",
+              "resource_id": "document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc"
+            }
+          },
+          {
+            "kind": "google_attachment",
+            "change_type": "create",
+            "id": 446,
+            "new_values": {
+              "id": 446,
+              "comment_id": 496,
+              "person_id": 3,
+              "google_kind": "document",
+              "title": "google doc2",
+              "google_id": "https://docs.google.com/feeds/id/document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+              "alternate_link": "https://docs.google.com/a/pivotaltrackertest.com/document/d/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc/edit?hl=en_US",
+              "resource_id": "document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc"
+            }
+          },
+          {
+            "kind": "comment",
+            "change_type": "update",
+            "id": 496,
+            "original_values": {
+              "text": "i r a comment",
+              "google_attachment_ids": [],
+              "attachment_ids": [],
+              "google_attachments": []
+            },
+            "new_values": {
+              "text": null,
+              "google_attachment_ids": [
+                445,
+                446
+              ],
+              "attachment_ids": [
+                {
+                  "id": 445,
+                  "kind": "google_attachment"
+                },
+                {
+                  "id": 446,
+                  "kind": "google_attachment"
+                }
+              ],
+              "google_attachments": [
+                "google doc1",
+                "google doc2"
+              ]
+            }
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 4,
+            "original_values": {
+              "updated_at": "2017-06-27T12:00:00Z"
+            },
+            "new_values": {
+              "updated_at": "2017-07-07T15:34:22Z"
+            },
+            "name": "Delete Row",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 4,
+            "name": "Delete Row",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/4"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 1,
+          "name": "Microsoft Excel"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 3,
+          "name": "Dana Deer",
+          "initials": "DD"
+        },
+        "occurred_at": "2017-07-07T15:34:22Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 4,
+          "updated_at": 1498564800000
+        },
+        {
+          "type": "comment",
+          "id": 496,
+          "text": "i r a comment",
+          "google_attachment_ids": [],
+          "attachment_ids": [],
+          "google_attachments": []
+        }
+      ],
+      "parameters": {
+        "id": 496,
+        "story_id": 4,
+        "google_attachments_to_add": [
+          {
+            "google_id": "https://docs.google.com/feeds/id/document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+            "alternate_link": "https://docs.google.com/a/pivotaltrackertest.com/document/d/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc/edit?hl=en_US",
+            "title": "google doc1",
+            "resource_id": "document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+            "google_kind": "document",
+            "kind": "google_attachment"
+          },
+          {
+            "google_id": "https://docs.google.com/feeds/id/document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+            "alternate_link": "https://docs.google.com/a/pivotaltrackertest.com/document/d/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc/edit?hl=en_US",
+            "title": "google doc2",
+            "resource_id": "document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+            "google_kind": "document",
+            "kind": "google_attachment"
+          }
+        ],
+        "text": ""
+      },
+      "person_id": 3,
+      "type": "comment_update",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 1,
+        "version": 9
+      }
+    }
+  ],
+  "result": "stale"
+}

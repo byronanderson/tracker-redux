@@ -1,0 +1,85 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 10,
+          "updated_at": 1499256000000,
+          "blocked_story_ids": []
+        }
+      ],
+      "activity": {
+        "kind": "blocking_delete_activity",
+        "guid": "7_17",
+        "project_version": 17,
+        "message": "This story is no longer blocking #1",
+        "highlight": "is no longer blocking",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 10,
+            "original_values": {
+              "updated_at": "2017-06-27T12:00:00Z",
+              "blocked_story_ids": [
+                1
+              ]
+            },
+            "new_values": {
+              "updated_at": "2017-07-05T12:00:00Z",
+              "blocked_story_ids": []
+            },
+            "name": "more important",
+            "story_type": "bug"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 10,
+            "name": "more important",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/10"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 7,
+          "name": "Pet Shop"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 13,
+          "name": "Rob Mee",
+          "initials": "rm"
+        },
+        "occurred_at": "2017-07-05T12:00:00Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 10,
+          "updated_at": 1498564800000,
+          "blocked_story_ids": [
+            1
+          ]
+        }
+      ],
+      "parameters": {
+        "story_id": 10,
+        "blocker_id": 286
+      },
+      "person_id": 13,
+      "type": "blocking_delete",
+      "project": {
+        "id": 7,
+        "version": 17
+      }
+    }
+  ],
+  "result": "stale"
+}

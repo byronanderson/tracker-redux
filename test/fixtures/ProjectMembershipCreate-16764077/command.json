@@ -1,0 +1,128 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "layout_scheme",
+          "id": 624,
+          "width_mode": "auto",
+          "project_id": 1802,
+          "person_id": 1804,
+          "created_at": 1499445522000,
+          "updated_at": 1499445522000,
+          "favorite_epics": []
+        },
+        {
+          "type": "project_membership",
+          "id": 16424,
+          "created_at": 1499445522000,
+          "updated_at": 1499445522000,
+          "person_id": 1804,
+          "project_id": 1802,
+          "role": "member",
+          "project_color": "e46642",
+          "favorite": false,
+          "wants_comment_notification_emails": true,
+          "will_receive_mention_notifications_or_emails": true
+        },
+        {
+          "id": 1804,
+          "type": "person",
+          "name": "Lieutenant Commander Tuvok",
+          "username": "tuvok",
+          "initials": "EP"
+        }
+      ],
+      "activity": {
+        "kind": "project_membership_create_activity",
+        "guid": "1802_3",
+        "project_version": 3,
+        "message": "Lieutenant Commander Tuvok self-joined as a member",
+        "highlight": "self-joined",
+        "changes": [
+          {
+            "kind": "layout_scheme",
+            "change_type": "create",
+            "id": 624,
+            "new_values": {
+              "id": 624,
+              "width_mode": "auto",
+              "project_id": 1802,
+              "person_id": 1804,
+              "created_at": "2017-07-07T16:38:42Z",
+              "updated_at": "2017-07-07T16:38:42Z",
+              "favorite_epics": []
+            }
+          },
+          {
+            "kind": "project_membership",
+            "change_type": "create",
+            "id": 16424,
+            "new_values": {
+              "id": 16424,
+              "created_at": "2017-07-07T16:38:42Z",
+              "updated_at": "2017-07-07T16:38:42Z",
+              "person_id": 1804,
+              "project_id": 1802,
+              "role": "member",
+              "project_color": "e46642",
+              "favorite": false,
+              "wants_comment_notification_emails": true,
+              "will_receive_mention_notifications_or_emails": true
+            }
+          },
+          {
+            "kind": "person",
+            "change_type": "create",
+            "id": 1804,
+            "new_values": {
+              "id": 1804,
+              "name": "Lieutenant Commander Tuvok",
+              "username": "tuvok",
+              "initials": "EP"
+            }
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "project",
+            "id": 1802,
+            "name": "Find Coffee"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 1802,
+          "name": "Find Coffee"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 1804,
+          "name": "Lieutenant Commander Tuvok",
+          "initials": "EP"
+        },
+        "occurred_at": "2017-07-07T16:38:42Z"
+      },
+      "mutandum": [],
+      "parameters": {
+        "person_id": 1804,
+        "role": "member",
+        "email": "tuvok@voyager.gov",
+        "name": "Lieutenant Commander Tuvok",
+        "initials": "EP",
+        "username": "tuvok"
+      },
+      "person_id": 1804,
+      "type": "project_membership_create",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 1802,
+        "version": 3
+      }
+    }
+  ],
+  "result": "stale"
+}

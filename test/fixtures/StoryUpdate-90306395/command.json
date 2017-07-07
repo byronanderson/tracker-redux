@@ -1,0 +1,320 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "blocker",
+          "id": 282,
+          "resolved": true
+        },
+        {
+          "type": "label",
+          "id": 5024,
+          "counts": {
+            "number_of_zero_point_stories_by_state": {
+              "accepted": 1,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 0,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 1,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "sum_of_story_estimates_by_state": {
+              "accepted": 16,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 8,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "number_of_stories_by_state": {
+              "accepted": 7,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 1,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 1,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "kind": "story_counts"
+          }
+        },
+        {
+          "type": "story",
+          "id": 2165,
+          "current_state": "accepted",
+          "accepted_at": 1499256000000,
+          "updated_at": 1499256000000,
+          "before_id": 2180,
+          "after_id": 2160
+        },
+        {
+          "type": "story",
+          "id": 2178,
+          "updated_at": 1499256000000,
+          "blocked_story_ids": []
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "101_290",
+        "project_version": 290,
+        "message": "Robert Brewster accepted this feature",
+        "highlight": "accepted",
+        "changes": [
+          {
+            "kind": "blocker",
+            "change_type": "update",
+            "id": 282,
+            "original_values": {
+              "resolved": false
+            },
+            "new_values": {
+              "resolved": true
+            }
+          },
+          {
+            "kind": "label",
+            "change_type": "update",
+            "id": 5024,
+            "original_values": {
+              "counts": {
+                "number_of_zero_point_stories_by_state": {
+                  "accepted": 1,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 0,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 1,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "sum_of_story_estimates_by_state": {
+                  "accepted": 11,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 13,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "number_of_stories_by_state": {
+                  "accepted": 6,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 2,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 1,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "kind": "story_counts"
+              }
+            },
+            "new_values": {
+              "counts": {
+                "number_of_zero_point_stories_by_state": {
+                  "accepted": 1,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 0,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 1,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "sum_of_story_estimates_by_state": {
+                  "accepted": 16,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 8,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "number_of_stories_by_state": {
+                  "accepted": 7,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 1,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 1,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "kind": "story_counts"
+              }
+            },
+            "name": "patterns"
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2165,
+            "original_values": {
+              "current_state": "unstarted",
+              "accepted_at": null,
+              "updated_at": "2017-06-27T16:03:50Z",
+              "before_id": 2164,
+              "after_id": 2175
+            },
+            "new_values": {
+              "current_state": "accepted",
+              "accepted_at": "2017-07-05T12:00:00Z",
+              "updated_at": "2017-07-05T12:00:00Z",
+              "before_id": 2180,
+              "after_id": 2160
+            },
+            "name": "p5",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2165,
+            "original_values": {
+              "updated_at": "2017-06-27T16:02:25Z",
+              "blocked_story_ids": [
+                2165
+              ]
+            },
+            "new_values": {
+              "updated_at": "2017-07-05T12:00:00Z",
+              "blocked_story_ids": []
+            },
+            "name": "p5",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2165,
+            "name": "p5",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2165"
+          }
+        ],
+        "secondary_resources": [
+          {
+            "kind": "secondary_resource",
+            "message": "Acceptance of story #2165 has resolved a blocker: \"blocked by #2178\"",
+            "highlight": "resolved a blocker",
+            "resource": {
+              "kind": "story",
+              "id": 2165,
+              "name": "p5",
+              "story_type": "feature"
+            }
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": "2017-07-05T12:00:00Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2165,
+          "current_state": "unstarted",
+          "accepted_at": null,
+          "updated_at": 1498579430000,
+          "before_id": 2164,
+          "after_id": 2175
+        },
+        {
+          "type": "blocker",
+          "id": 282,
+          "resolved": false
+        },
+        {
+          "type": "story",
+          "id": 2178,
+          "updated_at": 1498579345000,
+          "blocked_story_ids": [
+            2165
+          ]
+        },
+        {
+          "type": "label",
+          "id": 5024,
+          "counts": {
+            "number_of_zero_point_stories_by_state": {
+              "accepted": 1,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 0,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 1,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "sum_of_story_estimates_by_state": {
+              "accepted": 11,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 13,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "number_of_stories_by_state": {
+              "accepted": 6,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 2,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 1,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "kind": "story_counts"
+          }
+        }
+      ],
+      "parameters": {
+        "id": 2165,
+        "current_state": "accepted"
+      },
+      "person_id": 202,
+      "type": "story_update",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 101,
+        "version": 290
+      }
+    }
+  ],
+  "result": "stale"
+}

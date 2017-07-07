@@ -1,0 +1,85 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "id": 103,
+          "type": "person",
+          "name": "New Name",
+          "username": "new_username",
+          "initials": "NI"
+        }
+      ],
+      "activity": {
+        "kind": "project_membership_update_activity",
+        "guid": "98_4",
+        "project_version": 4,
+        "message": "New Name updated their profile",
+        "highlight": "updated",
+        "changes": [
+          {
+            "kind": "person",
+            "change_type": "update",
+            "id": 103,
+            "original_values": {
+              "name": "Moradmin Bast",
+              "username": "bast",
+              "initials": "MB"
+            },
+            "new_values": {
+              "name": "New Name",
+              "username": "new_username",
+              "initials": "NI"
+            }
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "project",
+            "id": 98,
+            "name": "Learn About the Force"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 98,
+          "name": "Learn About the Force"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 103,
+          "name": "New Name",
+          "initials": "NI"
+        },
+        "occurred_at": "2017-07-07T16:38:50Z"
+      },
+      "mutandum": [
+        {
+          "id": 103,
+          "type": "person",
+          "name": "Moradmin Bast",
+          "username": "bast",
+          "initials": "MB"
+        }
+      ],
+      "parameters": {
+        "id": 111,
+        "old_attrs": {
+          "name": "Moradmin Bast",
+          "username": "bast",
+          "initials": "MB"
+        }
+      },
+      "person_id": 103,
+      "type": "project_membership_update",
+      "project": {
+        "id": 98,
+        "version": 4
+      }
+    }
+  ],
+  "result": "stale"
+}

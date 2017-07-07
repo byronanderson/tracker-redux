@@ -1,0 +1,113 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "comment",
+          "id": 300,
+          "story_id": 1,
+          "text": "Emoji here ->>🍺<<-",
+          "person_id": 1,
+          "created_at": 1499445139000,
+          "updated_at": 1499445139000,
+          "file_attachment_ids": [],
+          "google_attachment_ids": [],
+          "attachment_ids": [],
+          "file_attachments": [],
+          "google_attachments": []
+        },
+        {
+          "type": "story",
+          "id": 1,
+          "updated_at": 1499445139000
+        }
+      ],
+      "activity": {
+        "kind": "comment_create_activity",
+        "guid": "1_9",
+        "project_version": 9,
+        "message": "John Doe added comment: \"Emoji here ->>🍺<<-\"",
+        "highlight": "added comment:",
+        "changes": [
+          {
+            "kind": "comment",
+            "change_type": "create",
+            "id": 300,
+            "new_values": {
+              "id": 300,
+              "story_id": 1,
+              "text": "Emoji here ->>🍺<<-",
+              "person_id": 1,
+              "created_at": "2017-07-07T16:32:19Z",
+              "updated_at": "2017-07-07T16:32:19Z",
+              "file_attachment_ids": [],
+              "google_attachment_ids": [],
+              "attachment_ids": [],
+              "file_attachments": [],
+              "google_attachments": []
+            }
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 1,
+            "original_values": {
+              "updated_at": "2017-06-27T12:00:00Z"
+            },
+            "new_values": {
+              "updated_at": "2017-07-07T16:32:19Z"
+            },
+            "name": "The Save Dialog",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 1,
+            "name": "The Save Dialog",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/1"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 1,
+          "name": "Microsoft Excel"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 1,
+          "name": "John Doe",
+          "initials": "JD"
+        },
+        "occurred_at": "2017-07-07T16:32:19Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 1,
+          "updated_at": 1498564800000
+        }
+      ],
+      "parameters": {
+        "story_id": 1,
+        "text": "Emoji here ->>🍺<<-",
+        "commit_identifier": "",
+        "commit_type": "",
+        "person_id": 1
+      },
+      "person_id": 1,
+      "type": "comment_create",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A27",
+      "project": {
+        "id": 1,
+        "version": 9
+      }
+    }
+  ],
+  "result": "stale"
+}

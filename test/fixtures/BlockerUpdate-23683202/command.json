@@ -1,0 +1,190 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "blocker",
+          "id": 189,
+          "description": "blocked by #559",
+          "resolved": true
+        },
+        {
+          "type": "story",
+          "id": 551,
+          "updated_at": 1499445191000,
+          "blocked_story_ids": []
+        },
+        {
+          "type": "story",
+          "id": 556,
+          "updated_at": 1499445191000
+        },
+        {
+          "type": "story",
+          "id": 559,
+          "updated_at": 1499445191000,
+          "blocked_story_ids": []
+        }
+      ],
+      "activity": {
+        "kind": "blocker_update_activity",
+        "guid": "99_67",
+        "project_version": 67,
+        "message": "Darth Vader resolved a blocker: \"blocked by #559\"",
+        "highlight": "resolved a blocker",
+        "changes": [
+          {
+            "kind": "blocker",
+            "change_type": "update",
+            "id": 189,
+            "original_values": {
+              "description": "[\"blocked by #559 and #551\", [#<Story id: 551, project_id: 99, story_type: \"feature\", name: \"Hire bounty hunters to bring in Solo\", current_state: \"unscheduled\", accepted_at: nil, priority: 16, estimate: 1, requested_by_id: 100, created_at: \"2017-07-04 12:00:00\", deadline: nil, description: \"No disintegrations\", external_id: \"\", updated_at: \"2017-07-04 12:00:00\", integration_id: nil, last_state_transition_at: \"2017-07-04 12:00:00\">, #<Story id: 559, project_id: 99, story_type: \"feature\", name: \"All exhaust ports should be shielded\", current_state: \"rejected\", accepted_at: nil, priority: 6, estimate: 3, requested_by_id: 102, created_at: \"2017-07-04 12:00:00\", deadline: nil, description: \"ray shielded, that is.\", external_id: \"\", updated_at: \"2017-07-04 12:00:00\", integration_id: nil, last_state_transition_at: \"2017-07-04 12:00:00\">]]",
+              "resolved": false
+            },
+            "new_values": {
+              "description": "blocked by #559",
+              "resolved": true
+            }
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 556,
+            "original_values": {
+              "updated_at": "2017-07-04T12:00:00Z",
+              "blocked_story_ids": [
+                556
+              ]
+            },
+            "new_values": {
+              "updated_at": "2017-07-07T16:33:11Z",
+              "blocked_story_ids": []
+            },
+            "name": "Interrogate Leia Organa",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 556,
+            "original_values": {
+              "updated_at": "2017-07-04T12:00:00Z"
+            },
+            "new_values": {
+              "updated_at": "2017-07-07T16:33:11Z"
+            },
+            "name": "Interrogate Leia Organa",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 556,
+            "original_values": {
+              "updated_at": "2017-07-04T12:00:00Z",
+              "blocked_story_ids": [
+                556
+              ]
+            },
+            "new_values": {
+              "updated_at": "2017-07-07T16:33:11Z",
+              "blocked_story_ids": []
+            },
+            "name": "Interrogate Leia Organa",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 556,
+            "name": "Interrogate Leia Organa",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/556"
+          }
+        ],
+        "secondary_resources": [
+          {
+            "kind": "secondary_resource",
+            "message": "This story is no longer blocking #556: \"blocked by #559\"",
+            "highlight": "is no longer blocking",
+            "resource": {
+              "kind": "story",
+              "id": 551,
+              "name": "Hire bounty hunters to bring in Solo",
+              "story_type": "feature"
+            }
+          },
+          {
+            "kind": "secondary_resource",
+            "message": "This story is no longer blocking #556: \"blocked by #559\"",
+            "highlight": "is no longer blocking",
+            "resource": {
+              "kind": "story",
+              "id": 559,
+              "name": "All exhaust ports should be shielded",
+              "story_type": "feature"
+            }
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 99,
+          "name": "Death Star"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 101,
+          "name": "Darth Vader",
+          "initials": "DV"
+        },
+        "occurred_at": "2017-07-07T16:33:11Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 556,
+          "updated_at": 1499169600000
+        },
+        {
+          "type": "blocker",
+          "id": 189,
+          "description": "[\"blocked by #559 and #551\", [#<Story id: 551, project_id: 99, story_type: \"feature\", name: \"Hire bounty hunters to bring in Solo\", current_state: \"unscheduled\", accepted_at: nil, priority: 16, estimate: 1, requested_by_id: 100, created_at: \"2017-07-04 12:00:00\", deadline: nil, description: \"No disintegrations\", external_id: \"\", updated_at: \"2017-07-04 12:00:00\", integration_id: nil, last_state_transition_at: \"2017-07-04 12:00:00\">, #<Story id: 559, project_id: 99, story_type: \"feature\", name: \"All exhaust ports should be shielded\", current_state: \"rejected\", accepted_at: nil, priority: 6, estimate: 3, requested_by_id: 102, created_at: \"2017-07-04 12:00:00\", deadline: nil, description: \"ray shielded, that is.\", external_id: \"\", updated_at: \"2017-07-04 12:00:00\", integration_id: nil, last_state_transition_at: \"2017-07-04 12:00:00\">]]",
+          "resolved": false
+        },
+        {
+          "type": "story",
+          "id": 559,
+          "updated_at": 1499169600000,
+          "blocked_story_ids": [
+            556
+          ]
+        },
+        {
+          "type": "story",
+          "id": 551,
+          "updated_at": 1499169600000,
+          "blocked_story_ids": [
+            556
+          ]
+        }
+      ],
+      "parameters": {
+        "id": 189,
+        "story_id": 556,
+        "description": "blocked by #559",
+        "resolved": true
+      },
+      "person_id": 101,
+      "type": "blocker_update",
+      "command_uuid": "BEAD2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 99,
+        "version": 67
+      }
+    }
+  ],
+  "result": "stale"
+}

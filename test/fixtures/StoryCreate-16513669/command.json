@@ -1,0 +1,150 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "iteration_override",
+          "deleted": true,
+          "number": 2
+        },
+        {
+          "type": "project",
+          "id": 7,
+          "shown_iterations_start_time": 1495436400000,
+          "start_time": 1495436400000
+        },
+        {
+          "type": "story",
+          "id": 3165,
+          "project_id": 7,
+          "name": "Twilight",
+          "description": "boo",
+          "story_type": "feature",
+          "current_state": "accepted",
+          "estimate": 1,
+          "accepted_at": 1495954800000,
+          "requested_by_id": 3,
+          "owner_ids": [],
+          "label_ids": [],
+          "follower_ids": [],
+          "created_at": 1499445546000,
+          "updated_at": 1499445546000,
+          "before_id": 5,
+          "blocked_story_ids": [],
+          "labels": []
+        }
+      ],
+      "activity": {
+        "kind": "story_create_activity",
+        "guid": "7_17",
+        "project_version": 17,
+        "message": "Dana Deer added this feature",
+        "highlight": "added",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "create",
+            "id": 3165,
+            "new_values": {
+              "id": 3165,
+              "project_id": 7,
+              "name": "Twilight",
+              "description": "boo",
+              "story_type": "feature",
+              "current_state": "accepted",
+              "estimate": 1,
+              "accepted_at": "2017-05-28T07:00:00Z",
+              "requested_by_id": 3,
+              "owner_ids": [],
+              "label_ids": [],
+              "follower_ids": [],
+              "created_at": "2017-07-07T16:39:06Z",
+              "updated_at": "2017-07-07T16:39:06Z",
+              "before_id": 5,
+              "blocked_story_ids": [],
+              "labels": []
+            },
+            "name": "Twilight",
+            "story_type": "feature"
+          },
+          {
+            "kind": "project",
+            "change_type": "update",
+            "id": 7,
+            "original_values": {
+              "shown_iterations_start_time": 1496041200000,
+              "start_time": 1496041200000
+            },
+            "new_values": {
+              "shown_iterations_start_time": 1495436400000,
+              "start_time": 1495436400000
+            }
+          },
+          {
+            "kind": "iteration_override",
+            "change_type": "delete",
+            "number": 2
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 3165,
+            "name": "Twilight",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/3165"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 7,
+          "name": "Pet Shop"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 3,
+          "name": "Dana Deer",
+          "initials": "DD"
+        },
+        "occurred_at": "2017-07-07T16:39:06Z"
+      },
+      "mutandum": [
+        {
+          "type": "project",
+          "id": 7,
+          "shown_iterations_start_time": 1496041200000,
+          "start_time": 1496041200000
+        },
+        {
+          "type": "iteration_override",
+          "number": 2,
+          "project_id": 7,
+          "length": -1,
+          "team_strength": 0.25
+        }
+      ],
+      "parameters": {
+        "requested_by_id": 3,
+        "name": "Twilight",
+        "description": "boo",
+        "estimate": 1,
+        "accepted_at": 1495954800000,
+        "current_state": "accepted",
+        "cl_numbers": "",
+        "external_id": "",
+        "story_type": "feature"
+      },
+      "person_id": 3,
+      "type": "story_create",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 7,
+        "version": 17
+      }
+    }
+  ],
+  "result": "stale"
+}

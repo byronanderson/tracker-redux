@@ -1,0 +1,101 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "blocker",
+          "id": 156,
+          "resolved": true
+        },
+        {
+          "type": "story",
+          "id": 2183,
+          "updated_at": 1499445179000
+        }
+      ],
+      "activity": {
+        "kind": "blocker_update_activity",
+        "guid": "101_290",
+        "project_version": 290,
+        "message": "Robert Brewster resolved a blocker: \"blocked by #1\"",
+        "highlight": "resolved a blocker",
+        "changes": [
+          {
+            "kind": "blocker",
+            "change_type": "update",
+            "id": 156,
+            "original_values": {
+              "resolved": false
+            },
+            "new_values": {
+              "resolved": true
+            }
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2183,
+            "original_values": {
+              "updated_at": "2017-06-24T16:08:20Z"
+            },
+            "new_values": {
+              "updated_at": "2017-07-07T16:32:59Z"
+            },
+            "name": "sperm whales are not attack submarines",
+            "story_type": "bug"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2183,
+            "name": "sperm whales are not attack submarines",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2183"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": "2017-07-07T16:32:59Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2183,
+          "updated_at": 1498320500000
+        },
+        {
+          "type": "blocker",
+          "id": 156,
+          "resolved": false
+        }
+      ],
+      "parameters": {
+        "id": 156,
+        "story_id": 2183,
+        "description": "blocked by #1",
+        "resolved": true
+      },
+      "person_id": 202,
+      "type": "blocker_update",
+      "command_uuid": "BEAD2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 101,
+        "version": 290
+      }
+    }
+  ],
+  "result": "stale"
+}

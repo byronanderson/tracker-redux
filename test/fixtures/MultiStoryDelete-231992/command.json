@@ -1,0 +1,155 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "project",
+          "id": 1,
+          "shown_iterations_start_time": 1499065200000,
+          "start_time": 1499065200000
+        },
+        {
+          "type": "story",
+          "id": 2716,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 2717,
+          "deleted": true
+        }
+      ],
+      "activity": {
+        "kind": "story_delete_activity",
+        "guid": "1_9",
+        "project_version": 9,
+        "message": "Dana Deer deleted 2 stories",
+        "highlight": "deleted",
+        "changes": [
+          {
+            "kind": "project",
+            "change_type": "update",
+            "id": 1,
+            "original_values": {
+              "shown_iterations_start_time": 1493622000000,
+              "start_time": 1493622000000
+            },
+            "new_values": {
+              "shown_iterations_start_time": 1499065200000,
+              "start_time": 1499065200000
+            }
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2716,
+            "name": "The Story 1035",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2717,
+            "name": "The Story 1036",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2716,
+            "name": "The Story 1035",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2716"
+          },
+          {
+            "kind": "story",
+            "id": 2717,
+            "name": "The Story 1036",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2717"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 1,
+          "name": "Microsoft Excel"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 3,
+          "name": "Dana Deer",
+          "initials": "DD"
+        },
+        "occurred_at": "2017-07-07T16:36:26Z"
+      },
+      "mutandum": [
+        {
+          "type": "project",
+          "id": 1,
+          "shown_iterations_start_time": 1493622000000,
+          "start_time": 1493622000000
+        },
+        {
+          "type": "story",
+          "id": 2716,
+          "project_id": 1,
+          "name": "The Story 1035",
+          "story_type": "feature",
+          "current_state": "accepted",
+          "estimate": 1,
+          "accepted_at": 1493881200000,
+          "requested_by_id": 1,
+          "owned_by_id": -1,
+          "owner_ids": [],
+          "label_ids": [],
+          "follower_ids": [],
+          "created_at": 1499445386000,
+          "updated_at": 1499445386000,
+          "before_id": 2717,
+          "after_id": 550,
+          "blocked_story_ids": [],
+          "labels": []
+        },
+        {
+          "type": "story",
+          "id": 2717,
+          "project_id": 1,
+          "name": "The Story 1036",
+          "story_type": "feature",
+          "current_state": "accepted",
+          "estimate": 2,
+          "accepted_at": 1493881200000,
+          "requested_by_id": 1,
+          "owned_by_id": -1,
+          "owner_ids": [],
+          "label_ids": [],
+          "follower_ids": [],
+          "created_at": 1499445386000,
+          "updated_at": 1499445386000,
+          "before_id": null,
+          "after_id": 2716,
+          "blocked_story_ids": [],
+          "labels": []
+        }
+      ],
+      "parameters": {
+        "ids": [
+          2716,
+          2717
+        ]
+      },
+      "person_id": 3,
+      "type": "multi_story_delete",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 1,
+        "version": 9
+      }
+    }
+  ],
+  "result": "stale"
+}

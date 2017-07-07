@@ -1,0 +1,84 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "epic",
+          "id": 7,
+          "updated_at": 1499445348000,
+          "after_id": 6,
+          "before_id": 5
+        }
+      ],
+      "activity": {
+        "kind": "epic_move_activity",
+        "guid": "99_67",
+        "project_version": 67,
+        "message": "Darth Vader moved this epic before \"Rebel Home Worlds\"",
+        "highlight": "moved",
+        "changes": [
+          {
+            "kind": "epic",
+            "change_type": "update",
+            "id": 7,
+            "original_values": {
+              "updated_at": "2017-07-04T12:00:00Z",
+              "after_id": 8,
+              "before_id": 6
+            },
+            "new_values": {
+              "updated_at": "2017-07-07T16:35:48Z",
+              "after_id": 6,
+              "before_id": 5
+            },
+            "name": "Turn Luke Skywalker"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "epic",
+            "id": 7,
+            "name": "Turn Luke Skywalker",
+            "url": "http://localhost/epic/show/7"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 99,
+          "name": "Death Star"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 101,
+          "name": "Darth Vader",
+          "initials": "DV"
+        },
+        "occurred_at": "2017-07-07T16:35:48Z"
+      },
+      "mutandum": [
+        {
+          "type": "epic",
+          "id": 7,
+          "updated_at": 1499169600000,
+          "after_id": 8,
+          "before_id": 6
+        }
+      ],
+      "parameters": {
+        "before_id": 5,
+        "id": 7
+      },
+      "person_id": 101,
+      "type": "epic_move",
+      "command_uuid": "uuid_979",
+      "project": {
+        "id": 99,
+        "version": 67
+      }
+    }
+  ],
+  "result": "stale"
+}

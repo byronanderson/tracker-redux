@@ -1,0 +1,85 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 1,
+          "updated_at": 1499445395000,
+          "blocked_story_ids": []
+        }
+      ],
+      "activity": {
+        "kind": "blocking_delete_activity",
+        "guid": "1_9",
+        "project_version": 9,
+        "message": "This story is no longer blocking #5",
+        "highlight": "is no longer blocking",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 1,
+            "original_values": {
+              "updated_at": "2017-06-27T12:00:00Z",
+              "blocked_story_ids": [
+                5
+              ]
+            },
+            "new_values": {
+              "updated_at": "2017-07-07T16:36:35Z",
+              "blocked_story_ids": []
+            },
+            "name": "The Save Dialog",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 1,
+            "name": "The Save Dialog",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/1"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 1,
+          "name": "Microsoft Excel"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 3,
+          "name": "Dana Deer",
+          "initials": "DD"
+        },
+        "occurred_at": "2017-07-07T16:36:35Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 1,
+          "updated_at": 1498564800000,
+          "blocked_story_ids": [
+            5
+          ]
+        }
+      ],
+      "parameters": {
+        "story_id": 1,
+        "blocker_id": 252
+      },
+      "person_id": 3,
+      "type": "blocking_delete",
+      "project": {
+        "id": 1,
+        "version": 9
+      }
+    }
+  ],
+  "result": "stale"
+}

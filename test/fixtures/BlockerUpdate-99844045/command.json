@@ -1,0 +1,104 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "blocker",
+          "id": 5,
+          "resolved": true,
+          "updated_at": 1499445198000
+        },
+        {
+          "type": "story",
+          "id": 2120,
+          "updated_at": 1499445198000
+        }
+      ],
+      "activity": {
+        "kind": "blocker_update_activity",
+        "guid": "101_290",
+        "project_version": 290,
+        "message": "Catherine Weaver resolved a blocker: \"@ag and/or @cat, please add a comment suggesting how we deal with receiving multiple alternative transcriptions\"",
+        "highlight": "resolved a blocker",
+        "changes": [
+          {
+            "kind": "blocker",
+            "change_type": "update",
+            "id": 5,
+            "original_values": {
+              "resolved": false,
+              "updated_at": "2017-05-27T17:54:25Z"
+            },
+            "new_values": {
+              "resolved": true,
+              "updated_at": "2017-07-07T16:33:18Z"
+            }
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2120,
+            "original_values": {
+              "updated_at": "2017-06-20T19:03:10Z"
+            },
+            "new_values": {
+              "updated_at": "2017-07-07T16:33:18Z"
+            },
+            "name": "Accept input data stream from NSA voice recognition systems",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2120,
+            "name": "Accept input data stream from NSA voice recognition systems",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2120"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 205,
+          "name": "Catherine Weaver",
+          "initials": "CW"
+        },
+        "occurred_at": "2017-07-07T16:33:18Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2120,
+          "updated_at": 1497985390000
+        },
+        {
+          "type": "blocker",
+          "id": 5,
+          "resolved": false,
+          "updated_at": 1495907665000
+        }
+      ],
+      "parameters": {
+        "id": 5,
+        "story_id": 2120,
+        "resolved": true
+      },
+      "person_id": 205,
+      "type": "blocker_update",
+      "command_uuid": "BEAD2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 101,
+        "version": 290
+      }
+    }
+  ],
+  "result": "stale"
+}

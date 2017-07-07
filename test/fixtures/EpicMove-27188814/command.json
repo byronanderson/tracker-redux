@@ -1,0 +1,81 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "epic",
+          "id": 2164,
+          "after_id": 2159,
+          "before_id": 2160
+        }
+      ],
+      "activity": {
+        "kind": "epic_move_activity",
+        "guid": "1912_2",
+        "project_version": 2,
+        "message": "John Doe 816 moved this epic before \"win 832\"",
+        "highlight": "moved",
+        "changes": [
+          {
+            "kind": "epic",
+            "change_type": "update",
+            "id": 2164,
+            "original_values": {
+              "after_id": null,
+              "before_id": null
+            },
+            "new_values": {
+              "after_id": 2159,
+              "before_id": 2160
+            },
+            "name": "win 834"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "epic",
+            "id": 2164,
+            "name": "win 834",
+            "url": "http://localhost/epic/show/2164"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 1912,
+          "name": "The Project 825"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 1916,
+          "name": "John Doe 816",
+          "initials": "JD"
+        },
+        "occurred_at": "2017-07-07T16:35:17Z"
+      },
+      "mutandum": [
+        {
+          "type": "epic",
+          "id": 2164,
+          "after_id": null,
+          "before_id": null
+        }
+      ],
+      "parameters": {
+        "id": 2164,
+        "after_id": 2159,
+        "before_id": 2162
+      },
+      "person_id": 1916,
+      "type": "epic_move",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A20",
+      "project": {
+        "id": 1912,
+        "version": 2
+      }
+    }
+  ],
+  "result": "stale"
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [],
+      "mutandum": [],
+      "parameters": {
+        "message": "something happened"
+      },
+      "person_id": 1,
+      "type": "project_reload",
+      "project": {
+        "id": 1,
+        "version": 9
+      }
+    }
+  ],
+  "result": "stale"
+}

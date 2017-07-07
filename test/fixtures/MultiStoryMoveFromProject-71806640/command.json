@@ -1,0 +1,277 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "moved": true,
+          "id": 2738,
+          "type": "story"
+        },
+        {
+          "completed_at": 1499256000000,
+          "type": "epic",
+          "id": 2214
+        },
+        {
+          "counts": {
+            "kind": "story_counts",
+            "sum_of_story_estimates_by_state": {
+              "accepted": 1,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 0,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "number_of_zero_point_stories_by_state": {
+              "accepted": 0,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 0,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "number_of_stories_by_state": {
+              "accepted": 1,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 0,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            }
+          },
+          "type": "label",
+          "id": 5301
+        }
+      ],
+      "activity": {
+        "kind": "story_move_from_project_activity",
+        "guid": "99_68",
+        "project_version": 68,
+        "message": "Darth Vader moved \"The Story 1076\" from this project to Learn About the Force",
+        "highlight": "moved",
+        "changes": [
+          {
+            "kind": "epic",
+            "change_type": "update",
+            "id": 2214,
+            "original_values": {
+              "completed_at": null
+            },
+            "new_values": {
+              "completed_at": 1499256000000
+            },
+            "name": "win 1074"
+          },
+          {
+            "kind": "label",
+            "change_type": "update",
+            "id": 5301,
+            "original_values": {
+              "counts": {
+                "number_of_zero_point_stories_by_state": {
+                  "accepted": 0,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 0,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "sum_of_story_estimates_by_state": {
+                  "accepted": 1,
+                  "started": 2,
+                  "finished": 0,
+                  "unstarted": 0,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "number_of_stories_by_state": {
+                  "accepted": 1,
+                  "started": 1,
+                  "finished": 0,
+                  "unstarted": 0,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "kind": "story_counts"
+              }
+            },
+            "new_values": {
+              "counts": {
+                "kind": "story_counts",
+                "sum_of_story_estimates_by_state": {
+                  "accepted": 1,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 0,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "number_of_zero_point_stories_by_state": {
+                  "accepted": 0,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 0,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "number_of_stories_by_state": {
+                  "accepted": 1,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 0,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                }
+              }
+            },
+            "name": "win 1074"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2738,
+            "name": "The Story 1076",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2738,
+            "name": "The Story 1076",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2738"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 99,
+          "name": "Death Star"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 101,
+          "name": "Darth Vader",
+          "initials": "DV"
+        },
+        "occurred_at": "2017-07-05T12:00:00Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2738,
+          "project_id": 99,
+          "name": "The Story 1076",
+          "story_type": "feature",
+          "current_state": "started",
+          "estimate": 2,
+          "requested_by_id": 100,
+          "owned_by_id": -1,
+          "owner_ids": [],
+          "label_ids": [
+            5301
+          ],
+          "follower_ids": [],
+          "created_at": 1499256000000,
+          "updated_at": 1499256000000,
+          "before_id": null,
+          "after_id": 2737,
+          "blocked_story_ids": [],
+          "labels": [
+            "win 1074"
+          ]
+        },
+        {
+          "type": "label",
+          "id": 5301,
+          "counts": {
+            "number_of_zero_point_stories_by_state": {
+              "accepted": 0,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 0,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "sum_of_story_estimates_by_state": {
+              "accepted": 1,
+              "started": 2,
+              "finished": 0,
+              "unstarted": 0,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "number_of_stories_by_state": {
+              "accepted": 1,
+              "started": 1,
+              "finished": 0,
+              "unstarted": 0,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "kind": "story_counts"
+          }
+        },
+        {
+          "completed_at": null,
+          "type": "epic",
+          "id": 2214
+        }
+      ],
+      "parameters": {
+        "ids": [
+          2738
+        ],
+        "destination_project_id": 98
+      },
+      "person_id": 101,
+      "type": "multi_story_move_from_project",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 99,
+        "version": 68
+      }
+    }
+  ],
+  "result": "stale"
+}

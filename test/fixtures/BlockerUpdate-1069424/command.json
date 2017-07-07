@@ -1,0 +1,104 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "blocker",
+          "id": 8,
+          "resolved": false,
+          "updated_at": 1499445199000
+        },
+        {
+          "type": "story",
+          "id": 2160,
+          "updated_at": 1499445199000
+        }
+      ],
+      "activity": {
+        "kind": "blocker_update_activity",
+        "guid": "101_290",
+        "project_version": 290,
+        "message": "Catherine Weaver re-added a blocker to this story: \"Need to understand how to handle #2155 first\"",
+        "highlight": "re-added a blocker",
+        "changes": [
+          {
+            "kind": "blocker",
+            "change_type": "update",
+            "id": 8,
+            "original_values": {
+              "resolved": true,
+              "updated_at": "2017-05-30T21:00:00Z"
+            },
+            "new_values": {
+              "resolved": false,
+              "updated_at": "2017-07-07T16:33:19Z"
+            }
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2160,
+            "original_values": {
+              "updated_at": "2017-06-22T01:03:15Z"
+            },
+            "new_values": {
+              "updated_at": "2017-07-07T16:33:19Z"
+            },
+            "name": "Accept input data stream from NRO",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2160,
+            "name": "Accept input data stream from NRO",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2160"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 205,
+          "name": "Catherine Weaver",
+          "initials": "CW"
+        },
+        "occurred_at": "2017-07-07T16:33:19Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2160,
+          "updated_at": 1498093395000
+        },
+        {
+          "type": "blocker",
+          "id": 8,
+          "resolved": true,
+          "updated_at": 1496178000000
+        }
+      ],
+      "parameters": {
+        "id": 8,
+        "story_id": 2160,
+        "resolved": false
+      },
+      "person_id": 205,
+      "type": "blocker_update",
+      "command_uuid": "BEAD2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 101,
+        "version": 290
+      }
+    }
+  ],
+  "result": "stale"
+}

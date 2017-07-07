@@ -1,0 +1,85 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2197,
+          "updated_at": 1499445197000,
+          "blocked_story_ids": [
+            2121
+          ]
+        }
+      ],
+      "activity": {
+        "kind": "blocking_create_activity",
+        "guid": "102_28",
+        "project_version": 28,
+        "message": "This story is blocking #2121: \"I need the NSA and NRO feeds from #2120 and #2160\"",
+        "highlight": "is blocking",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2197,
+            "original_values": {
+              "updated_at": "2017-06-24T16:01:15Z",
+              "blocked_story_ids": []
+            },
+            "new_values": {
+              "updated_at": "2017-07-07T16:33:17Z",
+              "blocked_story_ids": [
+                2121
+              ]
+            },
+            "name": "Glen identified as hostile",
+            "story_type": "bug"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2197,
+            "name": "Glen identified as hostile",
+            "story_type": "bug",
+            "url": "http://localhost/story/show/2197"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 102,
+          "name": "T-1000 mimetic poly-alloy assassin"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 204,
+          "name": "William Candy",
+          "initials": "wc"
+        },
+        "occurred_at": "2017-07-07T16:33:17Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2197,
+          "updated_at": 1498320075000,
+          "blocked_story_ids": []
+        }
+      ],
+      "parameters": {
+        "story_id": 2197,
+        "blocker_id": 13
+      },
+      "person_id": 204,
+      "type": "blocking_create",
+      "project": {
+        "id": 102,
+        "version": 28
+      }
+    }
+  ],
+  "result": "stale"
+}

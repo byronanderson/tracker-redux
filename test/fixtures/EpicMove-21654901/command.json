@@ -1,0 +1,80 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "epic",
+          "id": 2226,
+          "after_id": 2227,
+          "before_id": null
+        }
+      ],
+      "activity": {
+        "kind": "epic_move_activity",
+        "guid": "7_17",
+        "project_version": 17,
+        "message": "John Doe moved this epic after \"win 1891\"",
+        "highlight": "moved",
+        "changes": [
+          {
+            "kind": "epic",
+            "change_type": "update",
+            "id": 2226,
+            "original_values": {
+              "after_id": null,
+              "before_id": 2227
+            },
+            "new_values": {
+              "after_id": 2227,
+              "before_id": null
+            },
+            "name": "win 1890"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "epic",
+            "id": 2226,
+            "name": "win 1890",
+            "url": "http://localhost/epic/show/2226"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 7,
+          "name": "Pet Shop"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 1,
+          "name": "John Doe",
+          "initials": "JD"
+        },
+        "occurred_at": "2017-07-07T16:39:32Z"
+      },
+      "mutandum": [
+        {
+          "type": "epic",
+          "id": 2226,
+          "after_id": null,
+          "before_id": 2227
+        }
+      ],
+      "parameters": {
+        "id": 2226,
+        "after_id": 2227
+      },
+      "person_id": 1,
+      "type": "epic_move",
+      "command_uuid": "uuid_1892",
+      "project": {
+        "id": 7,
+        "version": 17
+      }
+    }
+  ],
+  "result": "stale"
+}

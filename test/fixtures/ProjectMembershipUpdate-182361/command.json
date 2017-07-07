@@ -1,0 +1,74 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "project_membership",
+          "id": 16438,
+          "role": "viewer"
+        }
+      ],
+      "activity": {
+        "kind": "project_membership_update_activity",
+        "guid": "2004_2",
+        "project_version": 2,
+        "message": "Robert Brewster updated the membership role for John Doe 1852",
+        "highlight": "updated",
+        "changes": [
+          {
+            "kind": "project_membership",
+            "change_type": "update",
+            "id": 16438,
+            "original_values": {
+              "role": "member"
+            },
+            "new_values": {
+              "role": "viewer"
+            }
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "project",
+            "id": 2004,
+            "name": "The Project 1837"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 2004,
+          "name": "The Project 1837"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": "2017-07-07T16:38:54Z"
+      },
+      "mutandum": [
+        {
+          "type": "project_membership",
+          "id": 16438,
+          "role": "member"
+        }
+      ],
+      "parameters": {
+        "id": 16438,
+        "role": "viewer"
+      },
+      "person_id": 202,
+      "type": "project_membership_update",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 2004,
+        "version": 2
+      }
+    }
+  ],
+  "result": "stale"
+}

@@ -1,0 +1,91 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 3302,
+          "current_state": "accepted",
+          "accepted_at": 1499256000000,
+          "before_id": 3301,
+          "after_id": 3300
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "2016_2",
+        "project_version": 2,
+        "message": "Rob Mee accepted this release",
+        "highlight": "accepted",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 3302,
+            "original_values": {
+              "current_state": "unstarted",
+              "accepted_at": null,
+              "before_id": 3303,
+              "after_id": 3301
+            },
+            "new_values": {
+              "current_state": "accepted",
+              "accepted_at": "2017-07-05T12:00:00Z",
+              "before_id": 3301,
+              "after_id": 3300
+            },
+            "name": "release",
+            "story_type": "release"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 3302,
+            "name": "release",
+            "story_type": "release",
+            "url": "http://localhost/story/show/3302"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 2016,
+          "name": "The Project 2086"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 13,
+          "name": "Rob Mee",
+          "initials": "rm"
+        },
+        "occurred_at": "2017-07-05T12:00:00Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 3302,
+          "current_state": "unstarted",
+          "accepted_at": null,
+          "before_id": 3303,
+          "after_id": 3301
+        }
+      ],
+      "parameters": {
+        "current_state": "accepted",
+        "id": 3302,
+        "accepted_at": 1499256000000
+      },
+      "person_id": 13,
+      "type": "story_update",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 2016,
+        "version": 2
+      }
+    }
+  ],
+  "result": "stale"
+}

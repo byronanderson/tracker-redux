@@ -1,0 +1,109 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "blocker",
+          "id": 252,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 5,
+          "deleted": true
+        }
+      ],
+      "activity": {
+        "kind": "story_delete_activity",
+        "guid": "7_17",
+        "project_version": 17,
+        "message": "Dana Deer deleted this feature",
+        "highlight": "deleted",
+        "changes": [
+          {
+            "kind": "blocker",
+            "change_type": "delete",
+            "id": 252
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 5,
+            "name": "older accepted",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 5,
+            "name": "older accepted",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/5"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 7,
+          "name": "Pet Shop"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 3,
+          "name": "Dana Deer",
+          "initials": "DD"
+        },
+        "occurred_at": "2017-07-07T16:36:35Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 5,
+          "project_id": 7,
+          "name": "older accepted",
+          "story_type": "feature",
+          "current_state": "accepted",
+          "estimate": 1,
+          "accepted_at": 1496102400000,
+          "requested_by_id": 1,
+          "owned_by_id": -1,
+          "owner_ids": [],
+          "label_ids": [],
+          "follower_ids": [],
+          "created_at": 1496102400000,
+          "updated_at": 1496102400000,
+          "before_id": 6,
+          "after_id": null,
+          "blocked_story_ids": [],
+          "labels": []
+        },
+        {
+          "type": "blocker",
+          "id": 252,
+          "story_id": 5,
+          "person_id": 13,
+          "description": "blocked by #1",
+          "resolved": false,
+          "created_at": 1499445395000,
+          "updated_at": 1499445395000
+        }
+      ],
+      "parameters": {
+        "ids": [
+          5
+        ]
+      },
+      "person_id": 3,
+      "type": "multi_story_delete",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 7,
+        "version": 17
+      }
+    }
+  ],
+  "result": "stale"
+}

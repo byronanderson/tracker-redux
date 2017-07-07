@@ -1,0 +1,85 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "epic",
+          "id": 2193,
+          "updated_at": 1499445320000,
+          "after_id": 2191,
+          "before_id": 2192
+        }
+      ],
+      "activity": {
+        "kind": "epic_move_activity",
+        "guid": "1919_2",
+        "project_version": 2,
+        "message": "John Doe 890 moved this epic before \"win 894\"",
+        "highlight": "moved",
+        "changes": [
+          {
+            "kind": "epic",
+            "change_type": "update",
+            "id": 2193,
+            "original_values": {
+              "updated_at": "2017-07-07T15:35:20Z",
+              "after_id": 2192,
+              "before_id": 2194
+            },
+            "new_values": {
+              "updated_at": "2017-07-07T16:35:20Z",
+              "after_id": 2191,
+              "before_id": 2192
+            },
+            "name": "win 895"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "epic",
+            "id": 2193,
+            "name": "win 895",
+            "url": "http://localhost/epic/show/2193"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 1919,
+          "name": "The Project 892"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 1922,
+          "name": "John Doe 890",
+          "initials": "JD"
+        },
+        "occurred_at": "2017-07-07T16:35:20Z"
+      },
+      "mutandum": [
+        {
+          "type": "epic",
+          "id": 2193,
+          "updated_at": 1499441720000,
+          "after_id": 2192,
+          "before_id": 2194
+        }
+      ],
+      "parameters": {
+        "id": 2193,
+        "after_id": 2191,
+        "before_id": 2192
+      },
+      "person_id": 1922,
+      "type": "epic_move",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A20",
+      "project": {
+        "id": 1919,
+        "version": 2
+      }
+    }
+  ],
+  "result": "stale"
+}

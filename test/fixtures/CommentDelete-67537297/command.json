@@ -1,0 +1,79 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "comment",
+          "id": 731,
+          "deleted": true
+        }
+      ],
+      "activity": {
+        "kind": "comment_delete_activity",
+        "guid": "7_20",
+        "project_version": 20,
+        "message": "John Doe removed comment: \"comment number 1955\"",
+        "highlight": "removed comment:",
+        "changes": [
+          {
+            "kind": "comment",
+            "change_type": "delete",
+            "id": 731
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 5,
+            "name": "older accepted",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/5"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 7,
+          "name": "Pet Shop"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 1,
+          "name": "John Doe",
+          "initials": "JD"
+        },
+        "occurred_at": "2017-07-07T16:39:39Z"
+      },
+      "mutandum": [
+        {
+          "type": "comment",
+          "id": 731,
+          "story_id": 5,
+          "text": "comment number 1955",
+          "person_id": 1,
+          "created_at": 1499445579000,
+          "updated_at": 1499445579000,
+          "file_attachment_ids": [],
+          "google_attachment_ids": [],
+          "attachment_ids": [],
+          "file_attachments": [],
+          "google_attachments": []
+        }
+      ],
+      "parameters": {
+        "id": 731,
+        "story_id": 5
+      },
+      "person_id": 1,
+      "type": "comment_delete",
+      "command_uuid": "uuid_1956",
+      "project": {
+        "id": 7,
+        "version": 20
+      }
+    }
+  ],
+  "result": "stale"
+}

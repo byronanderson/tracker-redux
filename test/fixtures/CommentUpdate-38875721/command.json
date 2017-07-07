@@ -1,0 +1,505 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "comment",
+          "id": 442,
+          "file_attachment_ids": [
+            561,
+            564,
+            567,
+            570
+          ],
+          "google_attachment_ids": [
+            391,
+            392,
+            393,
+            394
+          ],
+          "attachment_ids": [
+            {
+              "id": 561,
+              "kind": "file_attachment"
+            },
+            {
+              "id": 564,
+              "kind": "file_attachment"
+            },
+            {
+              "id": 567,
+              "kind": "file_attachment"
+            },
+            {
+              "id": 570,
+              "kind": "file_attachment"
+            },
+            {
+              "id": 391,
+              "kind": "google_attachment"
+            },
+            {
+              "id": 392,
+              "kind": "google_attachment"
+            },
+            {
+              "id": 393,
+              "kind": "google_attachment"
+            },
+            {
+              "id": 394,
+              "kind": "google_attachment"
+            }
+          ],
+          "file_attachments": [
+            "alex.jpg",
+            "alex.jpg",
+            "alex.jpg",
+            "alex.jpg"
+          ],
+          "google_attachments": [
+            "TEST DOC DO NOT DELETE OR RENAME",
+            "TEST DOC DO NOT DELETE OR RENAME",
+            "google doc1",
+            "google doc2"
+          ]
+        },
+        {
+          "type": "file_attachment",
+          "id": 561,
+          "filename": "alex.jpg",
+          "created_at": 1499441648000,
+          "uploader_id": 3,
+          "thumbnailable": true,
+          "height": 100,
+          "width": 100,
+          "size": 7683,
+          "download_url": "/file_attachments/561/download",
+          "content_type": "image/gif",
+          "uploaded": true,
+          "big_url": "/resource/0000/0561/alex_big.jpg",
+          "thumbnail_url": "/resource/0000/0561/alex_thumb.jpg"
+        },
+        {
+          "type": "file_attachment",
+          "id": 564,
+          "filename": "alex.jpg",
+          "created_at": 1499441648000,
+          "uploader_id": 3,
+          "thumbnailable": true,
+          "height": 100,
+          "width": 100,
+          "size": 7683,
+          "download_url": "/file_attachments/564/download",
+          "content_type": "image/gif",
+          "uploaded": true,
+          "big_url": "/resource/0000/0564/alex_big.jpg",
+          "thumbnail_url": "/resource/0000/0564/alex_thumb.jpg"
+        },
+        {
+          "type": "google_attachment",
+          "id": 393,
+          "comment_id": 442,
+          "person_id": 3,
+          "google_kind": "document",
+          "title": "google doc1",
+          "google_id": "https://docs.google.com/feeds/id/document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+          "alternate_link": "https://docs.google.com/a/pivotaltrackertest.com/document/d/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc/edit?hl=en_US",
+          "resource_id": "document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc"
+        },
+        {
+          "type": "google_attachment",
+          "id": 394,
+          "comment_id": 442,
+          "person_id": 3,
+          "google_kind": "document",
+          "title": "google doc2",
+          "google_id": "https://docs.google.com/feeds/id/document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+          "alternate_link": "https://docs.google.com/a/pivotaltrackertest.com/document/d/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc/edit?hl=en_US",
+          "resource_id": "document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc"
+        },
+        {
+          "type": "story",
+          "id": 4,
+          "updated_at": 1499441648000
+        }
+      ],
+      "activity": {
+        "kind": "comment_update_activity",
+        "guid": "1_9",
+        "project_version": 9,
+        "message": "Dana Deer added 4 attachments",
+        "highlight": "added",
+        "changes": [
+          {
+            "kind": "file_attachment",
+            "change_type": "create",
+            "id": 561,
+            "new_values": {
+              "id": 561,
+              "filename": "alex.jpg",
+              "created_at": "2017-07-07T15:34:08Z",
+              "uploader_id": 3,
+              "thumbnailable": true,
+              "height": 100,
+              "width": 100,
+              "size": 7683,
+              "download_url": "/file_attachments/561/download",
+              "content_type": "image/gif",
+              "uploaded": true,
+              "big_url": "/resource/0000/0561/alex_big.jpg",
+              "thumbnail_url": "/resource/0000/0561/alex_thumb.jpg"
+            }
+          },
+          {
+            "kind": "file_attachment",
+            "change_type": "create",
+            "id": 564,
+            "new_values": {
+              "id": 564,
+              "filename": "alex.jpg",
+              "created_at": "2017-07-07T15:34:08Z",
+              "uploader_id": 3,
+              "thumbnailable": true,
+              "height": 100,
+              "width": 100,
+              "size": 7683,
+              "download_url": "/file_attachments/564/download",
+              "content_type": "image/gif",
+              "uploaded": true,
+              "big_url": "/resource/0000/0564/alex_big.jpg",
+              "thumbnail_url": "/resource/0000/0564/alex_thumb.jpg"
+            }
+          },
+          {
+            "kind": "google_attachment",
+            "change_type": "create",
+            "id": 393,
+            "new_values": {
+              "id": 393,
+              "comment_id": 442,
+              "person_id": 3,
+              "google_kind": "document",
+              "title": "google doc1",
+              "google_id": "https://docs.google.com/feeds/id/document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+              "alternate_link": "https://docs.google.com/a/pivotaltrackertest.com/document/d/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc/edit?hl=en_US",
+              "resource_id": "document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc"
+            }
+          },
+          {
+            "kind": "google_attachment",
+            "change_type": "create",
+            "id": 394,
+            "new_values": {
+              "id": 394,
+              "comment_id": 442,
+              "person_id": 3,
+              "google_kind": "document",
+              "title": "google doc2",
+              "google_id": "https://docs.google.com/feeds/id/document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+              "alternate_link": "https://docs.google.com/a/pivotaltrackertest.com/document/d/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc/edit?hl=en_US",
+              "resource_id": "document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc"
+            }
+          },
+          {
+            "kind": "comment",
+            "change_type": "update",
+            "id": 442,
+            "original_values": {
+              "file_attachment_ids": [
+                567,
+                570
+              ],
+              "google_attachment_ids": [
+                391,
+                392
+              ],
+              "attachment_ids": [
+                {
+                  "id": 567,
+                  "kind": "file_attachment"
+                },
+                {
+                  "id": 570,
+                  "kind": "file_attachment"
+                },
+                {
+                  "id": 391,
+                  "kind": "google_attachment"
+                },
+                {
+                  "id": 392,
+                  "kind": "google_attachment"
+                }
+              ],
+              "file_attachments": [
+                "alex.jpg",
+                "alex.jpg"
+              ],
+              "google_attachments": [
+                "TEST DOC DO NOT DELETE OR RENAME",
+                "TEST DOC DO NOT DELETE OR RENAME"
+              ]
+            },
+            "new_values": {
+              "file_attachment_ids": [
+                561,
+                564,
+                567,
+                570
+              ],
+              "google_attachment_ids": [
+                391,
+                392,
+                393,
+                394
+              ],
+              "attachment_ids": [
+                {
+                  "id": 561,
+                  "kind": "file_attachment"
+                },
+                {
+                  "id": 564,
+                  "kind": "file_attachment"
+                },
+                {
+                  "id": 567,
+                  "kind": "file_attachment"
+                },
+                {
+                  "id": 570,
+                  "kind": "file_attachment"
+                },
+                {
+                  "id": 391,
+                  "kind": "google_attachment"
+                },
+                {
+                  "id": 392,
+                  "kind": "google_attachment"
+                },
+                {
+                  "id": 393,
+                  "kind": "google_attachment"
+                },
+                {
+                  "id": 394,
+                  "kind": "google_attachment"
+                }
+              ],
+              "file_attachments": [
+                "alex.jpg",
+                "alex.jpg",
+                "alex.jpg",
+                "alex.jpg"
+              ],
+              "google_attachments": [
+                "TEST DOC DO NOT DELETE OR RENAME",
+                "TEST DOC DO NOT DELETE OR RENAME",
+                "google doc1",
+                "google doc2"
+              ]
+            }
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 4,
+            "original_values": {
+              "updated_at": "2017-06-27T12:00:00Z"
+            },
+            "new_values": {
+              "updated_at": "2017-07-07T15:34:08Z"
+            },
+            "name": "Delete Row",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 4,
+            "name": "Delete Row",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/4"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 1,
+          "name": "Microsoft Excel"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 3,
+          "name": "Dana Deer",
+          "initials": "DD"
+        },
+        "occurred_at": "2017-07-07T15:34:08Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 4,
+          "updated_at": 1498564800000
+        },
+        {
+          "type": "comment",
+          "id": 442,
+          "file_attachment_ids": [
+            567,
+            570
+          ],
+          "google_attachment_ids": [
+            391,
+            392
+          ],
+          "attachment_ids": [
+            {
+              "id": 567,
+              "kind": "file_attachment"
+            },
+            {
+              "id": 570,
+              "kind": "file_attachment"
+            },
+            {
+              "id": 391,
+              "kind": "google_attachment"
+            },
+            {
+              "id": 392,
+              "kind": "google_attachment"
+            }
+          ],
+          "file_attachments": [
+            "alex.jpg",
+            "alex.jpg"
+          ],
+          "google_attachments": [
+            "TEST DOC DO NOT DELETE OR RENAME",
+            "TEST DOC DO NOT DELETE OR RENAME"
+          ]
+        }
+      ],
+      "parameters": {
+        "id": 442,
+        "story_id": 4,
+        "attachments_to_add": [
+          {
+            "created_at": 1499441648000,
+            "thumbnail_url": "/resource/0000/0561/alex_thumb.jpg",
+            "big_url": "/resource/0000/0561/alex_big.jpg",
+            "id": 561,
+            "filename": "alex.jpg",
+            "thumbnailable": true,
+            "uploader_id": 3,
+            "uploaded": true,
+            "size": 7683,
+            "content_type": "image/gif",
+            "download_url": "/file_attachments/561/download",
+            "height": 100,
+            "width": 100,
+            "kind": "file_attachment"
+          },
+          {
+            "created_at": 1499441648000,
+            "thumbnail_url": "/resource/0000/0564/alex_thumb.jpg",
+            "big_url": "/resource/0000/0564/alex_big.jpg",
+            "id": 564,
+            "filename": "alex.jpg",
+            "thumbnailable": true,
+            "uploader_id": 3,
+            "uploaded": true,
+            "size": 7683,
+            "content_type": "image/gif",
+            "download_url": "/file_attachments/564/download",
+            "height": 100,
+            "width": 100,
+            "kind": "file_attachment"
+          },
+          {
+            "google_id": "https://docs.google.com/feeds/id/document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+            "alternate_link": "https://docs.google.com/a/pivotaltrackertest.com/document/d/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc/edit?hl=en_US",
+            "title": "google doc1",
+            "resource_id": "document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+            "google_kind": "document",
+            "type": "google_attachment"
+          },
+          {
+            "google_id": "https://docs.google.com/feeds/id/document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+            "alternate_link": "https://docs.google.com/a/pivotaltrackertest.com/document/d/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc/edit?hl=en_US",
+            "title": "google doc2",
+            "resource_id": "document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+            "google_kind": "document",
+            "type": "google_attachment"
+          }
+        ],
+        "file_attachments_to_add": [
+          {
+            "type": "file_attachment",
+            "created_at": 1499441648000,
+            "thumbnail_url": "/resource/0000/0561/alex_thumb.jpg",
+            "big_url": "/resource/0000/0561/alex_big.jpg",
+            "id": 561,
+            "filename": "alex.jpg",
+            "thumbnailable": true,
+            "uploader_id": 3,
+            "uploaded": true,
+            "size": 7683,
+            "content_type": "image/gif",
+            "download_url": "/file_attachments/561/download",
+            "height": 100,
+            "width": 100
+          },
+          {
+            "type": "file_attachment",
+            "created_at": 1499441648000,
+            "thumbnail_url": "/resource/0000/0564/alex_thumb.jpg",
+            "big_url": "/resource/0000/0564/alex_big.jpg",
+            "id": 564,
+            "filename": "alex.jpg",
+            "thumbnailable": true,
+            "uploader_id": 3,
+            "uploaded": true,
+            "size": 7683,
+            "content_type": "image/gif",
+            "download_url": "/file_attachments/564/download",
+            "height": 100,
+            "width": 100
+          }
+        ],
+        "google_attachments_to_add": [
+          {
+            "google_id": "https://docs.google.com/feeds/id/document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+            "alternate_link": "https://docs.google.com/a/pivotaltrackertest.com/document/d/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc/edit?hl=en_US",
+            "title": "google doc1",
+            "resource_id": "document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+            "google_kind": "document",
+            "type": "google_attachment"
+          },
+          {
+            "google_id": "https://docs.google.com/feeds/id/document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+            "alternate_link": "https://docs.google.com/a/pivotaltrackertest.com/document/d/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc/edit?hl=en_US",
+            "title": "google doc2",
+            "resource_id": "document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+            "google_kind": "document",
+            "type": "google_attachment"
+          }
+        ]
+      },
+      "person_id": 3,
+      "type": "comment_update",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 1,
+        "version": 9
+      }
+    }
+  ],
+  "result": "stale"
+}

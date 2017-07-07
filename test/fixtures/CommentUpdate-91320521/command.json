@@ -1,0 +1,498 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "comment",
+          "id": 673,
+          "text": "This is my comment. Hey @jdoe what do you think?",
+          "file_attachment_ids": [
+            1479,
+            1482
+          ],
+          "google_attachment_ids": [
+            604,
+            605
+          ],
+          "attachment_ids": [
+            {
+              "id": 1479,
+              "kind": "file_attachment"
+            },
+            {
+              "id": 1482,
+              "kind": "file_attachment"
+            },
+            {
+              "id": 604,
+              "kind": "google_attachment"
+            },
+            {
+              "id": 605,
+              "kind": "google_attachment"
+            }
+          ],
+          "google_attachments": [
+            "google doc1",
+            "google doc2"
+          ]
+        },
+        {
+          "type": "file_attachment",
+          "id": 1479,
+          "filename": "alex.jpg",
+          "created_at": 1499441705000,
+          "uploader_id": 3,
+          "thumbnailable": true,
+          "height": 100,
+          "width": 100,
+          "size": 7683,
+          "download_url": "/file_attachments/1479/download",
+          "content_type": "image/gif",
+          "uploaded": true,
+          "big_url": "/resource/0000/1479/alex_big.jpg",
+          "thumbnail_url": "/resource/0000/1479/alex_thumb.jpg"
+        },
+        {
+          "type": "file_attachment",
+          "id": 1482,
+          "filename": "alex.jpg",
+          "created_at": 1499441705000,
+          "uploader_id": 3,
+          "thumbnailable": true,
+          "height": 100,
+          "width": 100,
+          "size": 7683,
+          "download_url": "/file_attachments/1482/download",
+          "content_type": "image/gif",
+          "uploaded": true,
+          "big_url": "/resource/0000/1482/alex_big.jpg",
+          "thumbnail_url": "/resource/0000/1482/alex_thumb.jpg"
+        },
+        {
+          "type": "file_attachment",
+          "id": 1485,
+          "deleted": true
+        },
+        {
+          "type": "file_attachment",
+          "id": 1488,
+          "deleted": true
+        },
+        {
+          "type": "google_attachment",
+          "id": 602,
+          "deleted": true
+        },
+        {
+          "type": "google_attachment",
+          "id": 603,
+          "deleted": true
+        },
+        {
+          "type": "google_attachment",
+          "id": 604,
+          "comment_id": 673,
+          "person_id": 3,
+          "google_kind": "document",
+          "title": "google doc1",
+          "google_id": "https://docs.google.com/feeds/id/document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+          "alternate_link": "https://docs.google.com/a/pivotaltrackertest.com/document/d/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc/edit?hl=en_US",
+          "resource_id": "document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc"
+        },
+        {
+          "type": "google_attachment",
+          "id": 605,
+          "comment_id": 673,
+          "person_id": 3,
+          "google_kind": "document",
+          "title": "google doc2",
+          "google_id": "https://docs.google.com/feeds/id/document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+          "alternate_link": "https://docs.google.com/a/pivotaltrackertest.com/document/d/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc/edit?hl=en_US",
+          "resource_id": "document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc"
+        },
+        {
+          "type": "story",
+          "id": 4,
+          "updated_at": 1499441705000
+        }
+      ],
+      "activity": {
+        "kind": "comment_update_activity",
+        "guid": "1_9",
+        "project_version": 9,
+        "message": "Dana Deer edited this comment",
+        "highlight": "edited",
+        "changes": [
+          {
+            "kind": "file_attachment",
+            "change_type": "create",
+            "id": 1479,
+            "new_values": {
+              "id": 1479,
+              "filename": "alex.jpg",
+              "created_at": "2017-07-07T15:35:05Z",
+              "uploader_id": 3,
+              "thumbnailable": true,
+              "height": 100,
+              "width": 100,
+              "size": 7683,
+              "download_url": "/file_attachments/1479/download",
+              "content_type": "image/gif",
+              "uploaded": true,
+              "big_url": "/resource/0000/1479/alex_big.jpg",
+              "thumbnail_url": "/resource/0000/1479/alex_thumb.jpg"
+            }
+          },
+          {
+            "kind": "file_attachment",
+            "change_type": "create",
+            "id": 1482,
+            "new_values": {
+              "id": 1482,
+              "filename": "alex.jpg",
+              "created_at": "2017-07-07T15:35:05Z",
+              "uploader_id": 3,
+              "thumbnailable": true,
+              "height": 100,
+              "width": 100,
+              "size": 7683,
+              "download_url": "/file_attachments/1482/download",
+              "content_type": "image/gif",
+              "uploaded": true,
+              "big_url": "/resource/0000/1482/alex_big.jpg",
+              "thumbnail_url": "/resource/0000/1482/alex_thumb.jpg"
+            }
+          },
+          {
+            "kind": "google_attachment",
+            "change_type": "create",
+            "id": 604,
+            "new_values": {
+              "id": 604,
+              "comment_id": 673,
+              "person_id": 3,
+              "google_kind": "document",
+              "title": "google doc1",
+              "google_id": "https://docs.google.com/feeds/id/document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+              "alternate_link": "https://docs.google.com/a/pivotaltrackertest.com/document/d/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc/edit?hl=en_US",
+              "resource_id": "document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc"
+            }
+          },
+          {
+            "kind": "google_attachment",
+            "change_type": "create",
+            "id": 605,
+            "new_values": {
+              "id": 605,
+              "comment_id": 673,
+              "person_id": 3,
+              "google_kind": "document",
+              "title": "google doc2",
+              "google_id": "https://docs.google.com/feeds/id/document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+              "alternate_link": "https://docs.google.com/a/pivotaltrackertest.com/document/d/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc/edit?hl=en_US",
+              "resource_id": "document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc"
+            }
+          },
+          {
+            "kind": "comment",
+            "change_type": "update",
+            "id": 673,
+            "original_values": {
+              "text": "i r a comment",
+              "file_attachment_ids": [
+                1485,
+                1488
+              ],
+              "google_attachment_ids": [
+                602,
+                603
+              ],
+              "attachment_ids": [
+                {
+                  "id": 1485,
+                  "kind": "file_attachment"
+                },
+                {
+                  "id": 1488,
+                  "kind": "file_attachment"
+                },
+                {
+                  "id": 602,
+                  "kind": "google_attachment"
+                },
+                {
+                  "id": 603,
+                  "kind": "google_attachment"
+                }
+              ],
+              "google_attachments": [
+                "TEST DOC DO NOT DELETE OR RENAME",
+                "TEST DOC DO NOT DELETE OR RENAME"
+              ]
+            },
+            "new_values": {
+              "text": "This is my comment. Hey @jdoe what do you think?",
+              "file_attachment_ids": [
+                1479,
+                1482
+              ],
+              "google_attachment_ids": [
+                604,
+                605
+              ],
+              "attachment_ids": [
+                {
+                  "id": 1479,
+                  "kind": "file_attachment"
+                },
+                {
+                  "id": 1482,
+                  "kind": "file_attachment"
+                },
+                {
+                  "id": 604,
+                  "kind": "google_attachment"
+                },
+                {
+                  "id": 605,
+                  "kind": "google_attachment"
+                }
+              ],
+              "google_attachments": [
+                "google doc1",
+                "google doc2"
+              ]
+            }
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 4,
+            "original_values": {
+              "updated_at": "2017-06-27T12:00:00Z"
+            },
+            "new_values": {
+              "updated_at": "2017-07-07T15:35:05Z"
+            },
+            "name": "Delete Row",
+            "story_type": "feature"
+          },
+          {
+            "kind": "file_attachment",
+            "change_type": "delete",
+            "id": 1485
+          },
+          {
+            "kind": "file_attachment",
+            "change_type": "delete",
+            "id": 1488
+          },
+          {
+            "kind": "google_attachment",
+            "change_type": "delete",
+            "id": 602
+          },
+          {
+            "kind": "google_attachment",
+            "change_type": "delete",
+            "id": 603
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 4,
+            "name": "Delete Row",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/4"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 1,
+          "name": "Microsoft Excel"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 3,
+          "name": "Dana Deer",
+          "initials": "DD"
+        },
+        "occurred_at": "2017-07-07T15:35:05Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 4,
+          "updated_at": 1498564800000
+        },
+        {
+          "type": "comment",
+          "id": 673,
+          "text": "i r a comment",
+          "file_attachment_ids": [
+            1485,
+            1488
+          ],
+          "google_attachment_ids": [
+            602,
+            603
+          ],
+          "attachment_ids": [
+            {
+              "id": 1485,
+              "kind": "file_attachment"
+            },
+            {
+              "id": 1488,
+              "kind": "file_attachment"
+            },
+            {
+              "id": 602,
+              "kind": "google_attachment"
+            },
+            {
+              "id": 603,
+              "kind": "google_attachment"
+            }
+          ],
+          "google_attachments": [
+            "TEST DOC DO NOT DELETE OR RENAME",
+            "TEST DOC DO NOT DELETE OR RENAME"
+          ]
+        },
+        {
+          "type": "file_attachment",
+          "id": 1485,
+          "filename": "alex.jpg",
+          "created_at": 1499441705000,
+          "uploader_id": 3,
+          "thumbnailable": true,
+          "height": 100,
+          "width": 100,
+          "size": 7683,
+          "download_url": "/file_attachments/1485/download",
+          "content_type": "image/gif",
+          "uploaded": true,
+          "big_url": "/resource/0000/1485/alex_big.jpg",
+          "thumbnail_url": "/resource/0000/1485/alex_thumb.jpg"
+        },
+        {
+          "type": "file_attachment",
+          "id": 1488,
+          "filename": "alex.jpg",
+          "created_at": 1499441705000,
+          "uploader_id": 3,
+          "thumbnailable": true,
+          "height": 100,
+          "width": 100,
+          "size": 7683,
+          "download_url": "/file_attachments/1488/download",
+          "content_type": "image/gif",
+          "uploaded": true,
+          "big_url": "/resource/0000/1488/alex_big.jpg",
+          "thumbnail_url": "/resource/0000/1488/alex_thumb.jpg"
+        },
+        {
+          "type": "google_attachment",
+          "id": 602,
+          "comment_id": 673,
+          "person_id": 3,
+          "google_kind": "document",
+          "title": "TEST DOC DO NOT DELETE OR RENAME",
+          "google_id": "https://docs.google.com/feeds/id/document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+          "alternate_link": "https://docs.google.com/a/pivotaltrackertest.com/document/d/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc/edit?hl=en_US",
+          "resource_id": "document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc"
+        },
+        {
+          "type": "google_attachment",
+          "id": 603,
+          "comment_id": 673,
+          "person_id": 3,
+          "google_kind": "document",
+          "title": "TEST DOC DO NOT DELETE OR RENAME",
+          "google_id": "https://docs.google.com/feeds/id/document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+          "alternate_link": "https://docs.google.com/a/pivotaltrackertest.com/document/d/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc/edit?hl=en_US",
+          "resource_id": "document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc"
+        }
+      ],
+      "parameters": {
+        "id": 673,
+        "story_id": 4,
+        "file_attachments_to_add": [
+          {
+            "type": "file_attachment",
+            "created_at": 1499441705000,
+            "thumbnail_url": "/resource/0000/1479/alex_thumb.jpg",
+            "big_url": "/resource/0000/1479/alex_big.jpg",
+            "id": 1479,
+            "filename": "alex.jpg",
+            "thumbnailable": true,
+            "uploader_id": 3,
+            "uploaded": true,
+            "size": 7683,
+            "content_type": "image/gif",
+            "download_url": "/file_attachments/1479/download",
+            "height": 100,
+            "width": 100
+          },
+          {
+            "type": "file_attachment",
+            "created_at": 1499441705000,
+            "thumbnail_url": "/resource/0000/1482/alex_thumb.jpg",
+            "big_url": "/resource/0000/1482/alex_big.jpg",
+            "id": 1482,
+            "filename": "alex.jpg",
+            "thumbnailable": true,
+            "uploader_id": 3,
+            "uploaded": true,
+            "size": 7683,
+            "content_type": "image/gif",
+            "download_url": "/file_attachments/1482/download",
+            "height": 100,
+            "width": 100
+          }
+        ],
+        "google_attachments_to_add": [
+          {
+            "google_id": "https://docs.google.com/feeds/id/document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+            "alternate_link": "https://docs.google.com/a/pivotaltrackertest.com/document/d/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc/edit?hl=en_US",
+            "title": "google doc1",
+            "resource_id": "document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+            "google_kind": "document",
+            "kind": "google_attachment"
+          },
+          {
+            "google_id": "https://docs.google.com/feeds/id/document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+            "alternate_link": "https://docs.google.com/a/pivotaltrackertest.com/document/d/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc/edit?hl=en_US",
+            "title": "google doc2",
+            "resource_id": "document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+            "google_kind": "document",
+            "kind": "google_attachment"
+          }
+        ],
+        "file_attachment_ids_to_remove": [
+          1485,
+          1488
+        ],
+        "google_attachment_ids_to_remove": [
+          602,
+          603
+        ],
+        "text": "This is my comment. Hey @jdoe what do you think?"
+      },
+      "person_id": 3,
+      "type": "comment_update",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 1,
+        "version": 9
+      }
+    }
+  ],
+  "result": "stale"
+}

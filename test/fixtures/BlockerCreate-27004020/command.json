@@ -1,0 +1,203 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "blocker",
+          "id": 121,
+          "story_id": 553,
+          "person_id": 101,
+          "description": "blocked by #551 and https://www.pivotaltracker.com/story/show/561",
+          "resolved": false,
+          "created_at": 1499445165000,
+          "updated_at": 1499445165000
+        },
+        {
+          "type": "following",
+          "id": 126,
+          "person_id": 101,
+          "story_id": 553
+        },
+        {
+          "type": "story",
+          "id": 551,
+          "updated_at": 1499445165000,
+          "blocked_story_ids": [
+            553
+          ]
+        },
+        {
+          "type": "story",
+          "id": 553,
+          "follower_ids": [
+            101
+          ],
+          "updated_at": 1499445165000
+        },
+        {
+          "type": "story",
+          "id": 561,
+          "updated_at": 1499445165000,
+          "blocked_story_ids": [
+            553
+          ]
+        }
+      ],
+      "activity": {
+        "kind": "blocker_create_activity",
+        "guid": "99_67",
+        "project_version": 67,
+        "message": "Darth Vader added a blocker: \"blocked by #551 and https://www.pivotaltracker.com/story/show/561\"",
+        "highlight": "added a blocker",
+        "changes": [
+          {
+            "kind": "blocker",
+            "change_type": "create",
+            "id": 121,
+            "new_values": {
+              "id": 121,
+              "story_id": 553,
+              "person_id": 101,
+              "description": "blocked by #551 and https://www.pivotaltracker.com/story/show/561",
+              "resolved": false,
+              "created_at": "2017-07-07T16:32:45Z",
+              "updated_at": "2017-07-07T16:32:45Z"
+            }
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 553,
+            "original_values": {
+              "updated_at": "2017-07-04T12:00:00Z",
+              "blocked_story_ids": []
+            },
+            "new_values": {
+              "updated_at": "2017-07-07T16:32:45Z",
+              "blocked_story_ids": [
+                553
+              ]
+            },
+            "name": "Build protocol droid",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 553,
+            "original_values": {
+              "follower_ids": [],
+              "updated_at": "2017-07-04T12:00:00Z"
+            },
+            "new_values": {
+              "follower_ids": [
+                101
+              ],
+              "updated_at": "2017-07-07T16:32:45Z"
+            },
+            "name": "Build protocol droid",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 553,
+            "original_values": {
+              "updated_at": "2017-07-04T12:00:00Z",
+              "blocked_story_ids": []
+            },
+            "new_values": {
+              "updated_at": "2017-07-07T16:32:45Z",
+              "blocked_story_ids": [
+                553
+              ]
+            },
+            "name": "Build protocol droid",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 553,
+            "name": "Build protocol droid",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/553"
+          }
+        ],
+        "secondary_resources": [
+          {
+            "kind": "secondary_resource",
+            "message": "This story is blocking #553: \"blocked by #551 and https://www.pivotaltracker.com/story/show/561\"",
+            "highlight": "is blocking",
+            "resource": {
+              "kind": "story",
+              "id": 551,
+              "name": "Hire bounty hunters to bring in Solo",
+              "story_type": "feature"
+            }
+          },
+          {
+            "kind": "secondary_resource",
+            "message": "This story is blocking #553: \"blocked by #551 and https://www.pivotaltracker.com/story/show/561\"",
+            "highlight": "is blocking",
+            "resource": {
+              "kind": "story",
+              "id": 561,
+              "name": "Tractor beam loses power intermittently",
+              "story_type": "bug"
+            }
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 99,
+          "name": "Death Star"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 101,
+          "name": "Darth Vader",
+          "initials": "DV"
+        },
+        "occurred_at": "2017-07-07T16:32:45Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 553,
+          "follower_ids": [],
+          "updated_at": 1499169600000
+        },
+        {
+          "type": "story",
+          "id": 551,
+          "updated_at": 1499169600000,
+          "blocked_story_ids": []
+        },
+        {
+          "type": "story",
+          "id": 561,
+          "updated_at": 1499169600000,
+          "blocked_story_ids": []
+        }
+      ],
+      "parameters": {
+        "story_id": 553,
+        "description": "blocked by #551 and https://www.pivotaltracker.com/story/show/561",
+        "person_id": 101,
+        "resolved": false
+      },
+      "person_id": 101,
+      "type": "blocker_create",
+      "command_uuid": "BEAD2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 99,
+        "version": 67
+      }
+    }
+  ],
+  "result": "stale"
+}

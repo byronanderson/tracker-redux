@@ -1,0 +1,86 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2944,
+          "before_id": 2946,
+          "after_id": 2945
+        }
+      ],
+      "activity": {
+        "kind": "story_move_activity",
+        "guid": "1968_3",
+        "project_version": 3,
+        "message": "John Doe 1506 moved this story before 'unstarted 2'",
+        "highlight": "moved",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2944,
+            "original_values": {
+              "before_id": 2945,
+              "after_id": 2943
+            },
+            "new_values": {
+              "before_id": 2946,
+              "after_id": 2945
+            },
+            "name": "started 2",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2944,
+            "name": "started 2",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2944"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 1968,
+          "name": "The Project 1503"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 1965,
+          "name": "John Doe 1506",
+          "initials": "JD"
+        },
+        "occurred_at": "2017-07-05T12:00:00Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2944,
+          "before_id": 2945,
+          "after_id": 2943
+        }
+      ],
+      "parameters": {
+        "ids": [
+          2944
+        ],
+        "group": "current",
+        "after_id": 2945,
+        "before_id": 2946
+      },
+      "person_id": 1965,
+      "type": "multi_story_move",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 1968,
+        "version": 3
+      }
+    }
+  ],
+  "result": "stale"
+}

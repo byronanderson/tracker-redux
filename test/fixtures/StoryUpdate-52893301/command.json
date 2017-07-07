@@ -1,0 +1,96 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2303,
+          "description": "new description 10",
+          "current_state": "rejected",
+          "estimate": 0,
+          "before_id": 1,
+          "after_id": null
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "1_10",
+        "project_version": 10,
+        "message": "John Doe rejected this feature",
+        "highlight": "rejected",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2303,
+            "original_values": {
+              "description": null,
+              "current_state": "unscheduled",
+              "estimate": null,
+              "before_id": null,
+              "after_id": 550
+            },
+            "new_values": {
+              "description": "new description 10",
+              "current_state": "rejected",
+              "estimate": 0,
+              "before_id": 1,
+              "after_id": null
+            },
+            "name": "story 8",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2303,
+            "name": "story 8",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2303"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 1,
+          "name": "Microsoft Excel"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 1,
+          "name": "John Doe",
+          "initials": "JD"
+        },
+        "occurred_at": "2017-07-07T16:32:28Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2303,
+          "description": "",
+          "current_state": "unscheduled",
+          "estimate": -1,
+          "before_id": null,
+          "after_id": 550
+        }
+      ],
+      "parameters": {
+        "description": "new description 10",
+        "current_state": "rejected",
+        "estimate": 0,
+        "id": 2303
+      },
+      "person_id": 1,
+      "type": "story_update",
+      "command_uuid": "uuid_11",
+      "project": {
+        "id": 1,
+        "version": 10
+      }
+    }
+  ],
+  "result": "stale"
+}

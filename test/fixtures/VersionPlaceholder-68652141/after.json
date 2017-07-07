@@ -1,0 +1,179 @@
+{
+  "id": 103,
+  "name": "Skynet Diplomacy Module",
+  "version": 11,
+  "iteration_length": 1,
+  "week_start_day": "Saturday",
+  "point_scale": "0,1,2,3,5,8",
+  "point_scale_is_custom": false,
+  "bugs_and_chores_are_estimatable": false,
+  "automatic_planning": true,
+  "enable_tasks": true,
+  "time_zone": {
+    "kind": "time_zone",
+    "olson_name": "America/Los_Angeles",
+    "offset": "-07:00"
+  },
+  "velocity_averaged_over": 3,
+  "number_of_done_iterations_to_show": 12,
+  "has_google_domain": true,
+  "initial_velocity": 10,
+  "public": false,
+  "project_type": "private",
+  "has_nuclear_logging": false,
+  "join_as": "member",
+  "start_time": 1498892400000,
+  "shown_iterations_start_time": 1498892400000,
+  "created_at": 1498925660000,
+  "updated_at": 1498925660000,
+  "status": "active",
+  "stories": [],
+  "epics": [],
+  "memberships": [
+    {
+      "id": 16053,
+      "last_viewed_at": 1499169600000,
+      "role": "owner",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 202,
+        "name": "Robert Brewster",
+        "initials": "rb",
+        "username": "Brewster"
+      }
+    },
+    {
+      "id": 16054,
+      "role": "member",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 203,
+        "name": "Andy Goode",
+        "initials": "AG",
+        "username": "ag"
+      }
+    },
+    {
+      "id": 16055,
+      "role": "owner",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 201,
+        "name": "Miles Dyson",
+        "initials": "MD",
+        "username": "miles"
+      }
+    },
+    {
+      "id": 16056,
+      "role": "member",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 204,
+        "name": "William Candy",
+        "initials": "wc",
+        "username": "candy"
+      }
+    },
+    {
+      "id": 16057,
+      "role": "owner",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 205,
+        "name": "Catherine Weaver",
+        "initials": "CW",
+        "username": "cat"
+      }
+    },
+    {
+      "id": 16058,
+      "role": "member",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 206,
+        "name": "Serena Kogan",
+        "initials": "sk",
+        "username": "kogan"
+      }
+    },
+    {
+      "id": 16059,
+      "role": "member",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 207,
+        "name": "Boyd Sherman",
+        "initials": "bs",
+        "username": "boyd"
+      }
+    },
+    {
+      "id": 16060,
+      "role": "viewer",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 208,
+        "name": "Billy Wisher",
+        "initials": "BW",
+        "username": "billy"
+      }
+    },
+    {
+      "id": 16061,
+      "role": "member",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 209,
+        "name": "James Ellison",
+        "initials": "JE",
+        "username": "ellison"
+      }
+    },
+    {
+      "id": 16062,
+      "role": "owner",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 210,
+        "name": "XSS<script>alert('Terminator name XSS attack')</script>",
+        "initials": "termxss",
+        "username": "ssinator"
+      }
+    },
+    {
+      "id": 16063,
+      "role": "member",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 211,
+        "name": "John cc>\u000b<cc Анд",
+        "initials": "J\u000bАнд",
+        "username": "john"
+      }
+    }
+  ],
+  "inactive_memberships": [],
+  "labels": [],
+  "integrations": [],
+  "iteration_overrides": [],
+  "account": {
+    "kind": "account_summary",
+    "id": 1028,
+    "name": "Cyber Research Systems",
+    "status": "active"
+  },
+  "current_iteration_number": 1,
+  "enable_following": true
+}

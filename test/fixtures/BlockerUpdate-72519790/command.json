@@ -1,0 +1,166 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "blocker",
+          "id": 13,
+          "resolved": true
+        },
+        {
+          "type": "story",
+          "id": 2120,
+          "updated_at": 1499445195000,
+          "blocked_story_ids": []
+        },
+        {
+          "type": "story",
+          "id": 2121,
+          "updated_at": 1499445195000
+        },
+        {
+          "type": "story",
+          "id": 2160,
+          "updated_at": 1499445195000
+        }
+      ],
+      "activity": {
+        "kind": "blocker_update_activity",
+        "guid": "101_290",
+        "project_version": 290,
+        "message": "Catherine Weaver resolved a blocker: \"Hey @kogan, I need the NSA and NRO feeds from #2120 and #2160\"",
+        "highlight": "resolved a blocker",
+        "changes": [
+          {
+            "kind": "blocker",
+            "change_type": "update",
+            "id": 13,
+            "original_values": {
+              "resolved": false
+            },
+            "new_values": {
+              "resolved": true
+            }
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2121,
+            "original_values": {
+              "updated_at": "2017-06-20T19:03:10Z",
+              "blocked_story_ids": [
+                2121
+              ]
+            },
+            "new_values": {
+              "updated_at": "2017-07-07T16:33:15Z",
+              "blocked_story_ids": []
+            },
+            "name": "Accept input data stream from NSA internet scanning",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2121,
+            "original_values": {
+              "updated_at": "2017-06-20T19:03:10Z"
+            },
+            "new_values": {
+              "updated_at": "2017-07-07T16:33:15Z"
+            },
+            "name": "Accept input data stream from NSA internet scanning",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2121,
+            "original_values": {
+              "updated_at": "2017-06-22T01:03:15Z"
+            },
+            "new_values": {
+              "updated_at": "2017-07-07T16:33:15Z"
+            },
+            "name": "Accept input data stream from NSA internet scanning",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2121,
+            "name": "Accept input data stream from NSA internet scanning",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2121"
+          }
+        ],
+        "secondary_resources": [
+          {
+            "kind": "secondary_resource",
+            "message": "This story is no longer blocking #2121: \"Hey @kogan, I need the NSA and NRO feeds from #2120 and #2160\"",
+            "highlight": "is no longer blocking",
+            "resource": {
+              "kind": "story",
+              "id": 2120,
+              "name": "Accept input data stream from NSA voice recognition systems",
+              "story_type": "feature"
+            }
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 205,
+          "name": "Catherine Weaver",
+          "initials": "CW"
+        },
+        "occurred_at": "2017-07-07T16:33:15Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2121,
+          "updated_at": 1497985390000
+        },
+        {
+          "type": "blocker",
+          "id": 13,
+          "resolved": false
+        },
+        {
+          "type": "story",
+          "id": 2120,
+          "updated_at": 1497985390000,
+          "blocked_story_ids": [
+            2121
+          ]
+        },
+        {
+          "type": "story",
+          "id": 2160,
+          "updated_at": 1498093395000
+        }
+      ],
+      "parameters": {
+        "id": 13,
+        "story_id": 2121,
+        "resolved": true
+      },
+      "person_id": 205,
+      "type": "blocker_update",
+      "command_uuid": "BEAD2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 101,
+        "version": 290
+      }
+    }
+  ],
+  "result": "stale"
+}

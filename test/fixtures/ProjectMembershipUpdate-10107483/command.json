@@ -1,0 +1,78 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "project_membership",
+          "id": 104,
+          "updated_at": 1499445529000,
+          "project_color": "336699"
+        }
+      ],
+      "activity": {
+        "kind": "project_membership_update_activity",
+        "guid": "99_67",
+        "project_version": 67,
+        "message": "Wilhuff Tarkin updated Moradmin Bast's profile",
+        "highlight": "updated",
+        "changes": [
+          {
+            "kind": "project_membership",
+            "change_type": "update",
+            "id": 104,
+            "original_values": {
+              "updated_at": "2017-07-04T12:00:00Z",
+              "project_color": "8100ea"
+            },
+            "new_values": {
+              "updated_at": "2017-07-07T16:38:49Z",
+              "project_color": "336699"
+            }
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "project",
+            "id": 99,
+            "name": "Death Star"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 99,
+          "name": "Death Star"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 102,
+          "name": "Wilhuff Tarkin",
+          "initials": "WT"
+        },
+        "occurred_at": "2017-07-07T16:38:49Z"
+      },
+      "mutandum": [
+        {
+          "type": "project_membership",
+          "id": 104,
+          "updated_at": 1499169600000,
+          "project_color": "8100ea"
+        }
+      ],
+      "parameters": {
+        "id": 104,
+        "project_color": "336699"
+      },
+      "person_id": 102,
+      "type": "project_membership_update",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 99,
+        "version": 67
+      }
+    }
+  ],
+  "result": "stale"
+}

@@ -1,0 +1,294 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "epic",
+          "id": 5,
+          "completed_at": null
+        },
+        {
+          "type": "label",
+          "id": 2008,
+          "counts": {
+            "number_of_zero_point_stories_by_state": {
+              "accepted": 0,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 0,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "sum_of_story_estimates_by_state": {
+              "accepted": 4,
+              "started": 2,
+              "finished": 0,
+              "unstarted": 0,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "number_of_stories_by_state": {
+              "accepted": 2,
+              "started": 1,
+              "finished": 0,
+              "unstarted": 0,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "kind": "story_counts"
+          }
+        },
+        {
+          "type": "story",
+          "id": 556,
+          "label_ids": [
+            2009,
+            2008
+          ],
+          "updated_at": 1499441915000,
+          "labels": [
+            "plans",
+            "rebel bases"
+          ]
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "99_68",
+        "project_version": 68,
+        "message": "Darth Vader added label \"rebel bases\" to \"Interrogate Leia Organa\"",
+        "highlight": "added label",
+        "changes": [
+          {
+            "kind": "epic",
+            "change_type": "update",
+            "id": 5,
+            "original_values": {
+              "completed_at": 1499169600000
+            },
+            "new_values": {
+              "completed_at": null
+            },
+            "name": "Rebel Home Worlds"
+          },
+          {
+            "kind": "label",
+            "change_type": "update",
+            "id": 2008,
+            "original_values": {
+              "counts": {
+                "number_of_zero_point_stories_by_state": {
+                  "accepted": 0,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 0,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "sum_of_story_estimates_by_state": {
+                  "accepted": 4,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 0,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "number_of_stories_by_state": {
+                  "accepted": 2,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 0,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "kind": "story_counts"
+              }
+            },
+            "new_values": {
+              "counts": {
+                "number_of_zero_point_stories_by_state": {
+                  "accepted": 0,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 0,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "sum_of_story_estimates_by_state": {
+                  "accepted": 4,
+                  "started": 2,
+                  "finished": 0,
+                  "unstarted": 0,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "number_of_stories_by_state": {
+                  "accepted": 2,
+                  "started": 1,
+                  "finished": 0,
+                  "unstarted": 0,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "kind": "story_counts"
+              }
+            },
+            "name": "rebel bases"
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 556,
+            "original_values": {
+              "label_ids": [
+                2009
+              ],
+              "updated_at": "2017-07-07T15:38:34Z",
+              "labels": [
+                "plans"
+              ]
+            },
+            "new_values": {
+              "label_ids": [
+                2009,
+                2008
+              ],
+              "updated_at": "2017-07-07T15:38:35Z",
+              "labels": [
+                "plans",
+                "rebel bases"
+              ]
+            },
+            "name": "Interrogate Leia Organa",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 556,
+            "name": "Interrogate Leia Organa",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/556"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 99,
+          "name": "Death Star"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 101,
+          "name": "Darth Vader",
+          "initials": "DV"
+        },
+        "occurred_at": "2017-07-07T15:38:35Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 556,
+          "label_ids": [
+            2009
+          ],
+          "updated_at": 1499441914000,
+          "labels": [
+            "plans"
+          ]
+        },
+        {
+          "type": "epic",
+          "id": 5,
+          "completed_at": 1499169600000
+        },
+        {
+          "type": "label",
+          "id": 2008,
+          "counts": {
+            "number_of_zero_point_stories_by_state": {
+              "accepted": 0,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 0,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "sum_of_story_estimates_by_state": {
+              "accepted": 4,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 0,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "number_of_stories_by_state": {
+              "accepted": 2,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 0,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "kind": "story_counts"
+          }
+        }
+      ],
+      "parameters": {
+        "ids": [
+          556
+        ],
+        "label_ids_to_add": [
+          2008
+        ]
+      },
+      "person_id": 101,
+      "type": "multi_story_update_label",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 99,
+        "version": 68
+      }
+    }
+  ],
+  "result": "stale"
+}

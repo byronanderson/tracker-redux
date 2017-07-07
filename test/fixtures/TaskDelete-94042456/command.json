@@ -1,0 +1,98 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 5,
+          "updated_at": 1499445577000
+        },
+        {
+          "type": "task",
+          "id": 5126,
+          "deleted": true
+        }
+      ],
+      "activity": {
+        "kind": "task_delete_activity",
+        "guid": "7_17",
+        "project_version": 17,
+        "message": "John Doe deleted a task on this story",
+        "highlight": "deleted a task",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 5,
+            "original_values": {
+              "updated_at": "2017-05-30T00:00:00Z"
+            },
+            "new_values": {
+              "updated_at": "2017-07-07T16:39:37Z"
+            },
+            "name": "older accepted",
+            "story_type": "feature"
+          },
+          {
+            "kind": "task",
+            "change_type": "delete",
+            "id": 5126
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 5,
+            "name": "older accepted",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/5"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 7,
+          "name": "Pet Shop"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 1,
+          "name": "John Doe",
+          "initials": "JD"
+        },
+        "occurred_at": "2017-07-07T16:39:37Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 5,
+          "updated_at": 1496102400000
+        },
+        {
+          "type": "task",
+          "id": 5126,
+          "story_id": 5,
+          "description": "don't do this, and don't do that",
+          "complete": false,
+          "position": 1,
+          "created_at": 1499445577000,
+          "updated_at": 1499445577000
+        }
+      ],
+      "parameters": {
+        "story_id": 5,
+        "id": 5126
+      },
+      "person_id": 1,
+      "type": "task_delete",
+      "command_uuid": "uuid_1922",
+      "project": {
+        "id": 7,
+        "version": 17
+      }
+    }
+  ],
+  "result": "stale"
+}

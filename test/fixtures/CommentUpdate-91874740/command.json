@@ -1,0 +1,221 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "comment",
+          "id": 580,
+          "updated_at": 1499443483000,
+          "google_attachment_ids": [],
+          "attachment_ids": [
+            {
+              "id": 1119,
+              "kind": "file_attachment"
+            },
+            {
+              "id": 1122,
+              "kind": "file_attachment"
+            }
+          ],
+          "google_attachments": []
+        },
+        {
+          "type": "google_attachment",
+          "id": 519,
+          "deleted": true
+        },
+        {
+          "type": "google_attachment",
+          "id": 520,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 4,
+          "updated_at": 1499443483000
+        }
+      ],
+      "activity": {
+        "kind": "comment_update_activity",
+        "guid": "1_9",
+        "project_version": 9,
+        "message": "Dana Deer deleted 2 Google files",
+        "highlight": "deleted",
+        "changes": [
+          {
+            "kind": "comment",
+            "change_type": "update",
+            "id": 580,
+            "original_values": {
+              "updated_at": "2017-07-07T15:34:43Z",
+              "google_attachment_ids": [
+                519,
+                520
+              ],
+              "attachment_ids": [
+                {
+                  "id": 1119,
+                  "kind": "file_attachment"
+                },
+                {
+                  "id": 1122,
+                  "kind": "file_attachment"
+                },
+                {
+                  "id": 519,
+                  "kind": "google_attachment"
+                },
+                {
+                  "id": 520,
+                  "kind": "google_attachment"
+                }
+              ],
+              "google_attachments": [
+                "TEST DOC DO NOT DELETE OR RENAME",
+                "TEST DOC DO NOT DELETE OR RENAME"
+              ]
+            },
+            "new_values": {
+              "updated_at": "2017-07-07T16:04:43Z",
+              "google_attachment_ids": [],
+              "attachment_ids": [
+                {
+                  "id": 1119,
+                  "kind": "file_attachment"
+                },
+                {
+                  "id": 1122,
+                  "kind": "file_attachment"
+                }
+              ],
+              "google_attachments": []
+            }
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 4,
+            "original_values": {
+              "updated_at": "2017-06-27T12:00:00Z"
+            },
+            "new_values": {
+              "updated_at": "2017-07-07T16:04:43Z"
+            },
+            "name": "Delete Row",
+            "story_type": "feature"
+          },
+          {
+            "kind": "google_attachment",
+            "change_type": "delete",
+            "id": 519
+          },
+          {
+            "kind": "google_attachment",
+            "change_type": "delete",
+            "id": 520
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 4,
+            "name": "Delete Row",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/4"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 1,
+          "name": "Microsoft Excel"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 3,
+          "name": "Dana Deer",
+          "initials": "DD"
+        },
+        "occurred_at": "2017-07-07T16:04:43Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 4,
+          "updated_at": 1498564800000
+        },
+        {
+          "type": "comment",
+          "id": 580,
+          "updated_at": 1499441683000,
+          "google_attachment_ids": [
+            519,
+            520
+          ],
+          "attachment_ids": [
+            {
+              "id": 1119,
+              "kind": "file_attachment"
+            },
+            {
+              "id": 1122,
+              "kind": "file_attachment"
+            },
+            {
+              "id": 519,
+              "kind": "google_attachment"
+            },
+            {
+              "id": 520,
+              "kind": "google_attachment"
+            }
+          ],
+          "google_attachments": [
+            "TEST DOC DO NOT DELETE OR RENAME",
+            "TEST DOC DO NOT DELETE OR RENAME"
+          ]
+        },
+        {
+          "type": "google_attachment",
+          "id": 519,
+          "comment_id": 580,
+          "person_id": 3,
+          "google_kind": "document",
+          "title": "TEST DOC DO NOT DELETE OR RENAME",
+          "google_id": "https://docs.google.com/feeds/id/document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+          "alternate_link": "https://docs.google.com/a/pivotaltrackertest.com/document/d/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc/edit?hl=en_US",
+          "resource_id": "document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc"
+        },
+        {
+          "type": "google_attachment",
+          "id": 520,
+          "comment_id": 580,
+          "person_id": 3,
+          "google_kind": "document",
+          "title": "TEST DOC DO NOT DELETE OR RENAME",
+          "google_id": "https://docs.google.com/feeds/id/document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+          "alternate_link": "https://docs.google.com/a/pivotaltrackertest.com/document/d/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc/edit?hl=en_US",
+          "resource_id": "document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc"
+        }
+      ],
+      "parameters": {
+        "id": 580,
+        "story_id": 4,
+        "google_attachment_ids_to_remove": [
+          519,
+          520
+        ]
+      },
+      "person_id": 3,
+      "type": "comment_update",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 1,
+        "version": 9
+      }
+    }
+  ],
+  "result": "stale"
+}

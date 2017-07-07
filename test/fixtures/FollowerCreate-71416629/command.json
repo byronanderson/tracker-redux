@@ -1,0 +1,102 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "following",
+          "id": 255,
+          "person_id": 103,
+          "story_id": 555
+        },
+        {
+          "type": "story",
+          "id": 555,
+          "follower_ids": [
+            101,
+            103,
+            104
+          ],
+          "updated_at": 1499445362000
+        }
+      ],
+      "activity": {
+        "kind": "follower_create_activity",
+        "guid": "99_67",
+        "project_version": 67,
+        "message": "Moradmin Bast started following this story",
+        "highlight": "started following",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 555,
+            "original_values": {
+              "follower_ids": [
+                101,
+                104
+              ],
+              "updated_at": "2017-07-04T12:00:00Z"
+            },
+            "new_values": {
+              "follower_ids": [
+                101,
+                103,
+                104
+              ],
+              "updated_at": "2017-07-07T16:36:02Z"
+            },
+            "name": "Bring me the passengers",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 555,
+            "name": "Bring me the passengers",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/555"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 99,
+          "name": "Death Star"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 101,
+          "name": "Darth Vader",
+          "initials": "DV"
+        },
+        "occurred_at": "2017-07-07T16:36:02Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 555,
+          "follower_ids": [
+            101,
+            104
+          ],
+          "updated_at": 1499169600000
+        }
+      ],
+      "parameters": {
+        "person_id": 103,
+        "story_id": 555
+      },
+      "person_id": 101,
+      "type": "follower_create",
+      "command_uuid": "uuid_1029",
+      "project": {
+        "id": 99,
+        "version": 67
+      }
+    }
+  ],
+  "result": "stale"
+}

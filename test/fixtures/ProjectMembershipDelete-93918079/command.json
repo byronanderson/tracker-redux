@@ -1,0 +1,96 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "layout_scheme",
+          "id": 91,
+          "deleted": true
+        },
+        {
+          "type": "project_membership",
+          "id": 104,
+          "deleted": true
+        }
+      ],
+      "activity": {
+        "kind": "project_membership_delete_activity",
+        "guid": "99_67",
+        "project_version": 67,
+        "message": "Darth Vader removed Moradmin Bast from the project",
+        "highlight": "removed",
+        "changes": [
+          {
+            "kind": "layout_scheme",
+            "change_type": "delete",
+            "id": 91
+          },
+          {
+            "kind": "project_membership",
+            "change_type": "delete",
+            "id": 104
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "project",
+            "id": 99,
+            "name": "Death Star"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 99,
+          "name": "Death Star"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 101,
+          "name": "Darth Vader",
+          "initials": "DV"
+        },
+        "occurred_at": "2017-07-07T16:38:47Z"
+      },
+      "mutandum": [
+        {
+          "type": "project_membership",
+          "id": 104,
+          "created_at": 1499169600000,
+          "updated_at": 1499169600000,
+          "person_id": 103,
+          "project_id": 99,
+          "role": "member",
+          "project_color": "8100ea",
+          "favorite": false,
+          "last_viewed_at": 1107216000000,
+          "wants_comment_notification_emails": true,
+          "will_receive_mention_notifications_or_emails": true
+        },
+        {
+          "type": "layout_scheme",
+          "id": 91,
+          "width_mode": "auto",
+          "project_id": 99,
+          "person_id": 103,
+          "created_at": 1499169600000,
+          "updated_at": 1499169600000,
+          "favorite_epics": []
+        }
+      ],
+      "parameters": {
+        "id": 104
+      },
+      "person_id": 101,
+      "type": "project_membership_delete",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 99,
+        "version": 67
+      }
+    }
+  ],
+  "result": "stale"
+}

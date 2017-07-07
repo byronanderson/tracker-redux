@@ -1,0 +1,121 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2976,
+          "updated_at": 1499257800000,
+          "after_id": 2973
+        },
+        {
+          "type": "story",
+          "id": 2977,
+          "updated_at": 1499257800000,
+          "before_id": 2975
+        }
+      ],
+      "activity": {
+        "kind": "story_move_activity",
+        "guid": "1973_2",
+        "project_version": 2,
+        "message": "John Doe 1561 moved 2 stories",
+        "highlight": "moved",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2976,
+            "original_values": {
+              "updated_at": "2017-07-05T12:00:00Z",
+              "after_id": 2975
+            },
+            "new_values": {
+              "updated_at": "2017-07-05T12:30:00Z",
+              "after_id": 2973
+            },
+            "name": "unstarted 4",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2977,
+            "original_values": {
+              "updated_at": "2017-07-05T12:00:00Z",
+              "before_id": null
+            },
+            "new_values": {
+              "updated_at": "2017-07-05T12:30:00Z",
+              "before_id": 2975
+            },
+            "name": "unstarted 5",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2976,
+            "name": "unstarted 4",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2976"
+          },
+          {
+            "kind": "story",
+            "id": 2977,
+            "name": "unstarted 5",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2977"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 1973,
+          "name": "The Project 1558"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 1970,
+          "name": "John Doe 1561",
+          "initials": "JD"
+        },
+        "occurred_at": "2017-07-05T12:30:00Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2976,
+          "updated_at": 1499256000000,
+          "after_id": 2975
+        },
+        {
+          "type": "story",
+          "id": 2977,
+          "updated_at": 1499256000000,
+          "before_id": null
+        }
+      ],
+      "parameters": {
+        "ids": [
+          2976,
+          2977
+        ],
+        "group": "scheduled",
+        "before_id": 2974,
+        "after_id": 2973
+      },
+      "person_id": 1970,
+      "type": "multi_story_move",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 1973,
+        "version": 2
+      }
+    }
+  ],
+  "result": "stale"
+}

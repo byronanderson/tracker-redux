@@ -1,0 +1,104 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 1,
+          "updated_at": 1499445642000
+        },
+        {
+          "type": "task",
+          "id": 5147,
+          "position": 1,
+          "updated_at": 1499445642000
+        }
+      ],
+      "activity": {
+        "kind": "task_update_activity",
+        "guid": "1_9",
+        "project_version": 9,
+        "message": "Dana Deer moved task: \"original description\"",
+        "highlight": "moved task:",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 1,
+            "original_values": {
+              "updated_at": "2017-06-27T12:00:00Z"
+            },
+            "new_values": {
+              "updated_at": "2017-07-07T16:40:42Z"
+            },
+            "name": "The Save Dialog",
+            "story_type": "feature"
+          },
+          {
+            "kind": "task",
+            "change_type": "update",
+            "id": 5147,
+            "original_values": {
+              "position": 4,
+              "updated_at": "2017-07-06T16:40:42Z"
+            },
+            "new_values": {
+              "position": 1,
+              "updated_at": "2017-07-07T16:40:42Z"
+            }
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 1,
+            "name": "The Save Dialog",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/1"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 1,
+          "name": "Microsoft Excel"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 3,
+          "name": "Dana Deer",
+          "initials": "DD"
+        },
+        "occurred_at": "2017-07-07T16:40:42Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 1,
+          "updated_at": 1498564800000
+        },
+        {
+          "type": "task",
+          "id": 5147,
+          "position": 4,
+          "updated_at": 1499359242000
+        }
+      ],
+      "parameters": {
+        "story_id": 1,
+        "id": 5147,
+        "position": 1
+      },
+      "person_id": 3,
+      "type": "task_update",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 1,
+        "version": 9
+      }
+    }
+  ],
+  "result": "stale"
+}

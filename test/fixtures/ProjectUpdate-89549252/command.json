@@ -1,0 +1,105 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "account",
+          "id": 1028,
+          "updated_at": 1499256000000
+        },
+        {
+          "type": "project",
+          "id": 101,
+          "has_google_domain": false,
+          "account_id": 2004,
+          "updated_at": 1499256000000,
+          "version": 290
+        }
+      ],
+      "activity": {
+        "kind": "project_update_activity",
+        "guid": "101_290",
+        "project_version": 290,
+        "message": "Robert Brewster updated the settings for \"Skynet Defense Coordination System\"",
+        "highlight": "updated",
+        "changes": [
+          {
+            "kind": "account",
+            "change_type": "update",
+            "id": 1028,
+            "original_values": {
+              "updated_at": "2017-04-28T16:10:00Z"
+            },
+            "new_values": {
+              "updated_at": "2017-07-05T12:00:00Z"
+            }
+          },
+          {
+            "kind": "project",
+            "change_type": "update",
+            "id": 101,
+            "original_values": {
+              "has_google_domain": true,
+              "account_id": 1028,
+              "updated_at": "2017-04-25T16:25:00Z"
+            },
+            "new_values": {
+              "has_google_domain": false,
+              "account_id": 2004,
+              "updated_at": "2017-07-05T12:00:00Z",
+              "version": 290
+            }
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "project",
+            "id": 101,
+            "name": "Skynet Defense Coordination System"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 202,
+          "name": "Robert Brewster",
+          "initials": "rb"
+        },
+        "occurred_at": "2017-07-05T12:00:00Z"
+      },
+      "mutandum": [
+        {
+          "type": "project",
+          "id": 101,
+          "has_google_domain": true,
+          "account_id": 1028,
+          "updated_at": 1493137500000
+        },
+        {
+          "type": "account",
+          "id": 1028,
+          "updated_at": 1493395800000
+        }
+      ],
+      "parameters": {
+        "id": 101,
+        "account_id": 2004
+      },
+      "person_id": 202,
+      "type": "project_update",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 101,
+        "version": 290
+      }
+    }
+  ],
+  "result": "stale"
+}

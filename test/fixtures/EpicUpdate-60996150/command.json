@@ -1,0 +1,80 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "epic",
+          "id": 8,
+          "description": "foo",
+          "updated_at": 1499445348000
+        }
+      ],
+      "activity": {
+        "kind": "epic_update_activity",
+        "guid": "99_67",
+        "project_version": 67,
+        "message": "Darth Vader edited this epic",
+        "highlight": "edited",
+        "changes": [
+          {
+            "kind": "epic",
+            "change_type": "update",
+            "id": 8,
+            "original_values": {
+              "description": null,
+              "updated_at": "2017-07-04T12:00:00Z"
+            },
+            "new_values": {
+              "description": "foo",
+              "updated_at": "2017-07-07T16:35:48Z"
+            },
+            "name": "Maintenance"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "epic",
+            "id": 8,
+            "name": "Maintenance",
+            "url": "http://localhost/epic/show/8"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 99,
+          "name": "Death Star"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 101,
+          "name": "Darth Vader",
+          "initials": "DV"
+        },
+        "occurred_at": "2017-07-07T16:35:48Z"
+      },
+      "mutandum": [
+        {
+          "type": "epic",
+          "id": 8,
+          "description": "",
+          "updated_at": 1499169600000
+        }
+      ],
+      "parameters": {
+        "id": 8,
+        "description": "foo"
+      },
+      "person_id": 101,
+      "type": "epic_update",
+      "command_uuid": "uuid_981",
+      "project": {
+        "id": 99,
+        "version": 67
+      }
+    }
+  ],
+  "result": "stale"
+}

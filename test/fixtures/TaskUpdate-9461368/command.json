@@ -1,0 +1,77 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "task",
+          "id": 5130,
+          "description": "new task description 1998"
+        }
+      ],
+      "activity": {
+        "kind": "task_update_activity",
+        "guid": "7_43",
+        "project_version": 43,
+        "message": "John Doe rewrote task: \"new task description 1998\"",
+        "highlight": "rewrote task:",
+        "changes": [
+          {
+            "kind": "task",
+            "change_type": "update",
+            "id": 5130,
+            "original_values": {
+              "description": "don't do this, and don't do that"
+            },
+            "new_values": {
+              "description": "new task description 1998"
+            }
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 5,
+            "name": "older accepted",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/5"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 7,
+          "name": "Pet Shop"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 1,
+          "name": "John Doe",
+          "initials": "JD"
+        },
+        "occurred_at": "2017-07-07T16:39:39Z"
+      },
+      "mutandum": [
+        {
+          "type": "task",
+          "id": 5130,
+          "description": "don't do this, and don't do that"
+        }
+      ],
+      "parameters": {
+        "story_id": 5,
+        "id": 5130,
+        "description": "new task description 1998"
+      },
+      "person_id": 1,
+      "type": "task_update",
+      "command_uuid": "uuid_1999",
+      "project": {
+        "id": 7,
+        "version": 43
+      }
+    }
+  ],
+  "result": "stale"
+}

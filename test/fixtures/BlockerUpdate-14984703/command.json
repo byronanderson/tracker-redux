@@ -1,0 +1,147 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "blocker",
+          "id": 5,
+          "description": "#2186 is blocking this story",
+          "updated_at": 1499445200000
+        },
+        {
+          "type": "story",
+          "id": 2120,
+          "updated_at": 1499445200000
+        },
+        {
+          "type": "story",
+          "id": 2186,
+          "updated_at": 1499445200000,
+          "blocked_story_ids": [
+            2120
+          ]
+        }
+      ],
+      "activity": {
+        "kind": "blocker_update_activity",
+        "guid": "101_290",
+        "project_version": 290,
+        "message": "Catherine Weaver edited a blocker: \"#2186 is blocking this story\"",
+        "highlight": "edited a blocker",
+        "changes": [
+          {
+            "kind": "blocker",
+            "change_type": "update",
+            "id": 5,
+            "original_values": {
+              "description": "@ag and/or @cat, please add a comment suggesting how we deal with receiving multiple alternative transcriptions",
+              "updated_at": "2017-05-27T17:54:25Z"
+            },
+            "new_values": {
+              "description": "#2186 is blocking this story",
+              "updated_at": "2017-07-07T16:33:20Z"
+            }
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2120,
+            "original_values": {
+              "updated_at": "2017-06-20T19:03:10Z"
+            },
+            "new_values": {
+              "updated_at": "2017-07-07T16:33:20Z"
+            },
+            "name": "Accept input data stream from NSA voice recognition systems",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2120,
+            "original_values": {
+              "updated_at": "2017-06-24T16:13:15Z",
+              "blocked_story_ids": []
+            },
+            "new_values": {
+              "updated_at": "2017-07-07T16:33:20Z",
+              "blocked_story_ids": [
+                2120
+              ]
+            },
+            "name": "Accept input data stream from NSA voice recognition systems",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2120,
+            "name": "Accept input data stream from NSA voice recognition systems",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2120"
+          }
+        ],
+        "secondary_resources": [
+          {
+            "kind": "secondary_resource",
+            "message": "This story is blocking #2120: \"#2186 is blocking this story\"",
+            "highlight": "is blocking",
+            "resource": {
+              "kind": "story",
+              "id": 2186,
+              "name": "<script>alert('story content xss')</script>",
+              "story_type": "bug"
+            }
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 101,
+          "name": "Skynet Defense Coordination System"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 205,
+          "name": "Catherine Weaver",
+          "initials": "CW"
+        },
+        "occurred_at": "2017-07-07T16:33:20Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2120,
+          "updated_at": 1497985390000
+        },
+        {
+          "type": "blocker",
+          "id": 5,
+          "description": "@ag and/or @cat, please add a comment suggesting how we deal with receiving multiple alternative transcriptions",
+          "updated_at": 1495907665000
+        },
+        {
+          "type": "story",
+          "id": 2186,
+          "updated_at": 1498320795000,
+          "blocked_story_ids": []
+        }
+      ],
+      "parameters": {
+        "id": 5,
+        "story_id": 2120,
+        "description": "#2186 is blocking this story"
+      },
+      "person_id": 205,
+      "type": "blocker_update",
+      "command_uuid": "BEAD2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 101,
+        "version": 290
+      }
+    }
+  ],
+  "result": "stale"
+}

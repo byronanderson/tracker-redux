@@ -1,0 +1,148 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "comment",
+          "id": 693,
+          "story_id": 2689,
+          "text": "comment",
+          "person_id": 101,
+          "created_at": 1499445342000,
+          "updated_at": 1499445342000,
+          "file_attachment_ids": [],
+          "google_attachment_ids": [],
+          "attachment_ids": [],
+          "file_attachments": [],
+          "google_attachments": []
+        },
+        {
+          "type": "following",
+          "id": 243,
+          "person_id": 101,
+          "story_id": 2689
+        },
+        {
+          "type": "story",
+          "id": 2689,
+          "project_id": 99,
+          "name": "foo",
+          "story_type": "feature",
+          "current_state": "unscheduled",
+          "requested_by_id": 101,
+          "owner_ids": [],
+          "label_ids": [],
+          "follower_ids": [
+            101
+          ],
+          "created_at": 1499445342000,
+          "updated_at": 1499445342000,
+          "before_id": 567,
+          "after_id": 555,
+          "blocked_story_ids": [],
+          "labels": []
+        }
+      ],
+      "activity": {
+        "kind": "story_create_activity",
+        "guid": "99_67",
+        "project_version": 67,
+        "message": "Darth Vader added this feature",
+        "highlight": "added",
+        "changes": [
+          {
+            "kind": "comment",
+            "change_type": "create",
+            "id": 693,
+            "new_values": {
+              "id": 693,
+              "story_id": 2689,
+              "text": "comment",
+              "person_id": 101,
+              "created_at": "2017-07-07T16:35:42Z",
+              "updated_at": "2017-07-07T16:35:42Z",
+              "file_attachment_ids": [],
+              "google_attachment_ids": [],
+              "attachment_ids": [],
+              "file_attachments": [],
+              "google_attachments": []
+            }
+          },
+          {
+            "kind": "story",
+            "change_type": "create",
+            "id": 2689,
+            "new_values": {
+              "id": 2689,
+              "project_id": 99,
+              "name": "foo",
+              "story_type": "feature",
+              "current_state": "unscheduled",
+              "requested_by_id": 101,
+              "owner_ids": [],
+              "label_ids": [],
+              "follower_ids": [
+                101
+              ],
+              "created_at": "2017-07-07T16:35:42Z",
+              "updated_at": "2017-07-07T16:35:42Z",
+              "before_id": 567,
+              "after_id": 555,
+              "blocked_story_ids": [],
+              "labels": []
+            },
+            "name": "foo",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2689,
+            "name": "foo",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2689"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 99,
+          "name": "Death Star"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 101,
+          "name": "Darth Vader",
+          "initials": "DV"
+        },
+        "occurred_at": "2017-07-07T16:35:42Z"
+      },
+      "mutandum": [],
+      "parameters": {
+        "name": "foo",
+        "comments": [
+          {
+            "text": "comment"
+          }
+        ],
+        "description": "",
+        "cl_numbers": "",
+        "external_id": "",
+        "requested_by_id": 101,
+        "story_type": "feature",
+        "current_state": "unscheduled"
+      },
+      "person_id": 101,
+      "type": "story_create",
+      "command_uuid": "uuid_963",
+      "project": {
+        "id": 99,
+        "version": 67
+      }
+    }
+  ],
+  "result": "stale"
+}

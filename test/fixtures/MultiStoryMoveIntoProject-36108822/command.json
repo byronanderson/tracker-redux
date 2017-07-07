@@ -1,0 +1,114 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2747,
+          "project_id": 98,
+          "name": "The Story 1108",
+          "story_type": "feature",
+          "current_state": "unstarted",
+          "estimate": 2,
+          "requested_by_id": 100,
+          "owner_ids": [],
+          "label_ids": [],
+          "follower_ids": [],
+          "created_at": 1499445453000,
+          "updated_at": 1499445453000,
+          "after_id": 568,
+          "blocked_story_ids": [],
+          "labels": []
+        }
+      ],
+      "activity": {
+        "kind": "story_move_into_project_activity",
+        "guid": "98_3",
+        "project_version": 3,
+        "message": "Darth Vader moved \"The Story 1108\" into this project from Death Star",
+        "highlight": "moved",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "create",
+            "id": 2747,
+            "new_values": {
+              "id": 2747,
+              "project_id": 98,
+              "name": "The Story 1108",
+              "story_type": "feature",
+              "current_state": "unstarted",
+              "estimate": 2,
+              "requested_by_id": 100,
+              "owner_ids": [],
+              "label_ids": [],
+              "follower_ids": [],
+              "created_at": "2017-07-07T16:37:33Z",
+              "updated_at": "2017-07-07T16:37:33Z",
+              "after_id": 568,
+              "blocked_story_ids": [],
+              "labels": []
+            },
+            "name": "The Story 1108",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2747,
+            "name": "The Story 1108",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2747"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 98,
+          "name": "Learn About the Force"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 101,
+          "name": "Darth Vader",
+          "initials": "DV"
+        },
+        "occurred_at": "2017-07-07T16:37:33Z"
+      },
+      "mutandum": [],
+      "parameters": {
+        "source_project_id": 99,
+        "stories": [
+          {
+            "id": 2747,
+            "name": "The Story 1108",
+            "story_type": "feature",
+            "current_state": "unstarted",
+            "estimate": 2,
+            "requested_by_id": 100,
+            "owner_ids": [],
+            "label_ids": [],
+            "follower_ids": [],
+            "created_at": 1499445453000,
+            "updated_at": 1499445453000,
+            "after_id": 568,
+            "blocked_story_ids": [],
+            "tasks": [],
+            "blockers": [],
+            "comments": []
+          }
+        ]
+      },
+      "person_id": 101,
+      "type": "multi_story_move_into_project",
+      "project": {
+        "id": 98,
+        "version": 3
+      }
+    }
+  ],
+  "result": "stale"
+}

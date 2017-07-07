@@ -1,0 +1,141 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "blocker",
+          "id": 137,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 1,
+          "updated_at": 1499445174000
+        },
+        {
+          "type": "story",
+          "id": 550,
+          "updated_at": 1499445174000,
+          "blocked_story_ids": []
+        }
+      ],
+      "activity": {
+        "kind": "blocker_delete_activity",
+        "guid": "1_9",
+        "project_version": 9,
+        "message": "Dana Deer deleted a blocker: \"blocked by #550\"",
+        "highlight": "deleted a blocker",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 1,
+            "original_values": {
+              "updated_at": "2017-06-27T12:00:00Z"
+            },
+            "new_values": {
+              "updated_at": "2017-07-07T16:32:54Z"
+            },
+            "name": "The Save Dialog",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 1,
+            "original_values": {
+              "updated_at": "2017-06-27T12:00:00Z",
+              "blocked_story_ids": [
+                1
+              ]
+            },
+            "new_values": {
+              "updated_at": "2017-07-07T16:32:54Z",
+              "blocked_story_ids": []
+            },
+            "name": "The Save Dialog",
+            "story_type": "feature"
+          },
+          {
+            "kind": "blocker",
+            "change_type": "delete",
+            "id": 137
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 1,
+            "name": "The Save Dialog",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/1"
+          }
+        ],
+        "secondary_resources": [
+          {
+            "kind": "secondary_resource",
+            "message": "This story is no longer blocking #1: \"blocked by #550\"",
+            "highlight": "is no longer blocking",
+            "resource": {
+              "kind": "story",
+              "id": 550,
+              "name": "The Release",
+              "story_type": "release"
+            }
+          }
+        ],
+        "project": {
+          "kind": "project",
+          "id": 1,
+          "name": "Microsoft Excel"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 3,
+          "name": "Dana Deer",
+          "initials": "DD"
+        },
+        "occurred_at": "2017-07-07T16:32:54Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 1,
+          "updated_at": 1498564800000
+        },
+        {
+          "type": "blocker",
+          "id": 137,
+          "story_id": 1,
+          "person_id": 3,
+          "description": "blocked by #550",
+          "resolved": false,
+          "created_at": 1467909174000,
+          "updated_at": 1499445174000
+        },
+        {
+          "type": "story",
+          "id": 550,
+          "updated_at": 1498564800000,
+          "blocked_story_ids": [
+            1
+          ]
+        }
+      ],
+      "parameters": {
+        "story_id": 1,
+        "id": 137
+      },
+      "person_id": 3,
+      "type": "blocker_delete",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 1,
+        "version": 9
+      }
+    }
+  ],
+  "result": "stale"
+}

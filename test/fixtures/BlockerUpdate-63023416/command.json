@@ -1,0 +1,77 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "blocker",
+          "id": 162,
+          "description": "edit2"
+        }
+      ],
+      "activity": {
+        "kind": "blocker_update_activity",
+        "guid": "99_68",
+        "project_version": 68,
+        "message": "Darth Vader edited a blocker: \"edit2\"",
+        "highlight": "edited a blocker",
+        "changes": [
+          {
+            "kind": "blocker",
+            "change_type": "update",
+            "id": 162,
+            "original_values": {
+              "description": "edit1"
+            },
+            "new_values": {
+              "description": "edit2"
+            }
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 556,
+            "name": "Interrogate Leia Organa",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/556"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 99,
+          "name": "Death Star"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 101,
+          "name": "Darth Vader",
+          "initials": "DV"
+        },
+        "occurred_at": "2017-07-07T16:33:01Z"
+      },
+      "mutandum": [
+        {
+          "type": "blocker",
+          "id": 162,
+          "description": "edit1"
+        }
+      ],
+      "parameters": {
+        "id": 162,
+        "story_id": 556,
+        "description": "edit2"
+      },
+      "person_id": 101,
+      "type": "blocker_update",
+      "command_uuid": "BEAD2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 99,
+        "version": 68
+      }
+    }
+  ],
+  "result": "stale"
+}

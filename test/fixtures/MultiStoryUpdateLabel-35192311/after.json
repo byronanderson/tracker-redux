@@ -1,0 +1,699 @@
+{
+  "id": 1,
+  "name": "Microsoft Excel",
+  "version": 9,
+  "iteration_length": 1,
+  "week_start_day": "Monday",
+  "point_scale": "0,1,2,3",
+  "point_scale_is_custom": false,
+  "bugs_and_chores_are_estimatable": false,
+  "automatic_planning": true,
+  "enable_tasks": true,
+  "time_zone": {
+    "kind": "time_zone",
+    "olson_name": "America/Los_Angeles",
+    "offset": "-07:00"
+  },
+  "velocity_averaged_over": 4,
+  "number_of_done_iterations_to_show": 12,
+  "has_google_domain": true,
+  "initial_velocity": 10,
+  "public": false,
+  "project_type": "private",
+  "has_nuclear_logging": false,
+  "join_as": "member",
+  "start_time": 1499065200000,
+  "shown_iterations_start_time": 1499065200000,
+  "created_at": 1499083200000,
+  "updated_at": 1499169600000,
+  "status": "active",
+  "stories": [
+    {
+      "id": 1,
+      "created_at": 1498564800000,
+      "updated_at": 1499441915000,
+      "estimate": 2,
+      "story_type": "feature",
+      "name": "The Save Dialog",
+      "description": "Windoze Save Dialog thingy",
+      "current_state": "unstarted",
+      "requested_by_id": 3,
+      "external_id": "1234",
+      "integration_id": 1,
+      "owner_ids": [],
+      "label_ids": [
+        5446,
+        1015,
+        1006
+      ],
+      "tasks": [
+        {
+          "id": 1,
+          "description": "Port to Linux",
+          "complete": true,
+          "created_at": 1498564800000,
+          "updated_at": 1498564800000
+        },
+        {
+          "id": 2,
+          "description": "Drink champagne!",
+          "complete": false,
+          "created_at": 1498564800000,
+          "updated_at": 1498564800000
+        },
+        {
+          "id": 3,
+          "description": "Test OS save thingie we get for free",
+          "complete": false,
+          "created_at": 1498564800000,
+          "updated_at": 1498564800000
+        }
+      ],
+      "blockers": [],
+      "follower_ids": [
+        1
+      ],
+      "comments": [
+        {
+          "id": 7,
+          "text": "excel resource comment",
+          "person_id": 3,
+          "created_at": 1146746160000,
+          "updated_at": 1146746160000,
+          "attachments": [
+            {
+              "kind": "file_attachment",
+              "id": 1,
+              "filename": "alex.jpg",
+              "uploader_id": 6,
+              "created_at": 1146746160000,
+              "content_type": "image",
+              "size": 7683,
+              "uploaded": true,
+              "thumbnailable": false
+            }
+          ]
+        },
+        {
+          "id": 102,
+          "text": "Commit by Matt Heidemann & Nick Seemiller\nhttps://github.com/pivotalprivate/tracker/commit/588aaa1fc3ec80b8c54396fcaae7a8475cf63568\n\nI am so committed\n\n",
+          "person_id": 13,
+          "commit_identifier": "588aaa1fc3ec80b8c54396fcaae7a8475cf63568",
+          "commit_type": "github",
+          "created_at": 1317472200000,
+          "updated_at": 1317472200000,
+          "attachments": []
+        },
+        {
+          "id": 103,
+          "text": "Commit by Nick Seemiller & Matt Heidemann\nhttps://github.com/pivotalprivate/tracker/commit/2c1c7f7918d5fb168e12d995e9eb352e46a2be0d\n\nLet's try that again\n\n",
+          "person_id": 13,
+          "commit_identifier": "2c1c7f7918d5fb168e12d995e9eb352e46a2be0d",
+          "commit_type": "github",
+          "created_at": 1317472200000,
+          "updated_at": 1317472200000,
+          "attachments": []
+        },
+        {
+          "id": 104,
+          "text": "Some scm commit",
+          "person_id": 13,
+          "commit_identifier": "1234",
+          "created_at": 1317472200000,
+          "updated_at": 1317472200000,
+          "attachments": []
+        },
+        {
+          "id": 106,
+          "text": "Google doc resource comment",
+          "person_id": 13,
+          "created_at": 1317472200000,
+          "updated_at": 1317472200000,
+          "attachments": [
+            {
+              "kind": "google_attachment",
+              "id": 1,
+              "google_kind": "document",
+              "person_id": 13,
+              "resource_id": "https://www.googleapis.com/drive/v2/files/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+              "alternate_link": "https://docs.google.com/a/pivotaltrackertest.com/document/d/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc/edit?usp=drivesdk",
+              "google_id": "https://www.googleapis.com/drive/v2/files/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+              "title": "TEST DOC DO NOT DELETE OR RENAME"
+            }
+          ]
+        },
+        {
+          "id": 107,
+          "text": "Save me",
+          "person_id": 13,
+          "created_at": 1317472200000,
+          "updated_at": 1317472200000,
+          "attachments": []
+        }
+      ],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 4,
+      "created_at": 1498564800000,
+      "updated_at": 1498564800000,
+      "estimate": 1,
+      "story_type": "feature",
+      "name": "Delete Row",
+      "description": "short link: #3 long link: http://localhost:9999/stories/show/2 color: #555 \n\n short epic: ##1 long epic: http://localhost:9999/epics/show/1",
+      "current_state": "unstarted",
+      "requested_by_id": 1,
+      "owner_ids": [
+        1
+      ],
+      "label_ids": [
+        1007
+      ],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [
+        {
+          "id": 1,
+          "text": "This is my later comment",
+          "person_id": 3,
+          "created_at": 1191240600000,
+          "updated_at": 1191240600000,
+          "attachments": []
+        },
+        {
+          "id": 2,
+          "text": "This is my earlier comment",
+          "person_id": 1,
+          "created_at": 1191240900000,
+          "updated_at": 1191240900000,
+          "attachments": []
+        }
+      ],
+      "blocked_story_ids": [],
+      "owned_by_id": 1
+    },
+    {
+      "id": 3,
+      "created_at": 1498564800000,
+      "updated_at": 1498564800000,
+      "estimate": 2,
+      "story_type": "feature",
+      "name": "Copy Cells",
+      "current_state": "unstarted",
+      "requested_by_id": 3,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2,
+      "created_at": 1498564800000,
+      "updated_at": 1498564800000,
+      "estimate": 1,
+      "story_type": "feature",
+      "name": "The Sum Formula",
+      "description": "@sum(A1..B99) = 42",
+      "current_state": "unstarted",
+      "requested_by_id": 3,
+      "owner_ids": [],
+      "label_ids": [
+        1007,
+        1015
+      ],
+      "tasks": [
+        {
+          "id": 4,
+          "description": "make it add stuff up. story link: #1",
+          "complete": true,
+          "created_at": 1498564800000,
+          "updated_at": 1498564800000
+        }
+      ],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [
+        {
+          "id": 3,
+          "text": "This is a comment. This is a short link: #3 This is a link: http://localhost:9999/story/show/2120t",
+          "person_id": 1,
+          "created_at": 1499083200000,
+          "updated_at": 1499083200000,
+          "attachments": []
+        },
+        {
+          "id": 108,
+          "text": "Comment with both a file and google attachment",
+          "person_id": 1,
+          "created_at": 1499083200000,
+          "updated_at": 1499083200000,
+          "attachments": [
+            {
+              "kind": "google_attachment",
+              "id": 2,
+              "google_kind": "document",
+              "person_id": 13,
+              "resource_id": "https://www.googleapis.com/drive/v2/files/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+              "alternate_link": "https://docs.google.com/a/pivotaltrackertest.com/document/d/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc/edit?usp=drivesdk",
+              "google_id": "https://www.googleapis.com/drive/v2/files/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+              "title": "TEST DOC DO NOT DELETE OR RENAME"
+            },
+            {
+              "kind": "file_attachment",
+              "id": 1,
+              "filename": "alex.jpg",
+              "uploader_id": 6,
+              "created_at": 1146746160000,
+              "content_type": "image",
+              "size": 7683,
+              "uploaded": true,
+              "thumbnailable": false
+            }
+          ]
+        }
+      ],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 550,
+      "created_at": 1498564800000,
+      "updated_at": 1498564800000,
+      "story_type": "release",
+      "name": "The Release",
+      "description": "Customer Preview RC2A6b174324",
+      "current_state": "unstarted",
+      "requested_by_id": 3,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    }
+  ],
+  "epics": [
+    {
+      "id": 1,
+      "created_at": 1498564800000,
+      "updated_at": 1498564800000,
+      "name": "odyssey",
+      "label_id": 1015,
+      "description": "There is a time for many words, and there is also a time for sleep.",
+      "comments": [
+        {
+          "id": 101,
+          "text": "My Epic Comment @ddeer. Including a story link: http://localhost:9999/story/show/2120",
+          "person_id": 13,
+          "created_at": 1317472200000,
+          "updated_at": 1317472200000,
+          "file_attachments": [
+            {
+              "id": 7,
+              "filename": "zebra.jpg",
+              "uploader_id": 57,
+              "created_at": 1146746220000,
+              "content_type": "image",
+              "size": 1,
+              "uploaded": true,
+              "thumbnailable": false
+            }
+          ],
+          "google_attachments": [
+            {
+              "id": 3,
+              "google_kind": "document",
+              "person_id": 13,
+              "resource_id": "https://www.googleapis.com/drive/v2/files/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+              "alternate_link": "https://docs.google.com/a/pivotaltrackertest.com/document/d/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc/edit?usp=drivesdk",
+              "google_id": "https://www.googleapis.com/drive/v2/files/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+              "title": "TEST DOC DO NOT DELETE OR RENAME"
+            }
+          ]
+        }
+      ],
+      "follower_ids": [
+        1,
+        3
+      ],
+      "past_done_stories_count": 0,
+      "past_done_stories_no_point_count": 0,
+      "past_done_story_estimates": 0
+    },
+    {
+      "id": 2,
+      "created_at": 1498564800000,
+      "updated_at": 1498564800000,
+      "name": "iliad",
+      "label_id": 1016,
+      "description": "No man or woman born, coward or brave, can shun his destiny: #3 http://localhost:9999/story/show/2",
+      "comments": [],
+      "follower_ids": [],
+      "past_done_stories_count": 0,
+      "past_done_stories_no_point_count": 0,
+      "past_done_story_estimates": 0
+    }
+  ],
+  "memberships": [
+    {
+      "id": 1001,
+      "last_viewed_at": 1138752000000,
+      "role": "member",
+      "wants_comment_notification_emails": false,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 1,
+        "name": "John Doe",
+        "initials": "JD",
+        "username": "jdoe"
+      }
+    },
+    {
+      "id": 1003,
+      "last_viewed_at": 1141174861000,
+      "role": "owner",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 3,
+        "name": "Dana Deer",
+        "initials": "DD",
+        "username": "ddeer"
+      }
+    },
+    {
+      "id": 1007,
+      "last_viewed_at": 1141171200000,
+      "role": "viewer",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 8,
+        "name": "Read Only Joe",
+        "initials": "ROJ",
+        "username": "readonly"
+      }
+    },
+    {
+      "id": 1008,
+      "last_viewed_at": 1141171200000,
+      "role": "owner",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 13,
+        "name": "Rob Mee",
+        "initials": "rm",
+        "username": "rob"
+      }
+    }
+  ],
+  "inactive_memberships": [],
+  "labels": [
+    {
+      "id": 1007,
+      "name": "gestalt",
+      "created_at": 1499169600000,
+      "updated_at": 1499169600000,
+      "counts": {
+        "kind": "story_counts",
+        "sum_of_story_estimates_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 2,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_zero_point_stories_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_stories_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 2,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        }
+      }
+    },
+    {
+      "id": 1016,
+      "name": "iliad",
+      "created_at": 1499169600000,
+      "updated_at": 1499169600000,
+      "counts": {
+        "kind": "story_counts",
+        "sum_of_story_estimates_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_zero_point_stories_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_stories_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        }
+      }
+    },
+    {
+      "id": 5446,
+      "name": "new label",
+      "created_at": 1499441915000,
+      "updated_at": 1499441915000,
+      "counts": {
+        "kind": "story_counts",
+        "sum_of_story_estimates_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 2,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_zero_point_stories_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_stories_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 1,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        }
+      }
+    },
+    {
+      "id": 1015,
+      "name": "odyssey",
+      "created_at": 1499169600000,
+      "updated_at": 1499169600000,
+      "counts": {
+        "kind": "story_counts",
+        "sum_of_story_estimates_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 3,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_zero_point_stories_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_stories_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 2,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        }
+      }
+    },
+    {
+      "id": 1006,
+      "name": "zeitgeist",
+      "created_at": 1499169600000,
+      "updated_at": 1499169600000,
+      "counts": {
+        "kind": "story_counts",
+        "sum_of_story_estimates_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 2,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_zero_point_stories_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_stories_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 1,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        }
+      }
+    }
+  ],
+  "integrations": [
+    {
+      "id": 1,
+      "name": "Tracker Integration Test",
+      "active": true,
+      "created_at": 1499169600000,
+      "updated_at": 1499169600000,
+      "type": "lighthouse",
+      "base_url": "http://pivotaltracker-test.lighthouseapp.com/projects/42872",
+      "can_import": true,
+      "is_other": false,
+      "story_name": "Ticket"
+    },
+    {
+      "id": 2,
+      "name": "Inactive Lighthouse Integration",
+      "active": false,
+      "created_at": 1499169600000,
+      "updated_at": 1499169600000,
+      "type": "lighthouse",
+      "base_url": "http://pivotaltracker-test.lighthouseapp.com/projects/97",
+      "can_import": true,
+      "is_other": false,
+      "story_name": "Ticket"
+    },
+    {
+      "id": 3,
+      "name": "Working from localhost",
+      "active": true,
+      "created_at": 1499169600000,
+      "updated_at": 1499169600000,
+      "type": "other",
+      "base_url": "http://localhost:3000",
+      "can_import": true,
+      "is_other": true,
+      "story_name": "item"
+    },
+    {
+      "id": 4,
+      "name": "JIRA",
+      "active": true,
+      "created_at": 1499169600000,
+      "updated_at": 1499169600000,
+      "type": "jira",
+      "base_url": "http://localhost:8080",
+      "can_import": true,
+      "is_other": false,
+      "story_name": "Issue"
+    },
+    {
+      "id": 5,
+      "name": "Get Satisfaction",
+      "active": true,
+      "created_at": 1499169600000,
+      "updated_at": 1499169600000,
+      "type": "get_satisfaction",
+      "base_url": "http://getsatisfaction.com/teded/topics/",
+      "can_import": true,
+      "is_other": false,
+      "story_name": "Topic"
+    }
+  ],
+  "iteration_overrides": [],
+  "account": {
+    "kind": "account_summary",
+    "id": 1001,
+    "name": "Rob's Unlimited",
+    "status": "active"
+  },
+  "current_iteration_number": 1,
+  "enable_following": true
+}

@@ -1,0 +1,216 @@
+{
+  "id": 1801,
+  "name": "Destroy the Caretaker Array",
+  "version": 8,
+  "iteration_length": 1,
+  "week_start_day": "Friday",
+  "point_scale": "0,1,2,3",
+  "point_scale_is_custom": false,
+  "bugs_and_chores_are_estimatable": false,
+  "automatic_planning": true,
+  "enable_tasks": true,
+  "time_zone": {
+    "kind": "time_zone",
+    "olson_name": "America/Los_Angeles",
+    "offset": "-07:00"
+  },
+  "velocity_averaged_over": 3,
+  "number_of_done_iterations_to_show": 12,
+  "has_google_domain": false,
+  "initial_velocity": 10,
+  "public": false,
+  "project_type": "private",
+  "has_nuclear_logging": false,
+  "join_as": "member",
+  "start_date": "2012-04-06",
+  "start_time": 1333695600000,
+  "shown_iterations_start_time": 1491548400000,
+  "created_at": 1498839368000,
+  "updated_at": 1499256000000,
+  "status": "active",
+  "stories": [
+    {
+      "id": 2211,
+      "created_at": 1498925768000,
+      "updated_at": 1498925768000,
+      "story_type": "feature",
+      "name": "Fight the Kazon",
+      "current_state": "unscheduled",
+      "requested_by_id": 1800,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2210,
+      "created_at": 1498925768000,
+      "updated_at": 1498925768000,
+      "story_type": "chore",
+      "name": "Initiate .reverse_mergency medical hologram",
+      "description": "Our doctor is dead!",
+      "current_state": "unscheduled",
+      "requested_by_id": 1800,
+      "owner_ids": [
+        1802
+      ],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": [],
+      "owned_by_id": 1802
+    },
+    {
+      "id": 2209,
+      "created_at": 1498925768000,
+      "updated_at": 1498925768000,
+      "story_type": "feature",
+      "name": "Set a course for earth",
+      "description": "We are in the Delta Quadrant, 70,000 light years from Federation space.",
+      "current_state": "unscheduled",
+      "requested_by_id": 1800,
+      "owner_ids": [
+        1803
+      ],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [
+        1800,
+        1803
+      ],
+      "comments": [
+        {
+          "id": 213,
+          "text": "Mr. @paris, set a course... for home.",
+          "person_id": 1800,
+          "created_at": 1498925768000,
+          "updated_at": 1498925768000,
+          "attachments": []
+        },
+        {
+          "id": 214,
+          "text": "Aye, Captain.",
+          "person_id": 1803,
+          "created_at": 1498925768000,
+          "updated_at": 1498925768000,
+          "attachments": []
+        }
+      ],
+      "blocked_story_ids": [],
+      "owned_by_id": 1803
+    }
+  ],
+  "epics": [],
+  "memberships": [
+    {
+      "id": 1800,
+      "last_viewed_at": 1107216000000,
+      "role": "owner",
+      "wants_comment_notification_emails": false,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 1800,
+        "name": "Kathryn Janeway",
+        "initials": "EP",
+        "username": "janeway"
+      }
+    },
+    {
+      "id": 1802,
+      "last_viewed_at": 1107216000000,
+      "role": "owner",
+      "wants_comment_notification_emails": false,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 1802,
+        "name": "B'Elanna Torres",
+        "initials": "EP",
+        "username": "torres"
+      }
+    },
+    {
+      "id": 1803,
+      "last_viewed_at": 1107216000000,
+      "role": "member",
+      "wants_comment_notification_emails": false,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 1803,
+        "name": "Tom Paris",
+        "initials": "EP",
+        "username": "paris"
+      }
+    },
+    {
+      "id": 1804,
+      "last_viewed_at": 1107216000000,
+      "role": "owner",
+      "wants_comment_notification_emails": false,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 1804,
+        "name": "Lieutenant Commander Tuvok",
+        "initials": "EP",
+        "username": "tuvok"
+      }
+    },
+    {
+      "id": 1805,
+      "last_viewed_at": 1107216000000,
+      "role": "owner",
+      "wants_comment_notification_emails": false,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 1806,
+        "name": "Neelix",
+        "initials": "EP",
+        "username": "neelix"
+      }
+    },
+    {
+      "id": 1807,
+      "last_viewed_at": 1107216000000,
+      "role": "member",
+      "wants_comment_notification_emails": false,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 1807,
+        "name": "Doctor",
+        "initials": "EP",
+        "username": "doctor"
+      }
+    },
+    {
+      "id": 1809,
+      "last_viewed_at": 1107216000000,
+      "role": "owner",
+      "wants_comment_notification_emails": false,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 1808,
+        "name": "Redshirt",
+        "initials": "EP",
+        "username": "redshirt"
+      }
+    }
+  ],
+  "inactive_memberships": [],
+  "labels": [],
+  "integrations": [],
+  "iteration_overrides": [],
+  "account": {
+    "kind": "account_summary",
+    "id": 1801,
+    "name": "USS Voyager",
+    "status": "active",
+    "enterprise": true
+  },
+  "current_iteration_number": 274,
+  "enable_following": true
+}

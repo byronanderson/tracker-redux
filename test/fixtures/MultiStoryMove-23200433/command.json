@@ -1,0 +1,273 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "label",
+          "id": 5423,
+          "counts": {
+            "number_of_zero_point_stories_by_state": {
+              "accepted": 0,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 0,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 1,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "sum_of_story_estimates_by_state": {
+              "accepted": 0,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 0,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "number_of_stories_by_state": {
+              "accepted": 0,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 0,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 1,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "kind": "story_counts"
+          }
+        },
+        {
+          "type": "story",
+          "id": 2940,
+          "current_state": "unscheduled",
+          "label_ids": [
+            5423
+          ],
+          "updated_at": 1499257800000,
+          "before_id": 2942,
+          "after_id": 2941,
+          "labels": [
+            "label 1495"
+          ]
+        }
+      ],
+      "activity": {
+        "kind": "story_move_activity",
+        "guid": "1966_2",
+        "project_version": 2,
+        "message": "John Doe 1494 moved this story before 'unscheduled 1'",
+        "highlight": "moved",
+        "changes": [
+          {
+            "kind": "label",
+            "change_type": "update",
+            "id": 5423,
+            "original_values": {
+              "counts": {
+                "number_of_zero_point_stories_by_state": {
+                  "accepted": 0,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 0,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "sum_of_story_estimates_by_state": {
+                  "accepted": 0,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 0,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "number_of_stories_by_state": {
+                  "accepted": 0,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 0,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "kind": "story_counts"
+              }
+            },
+            "new_values": {
+              "counts": {
+                "number_of_zero_point_stories_by_state": {
+                  "accepted": 0,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 0,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 1,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "sum_of_story_estimates_by_state": {
+                  "accepted": 0,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 0,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 0,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "number_of_stories_by_state": {
+                  "accepted": 0,
+                  "started": 0,
+                  "finished": 0,
+                  "unstarted": 0,
+                  "planned": 0,
+                  "delivered": 0,
+                  "unscheduled": 1,
+                  "rejected": 0,
+                  "kind": "counts_by_story_state"
+                },
+                "kind": "story_counts"
+              }
+            },
+            "name": "label 1495"
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2940,
+            "original_values": {
+              "current_state": "unstarted",
+              "label_ids": [],
+              "updated_at": "2017-07-05T12:00:00Z",
+              "before_id": 2941,
+              "after_id": 2939,
+              "labels": []
+            },
+            "new_values": {
+              "current_state": "unscheduled",
+              "label_ids": [
+                5423
+              ],
+              "updated_at": "2017-07-05T12:30:00Z",
+              "before_id": 2942,
+              "after_id": 2941,
+              "labels": [
+                "label 1495"
+              ]
+            },
+            "name": "started 2",
+            "story_type": "release"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2940,
+            "name": "started 2",
+            "story_type": "release",
+            "url": "http://localhost/story/show/2940"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 1966,
+          "name": "The Project 1491"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 1964,
+          "name": "John Doe 1494",
+          "initials": "JD"
+        },
+        "occurred_at": "2017-07-05T12:30:00Z"
+      },
+      "mutandum": [
+        {
+          "type": "label",
+          "id": 5423,
+          "counts": {
+            "number_of_zero_point_stories_by_state": {
+              "accepted": 0,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 0,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "sum_of_story_estimates_by_state": {
+              "accepted": 0,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 0,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "number_of_stories_by_state": {
+              "accepted": 0,
+              "started": 0,
+              "finished": 0,
+              "unstarted": 0,
+              "planned": 0,
+              "delivered": 0,
+              "unscheduled": 0,
+              "rejected": 0,
+              "kind": "counts_by_story_state"
+            },
+            "kind": "story_counts"
+          }
+        },
+        {
+          "type": "story",
+          "id": 2940,
+          "current_state": "unstarted",
+          "label_ids": [],
+          "updated_at": 1499256000000,
+          "before_id": 2941,
+          "after_id": 2939,
+          "labels": []
+        }
+      ],
+      "parameters": {
+        "ids": [
+          2940
+        ],
+        "group": "unscheduled",
+        "label_id": 5423,
+        "after_id": 2941,
+        "before_id": 2942
+      },
+      "person_id": 1964,
+      "type": "multi_story_move",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 1966,
+        "version": 2
+      }
+    }
+  ],
+  "result": "stale"
+}

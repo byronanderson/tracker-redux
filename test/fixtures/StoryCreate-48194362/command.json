@@ -1,0 +1,142 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "blocker",
+          "id": 268,
+          "story_id": 3204,
+          "person_id": 3,
+          "description": "my first story blocker",
+          "resolved": false,
+          "created_at": 1499445561000,
+          "updated_at": 1499445561000
+        },
+        {
+          "type": "following",
+          "id": 264,
+          "person_id": 3,
+          "story_id": 3204
+        },
+        {
+          "type": "story",
+          "id": 3204,
+          "project_id": 1,
+          "name": "Twilight",
+          "description": "boo",
+          "story_type": "feature",
+          "current_state": "unscheduled",
+          "requested_by_id": 3,
+          "owner_ids": [],
+          "label_ids": [],
+          "follower_ids": [
+            3
+          ],
+          "created_at": 1499445561000,
+          "updated_at": 1499445561000,
+          "after_id": 550,
+          "blocked_story_ids": [],
+          "labels": []
+        }
+      ],
+      "activity": {
+        "kind": "story_create_activity",
+        "guid": "1_9",
+        "project_version": 9,
+        "message": "Dana Deer added this feature",
+        "highlight": "added",
+        "changes": [
+          {
+            "kind": "blocker",
+            "change_type": "create",
+            "id": 268,
+            "new_values": {
+              "id": 268,
+              "story_id": 3204,
+              "person_id": 3,
+              "description": "my first story blocker",
+              "resolved": false,
+              "created_at": "2017-07-07T16:39:21Z",
+              "updated_at": "2017-07-07T16:39:21Z"
+            }
+          },
+          {
+            "kind": "story",
+            "change_type": "create",
+            "id": 3204,
+            "new_values": {
+              "id": 3204,
+              "project_id": 1,
+              "name": "Twilight",
+              "description": "boo",
+              "story_type": "feature",
+              "current_state": "unscheduled",
+              "requested_by_id": 3,
+              "owner_ids": [],
+              "label_ids": [],
+              "follower_ids": [
+                3
+              ],
+              "created_at": "2017-07-07T16:39:21Z",
+              "updated_at": "2017-07-07T16:39:21Z",
+              "after_id": 550,
+              "blocked_story_ids": [],
+              "labels": []
+            },
+            "name": "Twilight",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 3204,
+            "name": "Twilight",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/3204"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 1,
+          "name": "Microsoft Excel"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 3,
+          "name": "Dana Deer",
+          "initials": "DD"
+        },
+        "occurred_at": "2017-07-07T16:39:21Z"
+      },
+      "mutandum": [],
+      "parameters": {
+        "requested_by_id": 3,
+        "name": "Twilight",
+        "description": "boo",
+        "blockers": [
+          {
+            "description": "my first story blocker",
+            "story_id": 1,
+            "person_id": 3
+          }
+        ],
+        "cl_numbers": "",
+        "external_id": "",
+        "story_type": "feature",
+        "current_state": "unscheduled"
+      },
+      "person_id": 3,
+      "type": "story_create",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 1,
+        "version": 9
+      }
+    }
+  ],
+  "result": "stale"
+}

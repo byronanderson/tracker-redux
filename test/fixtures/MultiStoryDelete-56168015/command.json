@@ -1,0 +1,108 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2694,
+          "deleted": true
+        },
+        {
+          "type": "task",
+          "id": 5103,
+          "deleted": true
+        }
+      ],
+      "activity": {
+        "kind": "story_delete_activity",
+        "guid": "99_68",
+        "project_version": 68,
+        "message": "Darth Vader deleted this feature",
+        "highlight": "deleted",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 2694,
+            "name": "story 1011",
+            "story_type": "feature"
+          },
+          {
+            "kind": "task",
+            "change_type": "delete",
+            "id": 5103
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2694,
+            "name": "story 1011",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2694"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 99,
+          "name": "Death Star"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 101,
+          "name": "Darth Vader",
+          "initials": "DV"
+        },
+        "occurred_at": "2017-07-07T16:35:58Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2694,
+          "project_id": 99,
+          "name": "story 1011",
+          "story_type": "feature",
+          "current_state": "unscheduled",
+          "estimate": -1,
+          "requested_by_id": 101,
+          "owned_by_id": -1,
+          "owner_ids": [],
+          "label_ids": [],
+          "follower_ids": [],
+          "created_at": 1499445358000,
+          "updated_at": 1499445358000,
+          "before_id": 567,
+          "after_id": 555,
+          "blocked_story_ids": [],
+          "labels": []
+        },
+        {
+          "type": "task",
+          "id": 5103,
+          "story_id": 2694,
+          "description": "He tasks me.",
+          "complete": false,
+          "position": 1,
+          "created_at": 1499445358000,
+          "updated_at": 1499445358000
+        }
+      ],
+      "parameters": {
+        "ids": [
+          2694
+        ]
+      },
+      "person_id": 101,
+      "type": "multi_story_delete",
+      "command_uuid": "uuid_1013",
+      "project": {
+        "id": 99,
+        "version": 68
+      }
+    }
+  ],
+  "result": "stale"
+}

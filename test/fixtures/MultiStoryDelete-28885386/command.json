@@ -1,0 +1,128 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 3234,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 3235,
+          "deleted": true
+        }
+      ],
+      "activity": {
+        "kind": "story_delete_activity",
+        "guid": "7_17",
+        "project_version": 17,
+        "message": "John Doe deleted 2 stories",
+        "highlight": "deleted",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 3234,
+            "name": "The Story 1901",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "delete",
+            "id": 3235,
+            "name": "The Story 1902",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 3234,
+            "name": "The Story 1901",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/3234"
+          },
+          {
+            "kind": "story",
+            "id": 3235,
+            "name": "The Story 1902",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/3235"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 7,
+          "name": "Pet Shop"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 1,
+          "name": "John Doe",
+          "initials": "JD"
+        },
+        "occurred_at": "2017-07-07T16:39:34Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 3234,
+          "project_id": 7,
+          "name": "The Story 1901",
+          "story_type": "feature",
+          "current_state": "unstarted",
+          "estimate": 2,
+          "requested_by_id": 1,
+          "owned_by_id": -1,
+          "owner_ids": [],
+          "label_ids": [],
+          "follower_ids": [],
+          "created_at": 1499445574000,
+          "updated_at": 1499445574000,
+          "before_id": 3235,
+          "after_id": 30,
+          "blocked_story_ids": [],
+          "labels": []
+        },
+        {
+          "type": "story",
+          "id": 3235,
+          "project_id": 7,
+          "name": "The Story 1902",
+          "story_type": "feature",
+          "current_state": "unstarted",
+          "estimate": 2,
+          "requested_by_id": 1,
+          "owned_by_id": -1,
+          "owner_ids": [],
+          "label_ids": [],
+          "follower_ids": [],
+          "created_at": 1499445574000,
+          "updated_at": 1499445574000,
+          "before_id": null,
+          "after_id": 3234,
+          "blocked_story_ids": [],
+          "labels": []
+        }
+      ],
+      "parameters": {
+        "ids": [
+          3234,
+          3235
+        ]
+      },
+      "person_id": 1,
+      "type": "multi_story_delete",
+      "command_uuid": "uuid_1903",
+      "project": {
+        "id": 7,
+        "version": 17
+      }
+    }
+  ],
+  "result": "stale"
+}

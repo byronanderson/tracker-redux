@@ -1,0 +1,91 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 3335,
+          "description": "new description 2157",
+          "current_state": "unstarted",
+          "before_id": 3334,
+          "after_id": 3333
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "2024_2",
+        "project_version": 2,
+        "message": "Rob Mee unstarted this release",
+        "highlight": "unstarted",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 3335,
+            "original_values": {
+              "description": null,
+              "current_state": "unscheduled",
+              "before_id": null,
+              "after_id": 3334
+            },
+            "new_values": {
+              "description": "new description 2157",
+              "current_state": "unstarted",
+              "before_id": 3334,
+              "after_id": 3333
+            },
+            "name": "the release",
+            "story_type": "release"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 3335,
+            "name": "the release",
+            "story_type": "release",
+            "url": "http://localhost/story/show/3335"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 2024,
+          "name": "The Project 2152"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 13,
+          "name": "Rob Mee",
+          "initials": "rm"
+        },
+        "occurred_at": "2017-07-05T12:00:00Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 3335,
+          "description": "",
+          "current_state": "unscheduled",
+          "before_id": null,
+          "after_id": 3334
+        }
+      ],
+      "parameters": {
+        "description": "new description 2157",
+        "id": 3335,
+        "current_state": "unstarted"
+      },
+      "person_id": 13,
+      "type": "story_update",
+      "command_uuid": "uuid_2158",
+      "project": {
+        "id": 2024,
+        "version": 2
+      }
+    }
+  ],
+  "result": "stale"
+}

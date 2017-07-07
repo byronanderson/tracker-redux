@@ -1,0 +1,95 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "layout_scheme",
+          "id": 653,
+          "deleted": true
+        },
+        {
+          "type": "project_membership",
+          "id": 16447,
+          "deleted": true
+        }
+      ],
+      "activity": {
+        "kind": "project_membership_delete_activity",
+        "guid": "7_17",
+        "project_version": 17,
+        "message": "John Doe removed John Doe 1939 from the project",
+        "highlight": "removed",
+        "changes": [
+          {
+            "kind": "layout_scheme",
+            "change_type": "delete",
+            "id": 653
+          },
+          {
+            "kind": "project_membership",
+            "change_type": "delete",
+            "id": 16447
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "project",
+            "id": 7,
+            "name": "Pet Shop"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 7,
+          "name": "Pet Shop"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 1,
+          "name": "John Doe",
+          "initials": "JD"
+        },
+        "occurred_at": "2017-07-07T16:39:38Z"
+      },
+      "mutandum": [
+        {
+          "type": "project_membership",
+          "id": 16447,
+          "created_at": 1499445578000,
+          "updated_at": 1499445578000,
+          "person_id": 2012,
+          "project_id": 7,
+          "role": "member",
+          "project_color": "818182",
+          "favorite": false,
+          "wants_comment_notification_emails": true,
+          "will_receive_mention_notifications_or_emails": true
+        },
+        {
+          "type": "layout_scheme",
+          "id": 653,
+          "width_mode": "auto",
+          "project_id": 7,
+          "person_id": 2012,
+          "created_at": 1499445578000,
+          "updated_at": 1499445578000,
+          "favorite_epics": []
+        }
+      ],
+      "parameters": {
+        "id": 16447
+      },
+      "person_id": 1,
+      "type": "project_membership_delete",
+      "command_uuid": "uuid_1940",
+      "project": {
+        "id": 7,
+        "version": 17
+      }
+    }
+  ],
+  "result": "stale"
+}

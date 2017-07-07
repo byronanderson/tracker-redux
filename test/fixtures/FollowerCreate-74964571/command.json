@@ -1,0 +1,96 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "epic",
+          "id": 6,
+          "follower_ids": [
+            103,
+            104
+          ],
+          "updated_at": 1499445325000
+        },
+        {
+          "type": "following",
+          "id": 223,
+          "person_id": 104,
+          "epic_id": 6
+        }
+      ],
+      "activity": {
+        "kind": "follower_create_activity",
+        "guid": "99_67",
+        "project_version": 67,
+        "message": "Clone TK421 started following this epic",
+        "highlight": "started following",
+        "changes": [
+          {
+            "kind": "epic",
+            "change_type": "update",
+            "id": 6,
+            "original_values": {
+              "follower_ids": [
+                103
+              ],
+              "updated_at": "2017-07-04T12:00:00Z"
+            },
+            "new_values": {
+              "follower_ids": [
+                103,
+                104
+              ],
+              "updated_at": "2017-07-07T16:35:25Z"
+            },
+            "name": "Death Star Plans"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "epic",
+            "id": 6,
+            "name": "Death Star Plans",
+            "url": "http://localhost/epic/show/6"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 99,
+          "name": "Death Star"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 104,
+          "name": "Clone TK421",
+          "initials": "TK421"
+        },
+        "occurred_at": "2017-07-07T16:35:25Z"
+      },
+      "mutandum": [
+        {
+          "type": "epic",
+          "id": 6,
+          "follower_ids": [
+            103
+          ],
+          "updated_at": 1499169600000
+        }
+      ],
+      "parameters": {
+        "epic_id": 6,
+        "person_id": 104
+      },
+      "person_id": 104,
+      "type": "follower_create",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 99,
+        "version": 67
+      }
+    }
+  ],
+  "result": "stale"
+}

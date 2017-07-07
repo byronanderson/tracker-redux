@@ -1,0 +1,128 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "layout_scheme",
+          "id": 658,
+          "width_mode": "auto",
+          "project_id": 7,
+          "person_id": 2015,
+          "created_at": 1499445579000,
+          "updated_at": 1499445579000,
+          "favorite_epics": []
+        },
+        {
+          "type": "project_membership",
+          "id": 16452,
+          "created_at": 1499445579000,
+          "updated_at": 1499445579000,
+          "person_id": 2015,
+          "project_id": 7,
+          "role": "member",
+          "project_color": "d82b00",
+          "favorite": false,
+          "wants_comment_notification_emails": true,
+          "will_receive_mention_notifications_or_emails": true
+        },
+        {
+          "id": 2015,
+          "type": "person",
+          "name": "Stubby  2001",
+          "username": "johndoe_default_person_2002",
+          "initials": "JD"
+        }
+      ],
+      "activity": {
+        "kind": "project_membership_create_activity",
+        "guid": "7_45",
+        "project_version": 45,
+        "message": "John Doe added Stubby  2001 as a member",
+        "highlight": "added",
+        "changes": [
+          {
+            "kind": "layout_scheme",
+            "change_type": "create",
+            "id": 658,
+            "new_values": {
+              "id": 658,
+              "width_mode": "auto",
+              "project_id": 7,
+              "person_id": 2015,
+              "created_at": "2017-07-07T16:39:39Z",
+              "updated_at": "2017-07-07T16:39:39Z",
+              "favorite_epics": []
+            }
+          },
+          {
+            "kind": "project_membership",
+            "change_type": "create",
+            "id": 16452,
+            "new_values": {
+              "id": 16452,
+              "created_at": "2017-07-07T16:39:39Z",
+              "updated_at": "2017-07-07T16:39:39Z",
+              "person_id": 2015,
+              "project_id": 7,
+              "role": "member",
+              "project_color": "d82b00",
+              "favorite": false,
+              "wants_comment_notification_emails": true,
+              "will_receive_mention_notifications_or_emails": true
+            }
+          },
+          {
+            "kind": "person",
+            "change_type": "create",
+            "id": 2015,
+            "new_values": {
+              "id": 2015,
+              "name": "Stubby  2001",
+              "username": "johndoe_default_person_2002",
+              "initials": "JD"
+            }
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "project",
+            "id": 7,
+            "name": "Pet Shop"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 7,
+          "name": "Pet Shop"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 1,
+          "name": "John Doe",
+          "initials": "JD"
+        },
+        "occurred_at": "2017-07-07T16:39:39Z"
+      },
+      "mutandum": [],
+      "parameters": {
+        "role": "member",
+        "person_id": 2015,
+        "email": "jdoe2003@example.com",
+        "name": "Stubby  2001",
+        "initials": "JD",
+        "username": "johndoe_default_person_2002"
+      },
+      "person_id": 1,
+      "type": "project_membership_create",
+      "command_uuid": "uuid_2005",
+      "project": {
+        "id": 7,
+        "version": 45
+      }
+    }
+  ],
+  "result": "stale"
+}

@@ -1,0 +1,129 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2778,
+          "current_state": "unstarted",
+          "updated_at": 1499257800000,
+          "after_id": 2774
+        },
+        {
+          "type": "story",
+          "id": 2779,
+          "current_state": "unstarted",
+          "updated_at": 1499257800000,
+          "before_id": 2775
+        }
+      ],
+      "activity": {
+        "kind": "story_move_activity",
+        "guid": "1933_2",
+        "project_version": 2,
+        "message": "John Doe 1167 moved and scheduled 2 stories to the Backlog",
+        "highlight": "moved and scheduled",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2778,
+            "original_values": {
+              "current_state": "unscheduled",
+              "updated_at": "2017-07-05T12:00:00Z",
+              "after_id": 2777
+            },
+            "new_values": {
+              "current_state": "unstarted",
+              "updated_at": "2017-07-05T12:30:00Z",
+              "after_id": 2774
+            },
+            "name": "unscheduled 1",
+            "story_type": "feature"
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2779,
+            "original_values": {
+              "current_state": "unscheduled",
+              "updated_at": "2017-07-05T12:00:00Z",
+              "before_id": 2780
+            },
+            "new_values": {
+              "current_state": "unstarted",
+              "updated_at": "2017-07-05T12:30:00Z",
+              "before_id": 2775
+            },
+            "name": "unscheduled 2",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2778,
+            "name": "unscheduled 1",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2778"
+          },
+          {
+            "kind": "story",
+            "id": 2779,
+            "name": "unscheduled 2",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2779"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 1933,
+          "name": "The Project 1164"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 1933,
+          "name": "John Doe 1167",
+          "initials": "JD"
+        },
+        "occurred_at": "2017-07-05T12:30:00Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2778,
+          "current_state": "unscheduled",
+          "updated_at": 1499256000000,
+          "after_id": 2777
+        },
+        {
+          "type": "story",
+          "id": 2779,
+          "current_state": "unscheduled",
+          "updated_at": 1499256000000,
+          "before_id": 2780
+        }
+      ],
+      "parameters": {
+        "ids": [
+          2778,
+          2779
+        ],
+        "group": "scheduled",
+        "after_id": 2774,
+        "before_id": 2780
+      },
+      "person_id": 1933,
+      "type": "multi_story_move",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 1933,
+        "version": 2
+      }
+    }
+  ],
+  "result": "stale"
+}

@@ -1,0 +1,83 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 2308,
+          "name": "ca\nriage \n return",
+          "description": "new description 27"
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "1_10",
+        "project_version": 10,
+        "message": "John Doe edited this feature",
+        "highlight": "edited",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 2308,
+            "original_values": {
+              "name": "story 25",
+              "description": null
+            },
+            "new_values": {
+              "name": "ca\nriage \n return",
+              "description": "new description 27"
+            },
+            "name": "ca\nriage \n return",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 2308,
+            "name": "ca\nriage \n return",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/2308"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 1,
+          "name": "Microsoft Excel"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 1,
+          "name": "John Doe",
+          "initials": "JD"
+        },
+        "occurred_at": "2017-07-07T16:32:31Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 2308,
+          "name": "story 25",
+          "description": ""
+        }
+      ],
+      "parameters": {
+        "description": "new description 27",
+        "name": "ca\nriage \n return",
+        "id": 2308
+      },
+      "person_id": 1,
+      "type": "story_update",
+      "command_uuid": "uuid_28",
+      "project": {
+        "id": 1,
+        "version": 10
+      }
+    }
+  ],
+  "result": "stale"
+}

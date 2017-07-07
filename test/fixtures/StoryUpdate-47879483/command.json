@@ -1,0 +1,95 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 30,
+          "description": "new description 2019",
+          "current_state": "started",
+          "updated_at": 1499445592000,
+          "before_id": 15,
+          "after_id": 12
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "7_18",
+        "project_version": 18,
+        "message": "John Doe started this feature",
+        "highlight": "started",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 30,
+            "original_values": {
+              "description": null,
+              "current_state": "unscheduled",
+              "updated_at": "2017-06-27T12:00:00Z",
+              "before_id": null,
+              "after_id": 16
+            },
+            "new_values": {
+              "description": "new description 2019",
+              "current_state": "started",
+              "updated_at": "2017-07-07T16:39:52Z",
+              "before_id": 15,
+              "after_id": 12
+            },
+            "name": "unscheduled",
+            "story_type": "feature"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 30,
+            "name": "unscheduled",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/30"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 7,
+          "name": "Pet Shop"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 1,
+          "name": "John Doe",
+          "initials": "JD"
+        },
+        "occurred_at": "2017-07-07T16:39:52Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 30,
+          "description": "",
+          "current_state": "unscheduled",
+          "updated_at": 1498564800000,
+          "before_id": null,
+          "after_id": 16
+        }
+      ],
+      "parameters": {
+        "description": "new description 2019",
+        "current_state": "started",
+        "id": 30
+      },
+      "person_id": 1,
+      "type": "story_update",
+      "command_uuid": "uuid_2020",
+      "project": {
+        "id": 7,
+        "version": 18
+      }
+    }
+  ],
+  "result": "stale"
+}

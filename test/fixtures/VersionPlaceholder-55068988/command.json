@@ -1,0 +1,18 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [],
+      "mutandum": [],
+      "person_id": 101,
+      "type": "version_placeholder",
+      "command_uuid": "3ab7bd548bb7399a7794b8e742cdeb3d",
+      "project": {
+        "id": 98,
+        "version": 3
+      }
+    }
+  ],
+  "result": "stale"
+}

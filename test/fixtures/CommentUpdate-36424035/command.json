@@ -1,0 +1,293 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "comment",
+          "id": 556,
+          "file_attachment_ids": [],
+          "google_attachment_ids": [],
+          "attachment_ids": [],
+          "file_attachments": [],
+          "google_attachments": []
+        },
+        {
+          "type": "file_attachment",
+          "id": 1023,
+          "deleted": true
+        },
+        {
+          "type": "file_attachment",
+          "id": 1026,
+          "deleted": true
+        },
+        {
+          "type": "google_attachment",
+          "id": 497,
+          "deleted": true
+        },
+        {
+          "type": "google_attachment",
+          "id": 498,
+          "deleted": true
+        },
+        {
+          "type": "story",
+          "id": 4,
+          "updated_at": 1499441677000
+        }
+      ],
+      "activity": {
+        "kind": "comment_update_activity",
+        "guid": "1_9",
+        "project_version": 9,
+        "message": "Dana Deer removed 4 attachments",
+        "highlight": "removed",
+        "changes": [
+          {
+            "kind": "comment",
+            "change_type": "update",
+            "id": 556,
+            "original_values": {
+              "file_attachment_ids": [
+                1023,
+                1026
+              ],
+              "google_attachment_ids": [
+                497,
+                498
+              ],
+              "attachment_ids": [
+                {
+                  "id": 1023,
+                  "kind": "file_attachment"
+                },
+                {
+                  "id": 1026,
+                  "kind": "file_attachment"
+                },
+                {
+                  "id": 497,
+                  "kind": "google_attachment"
+                },
+                {
+                  "id": 498,
+                  "kind": "google_attachment"
+                }
+              ],
+              "file_attachments": [
+                "alex.jpg",
+                "alex.jpg"
+              ],
+              "google_attachments": [
+                "TEST DOC DO NOT DELETE OR RENAME",
+                "TEST DOC DO NOT DELETE OR RENAME"
+              ]
+            },
+            "new_values": {
+              "file_attachment_ids": [],
+              "google_attachment_ids": [],
+              "attachment_ids": [],
+              "file_attachments": [],
+              "google_attachments": []
+            }
+          },
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 4,
+            "original_values": {
+              "updated_at": "2017-06-27T12:00:00Z"
+            },
+            "new_values": {
+              "updated_at": "2017-07-07T15:34:37Z"
+            },
+            "name": "Delete Row",
+            "story_type": "feature"
+          },
+          {
+            "kind": "file_attachment",
+            "change_type": "delete",
+            "id": 1023
+          },
+          {
+            "kind": "file_attachment",
+            "change_type": "delete",
+            "id": 1026
+          },
+          {
+            "kind": "google_attachment",
+            "change_type": "delete",
+            "id": 497
+          },
+          {
+            "kind": "google_attachment",
+            "change_type": "delete",
+            "id": 498
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 4,
+            "name": "Delete Row",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/4"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 1,
+          "name": "Microsoft Excel"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 3,
+          "name": "Dana Deer",
+          "initials": "DD"
+        },
+        "occurred_at": "2017-07-07T15:34:37Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 4,
+          "updated_at": 1498564800000
+        },
+        {
+          "type": "comment",
+          "id": 556,
+          "file_attachment_ids": [
+            1023,
+            1026
+          ],
+          "google_attachment_ids": [
+            497,
+            498
+          ],
+          "attachment_ids": [
+            {
+              "id": 1023,
+              "kind": "file_attachment"
+            },
+            {
+              "id": 1026,
+              "kind": "file_attachment"
+            },
+            {
+              "id": 497,
+              "kind": "google_attachment"
+            },
+            {
+              "id": 498,
+              "kind": "google_attachment"
+            }
+          ],
+          "file_attachments": [
+            "alex.jpg",
+            "alex.jpg"
+          ],
+          "google_attachments": [
+            "TEST DOC DO NOT DELETE OR RENAME",
+            "TEST DOC DO NOT DELETE OR RENAME"
+          ]
+        },
+        {
+          "type": "file_attachment",
+          "id": 1023,
+          "filename": "alex.jpg",
+          "created_at": 1499441677000,
+          "uploader_id": 3,
+          "thumbnailable": true,
+          "height": 100,
+          "width": 100,
+          "size": 7683,
+          "download_url": "/file_attachments/1023/download",
+          "content_type": "image/gif",
+          "uploaded": true,
+          "big_url": "/resource/0000/1023/alex_big.jpg",
+          "thumbnail_url": "/resource/0000/1023/alex_thumb.jpg"
+        },
+        {
+          "type": "file_attachment",
+          "id": 1026,
+          "filename": "alex.jpg",
+          "created_at": 1499441677000,
+          "uploader_id": 3,
+          "thumbnailable": true,
+          "height": 100,
+          "width": 100,
+          "size": 7683,
+          "download_url": "/file_attachments/1026/download",
+          "content_type": "image/gif",
+          "uploaded": true,
+          "big_url": "/resource/0000/1026/alex_big.jpg",
+          "thumbnail_url": "/resource/0000/1026/alex_thumb.jpg"
+        },
+        {
+          "type": "google_attachment",
+          "id": 497,
+          "comment_id": 556,
+          "person_id": 3,
+          "google_kind": "document",
+          "title": "TEST DOC DO NOT DELETE OR RENAME",
+          "google_id": "https://docs.google.com/feeds/id/document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+          "alternate_link": "https://docs.google.com/a/pivotaltrackertest.com/document/d/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc/edit?hl=en_US",
+          "resource_id": "document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc"
+        },
+        {
+          "type": "google_attachment",
+          "id": 498,
+          "comment_id": 556,
+          "person_id": 3,
+          "google_kind": "document",
+          "title": "TEST DOC DO NOT DELETE OR RENAME",
+          "google_id": "https://docs.google.com/feeds/id/document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+          "alternate_link": "https://docs.google.com/a/pivotaltrackertest.com/document/d/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc/edit?hl=en_US",
+          "resource_id": "document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc"
+        }
+      ],
+      "parameters": {
+        "id": 556,
+        "story_id": 4,
+        "attachment_ids_to_remove": [
+          {
+            "id": 1023,
+            "kind": "file_attachment"
+          },
+          {
+            "id": 1026,
+            "kind": "file_attachment"
+          },
+          {
+            "id": 497,
+            "kind": "google_attachment"
+          },
+          {
+            "id": 498,
+            "kind": "google_attachment"
+          }
+        ],
+        "file_attachment_ids_to_remove": [
+          1023,
+          1026
+        ],
+        "google_attachment_ids_to_remove": [
+          497,
+          498
+        ]
+      },
+      "person_id": 3,
+      "type": "comment_update",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 1,
+        "version": 9
+      }
+    }
+  ],
+  "result": "stale"
+}

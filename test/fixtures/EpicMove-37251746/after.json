@@ -1,0 +1,335 @@
+{
+  "id": 1914,
+  "name": "The Project 849",
+  "version": 2,
+  "iteration_length": 1,
+  "week_start_day": "Monday",
+  "point_scale": "0,1,2,3",
+  "point_scale_is_custom": false,
+  "bugs_and_chores_are_estimatable": false,
+  "automatic_planning": true,
+  "enable_tasks": true,
+  "time_zone": {
+    "kind": "time_zone",
+    "olson_name": "America/Los_Angeles",
+    "offset": "-07:00"
+  },
+  "velocity_averaged_over": 3,
+  "number_of_done_iterations_to_show": 3,
+  "has_google_domain": false,
+  "initial_velocity": 1,
+  "public": false,
+  "project_type": "private",
+  "has_nuclear_logging": false,
+  "join_as": "member",
+  "start_time": 1499065200000,
+  "shown_iterations_start_time": 1499065200000,
+  "created_at": 1499441718000,
+  "updated_at": 1499441718000,
+  "status": "active",
+  "stories": [],
+  "epics": [
+    {
+      "id": 2172,
+      "created_at": 1499441718000,
+      "updated_at": 1499445318000,
+      "name": "win 852",
+      "label_id": 5163,
+      "description": "Epic Win!",
+      "comments": [],
+      "follower_ids": [],
+      "past_done_stories_count": 0,
+      "past_done_stories_no_point_count": 0,
+      "past_done_story_estimates": 0
+    },
+    {
+      "id": 2170,
+      "created_at": 1499441718000,
+      "updated_at": 1499441718000,
+      "name": "win 850",
+      "label_id": 5161,
+      "description": "Epic Win!",
+      "comments": [],
+      "follower_ids": [],
+      "past_done_stories_count": 0,
+      "past_done_stories_no_point_count": 0,
+      "past_done_story_estimates": 0
+    },
+    {
+      "id": 2171,
+      "created_at": 1499441718000,
+      "updated_at": 1499441718000,
+      "name": "win 851",
+      "label_id": 5162,
+      "description": "Epic Win!",
+      "comments": [],
+      "follower_ids": [],
+      "past_done_stories_count": 0,
+      "past_done_stories_no_point_count": 0,
+      "past_done_story_estimates": 0
+    },
+    {
+      "id": 2173,
+      "created_at": 1499441718000,
+      "updated_at": 1499441718000,
+      "name": "win 853",
+      "label_id": 5164,
+      "description": "Epic Win!",
+      "comments": [],
+      "follower_ids": [],
+      "past_done_stories_count": 0,
+      "past_done_stories_no_point_count": 0,
+      "past_done_story_estimates": 0
+    },
+    {
+      "id": 2174,
+      "created_at": 1499441718000,
+      "updated_at": 1499441718000,
+      "name": "win 854",
+      "label_id": 5165,
+      "description": "Epic Win!",
+      "comments": [],
+      "follower_ids": [],
+      "past_done_stories_count": 0,
+      "past_done_stories_no_point_count": 0,
+      "past_done_story_estimates": 0
+    }
+  ],
+  "memberships": [
+    {
+      "id": 16223,
+      "role": "owner",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 1918,
+        "name": "John Doe 847",
+        "initials": "JD",
+        "username": "johndoe_default_person_845"
+      }
+    }
+  ],
+  "inactive_memberships": [],
+  "labels": [
+    {
+      "id": 5161,
+      "name": "win 850",
+      "created_at": 1499441718000,
+      "updated_at": 1499441718000,
+      "counts": {
+        "kind": "story_counts",
+        "sum_of_story_estimates_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_zero_point_stories_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_stories_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        }
+      }
+    },
+    {
+      "id": 5162,
+      "name": "win 851",
+      "created_at": 1499441718000,
+      "updated_at": 1499441718000,
+      "counts": {
+        "kind": "story_counts",
+        "sum_of_story_estimates_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_zero_point_stories_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_stories_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        }
+      }
+    },
+    {
+      "id": 5163,
+      "name": "win 852",
+      "created_at": 1499441718000,
+      "updated_at": 1499441718000,
+      "counts": {
+        "kind": "story_counts",
+        "sum_of_story_estimates_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_zero_point_stories_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_stories_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        }
+      }
+    },
+    {
+      "id": 5164,
+      "name": "win 853",
+      "created_at": 1499441718000,
+      "updated_at": 1499441718000,
+      "counts": {
+        "kind": "story_counts",
+        "sum_of_story_estimates_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_zero_point_stories_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_stories_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        }
+      }
+    },
+    {
+      "id": 5165,
+      "name": "win 854",
+      "created_at": 1499441718000,
+      "updated_at": 1499441718000,
+      "counts": {
+        "kind": "story_counts",
+        "sum_of_story_estimates_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_zero_point_stories_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_stories_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        }
+      }
+    }
+  ],
+  "integrations": [],
+  "iteration_overrides": [],
+  "account": {
+    "kind": "account_summary",
+    "id": 1914,
+    "name": "The Account 848",
+    "status": "active"
+  },
+  "current_iteration_number": 1,
+  "enable_following": true
+}

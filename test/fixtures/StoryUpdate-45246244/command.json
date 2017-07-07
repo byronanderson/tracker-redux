@@ -1,0 +1,95 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "story",
+          "id": 15,
+          "current_state": "accepted",
+          "accepted_at": 1499445587000,
+          "updated_at": 1499445587000,
+          "before_id": 9,
+          "after_id": 8
+        }
+      ],
+      "activity": {
+        "kind": "story_update_activity",
+        "guid": "7_17",
+        "project_version": 17,
+        "message": "John Doe accepted this release",
+        "highlight": "accepted",
+        "changes": [
+          {
+            "kind": "story",
+            "change_type": "update",
+            "id": 15,
+            "original_values": {
+              "current_state": "unstarted",
+              "accepted_at": null,
+              "updated_at": "2017-06-27T12:00:00Z",
+              "before_id": 13,
+              "after_id": 12
+            },
+            "new_values": {
+              "current_state": "accepted",
+              "accepted_at": "2017-07-07T16:39:47Z",
+              "updated_at": "2017-07-07T16:39:47Z",
+              "before_id": 9,
+              "after_id": 8
+            },
+            "name": "unstarted release",
+            "story_type": "release"
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 15,
+            "name": "unstarted release",
+            "story_type": "release",
+            "url": "http://localhost/story/show/15"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 7,
+          "name": "Pet Shop"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 1,
+          "name": "John Doe",
+          "initials": "JD"
+        },
+        "occurred_at": "2017-07-07T16:39:47Z"
+      },
+      "mutandum": [
+        {
+          "type": "story",
+          "id": 15,
+          "current_state": "unstarted",
+          "accepted_at": null,
+          "updated_at": 1498564800000,
+          "before_id": 13,
+          "after_id": 12
+        }
+      ],
+      "parameters": {
+        "id": 15,
+        "current_state": "accepted",
+        "accepted_at": 1499445587000
+      },
+      "person_id": 1,
+      "type": "story_update",
+      "command_uuid": "C54D2729-6C30-0001-F6C7-3058145C1A29",
+      "project": {
+        "id": 7,
+        "version": 17
+      }
+    }
+  ],
+  "result": "stale"
+}

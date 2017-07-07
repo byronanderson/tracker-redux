@@ -1,0 +1,131 @@
+{
+  "kind": "command_create_response",
+  "stale_commands": [
+    {
+      "kind": "command",
+      "results": [
+        {
+          "type": "comment",
+          "id": 732,
+          "file_attachment_ids": [],
+          "attachment_ids": [],
+          "file_attachments": []
+        },
+        {
+          "type": "file_attachment",
+          "id": 1563,
+          "deleted": true
+        }
+      ],
+      "activity": {
+        "kind": "comment_update_activity",
+        "guid": "7_22",
+        "project_version": 22,
+        "message": "John Doe deleted file \"alex.jpg\"",
+        "highlight": "deleted",
+        "changes": [
+          {
+            "kind": "comment",
+            "change_type": "update",
+            "id": 732,
+            "original_values": {
+              "file_attachment_ids": [
+                1563
+              ],
+              "attachment_ids": [
+                {
+                  "id": 1563,
+                  "kind": "file_attachment"
+                }
+              ],
+              "file_attachments": [
+                "alex.jpg"
+              ]
+            },
+            "new_values": {
+              "file_attachment_ids": [],
+              "attachment_ids": [],
+              "file_attachments": []
+            }
+          },
+          {
+            "kind": "file_attachment",
+            "change_type": "delete",
+            "id": 1563
+          }
+        ],
+        "primary_resources": [
+          {
+            "kind": "story",
+            "id": 3243,
+            "name": "story 1957",
+            "story_type": "feature",
+            "url": "http://localhost/story/show/3243"
+          }
+        ],
+        "secondary_resources": [],
+        "project": {
+          "kind": "project",
+          "id": 7,
+          "name": "Pet Shop"
+        },
+        "performed_by": {
+          "kind": "person",
+          "id": 1,
+          "name": "John Doe",
+          "initials": "JD"
+        },
+        "occurred_at": "2017-07-07T16:39:39Z"
+      },
+      "mutandum": [
+        {
+          "type": "comment",
+          "id": 732,
+          "file_attachment_ids": [
+            1563
+          ],
+          "attachment_ids": [
+            {
+              "id": 1563,
+              "kind": "file_attachment"
+            }
+          ],
+          "file_attachments": [
+            "alex.jpg"
+          ]
+        },
+        {
+          "type": "file_attachment",
+          "id": 1563,
+          "filename": "alex.jpg",
+          "created_at": 1499445579000,
+          "uploader_id": 1,
+          "thumbnailable": true,
+          "height": 100,
+          "width": 100,
+          "size": 7683,
+          "download_url": "/file_attachments/1563/download",
+          "content_type": "image/gif",
+          "uploaded": true,
+          "big_url": "/resource/0000/1563/alex_big.jpg",
+          "thumbnail_url": "/resource/0000/1563/alex_thumb.jpg"
+        }
+      ],
+      "parameters": {
+        "story_id": 3243,
+        "id": 732,
+        "file_attachment_ids_to_remove": [
+          1563
+        ]
+      },
+      "person_id": 1,
+      "type": "comment_update",
+      "command_uuid": "uuid_1960",
+      "project": {
+        "id": 7,
+        "version": 22
+      }
+    }
+  ],
+  "result": "stale"
+}

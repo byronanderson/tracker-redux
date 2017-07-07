@@ -1,0 +1,2562 @@
+{
+  "id": 101,
+  "name": "Skynet Defense Coordination System",
+  "version": 290,
+  "iteration_length": 1,
+  "week_start_day": "Saturday",
+  "point_scale": "0,1,2,3,5,8",
+  "point_scale_is_custom": false,
+  "bugs_and_chores_are_estimatable": false,
+  "automatic_planning": true,
+  "enable_tasks": true,
+  "time_zone": {
+    "kind": "time_zone",
+    "olson_name": "America/Los_Angeles",
+    "offset": "-07:00"
+  },
+  "velocity_averaged_over": 3,
+  "number_of_done_iterations_to_show": 5,
+  "has_google_domain": true,
+  "initial_velocity": 10,
+  "public": false,
+  "project_type": "private",
+  "has_nuclear_logging": true,
+  "capabilities": {
+    "blockers": true
+  },
+  "join_as": "member",
+  "start_time": 1493449200000,
+  "shown_iterations_start_time": 1494054000000,
+  "created_at": 1493137500000,
+  "updated_at": 1493137500000,
+  "status": "active",
+  "stories": [
+    {
+      "id": 2114,
+      "created_at": 1493144324000,
+      "updated_at": 1494174625000,
+      "accepted_at": 1494174625000,
+      "story_type": "chore",
+      "name": "<script>alert('story content xss')</script>",
+      "description": "new description 217",
+      "current_state": "accepted",
+      "requested_by_id": 201,
+      "owner_ids": [
+        211
+      ],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": [],
+      "owned_by_id": 211
+    },
+    {
+      "id": 2112,
+      "created_at": 1493144054000,
+      "updated_at": 1494259200000,
+      "accepted_at": 1494259200000,
+      "story_type": "chore",
+      "name": "spike: setup a neural net and teach it to play Tic-Tac-Toe",
+      "description": "new description 219",
+      "current_state": "accepted",
+      "requested_by_id": 201,
+      "owner_ids": [
+        203
+      ],
+      "label_ids": [
+        5026
+      ],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": [],
+      "owned_by_id": 203
+    },
+    {
+      "id": 2128,
+      "created_at": 1493498631000,
+      "updated_at": 1494355501000,
+      "accepted_at": 1494355501000,
+      "story_type": "release",
+      "name": "development and demo datacenters set up",
+      "description": "new description 241",
+      "current_state": "accepted",
+      "requested_by_id": 201,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2110,
+      "created_at": 1493143380000,
+      "updated_at": 1494712486000,
+      "accepted_at": 1494432000000,
+      "estimate": 3,
+      "story_type": "feature",
+      "name": "Build UI for operators to train pattern recognizer",
+      "description": "new description 283",
+      "current_state": "accepted",
+      "requested_by_id": 201,
+      "owner_ids": [
+        204
+      ],
+      "label_ids": [
+        5024
+      ],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": [],
+      "owned_by_id": 204
+    },
+    {
+      "id": 2126,
+      "created_at": 1493497985000,
+      "updated_at": 1494455557000,
+      "accepted_at": 1494455557000,
+      "deadline": 1494702000000,
+      "story_type": "release",
+      "name": "integration of test neural net and training",
+      "description": "new description 253",
+      "current_state": "accepted",
+      "requested_by_id": 201,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2116,
+      "created_at": 1493144399000,
+      "updated_at": 1494455642000,
+      "accepted_at": 1494455642000,
+      "estimate": 2,
+      "story_type": "feature",
+      "name": "Accept input data stream from NORAD",
+      "description": "new description 255",
+      "current_state": "accepted",
+      "requested_by_id": 201,
+      "owner_ids": [
+        206
+      ],
+      "label_ids": [
+        5025,
+        5024
+      ],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": [],
+      "owned_by_id": 206
+    },
+    {
+      "id": 2111,
+      "created_at": 1493143929000,
+      "updated_at": 1494455727000,
+      "accepted_at": 1494455727000,
+      "estimate": 2,
+      "story_type": "feature",
+      "name": "Create Chef scripts to setup grid processing nodes",
+      "description": "new description 257",
+      "current_state": "accepted",
+      "requested_by_id": 201,
+      "owner_ids": [
+        205
+      ],
+      "label_ids": [
+        5028
+      ],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": [],
+      "owned_by_id": 205
+    },
+    {
+      "id": 2141,
+      "created_at": 1494261025000,
+      "updated_at": 1494712431000,
+      "accepted_at": 1494712431000,
+      "estimate": 1,
+      "story_type": "feature",
+      "name": "Build connection to StarCraft game engine",
+      "description": "new description 285",
+      "current_state": "accepted",
+      "requested_by_id": 203,
+      "owner_ids": [
+        204
+      ],
+      "label_ids": [
+        5026
+      ],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": [],
+      "owned_by_id": 204
+    },
+    {
+      "id": 2117,
+      "created_at": 1493144594000,
+      "updated_at": 1494950400000,
+      "accepted_at": 1494950400000,
+      "estimate": 3,
+      "story_type": "feature",
+      "name": "Accept input data stream from FAA/CONUS",
+      "description": "new description 305",
+      "current_state": "accepted",
+      "requested_by_id": 201,
+      "owner_ids": [
+        207
+      ],
+      "label_ids": [
+        5025
+      ],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": [],
+      "owned_by_id": 207
+    },
+    {
+      "id": 2144,
+      "created_at": 1494261145000,
+      "updated_at": 1495301220000,
+      "accepted_at": 1495301220000,
+      "estimate": 3,
+      "story_type": "feature",
+      "name": "StarCraft neural net trainer",
+      "description": "new description 321",
+      "current_state": "accepted",
+      "requested_by_id": 203,
+      "owner_ids": [
+        211
+      ],
+      "label_ids": [
+        5026
+      ],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [
+        203,
+        204
+      ],
+      "comments": [
+        {
+          "id": 205,
+          "text": "Yeah not so much.  This needs to take into account playing as different factions--that's why you were done so soon.  Go over the different resources with @candy and then implement the others.",
+          "person_id": 203,
+          "created_at": 1494787840000,
+          "updated_at": 1494787840000,
+          "attachments": []
+        }
+      ],
+      "blocked_story_ids": [],
+      "owned_by_id": 211
+    },
+    {
+      "id": 2142,
+      "created_at": 1494261065000,
+      "updated_at": 1495301305000,
+      "accepted_at": 1495301305000,
+      "estimate": 3,
+      "story_type": "feature",
+      "name": "Trivial StarCraft player",
+      "description": "new description 323",
+      "current_state": "accepted",
+      "requested_by_id": 203,
+      "owner_ids": [
+        204
+      ],
+      "label_ids": [
+        5026
+      ],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": [],
+      "owned_by_id": 204
+    },
+    {
+      "id": 2115,
+      "created_at": 1493144384000,
+      "updated_at": 1495468800000,
+      "accepted_at": 1495468800000,
+      "story_type": "chore",
+      "name": "A control char->\u000b<-> Андрей Шео <-control char",
+      "description": "new description 325",
+      "current_state": "accepted",
+      "requested_by_id": 201,
+      "owner_ids": [
+        210
+      ],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": [],
+      "owned_by_id": 210
+    },
+    {
+      "id": 2119,
+      "created_at": 1493144724000,
+      "updated_at": 1495580425000,
+      "accepted_at": 1495580425000,
+      "estimate": 8,
+      "story_type": "feature",
+      "name": "Accept input data stream from deployed drones",
+      "description": "new description 329",
+      "current_state": "accepted",
+      "requested_by_id": 201,
+      "owner_ids": [
+        206
+      ],
+      "label_ids": [
+        5025
+      ],
+      "tasks": [
+        {
+          "id": 5024,
+          "description": "integrate with US Army",
+          "complete": false,
+          "created_at": 1493144799000,
+          "updated_at": 1493144799000
+        },
+        {
+          "id": 5025,
+          "description": "integrate with US Airforce",
+          "complete": false,
+          "created_at": 1493144804000,
+          "updated_at": 1493144804000
+        },
+        {
+          "id": 5026,
+          "description": "integrate with CIA",
+          "complete": false,
+          "created_at": 1493144809000,
+          "updated_at": 1493144809000
+        }
+      ],
+      "blockers": [],
+      "follower_ids": [
+        202
+      ],
+      "comments": [
+        {
+          "id": 202,
+          "text": "Don't forget the artificial-intelligent ones",
+          "person_id": 202,
+          "created_at": 1493144929000,
+          "updated_at": 1493144929000,
+          "attachments": []
+        },
+        {
+          "id": 203,
+          "text": "Here's the drone data flow schematic",
+          "person_id": 202,
+          "created_at": 1493145229000,
+          "updated_at": 1493145229000,
+          "attachments": [
+            {
+              "kind": "file_attachment",
+              "id": 201,
+              "filename": "alex.jpg",
+              "uploader_id": 202,
+              "created_at": 1493145229000,
+              "content_type": "image/jpeg",
+              "size": 7683,
+              "uploaded": true,
+              "thumbnailable": true,
+              "height": 100,
+              "width": 100
+            }
+          ]
+        },
+        {
+          "id": 204,
+          "text": "Check these vulnerabilities, including the infamous exhaust port one. The probability of failure seems not worth fixing to me.",
+          "person_id": 202,
+          "created_at": 1493145529000,
+          "updated_at": 1493145529000,
+          "attachments": [
+            {
+              "kind": "google_attachment",
+              "id": 201,
+              "google_kind": "spreadsheet",
+              "person_id": 202,
+              "resource_id": "document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+              "alternate_link": "https://docs.google.com/a/pivotaltrackertest.com/document/d/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc/edit?hl=en_US",
+              "google_id": "https://docs.google.com/feeds/id/document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+              "title": "Potential fixes cost breakdown"
+            },
+            {
+              "kind": "google_attachment",
+              "id": 202,
+              "google_kind": "document",
+              "person_id": 202,
+              "resource_id": "document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+              "alternate_link": "https://docs.google.com/a/pivotaltrackertest.com/document/d/1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc/edit?hl=en_US",
+              "google_id": "https://docs.google.com/feeds/id/document%3A1ZuwPDuGle9UowJPBl2FDjpgHW74nJlVINcTejuQeEKc",
+              "title": "Secret Vulnerabilities Paper"
+            }
+          ]
+        }
+      ],
+      "blocked_story_ids": [],
+      "owned_by_id": 206
+    },
+    {
+      "id": 2118,
+      "created_at": 1493144659000,
+      "updated_at": 1495903500000,
+      "accepted_at": 1495903500000,
+      "estimate": 5,
+      "story_type": "feature",
+      "name": "Accept input data stream from AWACS",
+      "description": "new description 333",
+      "current_state": "accepted",
+      "requested_by_id": 201,
+      "owner_ids": [
+        206
+      ],
+      "label_ids": [
+        5025
+      ],
+      "tasks": [],
+      "blockers": [
+        {
+          "id": 7,
+          "description": "I'm going to need a propietary contractor library to decode the IFF subsystem logs.  @Brewster, can you help me with this?  Lots of work sill before it's a bottle-neck.",
+          "resolved": true,
+          "person_id": 206,
+          "created_at": 1495397760000,
+          "updated_at": 1495486825000
+        }
+      ],
+      "follower_ids": [
+        206,
+        202
+      ],
+      "comments": [],
+      "blocked_story_ids": [],
+      "owned_by_id": 206
+    },
+    {
+      "id": 2155,
+      "created_at": 1494692430000,
+      "updated_at": 1496178000000,
+      "accepted_at": 1496178000000,
+      "estimate": 1,
+      "story_type": "feature",
+      "name": "B control char->\u000b<-> Андрей Шео <-control char",
+      "description": "new description 377",
+      "current_state": "accepted",
+      "requested_by_id": 202,
+      "owner_ids": [
+        207
+      ],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": [],
+      "owned_by_id": 207
+    },
+    {
+      "id": 2154,
+      "created_at": 1494692295000,
+      "updated_at": 1496178745000,
+      "accepted_at": 1496178745000,
+      "estimate": 2,
+      "story_type": "feature",
+      "name": "<script>alert('story content xss')</script>",
+      "description": "new description 379",
+      "current_state": "accepted",
+      "requested_by_id": 202,
+      "owner_ids": [
+        207
+      ],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": [],
+      "owned_by_id": 207
+    },
+    {
+      "id": 2127,
+      "created_at": 1493498548000,
+      "updated_at": 1496265566000,
+      "accepted_at": 1496265566000,
+      "deadline": 1495479600000,
+      "story_type": "release",
+      "name": "first internal progress demo",
+      "description": "new description 397",
+      "current_state": "accepted",
+      "requested_by_id": 201,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2161,
+      "created_at": 1496073600000,
+      "updated_at": 1496265651000,
+      "accepted_at": 1496265651000,
+      "estimate": 1,
+      "story_type": "feature",
+      "name": "Pattern recognition tuned for troop movements",
+      "description": "new description 399",
+      "current_state": "accepted",
+      "requested_by_id": 202,
+      "owner_ids": [
+        204,
+        210
+      ],
+      "label_ids": [
+        5024
+      ],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": [],
+      "owned_by_id": 204
+    },
+    {
+      "id": 2162,
+      "created_at": 1496073680000,
+      "updated_at": 1496265736000,
+      "accepted_at": 1496265736000,
+      "estimate": 2,
+      "story_type": "feature",
+      "name": "Distinguish merchant marine from military vessels",
+      "description": "new description 401",
+      "current_state": "accepted",
+      "requested_by_id": 202,
+      "owner_ids": [
+        210
+      ],
+      "label_ids": [
+        5024
+      ],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": [],
+      "owned_by_id": 210
+    },
+    {
+      "id": 2145,
+      "created_at": 1494261185000,
+      "updated_at": 1496777820000,
+      "accepted_at": 1496777820000,
+      "estimate": 5,
+      "story_type": "feature",
+      "name": "StarCraft parametric player for optimization via genetic algorithm",
+      "description": "new description 426",
+      "current_state": "accepted",
+      "requested_by_id": 203,
+      "owner_ids": [
+        211
+      ],
+      "label_ids": [
+        5026
+      ],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": [],
+      "owned_by_id": 211
+    },
+    {
+      "id": 2143,
+      "created_at": 1494261105000,
+      "updated_at": 1496777905000,
+      "accepted_at": 1496777905000,
+      "estimate": 2,
+      "story_type": "feature",
+      "name": "StarCraft player using a neural net",
+      "description": "new description 428",
+      "current_state": "accepted",
+      "requested_by_id": 203,
+      "owner_ids": [
+        211
+      ],
+      "label_ids": [
+        5026
+      ],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": [],
+      "owned_by_id": 211
+    },
+    {
+      "id": 2163,
+      "created_at": 1496073760000,
+      "updated_at": 1496777990000,
+      "accepted_at": 1496777990000,
+      "estimate": 3,
+      "story_type": "feature",
+      "name": "Build feedback to pattern recognition from correlation of previous matches to actual field intelligence",
+      "description": "new description 430",
+      "current_state": "accepted",
+      "requested_by_id": 202,
+      "owner_ids": [
+        207,
+        211
+      ],
+      "label_ids": [
+        5024
+      ],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [
+        202,
+        203
+      ],
+      "comments": [],
+      "blocked_story_ids": [],
+      "owned_by_id": 207
+    },
+    {
+      "id": 2159,
+      "created_at": 1495907215000,
+      "updated_at": 1498093310000,
+      "accepted_at": 1498093310000,
+      "estimate": 5,
+      "story_type": "feature",
+      "name": "Accept input data stream from NOAA",
+      "description": "new description 448",
+      "current_state": "accepted",
+      "requested_by_id": 202,
+      "owner_ids": [
+        206
+      ],
+      "label_ids": [
+        5025
+      ],
+      "tasks": [],
+      "blockers": [
+        {
+          "id": 12,
+          "description": "@Brewster, @ellison, @cat:  I'm having some trouble parsing the data format.  Setting this aside until one of you let's me know who I can talk to at NOAA to answer questions.  TIA.",
+          "resolved": true,
+          "person_id": 206,
+          "created_at": 1497369600000,
+          "updated_at": 1497819120000
+        }
+      ],
+      "follower_ids": [
+        206,
+        202,
+        205,
+        209
+      ],
+      "comments": [
+        {
+          "id": 206,
+          "text": "@kogan, Try reaching out to `jane.dev@noaa.us.gov.example.com``.",
+          "person_id": 202,
+          "created_at": 1497813060000,
+          "updated_at": 1497813060000,
+          "attachments": []
+        }
+      ],
+      "blocked_story_ids": [],
+      "owned_by_id": 206
+    },
+    {
+      "id": 2160,
+      "created_at": 1495907245000,
+      "updated_at": 1498093395000,
+      "accepted_at": 1498093395000,
+      "estimate": 8,
+      "story_type": "feature",
+      "name": "Accept input data stream from NRO",
+      "description": "new description 450",
+      "current_state": "accepted",
+      "requested_by_id": 202,
+      "owner_ids": [
+        206
+      ],
+      "label_ids": [
+        5025
+      ],
+      "tasks": [],
+      "blockers": [
+        {
+          "id": 8,
+          "description": "Need to understand how to handle #2155 first",
+          "resolved": true,
+          "person_id": 202,
+          "created_at": 1495907335000,
+          "updated_at": 1496178000000
+        }
+      ],
+      "follower_ids": [
+        202
+      ],
+      "comments": [],
+      "blocked_story_ids": [],
+      "owned_by_id": 206
+    },
+    {
+      "id": 2180,
+      "created_at": 1497110400000,
+      "updated_at": 1497110460000,
+      "deadline": 1498071600000,
+      "story_type": "release",
+      "name": "have comprehensive input processing",
+      "current_state": "unstarted",
+      "requested_by_id": 205,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2174,
+      "created_at": 1496506590000,
+      "updated_at": 1496506605000,
+      "story_type": "bug",
+      "name": "don't send airforce orders to the army",
+      "description": "new description 411",
+      "current_state": "started",
+      "requested_by_id": 202,
+      "owner_ids": [
+        202
+      ],
+      "label_ids": [
+        5027
+      ],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": [],
+      "owned_by_id": 202
+    },
+    {
+      "id": 2120,
+      "created_at": 1493144749000,
+      "updated_at": 1497985390000,
+      "estimate": 8,
+      "story_type": "feature",
+      "name": "Accept input data stream from NSA voice recognition systems",
+      "description": "new description 442",
+      "current_state": "started",
+      "requested_by_id": 201,
+      "owner_ids": [
+        206
+      ],
+      "label_ids": [
+        5025
+      ],
+      "tasks": [],
+      "blockers": [
+        {
+          "id": 4,
+          "description": "determine how we will synchronize person identification between systems so we can use their speaker-identification hints",
+          "resolved": false,
+          "person_id": 201,
+          "created_at": 1493144749000,
+          "updated_at": 1493144749000
+        },
+        {
+          "id": 5,
+          "description": "@ag and/or @cat, please add a comment suggesting how we deal with receiving multiple alternative transcriptions",
+          "resolved": false,
+          "person_id": 201,
+          "created_at": 1493144749000,
+          "updated_at": 1495907665000
+        },
+        {
+          "id": 6,
+          "description": "for basic infrastructure, get http://localhost/story/show/2118 in place first",
+          "resolved": false,
+          "person_id": 201,
+          "created_at": 1493144869000,
+          "updated_at": 1497985390000
+        }
+      ],
+      "follower_ids": [
+        203,
+        205,
+        206,
+        207,
+        204
+      ],
+      "comments": [
+        {
+          "id": 207,
+          "text": "@candy Just noticed that we've made a circular set of blockers.  Going to leave #2121 blocked by this story, but adjust so this depends only on the AWACS input story. cc @boyd",
+          "person_id": 206,
+          "created_at": 1497985355000,
+          "updated_at": 1497985355000,
+          "attachments": []
+        }
+      ],
+      "blocked_story_ids": [
+        2121
+      ],
+      "owned_by_id": 206
+    },
+    {
+      "id": 2186,
+      "created_at": 1498320750000,
+      "updated_at": 1499445170000,
+      "story_type": "bug",
+      "name": "<script>alert('story content xss')</script>",
+      "description": "new description 466",
+      "current_state": "started",
+      "requested_by_id": 205,
+      "owner_ids": [
+        204
+      ],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [
+        205
+      ],
+      "comments": [
+        {
+          "id": 208,
+          "text": "<script>alert('story content xss')</script>\n<script>alert('story content xss')</script>\n<script>alert('story content xss')</script>",
+          "person_id": 205,
+          "commit_identifier": "e33914f666be819029aec3e30204d4b585d86962",
+          "commit_type": "github",
+          "created_at": 1498320765000,
+          "updated_at": 1498320765000,
+          "attachments": []
+        }
+      ],
+      "blocked_story_ids": [
+        2184
+      ],
+      "owned_by_id": 204
+    },
+    {
+      "id": 2184,
+      "created_at": 1498320336000,
+      "updated_at": 1499445170000,
+      "story_type": "bug",
+      "name": "pelican-exclusion algorithm shouldn't match carrier-launched drones",
+      "current_state": "unstarted",
+      "requested_by_id": 202,
+      "external_id": "mYm15LEDPBU",
+      "integration_id": 54,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [
+        {
+          "id": 130,
+          "description": "#2186 is blocking this story",
+          "resolved": false,
+          "person_id": 205,
+          "created_at": 1499445170000,
+          "updated_at": 1499445170000
+        }
+      ],
+      "follower_ids": [
+        205
+      ],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2183,
+      "created_at": 1498320213000,
+      "updated_at": 1498320500000,
+      "story_type": "bug",
+      "name": "sperm whales are not attack submarines",
+      "current_state": "unstarted",
+      "requested_by_id": 202,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2182,
+      "created_at": 1498320101000,
+      "updated_at": 1498320500000,
+      "story_type": "bug",
+      "name": "don't confuse volcanoes with missle launches",
+      "current_state": "unstarted",
+      "requested_by_id": 202,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2181,
+      "created_at": 1498320000000,
+      "updated_at": 1498320500000,
+      "story_type": "bug",
+      "name": "don't mistake passenger jets for bombers",
+      "current_state": "unstarted",
+      "requested_by_id": 202,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2185,
+      "created_at": 1498320470000,
+      "updated_at": 1498518000000,
+      "deadline": 1499540400000,
+      "story_type": "release",
+      "name": "fix bugs identified by field trials",
+      "current_state": "unstarted",
+      "requested_by_id": 202,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [
+        {
+          "id": 14,
+          "description": "Still have to wait for #2179?",
+          "resolved": true,
+          "person_id": 202,
+          "created_at": 1498320485000,
+          "updated_at": 1498518000000
+        }
+      ],
+      "follower_ids": [
+        202
+      ],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2121,
+      "created_at": 1493144774000,
+      "updated_at": 1497985390000,
+      "estimate": 8,
+      "story_type": "feature",
+      "name": "Accept input data stream from NSA internet scanning",
+      "current_state": "unstarted",
+      "requested_by_id": 201,
+      "owner_ids": [],
+      "label_ids": [
+        5025
+      ],
+      "tasks": [],
+      "blockers": [
+        {
+          "id": 13,
+          "description": "I need the NSA and NRO feeds from #2120 and #2160",
+          "resolved": false,
+          "person_id": 206,
+          "created_at": 1497976715000,
+          "updated_at": 1497976715000
+        }
+      ],
+      "follower_ids": [
+        206
+      ],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2187,
+      "created_at": 1498320780000,
+      "updated_at": 1498579200000,
+      "story_type": "bug",
+      "name": "C control char->\u000b<-> Андрей Шео <-control char",
+      "description": "c control char->\u000b<-> Андрей Шео <-control char",
+      "current_state": "unstarted",
+      "requested_by_id": 205,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2178,
+      "created_at": 1496506885000,
+      "updated_at": 1498579345000,
+      "estimate": 3,
+      "story_type": "feature",
+      "name": "command-4",
+      "description": "new description 470",
+      "current_state": "unstarted",
+      "requested_by_id": 202,
+      "owner_ids": [],
+      "label_ids": [
+        5027
+      ],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2175,
+      "created_at": 1496506705000,
+      "updated_at": 1498579260000,
+      "estimate": 1,
+      "story_type": "feature",
+      "name": "command-1",
+      "description": "new description 468",
+      "current_state": "unstarted",
+      "requested_by_id": 202,
+      "owner_ids": [],
+      "label_ids": [
+        5027
+      ],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2165,
+      "created_at": 1496074035000,
+      "updated_at": 1498579430000,
+      "estimate": 5,
+      "story_type": "feature",
+      "name": "p5",
+      "description": "new description 472",
+      "current_state": "unstarted",
+      "requested_by_id": 202,
+      "owner_ids": [],
+      "label_ids": [
+        5024
+      ],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2164,
+      "created_at": 1496073880000,
+      "updated_at": 1498579515000,
+      "estimate": 8,
+      "story_type": "feature",
+      "name": "p4",
+      "description": "new description 474",
+      "current_state": "unstarted",
+      "requested_by_id": 202,
+      "owner_ids": [],
+      "label_ids": [
+        5024
+      ],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": [
+        2146
+      ]
+    },
+    {
+      "id": 2191,
+      "created_at": 1498925395000,
+      "updated_at": 1498925455000,
+      "story_type": "bug",
+      "name": "iter7-4",
+      "description": "new description 486",
+      "current_state": "unscheduled",
+      "requested_by_id": 205,
+      "owner_ids": [
+        209,
+        204,
+        207
+      ],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": [],
+      "owned_by_id": 209
+    },
+    {
+      "id": 2190,
+      "created_at": 1498925250000,
+      "updated_at": 1498925310000,
+      "story_type": "feature",
+      "name": "iter7-3",
+      "description": "new description 482",
+      "current_state": "unscheduled",
+      "requested_by_id": 205,
+      "owner_ids": [
+        209
+      ],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": [],
+      "owned_by_id": 209
+    },
+    {
+      "id": 2189,
+      "created_at": 1498924860000,
+      "updated_at": 1498925600000,
+      "story_type": "bug",
+      "name": "iter7-2",
+      "current_state": "unscheduled",
+      "requested_by_id": 205,
+      "external_id": "J---aiyznGQ",
+      "integration_id": 54,
+      "owner_ids": [],
+      "label_ids": [
+        5029,
+        5024
+      ],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": [
+        2146
+      ]
+    },
+    {
+      "id": 2188,
+      "created_at": 1498924800000,
+      "updated_at": 1498925660000,
+      "story_type": "bug",
+      "name": "iter7-1",
+      "current_state": "unscheduled",
+      "requested_by_id": 205,
+      "owner_ids": [],
+      "label_ids": [
+        5029
+      ],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2177,
+      "created_at": 1496506825000,
+      "updated_at": 1496506825000,
+      "story_type": "feature",
+      "name": "command-3",
+      "current_state": "unscheduled",
+      "requested_by_id": 202,
+      "owner_ids": [],
+      "label_ids": [
+        5027
+      ],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2176,
+      "created_at": 1496506765000,
+      "updated_at": 1496507185000,
+      "story_type": "feature",
+      "name": "command-2",
+      "current_state": "unscheduled",
+      "requested_by_id": 202,
+      "owner_ids": [],
+      "label_ids": [
+        5027
+      ],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": [
+        2146
+      ]
+    },
+    {
+      "id": 2173,
+      "created_at": 1496506575000,
+      "updated_at": 1496506575000,
+      "story_type": "bug",
+      "name": "iter5-3",
+      "current_state": "unscheduled",
+      "requested_by_id": 202,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2172,
+      "created_at": 1496506560000,
+      "updated_at": 1496506560000,
+      "story_type": "bug",
+      "name": "iter5-2",
+      "current_state": "unscheduled",
+      "requested_by_id": 202,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2171,
+      "created_at": 1496506545000,
+      "updated_at": 1496506545000,
+      "story_type": "bug",
+      "name": "iter5-1",
+      "current_state": "unscheduled",
+      "requested_by_id": 202,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2170,
+      "created_at": 1496274956000,
+      "updated_at": 1496274956000,
+      "story_type": "feature",
+      "name": "build Big Metal Doors outside server room",
+      "current_state": "unscheduled",
+      "requested_by_id": 204,
+      "owner_ids": [],
+      "label_ids": [
+        5030
+      ],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2169,
+      "created_at": 1496274956000,
+      "updated_at": 1496274956000,
+      "story_type": "feature",
+      "name": "place pedestrian checkpoint on exit from parking area",
+      "current_state": "unscheduled",
+      "requested_by_id": 204,
+      "owner_ids": [],
+      "label_ids": [
+        5030
+      ],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2168,
+      "created_at": 1496274956000,
+      "updated_at": 1496274956000,
+      "story_type": "feature",
+      "name": "upgrade main road checkpoint with airlock-style automated barricades",
+      "current_state": "unscheduled",
+      "requested_by_id": 204,
+      "owner_ids": [],
+      "label_ids": [
+        5030
+      ],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2167,
+      "created_at": 1496274956000,
+      "updated_at": 1496274956000,
+      "story_type": "feature",
+      "name": "close all but main access road to prototype site",
+      "current_state": "unscheduled",
+      "requested_by_id": 204,
+      "owner_ids": [],
+      "label_ids": [
+        5030
+      ],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2166,
+      "created_at": 1496274956000,
+      "updated_at": 1496274956000,
+      "story_type": "chore",
+      "name": "circulate draft plan for review",
+      "current_state": "unscheduled",
+      "requested_by_id": 204,
+      "owner_ids": [],
+      "label_ids": [
+        5030
+      ],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2158,
+      "created_at": 1495907185000,
+      "updated_at": 1495907185000,
+      "story_type": "feature",
+      "name": "iter4-3",
+      "current_state": "unscheduled",
+      "requested_by_id": 202,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2157,
+      "created_at": 1495907155000,
+      "updated_at": 1495907155000,
+      "story_type": "feature",
+      "name": "iter4-2",
+      "current_state": "unscheduled",
+      "requested_by_id": 202,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2156,
+      "created_at": 1495907125000,
+      "updated_at": 1495907125000,
+      "story_type": "chore",
+      "name": "iter4-1",
+      "current_state": "unscheduled",
+      "requested_by_id": 202,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2153,
+      "created_at": 1494692115000,
+      "updated_at": 1494692115000,
+      "story_type": "feature",
+      "name": "iter3-5",
+      "current_state": "unscheduled",
+      "requested_by_id": 202,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2152,
+      "created_at": 1494691935000,
+      "updated_at": 1494691935000,
+      "story_type": "feature",
+      "name": "iter3-4",
+      "current_state": "unscheduled",
+      "requested_by_id": 202,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2151,
+      "created_at": 1494691755000,
+      "updated_at": 1494691755000,
+      "story_type": "feature",
+      "name": "iter3-3",
+      "current_state": "unscheduled",
+      "requested_by_id": 202,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2150,
+      "created_at": 1494691575000,
+      "updated_at": 1494691575000,
+      "story_type": "feature",
+      "name": "iter3-2",
+      "current_state": "unscheduled",
+      "requested_by_id": 202,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2149,
+      "created_at": 1494691395000,
+      "updated_at": 1494691395000,
+      "story_type": "chore",
+      "name": "iter3-1",
+      "current_state": "unscheduled",
+      "requested_by_id": 202,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2140,
+      "created_at": 1493568300000,
+      "updated_at": 1493568300000,
+      "story_type": "feature",
+      "name": "iter2-5",
+      "current_state": "unscheduled",
+      "requested_by_id": 201,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2139,
+      "created_at": 1493568216000,
+      "updated_at": 1493568216000,
+      "story_type": "bug",
+      "name": "iter2-4",
+      "current_state": "unscheduled",
+      "requested_by_id": 201,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2138,
+      "created_at": 1493568144000,
+      "updated_at": 1493568144000,
+      "story_type": "feature",
+      "name": "iter2-3",
+      "current_state": "unscheduled",
+      "requested_by_id": 201,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2137,
+      "created_at": 1493568066000,
+      "updated_at": 1493568066000,
+      "story_type": "feature",
+      "name": "iter2-2",
+      "current_state": "unscheduled",
+      "requested_by_id": 201,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2136,
+      "created_at": 1493568000000,
+      "updated_at": 1493568000000,
+      "story_type": "chore",
+      "name": "iter2-1",
+      "current_state": "unscheduled",
+      "requested_by_id": 201,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2135,
+      "created_at": 1493500094000,
+      "updated_at": 1493500094000,
+      "story_type": "feature",
+      "name": "iter1-9",
+      "current_state": "unscheduled",
+      "requested_by_id": 201,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2134,
+      "created_at": 1493500034000,
+      "updated_at": 1493500034000,
+      "story_type": "feature",
+      "name": "iter1-8",
+      "current_state": "unscheduled",
+      "requested_by_id": 201,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2133,
+      "created_at": 1493499974000,
+      "updated_at": 1493499974000,
+      "story_type": "feature",
+      "name": "iter1-7",
+      "current_state": "unscheduled",
+      "requested_by_id": 201,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2132,
+      "created_at": 1493499914000,
+      "updated_at": 1493499914000,
+      "story_type": "feature",
+      "name": "iter1-6",
+      "current_state": "unscheduled",
+      "requested_by_id": 201,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2131,
+      "created_at": 1493499854000,
+      "updated_at": 1493499854000,
+      "story_type": "feature",
+      "name": "iter1-5",
+      "current_state": "unscheduled",
+      "requested_by_id": 201,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2130,
+      "created_at": 1493499794000,
+      "updated_at": 1493499794000,
+      "story_type": "feature",
+      "name": "iter1-4",
+      "current_state": "unscheduled",
+      "requested_by_id": 201,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2129,
+      "created_at": 1493499734000,
+      "updated_at": 1493499734000,
+      "story_type": "feature",
+      "name": "iter1-3",
+      "current_state": "unscheduled",
+      "requested_by_id": 201,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2125,
+      "created_at": 1493497925000,
+      "updated_at": 1493497925000,
+      "story_type": "chore",
+      "name": "iter1-1",
+      "current_state": "unscheduled",
+      "requested_by_id": 201,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2124,
+      "created_at": 1493145994000,
+      "updated_at": 1493145994000,
+      "story_type": "feature",
+      "name": "iter0-9",
+      "current_state": "unscheduled",
+      "requested_by_id": 201,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2123,
+      "created_at": 1493145934000,
+      "updated_at": 1493145934000,
+      "story_type": "feature",
+      "name": "iter0-8",
+      "current_state": "unscheduled",
+      "requested_by_id": 201,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2122,
+      "created_at": 1493145874000,
+      "updated_at": 1493145874000,
+      "story_type": "feature",
+      "name": "iter0-7",
+      "current_state": "unscheduled",
+      "requested_by_id": 201,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2109,
+      "created_at": 1493143320000,
+      "updated_at": 1493143320000,
+      "story_type": "feature",
+      "name": "iter0-2",
+      "current_state": "unscheduled",
+      "requested_by_id": 201,
+      "owner_ids": [],
+      "label_ids": [],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2146,
+      "created_at": 1494466552000,
+      "updated_at": 1498924950000,
+      "estimate": 3,
+      "story_type": "feature",
+      "name": "automated replacement of down server modules from spares",
+      "current_state": "unscheduled",
+      "requested_by_id": 205,
+      "owner_ids": [],
+      "label_ids": [
+        5028
+      ],
+      "tasks": [],
+      "blockers": [
+        {
+          "id": 10,
+          "description": "going to need http://localhost/story/show/2164",
+          "resolved": false,
+          "person_id": 202,
+          "created_at": 1496073960000,
+          "updated_at": 1496073960000
+        },
+        {
+          "id": 11,
+          "description": "this #2176 looks like we'll want it in place too",
+          "resolved": false,
+          "person_id": 202,
+          "created_at": 1496507185000,
+          "updated_at": 1496507185000
+        },
+        {
+          "id": 15,
+          "description": "want this first, too:  http://localhost/story/show/2189",
+          "resolved": false,
+          "person_id": 205,
+          "created_at": 1498924920000,
+          "updated_at": 1498924920000
+        },
+        {
+          "id": 16,
+          "description": "I make dupes like theres no tomorrow:  http://localhost/story/show/2189",
+          "resolved": false,
+          "person_id": 205,
+          "created_at": 1498924950000,
+          "updated_at": 1498924950000
+        }
+      ],
+      "follower_ids": [
+        202,
+        205
+      ],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2147,
+      "created_at": 1494466552000,
+      "updated_at": 1494466552000,
+      "estimate": 3,
+      "story_type": "feature",
+      "name": "demand-based datacenter repartitioning",
+      "current_state": "unscheduled",
+      "requested_by_id": 205,
+      "owner_ids": [],
+      "label_ids": [
+        5028
+      ],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    },
+    {
+      "id": 2148,
+      "created_at": 1494466552000,
+      "updated_at": 1494466552000,
+      "estimate": 3,
+      "story_type": "feature",
+      "name": "peer-to-peer dynamic topology data backup",
+      "current_state": "unscheduled",
+      "requested_by_id": 205,
+      "owner_ids": [],
+      "label_ids": [
+        5028
+      ],
+      "tasks": [],
+      "blockers": [],
+      "follower_ids": [],
+      "comments": [],
+      "blocked_story_ids": []
+    }
+  ],
+  "epics": [
+    {
+      "id": 2005,
+      "created_at": 1496274956000,
+      "updated_at": 1496274956000,
+      "name": "Ensure physical security for datacenter housing prototype",
+      "label_id": 5030,
+      "comments": [],
+      "follower_ids": [],
+      "past_done_stories_count": 0,
+      "past_done_stories_no_point_count": 0,
+      "past_done_story_estimates": 0
+    },
+    {
+      "id": 2000,
+      "created_at": 1493143440000,
+      "updated_at": 1493143920000,
+      "name": "Pattern discrimination in activity",
+      "label_id": 5024,
+      "comments": [],
+      "follower_ids": [],
+      "past_done_stories_count": 1,
+      "past_done_stories_no_point_count": 1,
+      "past_done_story_estimates": 0
+    },
+    {
+      "id": 2001,
+      "created_at": 1493143680000,
+      "updated_at": 1493143680000,
+      "name": "Information monitoring and forward",
+      "label_id": 5025,
+      "comments": [],
+      "follower_ids": [],
+      "past_done_stories_count": 0,
+      "past_done_stories_no_point_count": 0,
+      "past_done_story_estimates": 0
+    },
+    {
+      "id": 2003,
+      "created_at": 1493143800000,
+      "updated_at": 1498925540000,
+      "name": "Command decomposition and planning",
+      "label_id": 5027,
+      "comments": [
+        {
+          "id": 209,
+          "text": "do as i command",
+          "person_id": 202,
+          "created_at": 1498925540000,
+          "updated_at": 1498925540000,
+          "file_attachments": [],
+          "google_attachments": []
+        }
+      ],
+      "follower_ids": [
+        202
+      ],
+      "past_done_stories_count": 0,
+      "past_done_stories_no_point_count": 0,
+      "past_done_story_estimates": 0
+    },
+    {
+      "id": 2002,
+      "created_at": 1493143740000,
+      "updated_at": 1493143926000,
+      "name": "Strategic recommendation generation",
+      "label_id": 5026,
+      "comments": [],
+      "follower_ids": [],
+      "completed_at": 1496777905000,
+      "past_done_stories_count": 0,
+      "past_done_stories_no_point_count": 0,
+      "past_done_story_estimates": 0
+    },
+    {
+      "id": 2004,
+      "created_at": 1493143860000,
+      "updated_at": 1493143921000,
+      "name": "Deployment",
+      "label_id": 5028,
+      "comments": [],
+      "follower_ids": [],
+      "completed_at": 1494455727000,
+      "past_done_stories_count": 0,
+      "past_done_stories_no_point_count": 0,
+      "past_done_story_estimates": 0
+    },
+    {
+      "id": 2006,
+      "created_at": 1496506630000,
+      "updated_at": 1496506645000,
+      "name": "Weapon system automation/remote control",
+      "label_id": 5031,
+      "comments": [],
+      "follower_ids": [],
+      "past_done_stories_count": 0,
+      "past_done_stories_no_point_count": 0,
+      "past_done_story_estimates": 0
+    }
+  ],
+  "memberships": [
+    {
+      "id": 16031,
+      "last_viewed_at": 1499169600000,
+      "role": "owner",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 202,
+        "name": "Robert Brewster",
+        "initials": "rb",
+        "username": "Brewster"
+      }
+    },
+    {
+      "id": 16032,
+      "role": "member",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 203,
+        "name": "Andy Goode",
+        "initials": "AG",
+        "username": "ag"
+      }
+    },
+    {
+      "id": 16034,
+      "role": "member",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 204,
+        "name": "William Candy",
+        "initials": "wc",
+        "username": "candy"
+      }
+    },
+    {
+      "id": 16035,
+      "role": "owner",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 205,
+        "name": "Catherine Weaver",
+        "initials": "CW",
+        "username": "cat"
+      }
+    },
+    {
+      "id": 16036,
+      "role": "member",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 206,
+        "name": "Serena Kogan",
+        "initials": "sk",
+        "username": "kogan"
+      }
+    },
+    {
+      "id": 16037,
+      "role": "member",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 207,
+        "name": "Boyd Sherman",
+        "initials": "bs",
+        "username": "boyd"
+      }
+    },
+    {
+      "id": 16038,
+      "role": "viewer",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 208,
+        "name": "Billy Wisher",
+        "initials": "BW",
+        "username": "billy"
+      }
+    },
+    {
+      "id": 16039,
+      "role": "member",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 209,
+        "name": "James Ellison",
+        "initials": "JE",
+        "username": "ellison"
+      }
+    },
+    {
+      "id": 16040,
+      "role": "owner",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 210,
+        "name": "XSS<script>alert('Terminator name XSS attack')</script>",
+        "initials": "termxss",
+        "username": "ssinator"
+      }
+    },
+    {
+      "id": 16041,
+      "role": "member",
+      "wants_comment_notification_emails": true,
+      "will_receive_mention_notifications_or_emails": true,
+      "person": {
+        "id": 211,
+        "name": "John cc>\u000b<cc Анд",
+        "initials": "J\u000bАнд",
+        "username": "john"
+      }
+    },
+    {
+      "role": "inactive",
+      "wants_comment_notification_emails": false,
+      "will_receive_mention_notifications_or_emails": false,
+      "person": {
+        "id": 201,
+        "name": "Miles Dyson",
+        "initials": "MD",
+        "username": "miles"
+      }
+    }
+  ],
+  "inactive_memberships": [
+    {
+      "project_id": 101,
+      "person": {
+        "id": 201,
+        "name": "Miles Dyson",
+        "initials": "MD",
+        "username": "miles"
+      }
+    }
+  ],
+  "labels": [
+    {
+      "id": 5031,
+      "name": "automation",
+      "created_at": 1496506630000,
+      "updated_at": 1496506630000,
+      "counts": {
+        "kind": "story_counts",
+        "sum_of_story_estimates_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_zero_point_stories_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_stories_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        }
+      }
+    },
+    {
+      "id": 5027,
+      "name": "command",
+      "created_at": 1493143800000,
+      "updated_at": 1493143800000,
+      "counts": {
+        "kind": "story_counts",
+        "sum_of_story_estimates_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 4,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_zero_point_stories_by_state": {
+          "accepted": 0,
+          "started": 1,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 2,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_stories_by_state": {
+          "accepted": 0,
+          "started": 1,
+          "finished": 0,
+          "unstarted": 2,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 2,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        }
+      }
+    },
+    {
+      "id": 5028,
+      "name": "deployment",
+      "created_at": 1493143860000,
+      "updated_at": 1493143860000,
+      "counts": {
+        "kind": "story_counts",
+        "sum_of_story_estimates_by_state": {
+          "accepted": 2,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 9,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_zero_point_stories_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_stories_by_state": {
+          "accepted": 1,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 3,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        }
+      }
+    },
+    {
+      "id": 5029,
+      "name": "eyes-only",
+      "created_at": 1493144204000,
+      "updated_at": 1493144204000,
+      "counts": {
+        "kind": "story_counts",
+        "sum_of_story_estimates_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_zero_point_stories_by_state": {
+          "accepted": 1,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 2,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_stories_by_state": {
+          "accepted": 1,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 2,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        }
+      }
+    },
+    {
+      "id": 5025,
+      "name": "monitoring",
+      "created_at": 1493143680000,
+      "updated_at": 1493143680000,
+      "counts": {
+        "kind": "story_counts",
+        "sum_of_story_estimates_by_state": {
+          "accepted": 31,
+          "started": 8,
+          "finished": 0,
+          "unstarted": 8,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_zero_point_stories_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_stories_by_state": {
+          "accepted": 6,
+          "started": 1,
+          "finished": 0,
+          "unstarted": 1,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        }
+      }
+    },
+    {
+      "id": 5024,
+      "name": "patterns",
+      "created_at": 1493143440000,
+      "updated_at": 1493143440000,
+      "counts": {
+        "kind": "story_counts",
+        "sum_of_story_estimates_by_state": {
+          "accepted": 11,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 13,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_zero_point_stories_by_state": {
+          "accepted": 1,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 1,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_stories_by_state": {
+          "accepted": 6,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 2,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 1,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        }
+      }
+    },
+    {
+      "id": 5030,
+      "name": "physical security",
+      "created_at": 1496274956000,
+      "updated_at": 1496274956000,
+      "counts": {
+        "kind": "story_counts",
+        "sum_of_story_estimates_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_zero_point_stories_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 5,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_stories_by_state": {
+          "accepted": 0,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 5,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        }
+      }
+    },
+    {
+      "id": 5026,
+      "name": "strategy",
+      "created_at": 1493143740000,
+      "updated_at": 1493143740000,
+      "counts": {
+        "kind": "story_counts",
+        "sum_of_story_estimates_by_state": {
+          "accepted": 14,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_zero_point_stories_by_state": {
+          "accepted": 1,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        },
+        "number_of_stories_by_state": {
+          "accepted": 6,
+          "started": 0,
+          "finished": 0,
+          "unstarted": 0,
+          "planned": 0,
+          "delivered": 0,
+          "unscheduled": 0,
+          "rejected": 0,
+          "kind": "counts_by_story_state"
+        }
+      }
+    }
+  ],
+  "integrations": [
+    {
+      "id": 51,
+      "name": "Zendesk Unresolved Bugs and Tickets",
+      "active": true,
+      "created_at": 1493137668000,
+      "updated_at": 1493137668000,
+      "type": "zendesk",
+      "base_url": "https://pivotaltracker1304638293.zendesk.com",
+      "can_import": true,
+      "is_other": false,
+      "story_name": "Ticket"
+    },
+    {
+      "id": 52,
+      "name": "Get Satisfaction Terminator",
+      "active": true,
+      "created_at": 1493137728000,
+      "updated_at": 1493137728000,
+      "type": "get_satisfaction",
+      "base_url": "http://getsatisfaction.com/pivotal/topics/",
+      "can_import": true,
+      "is_other": false,
+      "story_name": "Topic"
+    },
+    {
+      "id": 53,
+      "name": "Other_Fake",
+      "active": true,
+      "created_at": 1493137788000,
+      "updated_at": 1493137788000,
+      "type": "other",
+      "base_url": "http://pastebin.com/",
+      "can_import": true,
+      "is_other": true,
+      "story_name": "item"
+    },
+    {
+      "id": 54,
+      "name": "Other no import",
+      "active": true,
+      "created_at": 1493137848000,
+      "updated_at": 1493137848000,
+      "type": "other",
+      "base_url": "http://www.youtube.com/watch?v=",
+      "can_import": false,
+      "is_other": true,
+      "story_name": "item"
+    },
+    {
+      "id": 55,
+      "name": "JIRA-our own instance USE THIS",
+      "active": true,
+      "created_at": 1493137908000,
+      "updated_at": 1493137908000,
+      "type": "jira",
+      "base_url": "http://trackertest.atlassian.net",
+      "can_import": true,
+      "is_other": false,
+      "story_name": "Issue"
+    },
+    {
+      "id": 56,
+      "name": "Lighthouse Terminator",
+      "active": true,
+      "created_at": 1493137968000,
+      "updated_at": 1493137968000,
+      "type": "lighthouse",
+      "base_url": "http://pivotaltracker-test.lighthouseapp.com/projects/42872",
+      "can_import": true,
+      "is_other": false,
+      "story_name": "Ticket"
+    },
+    {
+      "id": 57,
+      "name": "Bugzilla Terminator",
+      "active": true,
+      "created_at": 1493138028000,
+      "updated_at": 1493138028000,
+      "type": "bugzilla",
+      "base_url": "https://landfill.bugzilla.org/bugzilla-4.4-branch",
+      "can_import": true,
+      "is_other": false,
+      "story_name": "Bug"
+    },
+    {
+      "id": 58,
+      "name": "Bugzilla V5 Terminator",
+      "active": true,
+      "created_at": 1493138088000,
+      "updated_at": 1493138088000,
+      "type": "bugzilla_rest",
+      "base_url": "https://landfill.bugzilla.org/bugzilla-5.0-branch/rest",
+      "can_import": true,
+      "is_other": false,
+      "story_name": "Bug"
+    }
+  ],
+  "iteration_overrides": [
+    {
+      "number": 3,
+      "length": 2,
+      "team_strength": 1
+    },
+    {
+      "number": 4,
+      "team_strength": 0.75
+    },
+    {
+      "number": 5,
+      "length": 3,
+      "team_strength": 0.55
+    }
+  ],
+  "account": {
+    "kind": "account_summary",
+    "id": 1028,
+    "name": "Cyber Research Systems",
+    "status": "active"
+  },
+  "current_iteration_number": 7,
+  "enable_following": true
+}
