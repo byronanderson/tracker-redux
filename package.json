@@ -9,6 +9,11 @@
   "author": "Byron Anderson",
   "license": "MIT",
   "dependencies": {
+    "babel-core": "^6.25.0",
+    "lodash": "^4.0.0",
+    "redux": "^3.5.2",
+    "reselect": "^2.5.3",
+    "timezone-js": "^0.4.13"
   },
   "peerDependencies": {
     "redux": "^3.5.2",
